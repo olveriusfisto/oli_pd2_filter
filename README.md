@@ -12,7 +12,7 @@
 ### Note: After 10 seasons, my filter is now officially LIVE! I truly appreciate all the amazing support you’ve given me throughout these incredible years. Words can’t fully express my gratitude! Stay safe out there!
 
 ## Showcase:
-<img width="1373" height="226" alt="image3" src="https://github.com/user-attachments/assets/be55083a-cc37-4b32-a112-3170f7d086e5" />
+<img width="1493" height="233" alt="image3" src="https://github.com/user-attachments/assets/da9a923a-0c4f-413e-a9a2-2b5f1b6ab4a6" />
 <img width="1665" height="351" alt="image9" src="https://github.com/user-attachments/assets/61a15ace-38f8-47df-9c96-e485efe7bb7b" />
 <img width="1880" height="418" alt="image10" src="https://github.com/user-attachments/assets/6970109b-0a7d-4fd1-bd66-34116fc0fee8" />
 <img width="1266" height="1080" alt="image0" src="https://github.com/user-attachments/assets/a8160a1c-9c41-49a5-9da6-1e084f6c72ad" />
