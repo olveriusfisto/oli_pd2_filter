@@ -94,6 +94,8 @@ ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
 //Tomes
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[isc CLVL<9]: %RED%id %GRAY%scroll
+ItemDisplay[tsc CLVL<9]: %BLUE%tp %GRAY%scroll
 ItemDisplay[tbk]: %BLUE%portal tome
 ItemDisplay[ibk]: %RED%identify tome
 
@@ -1136,7 +1138,6 @@ ItemDisplay[jew RARE (STAT501>74 AND STAT91=-15)]: %RED%bleed %DARK_GREEN%-req %
 
 //Jewellery, Circlets and Quivers
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[(aqv OR cqv) RARE]: %NAME%
 ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %NAME%%MAP-0E%
 ItemDisplay[(amu OR rin OR ram) UNI !ID]: %ORANGE%ooooooo %GOLD%%NAME% %ORANGE%ooooooo%BORDER-D3%
 ItemDisplay[(amu OR rin) SET !ID]: %NAME%%MAP-7D%
@@ -2257,7 +2258,7 @@ ItemDisplay[NMAG INF]:
 ItemDisplay[(tsc OR isc) CLVL>24]:
 
 //Keys and Jewels
-ItemDisplay[(aqv OR cqv) NMAG]: 
+ItemDisplay[(aqv (NMAG OR MAG OR RARE)) OR cqv]: 
 ItemDisplay[key]: 
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
