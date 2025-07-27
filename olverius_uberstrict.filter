@@ -903,9 +903,6 @@ ItemDisplay[cm3 !UNI FRW>6]: %ORANGE%frw %GRAY%Grand Charm{%TAN%Reroll Recipe%WH
 
 //Part 2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[cm3 (MAXDMG>6 AND LIFE>0)]: %TAN%max dmg %RED%life %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%O}%CONTINUE%
-ItemDisplay[cm3 (MAXDMG>6 AND FRW>0)]: %TAN%max dmg %ORANGE%frw %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%O}%CONTINUE%
-ItemDisplay[cm3 (MAXDMG>6 AND FHR>0)]: %TAN%max dmg %ORANGE%fhr %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%O}%CONTINUE%
 ItemDisplay[cm3 MAXDMG>8]: %TAN%max dmg %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%O}%CONTINUE%
 ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %PURPLE%all res %RED%life %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%O}%CONTINUE%
 ItemDisplay[cm3 (RES>7 AND FRW>0)]: %PURPLE%all res %ORANGE%frw %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%O}%CONTINUE%
