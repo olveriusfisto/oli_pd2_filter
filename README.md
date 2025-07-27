@@ -3,7 +3,7 @@
 ## This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
 
 ## Description:
-### UBER PLUS shows ONLY valuable materials and items, including exceptional and elite sets and uniques, as well as the most optimal white bases, both socketed and plain; hides everything else. Suitable for map runners and 99-pushing playstyles.
+### UBER PLUS shows ONLY valuable materials and items, including exceptional and elite sets and uniques, as well as the most optimal socketed white bases; hides everything else. Suitable for map runners and 99-pushing playstyles.
 ### UBER STRICT shows ONLY valuable materials and items, including specific rare bases, exceptional and elite sets and uniques, as well as the most optimal white bases, both socketed and plain; hides everything else. Suitable for high-level endgame, 99-pushing, solo self-found (SSF), and group self-found (GSF) playstyles.
 ### SOFT STRICT shows PRIMARILY valuable materials and items, including rare items, exceptional and elite sets and uniques, as well as the most optimal white bases, both socketed and plain; hides everything else. Suitable for casual endgame, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
 ### REGULAR shows ALL valuable materials and items, such as blue and rare items, all sets and uniques, as well as the most optimal white bases; hides everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
