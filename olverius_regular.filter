@@ -2124,7 +2124,6 @@ ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel %GREEN%Map %YELLOW%[%WHITE%%QT
 ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%TAN%physical 120 %YELLOW%light 160 %GREEN%poison 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fire 125 %GREEN%poison 110 %BLUE%cold 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cold 130 %GREEN%poison 130 %ORANGE%magic 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t3b]: %WHITE%Imperial Palace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
 ItemDisplay[NMAG t61]: %WHITE%Desert Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
 ItemDisplay[NMAG t62]: %WHITE%Moor Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
 
