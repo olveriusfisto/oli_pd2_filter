@@ -689,47 +689,6 @@ ItemDisplay[skls]: %WHITE%skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]
 
 //Unstacked
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-//Perfect
-ItemDisplay[gpv]: %WHITE%Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%MAP-1D%
-ItemDisplay[gpw]: %WHITE%Diamond %YELLOW%[%WHITE%O%YELLOW%]%MAP-1D%
-ItemDisplay[gpg]: %WHITE%Emerald %YELLOW%[%GREEN%O%YELLOW%]%MAP-1D%
-ItemDisplay[gpr]: %WHITE%Ruby %YELLOW%[%RED%O%YELLOW%]%MAP-1D%
-ItemDisplay[gpb]: %WHITE%Sapphire %YELLOW%[%BLUE%O%YELLOW%]%MAP-1D%
-ItemDisplay[gpy]: %WHITE%Topaz %YELLOW%[%YELLOW%O%YELLOW%]%MAP-1D%
-ItemDisplay[skz]: %WHITE%Skull %YELLOW%[%GRAY%O%YELLOW%]%MAP-1D%
-//Flawless
-ItemDisplay[gzv]: %WHITE%amethyst %YELLOW%[%PURPLE%O%YELLOW%]
-ItemDisplay[glw]: %WHITE%diamond %YELLOW%[%WHITE%O%YELLOW%]
-ItemDisplay[glg]: %WHITE%emerald %YELLOW%[%GREEN%O%YELLOW%]
-ItemDisplay[glr]: %WHITE%ruby %YELLOW%[%RED%O%YELLOW%]
-ItemDisplay[glb]: %WHITE%sapphire %YELLOW%[%BLUE%O%YELLOW%]
-ItemDisplay[gly]: %WHITE%topaz %YELLOW%[%YELLOW%O%YELLOW%]
-ItemDisplay[skl]: %WHITE%skull %YELLOW%[%GRAY%O%YELLOW%]
-
-//Stacked
-//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-//Pefect
-ItemDisplay[gpvs]: %WHITE%Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
-ItemDisplay[gpws]: %WHITE%Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
-ItemDisplay[gpgs]: %WHITE%Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
-ItemDisplay[gprs]: %WHITE%Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
-ItemDisplay[gpbs]: %WHITE%Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
-ItemDisplay[gpys]: %WHITE%Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
-ItemDisplay[skzs]: %WHITE%Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
-//Flawless
-ItemDisplay[gzvs]: %WHITE%amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glws]: %WHITE%diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glgs]: %WHITE%emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glrs]: %WHITE%ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glbs]: %WHITE%sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glys]: %WHITE%topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[skls]: %WHITE%skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]
-
-//RUNES
-//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-//Unstacked
-//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //Low Tier: 01-09 
 ItemDisplay[r01]: %RUNENAME% [%RUNENUM%] 
 ItemDisplay[r02]: %RUNENAME% [%RUNENUM%] 
@@ -2140,7 +2099,6 @@ ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel %GREEN%Map %YELLOW%[%WHITE%%QT
 ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%TAN%physical 120 %YELLOW%light 160 %GREEN%poison 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fire 125 %GREEN%poison 110 %BLUE%cold 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cold 130 %GREEN%poison 130 %ORANGE%magic 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t3b]: %WHITE%Imperial Palace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
 ItemDisplay[NMAG t61]: %WHITE%Desert Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
 ItemDisplay[NMAG t62]: %WHITE%Moor Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
 
