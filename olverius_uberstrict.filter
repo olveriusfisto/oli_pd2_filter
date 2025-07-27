@@ -87,8 +87,8 @@ ItemDisplay[hp3 CLVL<25]: %RED%HP
 ItemDisplay[mp3 CLVL<25]: %BLUE%MP
 ItemDisplay[hp4 CLVL<45]: %RED%HP %WHITE%great
 ItemDisplay[mp4 CLVL<45]: %BLUE%MP %WHITE%great
-ItemDisplay[hp5 CLVL>70]: //%RED%HP %WHITE%super
-ItemDisplay[mp5 CLVL>70]: //%BLUE%MP %WHITE%super
+ItemDisplay[hp5 CLVL<70]: //%RED%HP %WHITE%super
+ItemDisplay[mp5 CLVL<70]: //%BLUE%MP %WHITE%super
 ItemDisplay[rvs]: //%PURPLE%juv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
@@ -2237,7 +2237,7 @@ ItemDisplay[(hp1 OR mp1) CLVL>4]:
 ItemDisplay[(hp2 OR mp2) CLVL>14]:
 ItemDisplay[(hp3 OR mp3) CLVL>24]:
 ItemDisplay[(hp4 OR mp4) CLVL>44]:
-ItemDisplay[(hp5 OR mp5) CLVL>89]: 
+ItemDisplay[(hp5 OR mp5) CLVL>69]: 
 ItemDisplay[yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll OR opl OR opm OR ops OR gpl OR gpm OR gps]:
 
 //Gems
