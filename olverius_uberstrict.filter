@@ -87,8 +87,8 @@ ItemDisplay[hp3 CLVL<25]: %RED%HP
 ItemDisplay[mp3 CLVL<25]: %BLUE%MP
 ItemDisplay[hp4 CLVL<45]: %RED%HP %WHITE%great
 ItemDisplay[mp4 CLVL<45]: %BLUE%MP %WHITE%great
-ItemDisplay[hp5 CLVL<80]: %RED%HP %WHITE%super
-ItemDisplay[mp5 CLVL<90]: %BLUE%MP %WHITE%super
+ItemDisplay[hp5 CLVL>70]: //%RED%HP %WHITE%super
+ItemDisplay[mp5 CLVL>70]: //%BLUE%MP %WHITE%super
 ItemDisplay[rvs]: //%PURPLE%juv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
@@ -1136,7 +1136,7 @@ ItemDisplay[jew RARE (STAT501>74 AND STAT91=-15)]: %RED%bleed %DARK_GREEN%-req %
 //EQUIPMENT
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-//Jewellery, Circlets and Quivers
+//Jewellery, Circlets
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %NAME%%MAP-0E%
 ItemDisplay[(amu OR rin OR ram) UNI !ID]: %ORANGE%ooooooo %GOLD%%NAME% %ORANGE%ooooooo%BORDER-D3%
@@ -1150,16 +1150,16 @@ ItemDisplay[(amu OR rin) SET !ID]: %NAME%%MAP-7D%
 
 //Helms
 ItemDisplay[(UNI !ID) cap]: //Biggin's Bonnet
-ItemDisplay[(UNI !ID) xap]: %ORANGE%oooooo %GOLD%Peasant Crown %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) xap]: //%ORANGE%oooooo %GOLD%Peasant Crown %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uap]: %ORANGE%oooooooo %GOLD%Harlequin Crest %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) skp]: //Tarnhelm
-ItemDisplay[(UNI !ID) xkp]: %ORANGE%oooooo %GOLD%Rockstopper %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) xkp]: //%ORANGE%oooooo %GOLD%Rockstopper %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) hlm]: //Coif of Glory
 ItemDisplay[(UNI !ID) xlm]: //%ORANGE%oooooo %GOLD%Stealskull %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) ulm]: %ORANGE%oooooooo %GOLD%Steel Shade %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) fhl]: //Duskdeep
 ItemDisplay[(UNI !ID) xhl]: //%ORANGE%oooooo %GOLD%Darksight Helm %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) uhl]: %TAN%oooooooo %GOLD%Overlord's Helm %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) uhl]: //%TAN%oooooooo %GOLD%Overlord's Helm %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) msk]: //The Face of Horror
 ItemDisplay[(UNI !ID) xsk]: //%ORANGE%oooooo %GOLD%Blackhorn's Face %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) usk]: %ORANGE%oooooooo %GOLD%Andariel's Visage %ORANGE%oooooooo%BORDER-D3%
@@ -1190,11 +1190,11 @@ ItemDisplay[(UNI !ID) xtu]: //%ORANGE%oooooo %GOLD%Iron Pelt %ORANGE%oooooo%MAP-
 ItemDisplay[(UNI !ID) utu]: %ORANGE%oooooooo %GOLD%	The Gladiator's Bane %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) rng]: //Darkglow
 ItemDisplay[(UNI !ID) xng]: //%ORANGE%oooooo %GOLD%Spirit Forge %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) ung]: %YELLOW%oooooooo %GOLD%Wraithskin %YELLOW%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) ung]: //%YELLOW%oooooooo %GOLD%Wraithskin %YELLOW%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) scl]: //Hawkmail
 ItemDisplay[(UNI !ID) xcl]: //%ORANGE%oooooo %GOLD%Crow Caw %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) brs]: //Venom Ward
-ItemDisplay[(UNI !ID) xrs]: %ORANGE%oooooo %GOLD%Duriel's Shell %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) xrs]: //%ORANGE%oooooo %GOLD%Duriel's Shell %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) chn]: //Sparking Mail
 ItemDisplay[(UNI !ID) xhn]: %ORANGE%oooooo %GOLD%Shaftstop %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) rar]: %TAN%oooooooo %GOLD%Cage of the Unsullied %TAN%oooooooo%BORDER-D3% //New
@@ -1224,19 +1224,19 @@ ItemDisplay[(UNI !ID) buc]: //Pelta Lunata
 ItemDisplay[(UNI !ID) xuc]: //%ORANGE%oooooo %GOLD%Visceratuant %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) sml]: //Umbral Disk
 ItemDisplay[(UNI !ID) xml]: //%ORANGE%oooooo %GOLD%Moser's Blessed Circle %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) uml]: %ORANGE%oooooooo %GOLD%	Blackoak Shield %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) uml]: //%ORANGE%oooooooo %GOLD%Blackoak Shield %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) lrg]: //Stormguild
-ItemDisplay[(UNI !ID) xrg]: %ORANGE%oooooo %GOLD%Stormchaser %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) xrg]: //%ORANGE%oooooo %GOLD%Stormchaser %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) urg]: %TAN%oooooooo %GOLD%Twilight's Reflection %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) spk]: //Swordback Hold
 ItemDisplay[(UNI !ID) xpk]: //%ORANGE%oooooo %GOLD%Lance Guard %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) upk]: //%ORANGE%oooooooo %GOLD%Spike Thorn %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) kit]: //Steelclash
-ItemDisplay[(UNI !ID) xit]: %ORANGE%oooooo %GOLD%Tiamat's Rebuke %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) xit]: //%ORANGE%oooooo %GOLD%Tiamat's Rebuke %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uit]: %ORANGE%oooooooo %GOLD%Stormshield %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) bsh]: //Wall of the Eyeless
 ItemDisplay[(UNI !ID) xsh]: %ORANGE%oooooo %GOLD%Lidless Wall %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) ush]: %ORANGE%oooooooo %GOLD%Head Hunter's Glory %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) ush]: //%ORANGE%oooooooo %GOLD%Head Hunter's Glory %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) tow]: //Bverrit Keep
 ItemDisplay[(UNI !ID) xow]: %ORANGE%oooooo %GOLD%Gerke's Sanctuary %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uow]: %ORANGE%oooooooo %GOLD%Medusa's Gaze %ORANGE%oooooooo%BORDER-D3%
@@ -1348,7 +1348,7 @@ ItemDisplay[(UNI !ID) wax]: //Rakescar
 ItemDisplay[(UNI !ID) 9wa]: //%ORANGE%oooooo %GOLD%Guardian Naga %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7wa]: %ORANGE%oooooooo %GOLD%Death Cleaver %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) lax]: //Axe of Fechmar
-ItemDisplay[(UNI !ID) 9la]: //%ORANGE%oooooo %GOLD%Warlord's Trust %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 9la]: %ORANGE%oooooo %GOLD%Warlord's Trust %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) bax]: //Goreshovel
 ItemDisplay[(UNI !ID) 9ba]: //%ORANGE%oooooo %GOLD%Spellsteel %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7ba]: //%ORANGE%oooooooo %GOLD%Ethereal Edge %ORANGE%oooooooo%BORDER-D3%
@@ -1360,7 +1360,7 @@ ItemDisplay[(UNI !ID) 9ga]: //%ORANGE%oooooo %GOLD%Boneslayer Blade %ORANGE%oooo
 ItemDisplay[(UNI !ID) 7ga]: %ORANGE%oooooooo %GOLD%Messerschmidt's Reaver %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) gix]: //Humongous
 ItemDisplay[(UNI !ID) 9gi]: //%ORANGE%oooooo %GOLD%The Minotaur %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 7gi]: //%ORANGE%oooooooo %GOLD%Executioner's Justice %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 7gi]: %ORANGE%oooooooo %GOLD%Executioner's Justice %ORANGE%oooooooo%BORDER-D3%
 
 //Maces
 ItemDisplay[(UNI !ID) clb]: //Felloak
@@ -1390,19 +1390,19 @@ ItemDisplay[(UNI !ID) 7gm]: %ORANGE%oooooooo %GOLD%Earth Shifter / The Cranium B
 //Swords
 ItemDisplay[(UNI !ID) ssd]: //Rixot's Keen
 ItemDisplay[(UNI !ID) 9ss]: //%ORANGE%oooooo %GOLD%Bloodletter %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) scm]: //Blood Crescent
+ItemDisplay[(UNI !ID) scm]: Blood Crescent
 ItemDisplay[(UNI !ID) 9sm]: //%ORANGE%oooooo %GOLD%Coldsteel Eye %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7sm]: %ORANGE%oooooooo %GOLD%Djinn Slayer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) sbr]: //Skewer of Krintiz
 ItemDisplay[(UNI !ID) 9sb]: //%ORANGE%oooooo %GOLD%Hexfire %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7sb]: //%ORANGE%oooooooo %GOLD%Bloodmoon %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) flc]: //Gleamscythe
-ItemDisplay[(UNI !ID) 9fc]: %ORANGE%oooooo %GOLD%Blade of Ali Baba %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 9fc]: //%ORANGE%oooooo %GOLD%Blade of Ali Baba %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 9cr]: //%ORANGE%oooooo %GOLD%Ginther's Rift %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7cr]: %ORANGE%oooooooo %GOLD%Lightsabre / Azurewrath %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) bsd]: //Griswold's Edge
 ItemDisplay[(UNI !ID) 9bs]: %ORANGE%oooooo %GOLD%Headstriker %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 7bs]: %TAN%oooooooo %GOLD%Hadriel's Hand %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) 7bs]: //%TAN%oooooooo %GOLD%Hadriel's Hand %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) lsd]: //Hellplague
 ItemDisplay[(UNI !ID) 9ls]: //%ORANGE%oooooo %GOLD%Plague Bearer %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7ls]: %ORANGE%oooooooo %GOLD%Frostwind %ORANGE%oooooooo%BORDER-D3%
@@ -1443,7 +1443,7 @@ ItemDisplay[(UNI !ID) 7bl]: //%ORANGE%oooooooo %GOLD%Ghostflame %ORANGE%oooooooo
 //Throwing Axes & Throwing Knives
 ItemDisplay[(UNI !ID) 9tk]: //%ORANGE%oooooo %GOLD%Deathbit %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 9ta]: //%ORANGE%oooooo %GOLD%The Scalper %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 7ta]: %ORANGE%oooooooo %GOLD%Gimmershred %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 7ta]: //%ORANGE%oooooooo %GOLD%Gimmershred %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) 7bk]: //%ORANGE%oooooooo %GOLD%Warshrike %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) 9b8]: %TAN%oooooo %GOLD%Achilles Strike %TAN%oooooo%MAP-D3% //New
 ItemDisplay[(UNI !ID) 7b8]: %ORANGE%oooooooo %GOLD%Lacerator %ORANGE%oooooooo%BORDER-D3%
@@ -1451,7 +1451,7 @@ ItemDisplay[(UNI !ID) 7b8]: %ORANGE%oooooooo %GOLD%Lacerator %ORANGE%oooooooo%BO
 //Javelins
 ItemDisplay[(UNI !ID) 7s7]: //%ORANGE%oooooooo %GOLD%Demon's Arch %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) 7gl]: %ORANGE%oooooooo %GOLD%Wraith Flight %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[(UNI !ID) 7ts]: %ORANGE%oooooooo %GOLD%Gargoyle's Bite %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 7ts]: //%ORANGE%oooooooo %GOLD%Gargoyle's Bite %ORANGE%oooooooo%BORDER-D3%
 
 //Spears
 ItemDisplay[(UNI !ID) spr]: //The Dragon Chang
@@ -1583,8 +1583,8 @@ ItemDisplay[(UNI !ID) amd]: //%ORANGE%oooooooo %GOLD%Stoneraven %ORANGE%oooooooo
 ItemDisplay[(UNI !ID) am9]: //%ORANGE%oooooo %GOLD%Lycander's Flank %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) ame]: //%TAN%oooooooo %GOLD%Zerae's Resolve %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) am5]: //True Silver //New
-ItemDisplay[(UNI !ID) ama]: %ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) amf]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) ama]: //%ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) amf]: //%ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%oooooooo%BORDER-D3%
 
 
 //SET
@@ -1767,7 +1767,6 @@ ItemDisplay[CHEST (MAG OR ELT (MAG OR RARE)) ID]: %NAME% %ORANGE%(c){%GREEN%pdr 
 ItemDisplay[SHIELD (MAG OR ELT (MAG OR RARE)) ID]: %NAME% %ORANGE%(c){%GREEN%pdr %ORANGE%Safety: %WHITE%Perf %GREEN%O %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%BLUE%fhr %ORANGE%Hitpower: %WHITE%Perf %BLUE%O %WHITE%+ %ORANGE%Eth %WHITE%+ %BLUE%Jewel%NL%%PURPLE%fcr %ORANGE%Caster: %WHITE%Perf %PURPLE%O %WHITE%+ %ORANGE%Eth %WHITE%+ %BLUE%Jewel%NL%%RED%ll %ORANGE%Blood: %WHITE%Perf %RED%O %WHITE%+ %ORANGE%Ith %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe%WHITE%:}
 ItemDisplay[WEAPON (MAG OR ELT (MAG OR RARE)) ID]: %NAME% %ORANGE%(c){%GREEN%pdr %ORANGE%Safety: %WHITE%Perf %GREEN%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%BLUE%fhr %ORANGE%Hitpower: %WHITE%Perf %BLUE%O %WHITE%+ %ORANGE%Tir %WHITE%+ %BLUE%Jewel%NL%%PURPLE%fcr %ORANGE%Caster: %WHITE%Perf %PURPLE%O %WHITE%+ %ORANGE%Tir %WHITE%+ %BLUE%Jewel%NL%%RED%ll %ORANGE%Blood: %WHITE%Perf %RED%O %WHITE%+ %ORANGE%Ort %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe%WHITE%:}
 
-
 //UPGRADING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%O%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
@@ -1811,6 +1810,7 @@ ItemDisplay[WEAPON ED=8 NMAG ILVL>20 !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR S
 ItemDisplay[WEAPON ED=7 NMAG ILVL>20 !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK134>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GREEN%SUP %GRAY%[%RED%7%%GRAY%] %NAME%%CONTINUE%
 ItemDisplay[WEAPON ED=6 NMAG ILVL>20 !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK134>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GREEN%SUP %GRAY%[%RED%6%%GRAY%] %NAME%%CONTINUE%
 ItemDisplay[WEAPON ED=5 NMAG ILVL>20 !(SK36>0 OR SK37>0 OR SK38>0 OR SK39>0 OR SK40>0 OR SK41>0 OR SK42>0 OR SK43>0 OR SK44>0 OR SK45>0 OR SK46>0 OR SK47>0 OR SK48>0 OR SK49>0 OR SK50>0 OR SK51>0 OR SK52>0 OR SK53>0 OR SK54>0 OR SK55>0 OR SK56>0 OR SK57>0 OR SK58>0 OR SK59>0 OR SK60>0 OR SK61>0 OR SK62>0 OR SK63>0 OR SK64>0 OR SK65>0 OR SK369>0 OR SK383>0 OR SK376>0 OR SK96>0 OR SK97>0 OR SK98>0 OR SK99>0 OR SK100>0 OR SK101>0 OR SK102>0 OR SK103>0 OR SK104>0 OR SK105>0 OR SK106>0 OR SK107>0 OR SK108>0 OR SK109>0 OR SK110>0 OR SK111>0 OR SK112>0 OR SK113>0 OR SK114>0 OR SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR SK66>0 OR SK67>0 OR SK68>0 OR SK69>0 OR SK70>0 OR SK71>0 OR SK72>0 OR SK73>0 OR SK74>0 OR SK75>0 OR SK76>0 OR SK77>0 OR SK78>0 OR SK79>0 OR SK80>0 OR SK81>0 OR SK82>0 OR SK83>0 OR SK84>0 OR SK85>0 OR SK86>0 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>0 OR SK91>0 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0 OR SK367>0 OR SK381>0 OR SK374>0 OR SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0 OR SK370>0 OR SK126>0 OR SK128>0 OR SK130>0 OR SK131>0 OR SK132>0 OR SK133>0 OR SK135>0 OR SK134>0 OR SK137>0 OR SK138>0 OR SK139>0 OR SK140>0 OR SK141>0 OR SK142>0 OR SK143>0 OR SK144>0 OR SK145>0 OR SK146>0 OR SK147>0 OR SK148>0 OR SK149>0 OR SK150>0 OR SK151>0 OR SK152>0 OR SK153>0 OR SK154>0 OR SK155>0 OR SK261>0 OR SK262>0 OR SK263>0 OR SK264>0 OR SK265>0 OR SK266>0 OR SK267>0 OR SK268>0 OR SK269>0 OR SK270>0 OR SK271>0 OR SK272>0 OR SK273>0 OR SK274>0 OR SK275>0 OR SK276>0 OR SK277>0 OR SK278>0 OR SK279>0 OR SK280>0 OR SK366>0)]: %GREEN%SUP %GRAY%[%RED%5%%GRAY%] %NAME%%CONTINUE%
+
 
 //POSSIBLE RUNEWORDS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1943,7 +1943,7 @@ ItemDisplay[(SUP OR ETH) SOCK>2 !RW uth]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW xul]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW uul]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW xar]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW uar]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uar]: %NAME%{%NAME%}%BORDER-1F%
 
 //Shields
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW lrg]: //%NAME%{%NAME%}
@@ -1997,20 +1997,21 @@ ItemDisplay[(SUP AND ETH) SOCK>3 !RW 7br]: //%NAME%{%NAME%}
 ItemDisplay[(SUP AND ETH) SOCK>3 !RW 7p7]: //%NAME%{%NAME%}%MAP-1F%
 
 //Polearms
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7o7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7o7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[(SUP AND ETH) SOCK>3 !RW vou]: //%NAME%{%NAME%}
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7vo]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7s8]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7pa]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7vo]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7s8]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7pa]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7h7]: %NAME%{%NAME%}
 ItemDisplay[(!INF AND ETH) SOCK>3 !RW 9wc]: %NAME%{%NAME%}
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7wc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7wc]: %NAME%{%NAME%}%BORDER-1F%
 
 //Bows
 ItemDisplay[SUP SOCK>3 !RW 6l7]: %NAME%{%NAME%}
 
 //X-bows
 ItemDisplay[SUP SOCK>3 !RW 6hx]: %NAME%{%NAME%}
+ItemDisplay[SUP SOCK>3 !RW 6mx]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[SUP SOCK>3 !RW 6rx]: %NAME%{%NAME%}%BORDER-1F%
 
 //Staves
@@ -2035,6 +2036,7 @@ ItemDisplay[(SUP OR ETH) SOCK>2 !RW oba]: //%NAME%{%NAME%}
 
 //Amazon Weapons
 ItemDisplay[SUP SOCK>3 !RW amc]: %NAME%{%NAME%}%BORDER-1F%
+
 
 //PROJECT D2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -2099,6 +2101,7 @@ ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel %GREEN%Map %YELLOW%[%WHITE%%QT
 ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%TAN%physical 120 %YELLOW%light 160 %GREEN%poison 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fire 125 %GREEN%poison 110 %BLUE%cold 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cold 130 %GREEN%poison 130 %ORANGE%magic 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t3b]: %WHITE%Imperial Palace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
 ItemDisplay[NMAG t61]: %WHITE%Desert Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
 ItemDisplay[NMAG t62]: %WHITE%Moor Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
 
@@ -2235,7 +2238,7 @@ ItemDisplay[(hp2 OR mp2) CLVL>14]:
 ItemDisplay[(hp3 OR mp3) CLVL>24]:
 ItemDisplay[(hp4 OR mp4) CLVL>44]:
 ItemDisplay[(hp5 OR mp5) CLVL>89]: 
-ItemDisplay[(yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll OR opl OR opm OR ops OR gpl OR gpm OR gps) CLVL>24]:
+ItemDisplay[yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll OR opl OR opm OR ops OR gpl OR gpm OR gps]:
 
 //Gems
 //Gems < Flawless
@@ -2253,16 +2256,16 @@ ItemDisplay[cm1 !UNI ID !(LIFE>10 OR MANA>10 OR MAXDMG>1 OR DEX>0 OR STR>0 OR FR
 ItemDisplay[NMAG INF]:
 
 //Scrolls
-ItemDisplay[(tsc OR isc) CLVL>24]:
+ItemDisplay[(tsc OR isc) CLVL>=9]:
 
 //Keys, Blue Rings and Jewels
 ItemDisplay[(amu OR rin) MAG]: 
-ItemDisplay[(aqv (NMAG OR MAG OR RARE)) OR cqv]: 
+ItemDisplay[(cqv (NMAG OR MAG OR RARE)) OR aqv]: 
 ItemDisplay[key]: 
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(NMAG (ETH AND !INF) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7wc) SOCK=0) !(MAG (CLASS (SIN (7ar OR 7xf OR 7qr)))) !(MAG (ETH JAV (ssp OR 9s9 OR 7s7))) !(RARE (ARMOR (CIRC OR CHEST OR GLOVES OR BELT OR BOOTS) OR (CLASS (DRU OR NEC OR DIN OR BAR OR (SIN (7ar OR 7xf OR 7qr)) OR ZON OR SOR)) OR (AXE (wax OR 9wa OR 7wa)) OR (ETH JAV (ssp OR 9s9 OR 7s7)))) !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(NMAG (ETH AND !INF) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7wc) SOCK=0) !(MAG (CLASS (SIN (ETH (7ar OR 7xf OR 7qr))))) !(MAG (ETH JAV (ssp OR 9s9 OR 7s7))) !(RARE (ARMOR (CIRC OR CHEST OR GLOVES OR BELT OR BOOTS) OR (CLASS (DRU OR NEC OR DIN OR BAR OR (SIN (7ar OR 7xf OR 7qr)) OR ZON OR SOR)) OR BOW OR XBOW OR (ETH JAV (ssp OR 9s9 OR 7s7)))) !leg !amu !rin CLVL>0]:
 
 
 //END
