@@ -79,6 +79,21 @@ ItemDisplay[tr2]: %MAP%%GOLD%Scroll of Resistance
 
 //Potions
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[yps CLVL<10]: %GRAY%antid
+ItemDisplay[wms CLVL<10]: %GRAY%thaw
+ItemDisplay[vps CLVL<10]: %GRAY%stam
+ItemDisplay[tpfs CLVL<10]: %GRAY%fulm
+ItemDisplay[tpfm CLVL<10]: %GRAY%expl
+ItemDisplay[tpfl CLVL<10]: %GRAY%oil
+ItemDisplay[tpgs CLVL<10]: %GRAY%strang
+ItemDisplay[tpgm CLVL<10]: %GRAY%chok
+ItemDisplay[tpgl CLVL<10]: %GRAY%ranc
+ItemDisplay[tpcs CLVL<10]: %GRAY%chill
+ItemDisplay[tpcm CLVL<10]: %GRAY%frost
+ItemDisplay[tpcl CLVL<10]: %GRAY%freez
+ItemDisplay[tpls CLVL<10]: %GRAY%charg
+ItemDisplay[tplm CLVL<10]: %GRAY%stat
+ItemDisplay[tpll CLVL<10]: %GRAY%shock
 ItemDisplay[hp1 CLVL<5]: %RED%hp %WHITE%minor 
 ItemDisplay[mp1 CLVL<10]: %BLUE%mp %WHITE%minor
 ItemDisplay[hp2 CLVL<15]: %RED%hp %WHITE%light 
@@ -2256,7 +2271,7 @@ ItemDisplay[(hp2 OR mp2) CLVL>14]:
 ItemDisplay[(hp3 OR mp3) CLVL>24]:
 ItemDisplay[(hp4 OR mp4) CLVL>44]:
 ItemDisplay[(hp5 OR mp5) CLVL>89]: 
-ItemDisplay[(yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll OR opl OR opm OR ops OR gpl OR gpm OR gps) CLVL>24]:
+ItemDisplay[(yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll) CLVL>9]:
 
 //Gems
 //Gems < Flawless
