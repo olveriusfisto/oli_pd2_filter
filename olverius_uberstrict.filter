@@ -94,8 +94,8 @@ ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
 //Tomes
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[isc CLVL<9]: %RED%id %GRAY%scroll
-ItemDisplay[tsc CLVL<9]: %BLUE%tp %GRAY%scroll
+ItemDisplay[isc CLVL<10]: %RED%id %GRAY%scroll
+ItemDisplay[tsc CLVL<10]: %BLUE%tp %GRAY%scroll
 ItemDisplay[tbk]: %BLUE%portal tome
 ItemDisplay[ibk]: %RED%identify tome
 
@@ -2253,7 +2253,7 @@ ItemDisplay[cm1 !UNI ID !(LIFE>10 OR MANA>10 OR MAXDMG>1 OR DEX>0 OR STR>0 OR FR
 ItemDisplay[NMAG INF]:
 
 //Scrolls
-ItemDisplay[(tsc OR isc) CLVL>=9]:
+ItemDisplay[(tsc OR isc) CLVL>9]:
 
 //Keys, Blue Rings and Jewels
 ItemDisplay[(amu OR rin) MAG]: 
