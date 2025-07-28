@@ -79,6 +79,21 @@ ItemDisplay[tr2]: %MAP%%GOLD%Scroll of Resistance
 
 //Potions
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[yps CLVL<10]: %GRAY%antid
+ItemDisplay[wms CLVL<10]: %GRAY%thaw
+ItemDisplay[vps CLVL<10]: %GRAY%stam
+ItemDisplay[tpfs CLVL<10]: %GRAY%fulm
+ItemDisplay[tpfm CLVL<10]: %GRAY%expl
+ItemDisplay[tpfl CLVL<10]: %GRAY%oil
+ItemDisplay[tpgs CLVL<10]: %GRAY%strang
+ItemDisplay[tpgm CLVL<10]: %GRAY%chok
+ItemDisplay[tpgl CLVL<10]: %GRAY%ranc
+ItemDisplay[tpcs CLVL<10]: %GRAY%chill
+ItemDisplay[tpcm CLVL<10]: %GRAY%frost
+ItemDisplay[tpcl CLVL<10]: %GRAY%freez
+ItemDisplay[tpls CLVL<10]: %GRAY%charg
+ItemDisplay[tplm CLVL<10]: %GRAY%stat
+ItemDisplay[tpll CLVL<10]: %GRAY%shock
 ItemDisplay[hp1 CLVL<5]: %RED%hp %WHITE%minor 
 ItemDisplay[mp1 CLVL<10]: %BLUE%mp %WHITE%minor
 ItemDisplay[hp2 CLVL<15]: %RED%hp %WHITE%light 
