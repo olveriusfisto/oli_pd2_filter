@@ -824,7 +824,6 @@ ItemDisplay[cm1 !UNI !ID]: %TEAL%Small Charm
 ItemDisplay[cm2 !UNI !ID]: //%TEAL%Large Charm
 ItemDisplay[cm3 !UNI !ID]: %TEAL%Grand Charm%MAP-9F%
 
-
 //Small Charms
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
@@ -833,11 +832,11 @@ Part 1
 ItemDisplay[cm1 !UNI]: %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm1 LIFE>15]: %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm1 MANA>14]: %BLUE%mana %STAT9% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 MFIND>6]: %GREEN%mf %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI FRES>9]: %RED%fire res %STAT39% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI LRES>9]: %YELLOW%light res %STAT41% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI CRES>9]: %BLUE%cold res %STAT43% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI PRES>9]: %GREEN%psn res %STAT45% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 MFIND>6]: %BLUE%mf %MFIND% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI FRES>9]: %RED%fire %STAT39% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI LRES>9]: %YELLOW%light %STAT41% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI CRES>9]: %BLUE%cold %STAT43% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI PRES>9]: %GREEN%poison %STAT45% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 Part 2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -849,27 +848,27 @@ ItemDisplay[cm1 (MAXDMG>1 AND STR>0)]: %TAN%max dmg %MAXDMG% %RED%str %STAT0% %G
 ItemDisplay[cm1 (MAXDMG>1 AND FRW>0)]: %TAN%max dmg %MAXDMG% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm1 (MAXDMG>1 AND FHR>0)]: %TAN%max dmg %MAXDMG% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm1 MAXDMG>1]: %TAN%max dmg %MAXDMG% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (RES>0 AND LIFE>0)]: %PURPLE%all res %RES% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (RES>0 AND FRW>0)]: %PURPLE%all res %RES% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (RES>0 AND FHR>0)]: %PURPLE%all res %RES% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (RES>0 AND MFIND>0)]: %PURPLE%all res %RES% %GREEN%mf %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI RES>0]: %PURPLE%all res %RES% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI ((FRES>9 AND LIFE>0) OR (FRES>4 AND LIFE>10) OR (FRES>0 AND LIFE>16))]: %RED%fire res %STAT39% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI ((LRES>9 AND LIFE>0) OR (LRES>4 AND LIFE>10) OR (LRES>0 AND LIFE>16))]: %YELLOW%light res %STAT41% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI ((CRES>9 AND LIFE>0) OR (CRES>4 AND LIFE>10) OR (CRES>0 AND LIFE>16))]: %BLUE%cold res %STAT43% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI ((PRES>9 AND LIFE>0) OR (PRES>4 AND LIFE>10) OR (PRES>0 AND LIFE>16))]: %GREEN%psn res %STAT45% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (FRES>4 AND FRW>0)]: %RED%fire res %STAT39% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (LRES>4 AND FRW>0)]: %YELLOW%light res %STAT41% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (CRES>4 AND FRW>0)]: %BLUE%cold res %STAT43% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (PRES>4 AND FRW>0)]: %GREEN%psn res %STAT45% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (FRES>4 AND FHR>0)]: %RED%fire res %STAT39% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (LRES>4 AND FHR>0)]: %YELLOW%light res %STAT41% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (CRES>4 AND FHR>0)]: %BLUE%cold res %STAT43% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI (PRES>4 AND FHR>0)]: %GREEN%psn res %STAT45% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI ((FRES>9 AND MFIND>0) OR (FRES>4 AND MFIND>3) OR (FRES>0 AND MFIND>5))]: %RED%fire res %STAT39% %GREEN%mf %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI ((LRES>9 AND MFIND>0) OR (LRES>4 AND MFIND>3) OR (LRES>0 AND MFIND>5))]: %YELLOW%light res %STAT41% %GREEN%mf %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI ((CRES>9 AND MFIND>0) OR (CRES>4 AND MFIND>3) OR (CRES>0 AND MFIND>5))]: %BLUE%cold res %STAT43% %GREEN%mf %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm1 !UNI ((PRES>9 AND MFIND>0) OR (PRES>4 AND MFIND>3) OR (PRES>0 AND MFIND>5))]: %GREEN%psn res %STAT45% %GREEN%mf %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (RES>0 AND LIFE>0)]: %PURPLE%res %RES% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (RES>0 AND FRW>0)]: %PURPLE%res %RES% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (RES>0 AND FHR>0)]: %PURPLE%res %RES% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (RES>0 AND MFIND>0)]: %PURPLE%res %RES% %BLUE%mf %MFIND% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI RES>0]: %PURPLE%res %RES% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI ((FRES>9 AND LIFE>0) OR (FRES>4 AND LIFE>10) OR (FRES>0 AND LIFE>16))]: %RED%fire %STAT39% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI ((LRES>9 AND LIFE>0) OR (LRES>4 AND LIFE>10) OR (LRES>0 AND LIFE>16))]: %YELLOW%light %STAT41% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI ((CRES>9 AND LIFE>0) OR (CRES>4 AND LIFE>10) OR (CRES>0 AND LIFE>16))]: %BLUE%cold %STAT43% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI ((PRES>9 AND LIFE>0) OR (PRES>4 AND LIFE>10) OR (PRES>0 AND LIFE>16))]: %GREEN%poison %STAT45% %RED%life %STAT7% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (FRES>4 AND FRW>0)]: %RED%fire %STAT39% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (LRES>4 AND FRW>0)]: %YELLOW%light %STAT41% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (CRES>4 AND FRW>0)]: %BLUE%cold %STAT43% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (PRES>4 AND FRW>0)]: %GREEN%poison %STAT45% %ORANGE%frw %STAT96% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (FRES>4 AND FHR>0)]: %RED%fire %STAT39% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (LRES>4 AND FHR>0)]: %YELLOW%light %STAT41% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (CRES>4 AND FHR>0)]: %BLUE%cold %STAT43% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI (PRES>4 AND FHR>0)]: %GREEN%poison %STAT45% %ORANGE%fhr %FHR% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI ((FRES>9 AND MFIND>0) OR (FRES>4 AND MFIND>3) OR (FRES>0 AND MFIND>5))]: %RED%fire %STAT39% %BLUE%mf %MFIND% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI ((LRES>9 AND MFIND>0) OR (LRES>4 AND MFIND>3) OR (LRES>0 AND MFIND>5))]: %YELLOW%light %STAT41% %BLUE%mf %MFIND% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI ((CRES>9 AND MFIND>0) OR (CRES>4 AND MFIND>3) OR (CRES>0 AND MFIND>5))]: %BLUE%cold %STAT43% %BLUE%mf %MFIND% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI ((PRES>9 AND MFIND>0) OR (PRES>4 AND MFIND>3) OR (PRES>0 AND MFIND>5))]: %GREEN%poison %STAT45% %BLUE%mf %MFIND% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 //Large Charms
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -878,14 +877,14 @@ Part 1
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[cm2 !UNI]: %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 LIFE>29]: %RED%life %STAT7% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 !UNI FRES>12]: %RED%fire res %STAT39% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 !UNI LRES>12]: %YELLOW%light res %STAT41% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 !UNI CRES>12]: %BLUE%cold res %STAT43% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 !UNI PRES>12]: %GREEN%psn res %STAT45% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 !UNI FRES>12]: %RED%fire %STAT39% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 !UNI LRES>12]: %YELLOW%light %STAT41% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 !UNI CRES>12]: %BLUE%cold %STAT43% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 !UNI PRES>12]: %GREEN%poison %STAT45% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STAT329>2]: %RED%fire dmg %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STAT330>2]: %YELLOW%light dmg %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STAT331>2]: %BLUE%cold dmg %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT332>2]: %GREEN%psn dmg %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT332>2]: %GREEN%poison dmg %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STAT357>2]: %DARK_GREEN%magic dmg %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STR=5]: %RED%str %STAT0% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
@@ -897,10 +896,10 @@ ItemDisplay[cm2 (MAXDMG>3 AND STR>0)]: %TAN%max dmg %MAXDMG% %RED%str %STAT0% %G
 ItemDisplay[cm2 (MAXDMG>3 AND FRW>0)]: %TAN%max dmg %MAXDMG% %ORANGE%frw %STAT96% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 (MAXDMG>3 AND FHR>0)]: %TAN%max dmg %MAXDMG% %ORANGE%fhr %FHR% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 MAXDMG>4]: %TAN%max dmg %MAXDMG% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 !UNI (RES>4 AND FRW>0)]: %PURPLE%all res %RES% %ORANGE%frw %STAT96% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 !UNI (RES>4 AND FHR>0)]: %PURPLE%all res %RES% %ORANGE%fhr %FHR% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 !UNI ((RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29))]: %PURPLE%all res %RES% %RED%life %STAT7% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 !UNI RES>5]: %PURPLE%all res %RES% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 !UNI (RES>4 AND FRW>0)]: %PURPLE%res %RES% %ORANGE%frw %STAT96% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 !UNI (RES>4 AND FHR>0)]: %PURPLE%res %RES% %ORANGE%fhr %FHR% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 !UNI ((RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29))]: %PURPLE%res %RES% %RED%life %STAT7% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 !UNI RES>5]: %PURPLE%res %RES% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 //Grand Charms
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -911,19 +910,19 @@ ItemDisplay[cm3 !UNI]: %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%W
 ItemDisplay[cm3 LIFE>34]: %RED%life %STAT7% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 MANA>49]: %BLUE%mana %STAT9% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 !UNI FHR=12]: %ORANGE%fhr %FHR% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 !UNI FRES>24]: %RED%fire res %STAT39% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 !UNI LRES>24]: %YELLOW%light res %STAT41% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 !UNI CRES>24]: %BLUE%cold res %STAT43% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 !UNI PRES>24]: %GREEN%psn res %STAT45% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 !UNI FRES>24]: %RED%fire %STAT39% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 !UNI LRES>24]: %YELLOW%light %STAT41% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 !UNI CRES>24]: %BLUE%cold %STAT43% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 !UNI PRES>24]: %GREEN%poison %STAT45% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 !UNI FRW>6]: %ORANGE%frw %STAT96% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 //Part 2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[cm3 MAXDMG>8]: %TAN%max dmg %MAXDMG% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %PURPLE%all res %RES% %RED%life %STAT7% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND FRW>0)]: %PURPLE%all res %RES% %ORANGE%frw %STAT96% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND FHR>0)]: %PURPLE%all res %RES% %ORANGE%fhr %FHR% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 RES>9]: %PURPLE%all res %RES% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %PURPLE%res %RES% %RED%life %STAT7% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 (RES>7 AND FRW>0)]: %PURPLE%res %RES% %ORANGE%frw %STAT96% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 (RES>7 AND FHR>0)]: %PURPLE%res %RES% %ORANGE%fhr %FHR% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 RES>9]: %PURPLE%res %RES% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 //Skillers
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1004,16 +1003,16 @@ ItemDisplay[jew MAG ED>34]: %RED%ed %EDAM% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%
 ItemDisplay[jew RARE ED>34]: %RED%ed %EDAM% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG MAXDMG>14]: %TAN%max dmg %MAXDMG% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[jew RARE MAXDMG>14]: %TAN%max dmg %MAXDMG% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG RES>11]: %PURPLE%all res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE RES>11]: %PURPLE%all res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG FRES>24]: %RED%fire res %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE FRES>24]: %RED%fire res %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG LRES>24]: %YELLOW%light res %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE LRES>24]: %YELLOW%light res %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG CRES>24]: %BLUE%cold res %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE CRES>24]: %BLUE%cold res %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG PRES>24]: %GREEN%psn res %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE PRES>24]: %GREEN%psn res %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG RES>11]: %PURPLE%res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE RES>11]: %PURPLE%res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG FRES>24]: %RED%fire %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE FRES>24]: %RED%fire %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG LRES>24]: %YELLOW%light %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE LRES>24]: %YELLOW%light %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG CRES>24]: %BLUE%cold %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE CRES>24]: %BLUE%cold %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG PRES>24]: %GREEN%poison %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE PRES>24]: %GREEN%poison %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG STAT501>74]: %RED%ow %STAT135% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[jew RARE STAT501>74]: %RED%ow %STAT135% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG STAT91=-15]: %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
@@ -1043,8 +1042,8 @@ ItemDisplay[jew MAG (ED>29 AND STR>4)]: %RED%ed %EDAM% %RED%str %STAT0% %GRAY%Je
 ItemDisplay[jew RARE (ED>29 AND STR>4)]: %RED%ed %EDAM% %RED%str %STAT0% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG (ED>29 AND DEX>4)]: %RED%ed %EDAM% %GREEN%dex %STAT2% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[jew RARE (ED>29 AND DEX>4)]: %RED%ed %EDAM% %GREEN%dex %STAT2% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (ED>29 AND MFIND>6)]: %RED%ed %EDAM% %GREEN%mf %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (ED>29 AND MFIND>6)]: %RED%ed %EDAM% %GREEN%mf %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (ED>29 AND MFIND>6)]: %RED%ed %EDAM% %BLUE%mf %MFIND% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (ED>29 AND MFIND>6)]: %RED%ed %EDAM% %BLUE%mf %MFIND% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG (ED>29 AND STAT91=-15)]: %RED%ed %EDAM% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[jew RARE (ED>29 AND STAT91=-15)]: %RED%ed %EDAM% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG (MAXDMG>9 AND STAT91=-15)]: %TAN%max dmg %MAXDMG% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
@@ -1059,70 +1058,70 @@ ItemDisplay[jew MAG (MAXDMG>9 AND FHR>0)]: %TAN%max dmg %MAXDMG% %ORANGE%fhr %FH
 ItemDisplay[jew RARE (MAXDMG>9 AND FHR>0)]: %TAN%max dmg %MAXDMG% %ORANGE%fhr %FHR% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG (MINDMG>9 AND FHR>0)]: %TAN%min dmg %MINDMG% %ORANGE%fhr %FHR% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[jew RARE (MINDMG>9 AND FHR>0)]: %TAN%min dmg %MINDMG% %ORANGE%fhr %FHR% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (MAXDMG>9 AND RES>9)]: %TAN%max dmg %MAXDMG% %PURPLE%all res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (MAXDMG>9 AND RES>9)]: %TAN%max dmg %MAXDMG% %PURPLE%all res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (MINDMG>9 AND RES>9)]: %TAN%min dmg %MINDMG% %PURPLE%all res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (MINDMG>9 AND RES>9)]: %TAN%min dmg %MINDMG% %PURPLE%all res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (RES>9 AND STAT91=-15)]: %PURPLE%all res %RES% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (RES>9 AND STAT91=-15)]: %PURPLE%all res %RES% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (FRES>24 AND STAT91=-15)]: %RED%fire res %STAT39% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (FRES>24 AND STAT91=-15)]: %RED%fire res %STAT39% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (LRES>24 AND STAT91=-15)]: %YELLOW%light res %STAT41% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (LRES>24 AND STAT91=-15)]: %YELLOW%light res %STAT41% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (CRES>24 AND STAT91=-15)]: %BLUE%cold res %STAT43% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (CRES>24 AND STAT91=-15)]: %BLUE%cold res %STAT43% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (PRES>24 AND STAT91=-15)]: %GREEN%psn res %STAT45% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (PRES>24 AND STAT91=-15)]: %GREEN%psn res %STAT45% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (IAS>0 AND RES>5)]:  %GOLD%ias %STAT93% %PURPLE%all res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (IAS>0 AND RES>5)]:  %GOLD%ias %STAT93% %PURPLE%all res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (IAS>0 AND FRES>14)]: %GOLD%ias %STAT93% %RED%fire res %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (IAS>0 AND FRES>14)]: %GOLD%ias %STAT93% %RED%fire res %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (IAS>0 AND CRES>19)]: %GOLD%ias %STAT93% %BLUE%cold res %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (IAS>0 AND CRES>19)]: %GOLD%ias %STAT93% %BLUE%cold res %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (IAS>0 AND LRES>19)]: %GOLD%ias %STAT93% %YELLOW%light res %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (IAS>0 AND LRES>19)]: %GOLD%ias %STAT93% %YELLOW%light res %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (IAS>0 AND PRES>19)]: %GOLD%ias %STAT93% %GREEN%psn res %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (IAS>0 AND PRES>19)]: %GOLD%ias %STAT93% %GREEN%psn res %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (FHR>0 AND FRES>24)]: %ORANGE%fhr %FHR% %RED%fire res %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (FHR>0 AND FRES>24)]: %ORANGE%fhr %FHR% %RED%fire res %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (FHR>0 AND CRES>24)]: %ORANGE%fhr %FHR% %BLUE%cold res %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (FHR>0 AND CRES>24)]: %ORANGE%fhr %FHR% %BLUE%cold res %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (FHR>0 AND LRES>24)]: %ORANGE%fhr %FHR% %YELLOW%light res %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (FHR>0 AND LRES>24)]: %ORANGE%fhr %FHR% %YELLOW%light res %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (FHR>0 AND PRES>24)]: %ORANGE%fhr %FHR% %GREEN%psn res %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (FHR>0 AND PRES>24)]: %ORANGE%fhr %FHR% %GREEN%psn res %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (FHR>0 AND RES>5)]: %ORANGE%fhr %FHR% %PURPLE%all res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (FHR>0 AND RES>5)]: %ORANGE%fhr %FHR% %PURPLE%all res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (DEX>4 AND FRES>24)]: %GREEN%dex %STAT2% %RED%fire res %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (DEX>4 AND FRES>24)]: %GREEN%dex %STAT2% %RED%fire res %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (DEX>4 AND CRES>24)]: %GREEN%dex %STAT2% %BLUE%cold res %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (DEX>4 AND CRES>24)]: %GREEN%dex %STAT2% %BLUE%cold res %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (DEX>4 AND LRES>24)]: %GREEN%dex %STAT2% %YELLOW%light res %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (DEX>4 AND LRES>24)]: %GREEN%dex %STAT2% %YELLOW%light res %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (DEX>4 AND PRES>24)]: %GREEN%dex %STAT2% %GREEN%psn res %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (DEX>4 AND PRES>24)]: %GREEN%dex %STAT2% %GREEN%psn res %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (MAXDMG>9 AND RES>9)]: %TAN%max dmg %MAXDMG% %PURPLE%res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (MAXDMG>9 AND RES>9)]: %TAN%max dmg %MAXDMG% %PURPLE%res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (MINDMG>9 AND RES>9)]: %TAN%min dmg %MINDMG% %PURPLE%res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (MINDMG>9 AND RES>9)]: %TAN%min dmg %MINDMG% %PURPLE%res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (RES>9 AND STAT91=-15)]: %PURPLE%res %RES% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (RES>9 AND STAT91=-15)]: %PURPLE%res %RES% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (FRES>24 AND STAT91=-15)]: %RED%fire %STAT39% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (FRES>24 AND STAT91=-15)]: %RED%fire %STAT39% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (LRES>24 AND STAT91=-15)]: %YELLOW%light %STAT41% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (LRES>24 AND STAT91=-15)]: %YELLOW%light %STAT41% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (CRES>24 AND STAT91=-15)]: %BLUE%cold %STAT43% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (CRES>24 AND STAT91=-15)]: %BLUE%cold %STAT43% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (PRES>24 AND STAT91=-15)]: %GREEN%poison %STAT45% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (PRES>24 AND STAT91=-15)]: %GREEN%poison %STAT45% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (IAS>0 AND RES>5)]:  %GOLD%ias %STAT93% %PURPLE%res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (IAS>0 AND RES>5)]:  %GOLD%ias %STAT93% %PURPLE%res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (IAS>0 AND FRES>14)]: %GOLD%ias %STAT93% %RED%fire %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (IAS>0 AND FRES>14)]: %GOLD%ias %STAT93% %RED%fire %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (IAS>0 AND CRES>19)]: %GOLD%ias %STAT93% %BLUE%cold %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (IAS>0 AND CRES>19)]: %GOLD%ias %STAT93% %BLUE%cold %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (IAS>0 AND LRES>19)]: %GOLD%ias %STAT93% %YELLOW%light %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (IAS>0 AND LRES>19)]: %GOLD%ias %STAT93% %YELLOW%light %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (IAS>0 AND PRES>19)]: %GOLD%ias %STAT93% %GREEN%poison %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (IAS>0 AND PRES>19)]: %GOLD%ias %STAT93% %GREEN%poison %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (FHR>0 AND FRES>24)]: %ORANGE%fhr %FHR% %RED%fire %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (FHR>0 AND FRES>24)]: %ORANGE%fhr %FHR% %RED%fire %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (FHR>0 AND CRES>24)]: %ORANGE%fhr %FHR% %BLUE%cold %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (FHR>0 AND CRES>24)]: %ORANGE%fhr %FHR% %BLUE%cold %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (FHR>0 AND LRES>24)]: %ORANGE%fhr %FHR% %YELLOW%light %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (FHR>0 AND LRES>24)]: %ORANGE%fhr %FHR% %YELLOW%light %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (FHR>0 AND PRES>24)]: %ORANGE%fhr %FHR% %GREEN%poison %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (FHR>0 AND PRES>24)]: %ORANGE%fhr %FHR% %GREEN%poison %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (FHR>0 AND RES>5)]: %ORANGE%fhr %FHR% %PURPLE%res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (FHR>0 AND RES>5)]: %ORANGE%fhr %FHR% %PURPLE%res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (DEX>4 AND FRES>24)]: %GREEN%dex %STAT2% %RED%fire %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (DEX>4 AND FRES>24)]: %GREEN%dex %STAT2% %RED%fire %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (DEX>4 AND CRES>24)]: %GREEN%dex %STAT2% %BLUE%cold %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (DEX>4 AND CRES>24)]: %GREEN%dex %STAT2% %BLUE%cold %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (DEX>4 AND LRES>24)]: %GREEN%dex %STAT2% %YELLOW%light %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (DEX>4 AND LRES>24)]: %GREEN%dex %STAT2% %YELLOW%light %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (DEX>4 AND PRES>24)]: %GREEN%dex %STAT2% %GREEN%poison %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (DEX>4 AND PRES>24)]: %GREEN%dex %STAT2% %GREEN%poison %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG (DEX>4 AND RES>9)]: %GREEN%dex %STAT2% %PURPLE%All %WHITE%Res %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[jew RARE (DEX>4 AND RES>9)]: %GREEN%dex %STAT2% %PURPLE%All %WHITE%Res %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (STR>4 AND FRES>24)]: %RED%str %STAT0% %RED%fire res %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (STR>4 AND FRES>24)]: %RED%str %STAT0% %RED%fire res %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (STR>4 AND CRES>24)]: %RED%str %STAT0% %BLUE%cold res %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (STR>4 AND CRES>24)]: %RED%str %STAT0% %BLUE%cold res %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (STR>4 AND LRES>24)]: %RED%str %STAT0% %YELLOW%light res %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (STR>4 AND LRES>24)]: %RED%str %STAT0% %YELLOW%light res %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (STR>4 AND PRES>24)]: %RED%str %STAT0% %GREEN%psn res %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (STR>4 AND PRES>24)]: %RED%str %STAT0% %GREEN%psn res %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (STR>4 AND RES>9)]: %RED%str %STAT0% %PURPLE%all res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (STR>4 AND RES>9)]: %RED%str %STAT0% %PURPLE%all res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (LIFE>14 AND FRES>24)]: %RED%life %STAT7% %RED%fire res %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (LIFE>14 AND FRES>24)]: %RED%life %STAT7% %RED%fire res %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (LIFE>14 AND CRES>24)]: %RED%life %STAT7% %BLUE%cold res %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (LIFE>14 AND CRES>24)]: %RED%life %STAT7% %BLUE%cold res %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (LIFE>14 AND LRES>24)]: %RED%life %STAT7% %YELLOW%light res %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (LIFE>14 AND LRES>24)]: %RED%life %STAT7% %YELLOW%light res %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (LIFE>14 AND PRES>24)]: %RED%life %STAT7% %GREEN%psn res %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (LIFE>14 AND PRES>24)]: %RED%life %STAT7% %GREEN%psn res %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-ItemDisplay[jew MAG (LIFE>9 AND RES>9)]: %RED%life %STAT7% %PURPLE%all res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[jew RARE (LIFE>9 AND RES>9)]: %RED%life %STAT7% %PURPLE%all res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (STR>4 AND FRES>24)]: %RED%str %STAT0% %RED%fire %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (STR>4 AND FRES>24)]: %RED%str %STAT0% %RED%fire %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (STR>4 AND CRES>24)]: %RED%str %STAT0% %BLUE%cold %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (STR>4 AND CRES>24)]: %RED%str %STAT0% %BLUE%cold %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (STR>4 AND LRES>24)]: %RED%str %STAT0% %YELLOW%light %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (STR>4 AND LRES>24)]: %RED%str %STAT0% %YELLOW%light %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (STR>4 AND PRES>24)]: %RED%str %STAT0% %GREEN%poison %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (STR>4 AND PRES>24)]: %RED%str %STAT0% %GREEN%poison %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (STR>4 AND RES>9)]: %RED%str %STAT0% %PURPLE%res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (STR>4 AND RES>9)]: %RED%str %STAT0% %PURPLE%res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (LIFE>14 AND FRES>24)]: %RED%life %STAT7% %RED%fire %STAT39% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (LIFE>14 AND FRES>24)]: %RED%life %STAT7% %RED%fire %STAT39% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (LIFE>14 AND CRES>24)]: %RED%life %STAT7% %BLUE%cold %STAT43% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (LIFE>14 AND CRES>24)]: %RED%life %STAT7% %BLUE%cold %STAT43% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (LIFE>14 AND LRES>24)]: %RED%life %STAT7% %YELLOW%light %STAT41% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (LIFE>14 AND LRES>24)]: %RED%life %STAT7% %YELLOW%light %STAT41% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (LIFE>14 AND PRES>24)]: %RED%life %STAT7% %GREEN%poison %STAT45% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (LIFE>14 AND PRES>24)]: %RED%life %STAT7% %GREEN%poison %STAT45% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
+ItemDisplay[jew MAG (LIFE>9 AND RES>9)]: %RED%life %STAT7% %PURPLE%res %RES% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[jew RARE (LIFE>9 AND RES>9)]: %RED%life %STAT7% %PURPLE%res %RES% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG (LIFE>9 AND MAEK>2)]: %RED%life %STAT7% %BLUE%maek %MAEK% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[jew RARE (LIFE>9 AND MAEK>2)]: %RED%life %STAT7% %BLUE%maek %MAEK% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG (STR>4 AND MAEK>2)]: %RED%str %STAT0% %BLUE%maek %MAEK% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
@@ -1151,9 +1150,6 @@ ItemDisplay[jew MAG (STAT501>74 AND IAS>0)]: %RED%ow %STAT135% %GOLD%ias %STAT93
 ItemDisplay[jew RARE (STAT501>74 AND IAS>0)]: %RED%ow %STAT135% %GOLD%ias %STAT93% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
 ItemDisplay[jew MAG (STAT501>74 AND STAT91=-15)]: %RED%ow %STAT135% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[jew RARE (STAT501>74 AND STAT91=-15)]: %RED%ow %STAT135% %DARK_GREEN%req %STAT91% %GRAY%Jewel{%RED%Item Level is reduced each time%NL%%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 6x%WHITE% Perf %GRAY%O}%CONTINUE%
-
-//EQUIPMENT
-//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Jewellery, Circlets
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
