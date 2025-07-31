@@ -3,7 +3,7 @@
 //contact: twitch.tv/olverius_fisto 
 //discord: olverius_fisto#0001
 //in-game: /w* olverius_fisto
-//Simple ▬ Elegant ▬ Useful
+//description: simple, elegant, useful
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //[NOTE] This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
@@ -58,8 +58,7 @@ ItemDisplay[leg]: %MAP%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP%%GOLD%Book of Skill
 ItemDisplay[tr1]: //%MAP%%GOLD%Horadric Scroll
-ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%or transform equipment in unpredictable ways%NL%to upgrade runes and gems, add sockets,%NL%Place items inside and transmute them,}
-ItemDisplay[msf]: %MAP%%GOLD%Staff of Kings
+ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 11%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
 ItemDisplay[vip]: %MAP%%GOLD%Viper Amulet
 ItemDisplay[hst]: %MAP%%GOLD%Horadric Staff
 ItemDisplay[j34]: %MAP%%GOLD%Jade Figurine
