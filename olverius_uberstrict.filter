@@ -978,7 +978,8 @@ ItemDisplay[cm2 UNI CLSK5>0]: %GRAY%dru %NAME%%CONTINUE%
 ItemDisplay[cm2 UNI CLSK6>0]: %GRAY%asa %NAME%%CONTINUE%
 
 //stats
-ItemDisplay[(cm1 OR cm2) UNI STAT3>0]: %NAME% %RED%life %STAT3%%CONTINUE%
+ItemDisplay[(cm1 OR cm2) UNI STAT3>0]: %NAME% %RED%vit %STAT3%%CONTINUE%
+ItemDisplay[(cm1 OR cm2) UNI STAT3>0]: %NAME% %BLUE%en %STAT1%%CONTINUE%
 ItemDisplay[(cm1 OR cm2) UNI RES>0]: %NAME% %PURPLE%res %RES%%CONTINUE%
 ItemDisplay[cm1 UNI STAT85>0]: %NAME% %WHITE%xp %STAT85%%CONTINUE%
 ItemDisplay[cm3 UNI MFIND>0]: %BLUE%mf %MFIND% %CONTINUE%
