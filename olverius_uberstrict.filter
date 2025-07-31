@@ -2284,7 +2284,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(NMAG (ETH AND !INF) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7wc) SOCK=0) !(MAG (CLASS (SIN (ETH (7ar OR 7xf OR 7qr))))) !(MAG (ETH JAV (ssp OR 9s9 OR 7s7))) !(RARE (ARMOR (CIRC OR CHEST OR GLOVES OR BELT OR BOOTS) OR (CLASS (DRU OR NEC OR DIN OR BAR OR (SIN (7ar OR 7xf OR 7qr)) OR ZON OR SOR)) OR BOW OR XBOW OR (ETH JAV (ssp OR 9s9 OR 7s7)))) !leg !amu !rin CLVL>0]:
-
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (CLASS (ETH SIN (7ar OR 7xf OR 7qr)))) !(MAG (ETH JAV (ssp OR 9s9 OR 7s7))) !(RARE (ARMOR (CIRC OR CHEST OR GLOVES OR BELT OR BOOTS) OR (CLASS (DRU OR NEC OR DIN OR BAR OR (SIN (7ar OR 7xf OR 7qr)) OR ZON OR SOR)) OR (BOW (amc OR 6sw OR 6lw)) OR XBOW OR (7wa OR 7gd OR 7mp) OR (ETH JAV (ssp OR 9s9 OR 7s7)))) !leg !amu !rin CLVL>0]:
 
 //END
