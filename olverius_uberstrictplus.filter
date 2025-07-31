@@ -2208,9 +2208,9 @@ ItemDisplay[bey]: %GOLD%Baal's Eye %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK_GRE
 ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK_GREEN%Obtainable from Uber Izual%NL%%TAN%Required to access Uber Tristram}
 ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman%MAP%{%TAN%Required to access Uber Tristram}
 ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-D3%
-ItemDisplay[UNI cm1 !ID]: RED%oooooooooooo Annihilus %RED%oooooooooooo%BORDER-1F%
-ItemDisplay[UNI cm2 !ID]: RED%oooooooooooo Hellfire Torch %RED%oooooooooooo%BORDER-1F% 
-ItemDisplay[UNI cm3 !ID]: RED%oooooooooo Gheed's Fortune RED%oooooooooo%BORDER-1F% 
+ItemDisplay[UNI cm1 !ID]: %RED%oooooooooooo %GOLD%Annihilus %RED%oooooooooooo%BORDER-1F%
+ItemDisplay[UNI cm2 !ID]: %RED%oooooooooooo %GOLD%Hellfire Torch %RED%oooooooooooo%BORDER-1F% 
+ItemDisplay[UNI cm3 !ID]: %RED%oooooooooo %GOLD%Gheed's Fortune %RED%oooooooooo%BORDER-1F% 
 
 //DIABLO CLONE
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
