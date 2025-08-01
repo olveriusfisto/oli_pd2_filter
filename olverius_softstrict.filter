@@ -512,7 +512,7 @@ ItemDisplay[(NMAG OR MAG OR RARE) !RW 7wc]: Giant Thresher%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW sbw]: Short Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW 8sb]: Edge Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW 6sb]: Spider Bow%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW hbw]: Hunter`s Bow%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW hbw]: Hunter's Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW 8hb]: Razor Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW 6hb]: Blade Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW lbw]: Long Bow%CONTINUE%
@@ -2253,7 +2253,8 @@ ItemDisplay[uba]: %TAN%Relic of the Ancients%MAP%{%TAN%Required to access Uber A
 
 //MISCELLANEOUS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME% //Always visible items
+ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME%
+ItemDisplay[(NORM OR EXC OR ELT) RARE]: %NAME%
 
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //3. RECYCLING
