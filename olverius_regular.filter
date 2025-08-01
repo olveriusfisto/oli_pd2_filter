@@ -886,7 +886,7 @@ ItemDisplay[cm2 STAT329>1]: %RED%fr-dmg %STAT329% %GRAY%Large Charm{%TAN%Reroll 
 ItemDisplay[cm2 STAT330>1]: %YELLOW%lt-dmg %STAT330% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STAT331>1]: %BLUE%cd-dmg %STAT331% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STAT332>1]: %GREEN%psn-dmg %STAT332% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT357>1]: %DARK_GREEN%md-dmg %STAT357% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT357>1]: %ORANGE%md-dmg %STAT357% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STR=5]: %RED%str %STAT0% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 Part 2
