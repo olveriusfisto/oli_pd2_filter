@@ -1887,11 +1887,11 @@ ItemDisplay[NMAG !RW DAGGER SOCK=2]: %NAME%{%RED%Wind %GRAY%Sur + El%NL%%GOLD%St
 ItemDisplay[NMAG !RW DAGGER SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //Throwing Weapons
-ItemDisplay[NMAG !RW THROWING SOCK=2]: %NAME%{%GOLD%Zephyr %GRAY%Ort + Eth%NL%%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
+ItemDisplay[NMAG !RW THROWING SOCK=2]: %NAME%{%GOLD%Zephyr %GRAY%Ort + Eth%NL%%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[NMAG !RW THROWING SOCK=3]: %NAME%{%RED%Plague %GRAY%Cham + Fal + Um%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%GOLD%Crescent Moon %GRAY%Shael + Im + Tir%NL%%GOLD%Lawbringer %GRAY%Amn + Lem + Ko%NL%%GOLD%Kings Grace %GRAY%Amn + Ral + Thul%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //Spears, Polearms
-ItemDisplay[NMAG !RW (SPEAR OR POLEARM) SOCK=2]: %NAME%{%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
+ItemDisplay[NMAG !RW (SPEAR OR POLEARM) SOCK=2]: %NAME%{%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[NMAG !RW POLEARM SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Purity %GRAY%Amn + Eth + Thul%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Crescent Moon %GRAY%Shael + Um + Tir%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[NMAG !RW SPEAR SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Purity %GRAY%Amn + Eth + Thul%NL%%GOLD%Loyalty %GRAY%Pul + Tir + Dol%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Crescent Moon %GRAY%Shael + Um + Tir%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[NMAG !RW (SPEAR OR POLEARM) SOCK=4]: %NAME%{%RED%Rift %GRAY%Hel + Ko + Lem + Gul%NL%%GOLD%Rampage %GRAY%Shael + El + Ith + Eth%NL%%RED%Pride %GRAY%Cham + Sur + Io + Lo%NL%%RED%Phoenix %GRAY%Vex + Vex + Lo + Jah%NL%%GOLD%Passion %GRAY%Dol + Ort + Eld + Lem%NL%%GOLD%Insight %GRAY%Ral + Tir + Tal + Sol%NL%%RED%Infinity %GRAY%Ber + Mal + Ber + Ist%NL%%RED%Hand of Justice %GRAY%Sur + Cham + Amn + Lo%NL%%RED%Fortitude %GRAY%El + Sol + Dol + Lo%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
