@@ -729,93 +729,93 @@ ItemDisplay[r19]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 ItemDisplay[r20]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 
 //High Tier: 21-33
-ItemDisplay[r21]: %PURPLE% o %RUNENAME% %PURPLE%o{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r22]: %PURPLE% oo %RUNENAME% %PURPLE%oo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r23]: %PURPLE% ooo %RUNENAME% %PURPLE%ooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r24]: %PURPLE% oooo %RUNENAME% %PURPLE%oooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r25]: %PURPLE% ooooo %RUNENAME% %PURPLE%ooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r26]: %PURPLE% oooooo %RUNENAME% %PURPLE%oooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r27]: %PURPLE% ooooooo %RUNENAME% %PURPLE%ooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r28]: %PURPLE% ooooooooo %RUNENAME% %PURPLE%ooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r29]: %PURPLE% ooooooooooo %RUNENAME% %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r30]: %PURPLE% ooooooooooooo %RUNENAME% %PURPLE%ooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r31]: %PURPLE% oooooooooooo %RUNENAME% %PURPLE%oooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r32]: %PURPLE% ooooooooooo %RUNENAME% %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r33]: %PURPLE% oooooooooooooooo %RUNENAME% %PURPLE%oooooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r21]: %PURPLE% o %RUNENAME% %ORANGE%Rune %PURPLE%o{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r22]: %PURPLE% oo %RUNENAME% %ORANGE%Rune %PURPLE%oo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r23]: %PURPLE% ooo %RUNENAME% %ORANGE%Rune %PURPLE%ooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r24]: %PURPLE% oooo %RUNENAME% %ORANGE%Rune %PURPLE%oooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r25]: %PURPLE% ooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r26]: %PURPLE% oooooo %RUNENAME% %ORANGE%Rune %PURPLE%oooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r27]: %PURPLE% ooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r28]: %PURPLE% ooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r29]: %PURPLE% ooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r30]: %PURPLE% ooooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r31]: %PURPLE% oooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%oooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r32]: %PURPLE% ooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r33]: %PURPLE% oooooooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%oooooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 
 //Stacked
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //Low Tier: 01-09 
 /El
-ItemDisplay[r01s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r01s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Eld
-ItemDisplay[r02s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r02s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Tir
-ItemDisplay[r03s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r03s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Nef
-ItemDisplay[r04s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r04s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Eth
-ItemDisplay[r05s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r05s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Ith
-ItemDisplay[r06s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r06s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Tal 
-ItemDisplay[r07s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r07s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Ral
-ItemDisplay[r08s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r08s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Ort 
-ItemDisplay[r09s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r09s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 
 //Mid Tier: 10-20
 /Thul
-ItemDisplay[r10s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r10s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Amn
-ItemDisplay[r11s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r11s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Sol
-ItemDisplay[r12s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r12s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Shael
-ItemDisplay[r13s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r13s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Dol
-ItemDisplay[r14s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r14s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Hel
-ItemDisplay[r15s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r15s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Io
-ItemDisplay[r16s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r16s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Lum
-ItemDisplay[r17s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r17s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Ko
-ItemDisplay[r18s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r18s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Fal
-ItemDisplay[r19s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r19s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Lem
-ItemDisplay[r20s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r20s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 
 //High Tier: 21-33
 /Pul
-ItemDisplay[r21s]: %PURPLE% o %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%o{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r21s]: %PURPLE% o %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%o{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Um
-ItemDisplay[r22s]: %PURPLE% oo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r22s]: %PURPLE% oo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Mal
-ItemDisplay[r23s]: %PURPLE% ooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r23s]: %PURPLE% ooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Ist
-ItemDisplay[r24s]: %PURPLE% oooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r24s]: %PURPLE% oooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Gul 
-ItemDisplay[r25s]: %PURPLE% ooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r25s]: %PURPLE% ooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Vex
-ItemDisplay[r26s]: %PURPLE% oooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r26s]: %PURPLE% oooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Ohm
-ItemDisplay[r27s]: %PURPLE% ooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r27s]: %PURPLE% ooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Lo
-ItemDisplay[r28s]: %PURPLE% ooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r28s]: %PURPLE% ooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Sur
-ItemDisplay[r29s]: %PURPLE% ooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r29s]: %PURPLE% ooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Ber
-ItemDisplay[r30s]: %PURPLE% ooooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r30s]: %PURPLE% ooooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Jah
-ItemDisplay[r31s]: %PURPLE% oooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r31s]: %PURPLE% oooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Cham
-ItemDisplay[r32s]: %PURPLE% ooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r32s]: %PURPLE% ooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Zod
-ItemDisplay[r33s]: %PURPLE% oooooooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r33s]: %PURPLE% oooooooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 
 //CHARMS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1400,7 +1400,7 @@ ItemDisplay[(UNI !ID) 9wh]: %ORANGE%oooooo %GOLD%Earthshaker %ORANGE%oooooo%MAP-
 ItemDisplay[(UNI !ID) 7wh]: %ORANGE%oooooooo %GOLD%Stone Crusher / Schaefer's Hammer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) mau]: //Bonesnap
 ItemDisplay[(UNI !ID) 9m9]: //%ORANGE%oooooo %GOLD%Bloodtree Stump %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 7m7]: //%ORANGE%oooooooo %GOLD%Windhammer %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 7m7]: %ORANGE%oooooooo %GOLD%Windhammer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) gma]: //Steeldriver
 ItemDisplay[(UNI !ID) 9gm]: %ORANGE%oooooo %GOLD%The Gavel of Pain %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7gm]: %ORANGE%oooooooo %GOLD%Earth Shifter / The Cranium Basher %ORANGE%oooooooo%BORDER-D3%
@@ -1542,7 +1542,7 @@ ItemDisplay[(UNI !ID) 6rx]: //%ORANGE%oooooooo %GOLD%Gut Siphon %ORANGE%oooooooo
 ItemDisplay[(UNI !ID) sst]: //Bane Ash
 ItemDisplay[(UNI !ID) 8ss]: //%ORANGE%oooooo %GOLD%Razorswitch %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) lst]: //Serpent Lord
-ItemDisplay[(UNI !ID) 8ls]: //%ORANGE%oooooo %GOLD%Ribcracker %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 8ls]: %ORANGE%oooooo %GOLD%Ribcracker %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) cst]: Spire of Lazarus
 ItemDisplay[(UNI !ID) 8cs]: //%ORANGE%oooooo %GOLD%Chromatic Ire %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 6cs]: %ORANGE%oooooooo %GOLD%Ondal's Wisdom %ORANGE%oooooooo%BORDER-D3%
