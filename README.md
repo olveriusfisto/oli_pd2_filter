@@ -1,4 +1,4 @@
-# OLVERIUS' PD2 LOOT FILTER. SIMPLE. ELEGANT. USEFUL.
+# OLVERIUS' PD2 TREASURE FILTER. SIMPLE. ELEGANT. USEFUL.
 ## Greetings, dear adventurer. 
 ## This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
 
