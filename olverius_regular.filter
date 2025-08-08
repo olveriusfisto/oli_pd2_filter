@@ -7,7 +7,8 @@
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //[NOTE] This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
-//[NOTE] Shows the best white bases with no sockets and all white bases with more than one socket, majority of blue items, all yellow, sets, unique and crafted items; hides everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
+//[NOTE] Shows the best white bases, both plain and those with more than one socket, most blue items, all yellow, sets, uniques and crafted items; hides everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
+
 
 //LEGEND:
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -2302,6 +2303,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG (SOCK=0 OR SOCK=1) OR MAG) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR crs OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (CIRC OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp)) OR (WEAPON (crs OR mau OR cst OR 7cr OR 9ls OR 7xf OR 7wa OR 7gm OR 7tw)) OR CLASS) !leg !amu !rin  CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG (SOCK=0 OR SOCK=1) OR MAG) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR crs OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (CIRC OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp)) OR (WEAPON (crs OR mau OR cst OR bst OR 7cr OR 9ls OR 7wa OR 7gm OR 6cs OR wsp OR JAV)) OR CLASS) !leg !amu !rin  CLVL>0]:
 
 //END
