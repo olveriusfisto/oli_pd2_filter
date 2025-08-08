@@ -7,7 +7,7 @@
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //[NOTE] This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
-//[NOTE] Shows ONLY valuable materials and items, including specific exceptional and elite sets and uniques, as well as the most optimal socketed white bases; hides everything else. Suitable for map runners and 99-pushing playstyles.
+//[NOTE] UBER STRICT PLUS shows ONLY the most valuable materials and items, including the best multi-socket white bases, some sets, thee best uniques, and all crafted items while hiding everything else. Suitable for map runners and 99-pushing playstyles.
 
 //LEGEND:
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -2242,10 +2242,9 @@ ItemDisplay[ubab]: %TAN%Sigil of Talic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK
 ItemDisplay[ubac]: %TAN%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK_GREEN%Obtainable from Tier 3 Map Monsters%NL%%TAN%Required to access Uber Ancients}
 ItemDisplay[uba]: %TAN%Relic of the Ancients%MAP%{%TAN%Required to access Uber Ancients}
 
-
-//MISCELLANEOUS
+//MISC: VISIBILITY
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME% //Always visible items
+ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME%
 
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //3. RECYCLING
