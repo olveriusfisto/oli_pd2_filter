@@ -2299,7 +2299,7 @@ ItemDisplay[NMAG INF]:
 //Scrolls
 ItemDisplay[(tsc OR isc) CLVL>9]:
 
-//Keys and Jewels
+//Keys, Quivers and Jewels
 ItemDisplay[(aqv OR cqv) (NMAG OR MAG)]: 
 ItemDisplay[key]: 
 ItemDisplay[MAG !ID jew ILVL<66]: 
