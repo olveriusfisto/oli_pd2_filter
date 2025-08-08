@@ -1,4 +1,4 @@
-//name: Olverius' Loot Filter
+//name: Olverius' Treasure Filter
 //game: Project Diablo 2
 //contact: twitch.tv/olverius_fisto 
 //discord: olverius_fisto#0001
@@ -2305,6 +2305,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide
-ItemDisplay[(NORM OR EXC OR ELT) ((NMAG (SOCK=0 OR SOCK=1)) OR MAG) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR crs OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (ci0 OR ci1 OR ci2 OR ci3 OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp)) OR (WEAPON (crs OR mau OR cst OR bst OR 7cr OR 9ls OR 7wa OR 7gm OR 6cs OR wsp OR wnd OR bwn OR 9bw OR 9gw OR 7bw OR 7gw OR ssp 9ja OR 7ja OR 7gl)) OR CLASS) !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) ((NMAG (SOCK=0 OR SOCK=1)) OR MAG) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR crs OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (ci0 OR ci1 OR ci2 OR ci3 OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp)) OR (WEAPON (crs OR mau OR cst OR bst OR 7cr OR 9ls OR 7wa OR 7gm OR 6cs OR wsp OR wnd OR bwn OR 9bw OR 9gw OR 7bw OR 7gw OR ssp 9ja OR 7ja OR 7gl)) !(MAG (CLASS (DRU OR BAR OR DIN OR NEC OR SIN OR SOR OR ZON))) !leg !amu !rin CLVL>0]:
 
 //END
