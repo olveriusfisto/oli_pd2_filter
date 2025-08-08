@@ -6,7 +6,7 @@
 ### UBER STRICT PLUS shows ONLY the most valuable materials and items, including specific exceptional and elite sets and uniques, as well as the most optimal socketed white bases; hides everything else. Suitable for map runners and 99-pushing playstyles.
 ### UBER STRICT shows ONLY valuable materials and items, including specific rare bases, exceptional and elite sets and uniques, as well as the most optimal white bases, both socketed and plain; hides everything else. Suitable for high-level endgame, 99-pushing, solo self-found (SSF), and group self-found (GSF) playstyles.
 ### SOFT STRICT shows PRIMARILY valuable materials and items, including rare items, exceptional and elite sets and uniques, as well as the most optimal white bases, both socketed and plain; hides everything else. Suitable for casual endgame, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
-### REGULAR shows all top white bases with no sockets and all white bases with more than one socket, the best blue items, all sets, and unique items; hides everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
+### REGULAR shows the best white bases with no sockets and all white bases with more than one socket, the best blue items, all yellow, sets, and unique items; hides everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
 
 ## Contact: [Discord](https://discord.com/invite/NxY3nFUDwQ), [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
 
