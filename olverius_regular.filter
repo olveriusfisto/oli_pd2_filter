@@ -2264,6 +2264,10 @@ ItemDisplay[ubab]: %TAN%Sigil of Talic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK
 ItemDisplay[ubac]: %TAN%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK_GREEN%Obtainable from Tier 3 Map Monsters%NL%%TAN%Required to access Uber Ancients}
 ItemDisplay[uba]: %TAN%Relic of the Ancients%MAP%{%TAN%Required to access Uber Ancients}
 
+//MISC: VISIBILITY
+//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME%
+
 
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //3. RECYCLING
