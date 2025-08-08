@@ -7,7 +7,7 @@
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //[NOTE] This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
-//[NOTE] Shows ONLY valuable materials and items, including specific rare bases, exceptional and elite sets and uniques, as well as the most optimal white bases, both socketed and plain; hides everything else. Suitable for high-level endgame, 99-pushing, solo self-found (SSF), and group self-found (GSF) playstyles.
+//[NOTE] shows the best white bases, including plain and multi-socket types, the best yellow, some sets, uniques, and all crafted items while hiding everything else. Suitable for high-level endgame, 99-pushing, solo self-found (SSF), and group self-found (GSF) playstyles.
 
 //LEGEND:
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -2242,10 +2242,9 @@ ItemDisplay[ubab]: %TAN%Sigil of Talic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK
 ItemDisplay[ubac]: %TAN%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK_GREEN%Obtainable from Tier 3 Map Monsters%NL%%TAN%Required to access Uber Ancients}
 ItemDisplay[uba]: %TAN%Relic of the Ancients%MAP%{%TAN%Required to access Uber Ancients}
 
-
-//MISCELLANEOUS
+//MISC: VISIBILITY
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME% //Always visible items
+ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME%
 
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //3. RECYCLING
@@ -2284,6 +2283,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (CLASS (ETH SIN (7ar OR 7xf OR 7qr)))) !(MAG (ETH JAV (ssp OR 9s9 OR 7s7))) !(RARE (ARMOR (CIRC OR CHEST OR GLOVES OR BELT OR BOOTS) OR (CLASS (DRU OR NEC OR DIN OR BAR OR (SIN (7ar OR 7xf OR 7qr)) OR ZON OR SOR)) OR (BOW (amc OR 6sw OR 6lw)) OR XBOW OR (7wa OR 7gd OR 7mp) OR (ETH JAV (ssp OR 9s9 OR 7s7)))) !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(RARE (ARMOR (CIRC OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp)) OR (WEAPON (crs OR mau OR cst OR bst OR 7cr OR 9ls OR 7wa OR 7gm OR 6cs OR wsp OR JAV OR wnd OR bwn OR 9bw OR 9gw OR 7bw OR 7gw)) OR (CLASS (dr1 OR dr3 OR ba1 OR ba2 OR ba3 OR 7tw OR 7xf OR dr8 OR ba5 OR 9tw OR 7tw OR drd OR baa OR amc OR ne1 OR ne2 OR ne5 OR ne6 OR nee OR nef)) !ID) !leg !amu !rin CLVL>0]:
 
 //END
