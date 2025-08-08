@@ -3,10 +3,10 @@
 ## This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
 
 ## Description:
-### UBER STRICT PLUS shows ONLY the most valuable materials and items, including specific exceptional and elite sets and uniques, as well as the most optimal socketed white bases; hides everything else. Suitable for map runners and 99-pushing playstyles.
-### UBER STRICT shows ONLY valuable materials and items, including specific rare bases, exceptional and elite sets and uniques, as well as the most optimal white bases, both socketed and plain; hides everything else. Suitable for high-level endgame, 99-pushing, solo self-found (SSF), and group self-found (GSF) playstyles.
-### SOFT STRICT shows PRIMARILY valuable materials and items, including rare items, exceptional and elite sets and uniques, as well as the most optimal white bases, both socketed and plain; hides everything else. Suitable for casual endgame, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
-### REGULAR shows the best white bases with no sockets and all white bases with more than one socket, majority of blue items, all yellow, sets, unique and crafted items; hides everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
+### UBER STRICT PLUS shows ONLY the most valuable materials and items, including the best multi-socket white bases, some sets, thee best uniques, and all crafted items while hiding everything else. Suitable for map runners and 99-pushing playstyles.
+### UBER STRICT shows ONLY the most valuable materials and items, including the best white bases, both plain and multi-socket types, the best yellow, some sets, uniques, and all crafted items while hiding everything else. Suitable for high-level endgame, 99-pushing, solo self-found (SSF), and group self-found (GSF) playstyles.
+### SOFT STRICT shows PRIMARILY valuable materials and items, including the best white bases, both plain and multi-socket types, the best blue, some yellow, all sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
+### REGULAR shows shows ALL valuable materials and items, including the best white bases, both plain and multi-socket types, most blue, all yellow, sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
 
 ## Contact: [Discord](https://discord.com/invite/NxY3nFUDwQ), [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
 
