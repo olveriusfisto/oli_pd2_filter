@@ -7,7 +7,7 @@
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //[NOTE] This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
-//[NOTE] Shows the best white bases, including plain and multi-socket types, the best blue, some yellow, all sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
+//[NOTE] SOFT STRICT shows PRIMARILY valuable materials and items, including the best white bases, both plain and multi-socket types, the best blue, some yellow, all sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
 
 //LEGEND:
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -653,7 +653,6 @@ ItemDisplay[WAND NMAG !RW !ETH (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 O
 ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE% //Sockets
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %WHITE%(%TAN%%WHITE%%PRICE%%WHITE%)%CONTINUE% //Prices after ID-ing
 ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME% //Gambling
-ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME% //Visibility
 
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //2. ITEMIZATION & FUNCTIONS
@@ -2250,6 +2249,10 @@ ItemDisplay[ubab]: %TAN%Sigil of Talic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK
 ItemDisplay[ubac]: %TAN%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK_GREEN%Obtainable from Tier 3 Map Monsters%NL%%TAN%Required to access Uber Ancients}
 ItemDisplay[uba]: %TAN%Relic of the Ancients%MAP%{%TAN%Required to access Uber Ancients}
 
+//MISC: VISIBILITY
+//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME%
+
 
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //3. RECYCLING
@@ -2288,6 +2291,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (CIRC OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp)) OR (WEAPON (crs OR mau OR cst OR bst OR 7cr OR 9ls OR 7wa OR 7gm OR 6cs OR wsp OR JAV OR wnd OR bwn OR 9bw OR 9gw OR 7bw OR 7gw)) OR (CLASS (dr1 OR dr3 OR ba1 OR ba2 OR ba3 OR 7tw OR 7xf OR dr8 OR ba5 OR 9tw OR 7tw OR drd OR baa OR amc OR ne1 OR ne2 OR ne5 OR ne6 OR nee OR nef)) !ID) !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (ci0 OR ci1 OR ci2 OR ci3 OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp)) OR (WEAPON (crs OR mau OR cst OR bst OR 7cr OR 9ls OR 7wa OR 7gm OR 6cs OR wsp OR wnd OR bwn OR 9bw OR 9gw OR 7bw OR 7gw OR ssp 9ja OR 7ja OR 7gl)) OR (CLASS (dr1 OR dr3 OR ba1 OR ba2 OR ba3 OR 7tw OR 7xf OR dr8 OR ba5 OR 9tw OR 7tw OR drd OR baa OR amc OR ne1 OR ne2 OR ne5 OR ne6 OR nee OR nef))) !leg !amu !rin CLVL>0]:
 
 //END
