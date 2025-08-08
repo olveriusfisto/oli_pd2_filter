@@ -2276,7 +2276,7 @@ ItemDisplay[NMAG INF]:
 //Scrolls
 ItemDisplay[(tsc OR isc) CLVL>9]:
 
-//Keys, Blue Rings and Jewels
+//Keys, Rings, Quivers and Jewels
 ItemDisplay[(amu OR rin) MAG]: 
 ItemDisplay[(aqv OR cqv) (NMAG OR MAG)]: 
 ItemDisplay[key]: 
