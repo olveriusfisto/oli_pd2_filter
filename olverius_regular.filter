@@ -1,4 +1,4 @@
-//name: Olverius' Treasure Filter
+//name: Olverius' Loot Filter
 //game: Project Diablo 2
 //contact: twitch.tv/olverius_fisto 
 //discord: olverius_fisto#0001
@@ -98,8 +98,8 @@ ItemDisplay[hp1 CLVL<5]: %RED%hp %WHITE%minor
 ItemDisplay[mp1 CLVL<10]: %BLUE%mp %WHITE%minor
 ItemDisplay[hp2 CLVL<15]: %RED%hp %WHITE%light 
 ItemDisplay[mp2 CLVL<15]: %BLUE%mp %WHITE%light
-ItemDisplay[hp3 CLVL<25]: %RED%HP
-ItemDisplay[mp3 CLVL<25]: %BLUE%MP
+ItemDisplay[hp3 CLVL<25]: %RED%hp %WHITE%regular
+ItemDisplay[mp3 CLVL<25]: %BLUE%mp %WHITE%regular
 ItemDisplay[hp4 CLVL<45]: %RED%HP %WHITE%great
 ItemDisplay[mp4 CLVL<45]: %BLUE%MP %WHITE%great
 ItemDisplay[hp5]: %RED%HP %WHITE%super
@@ -140,7 +140,7 @@ ItemDisplay[(NMAG OR MAG OR RARE) !RW cqv]: Bolts%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW cap]: Cap%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW xap]: War Hat%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW uap]: Shako%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW skp]: Skull Cap%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW skp]: %GRAY%Skull Cap%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW xkp]: Sallet%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ukp]: Hydraskull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW hlm]: Helm%CONTINUE%
@@ -175,7 +175,7 @@ ItemDisplay[(NMAG OR MAG OR RARE) !RW xtu]: Trellised Armor%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW utu]: Wire Fleece%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW rng]: Ring Mail%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW xng]: Linked Mail%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW ung]: Diamond Mail%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW ung]: %WHITE%Diamond Mail%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW scl]: Scale Mail%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW xcl]: Tigulated Mail%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ucl]: Loricated Mail%CONTINUE%
@@ -326,19 +326,19 @@ ItemDisplay[(NMAG OR MAG OR RARE) !RW paa]: Royal Shield%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW paf]: Vortex Shield%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne1]: Preserved Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne6]: Mummified Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW neb]: Minion Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW neb]: Minion %GRAY%Skull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne2]: Zombie Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne7]: Fetish Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW neg]: Hellspawn Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW neg]: Hellspawn %GRAY%Skull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne3]: Unraveller Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne8]: Sexton Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW ned]: Overseer Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW ned]: Overseer %GRAY%Skull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne4]: Gargoyle Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne9]: Cantor Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW nee]: Succubus Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW nee]: Succubus %GRAY%Skull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne5]: Demon Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW nea]: Heirophant Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW nef]: Bloodlord Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW nef]: Bloodlord %GRAY%Skull%CONTINUE%
 
 //Weapons
 ItemDisplay[(NMAG OR MAG OR RARE) !RW hax]: Hand Axe%CONTINUE%
@@ -523,7 +523,7 @@ ItemDisplay[(NMAG OR MAG OR RARE) !RW 8cb]: Double Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW 6cb]: Great Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW sbb]: Short Battle Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW 8s8]: Short Siege Bow%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW 6s7]: Diamond Bow%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW 6s7]: %WHITE%Diamond Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW lbb]: Long Battle Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW 8l8]: Large Siege Bow%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW 6l7]: Crusader Bow%CONTINUE%
@@ -651,8 +651,9 @@ ItemDisplay[WAND NMAG !RW !ETH (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 O
 //Misc
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE% //Sockets
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %WHITE%(%TAN%%WHITE%%PRICE%%WHITE%)%CONTINUE% //Prices after ID-ing
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %WHITE%(%TAN%%WHITE%%PRICE%%WHITE%)%CONTINUE% //Prices after ID
 ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME% //Gambling
+ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME% //Visibility
 
 
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -730,93 +731,93 @@ ItemDisplay[r19]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 ItemDisplay[r20]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 
 //High Tier: 21-33
-ItemDisplay[r21]: %PURPLE% o %RUNENAME% %ORANGE%Rune %PURPLE%o{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r22]: %PURPLE% oo %RUNENAME% %ORANGE%Rune %PURPLE%oo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r23]: %PURPLE% ooo %RUNENAME% %ORANGE%Rune %PURPLE%ooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r24]: %PURPLE% oooo %RUNENAME% %ORANGE%Rune %PURPLE%oooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r25]: %PURPLE% ooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r26]: %PURPLE% oooooo %RUNENAME% %ORANGE%Rune %PURPLE%oooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r27]: %PURPLE% ooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r28]: %PURPLE% ooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r29]: %PURPLE% ooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r30]: %PURPLE% ooooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r31]: %PURPLE% oooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%oooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r32]: %PURPLE% ooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
-ItemDisplay[r33]: %PURPLE% oooooooooooooooo %RUNENAME% %ORANGE%Rune %PURPLE%oooooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r21]: %PURPLE% o %RUNENAME% %PURPLE%o{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r22]: %PURPLE% oo %RUNENAME% %PURPLE%oo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r23]: %PURPLE% ooo %RUNENAME% %PURPLE%ooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r24]: %PURPLE% oooo %RUNENAME% %PURPLE%oooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r25]: %PURPLE% ooooo %RUNENAME% %PURPLE%ooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r26]: %PURPLE% oooooo %RUNENAME% %PURPLE%oooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r27]: %PURPLE% ooooooo %RUNENAME% %PURPLE%ooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r28]: %PURPLE% ooooooooo %RUNENAME% %PURPLE%ooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r29]: %PURPLE% ooooooooooo %RUNENAME% %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r30]: %PURPLE% ooooooooooooo %RUNENAME% %PURPLE%ooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r31]: %PURPLE% oooooooooooo %RUNENAME% %PURPLE%oooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r32]: %PURPLE% ooooooooooo %RUNENAME% %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r33]: %PURPLE% oooooooooooooooo %RUNENAME% %PURPLE%oooooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 
 //Stacked
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //Low Tier: 01-09 
 /El
-ItemDisplay[r01s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r01s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Eld
-ItemDisplay[r02s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r02s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Tir
-ItemDisplay[r03s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r03s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Nef
-ItemDisplay[r04s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r04s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Eth
-ItemDisplay[r05s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r05s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Ith
-ItemDisplay[r06s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r06s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Tal 
-ItemDisplay[r07s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r07s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Ral
-ItemDisplay[r08s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r08s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Ort 
-ItemDisplay[r09s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r09s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 
 //Mid Tier: 10-20
 /Thul
-ItemDisplay[r10s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r10s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Amn
-ItemDisplay[r11s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r11s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Sol
-ItemDisplay[r12s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r12s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Shael
-ItemDisplay[r13s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r13s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}
 /Dol
-ItemDisplay[r14s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r14s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Hel
-ItemDisplay[r15s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r15s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Io
-ItemDisplay[r16s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r16s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Lum
-ItemDisplay[r17s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r17s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Ko
-ItemDisplay[r18s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r18s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Fal
-ItemDisplay[r19s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r19s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 /Lem
-ItemDisplay[r20s]: %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r20s]: %RUNENAME% [%WHITE%%QTY%%ORANGE%]{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 
 //High Tier: 21-33
 /Pul
-ItemDisplay[r21s]: %PURPLE% o %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%o{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r21s]: %PURPLE% o %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%o{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Um
-ItemDisplay[r22s]: %PURPLE% oo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r22s]: %PURPLE% oo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Mal
-ItemDisplay[r23s]: %PURPLE% ooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r23s]: %PURPLE% ooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Ist
-ItemDisplay[r24s]: %PURPLE% oooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r24s]: %PURPLE% oooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Gul 
-ItemDisplay[r25s]: %PURPLE% ooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r25s]: %PURPLE% ooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Vex
-ItemDisplay[r26s]: %PURPLE% oooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r26s]: %PURPLE% oooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Ohm
-ItemDisplay[r27s]: %PURPLE% ooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r27s]: %PURPLE% ooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Lo
-ItemDisplay[r28s]: %PURPLE% ooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r28s]: %PURPLE% ooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Sur
-ItemDisplay[r29s]: %PURPLE% ooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r29s]: %PURPLE% ooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Ber
-ItemDisplay[r30s]: %PURPLE% ooooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r30s]: %PURPLE% ooooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Jah
-ItemDisplay[r31s]: %PURPLE% oooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r31s]: %PURPLE% oooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Cham
-ItemDisplay[r32s]: %PURPLE% ooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r32s]: %PURPLE% ooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%ooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 /Zod
-ItemDisplay[r33s]: %PURPLE% oooooooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
+ItemDisplay[r33s]: %PURPLE% oooooooooooooooo %RUNENAME% [%WHITE%%QTY%%ORANGE%] %PURPLE%oooooooooooooooo{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
 
 //CHARMS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -2265,11 +2266,6 @@ ItemDisplay[ubac]: %TAN%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DAR
 ItemDisplay[uba]: %TAN%Relic of the Ancients%MAP%{%TAN%Required to access Uber Ancients}
 
 
-//MISCELLANEOUS
-//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME%
-ItemDisplay[(NORM OR EXC OR ELT) (MAG OR RARE)]: %NAME%
-
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //3. RECYCLING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -2305,5 +2301,7 @@ ItemDisplay[(aqv (NMAG OR MAG OR RARE)) OR cqv]:
 ItemDisplay[key]: 
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
-//Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) NMAG !leg !amu !rin (SOCK=0 OR SOCK=1) CLVL>0]:
+//Hide
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG (SOCK=0 OR SOCK=1) OR MAG) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR crs OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (CIRC OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp)) OR (WEAPON (crs OR mau OR cst OR 7cr OR 9ls OR 7xf OR 7wa OR 7gm OR 7tw)) OR CLASS) !leg !amu !rin  CLVL>0]:
+
+//END
