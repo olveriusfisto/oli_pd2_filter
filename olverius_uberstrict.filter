@@ -58,7 +58,7 @@ ItemDisplay[leg]: %MAP%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP%%GOLD%Book of Skill
 ItemDisplay[tr1]: //%MAP%%GOLD%Horadric Scroll
-ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 11%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
+ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %GREEN%kick.com/olverius-ironfist%NL%%WHITE%Description: %TEAL%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 11%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
 ItemDisplay[vip]: %MAP%%GOLD%Viper Amulet
 ItemDisplay[hst]: %MAP%%GOLD%Horadric Staff
 ItemDisplay[j34]: %MAP%%GOLD%Jade Figurine
@@ -1170,7 +1170,7 @@ ItemDisplay[(amu OR rin) SET !ID]: %NAME%%MAP-7D%
 ItemDisplay[(UNI !ID) cap]: //Biggin's Bonnet
 ItemDisplay[(UNI !ID) xap]: //%ORANGE%oooooo %GOLD%Peasant Crown %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uap]: %ORANGE%oooooooo %GOLD%Harlequin Crest %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[(UNI !ID) skp]: //Tarnhelm
+ItemDisplay[(UNI !ID) skp]: Tarnhelm
 ItemDisplay[(UNI !ID) xkp]: //%ORANGE%oooooo %GOLD%Rockstopper %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) hlm]: //Coif of Glory
 ItemDisplay[(UNI !ID) xlm]: //%ORANGE%oooooo %GOLD%Stealskull %ORANGE%oooooo%MAP-D3%
@@ -1286,7 +1286,7 @@ ItemDisplay[(UNI !ID) ulb]: %TAN%oooooooo %GOLD%Merman's Sprocket %TAN%oooooooo%
 ItemDisplay[(UNI !ID) vbt]: //Gorefoot
 ItemDisplay[(UNI !ID) xvb]: %ORANGE%oooooo %GOLD%Waterwalk %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uvb]: %ORANGE%oooooooo %GOLD%Sandstorm Trek %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[(UNI !ID) mbt]: //Treads of Cthon
+ItemDisplay[(UNI !ID) mbt]: Treads of Cthon
 ItemDisplay[(UNI !ID) xmb]: %ORANGE%oooooo %GOLD%Silkweave %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) umb]: %ORANGE%oooooooo %GOLD%Marrowwalk %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) tbt]: Goblin Toe
