@@ -1939,145 +1939,68 @@ ItemDisplay[NMAG !RW SOR SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%R
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Helms
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW cap]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW skp]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW hlm]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW msk]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW ghm]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW xhm]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW uh9]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW ci3]: %NAME%{%NAME%}
+ItemDisplay[HELM SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Chests
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW uui]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW uea]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW ula]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW utu]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW rng]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW ung]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW ucl]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW brs]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW urs]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW uhn]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW upl]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW ltp]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW xtp]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW utp]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW uld]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW xlt]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW ult]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW uth]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW xul]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW uul]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW xar]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW uar]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[CHEST SOCK>2 !RW]: %NAME%{%NAME%}
 
 //Shields
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW lrg]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW kit]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW uit]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[SHIELD SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Druid Helms
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW dr6]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW dr7]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW dr8]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW dr9]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW dra]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW drf]: %NAME%{%NAME%}
+ItemDisplay[DRU SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Barbarian Helms
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW baa]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW baf]: %NAME%{%NAME%}
+ItemDisplay[BAR SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Paladin Shields
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW pab]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW pac]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW pad]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW pae]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW paf]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[PAL SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Necro Shields
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW ne9]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW nea]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>1 !RW nef]: %NAME%{%NAME%}
+ItemDisplay[NEC SOCK>1 !RW]: %NAME%{%NAME%}
+
 
 //Weapons
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 /Axes
-ItemDisplay[(!INF OR ETH) SOCK>3 !RW 7wa]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[AXE SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Maces
-ItemDisplay[SUP SOCK>3 !RW fla]: %NAME%{%NAME%}
-ItemDisplay[(SUP AND ETH) SOCK>3 !RW 7gm]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[MACE SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Swords
-ItemDisplay[SUP SOCK>3 !RW crs]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[SUP SOCK>3 !RW 7cr]: %NAME%{%NAME%}
-ItemDisplay[(SUP AND ETH) SOCK>3 !RW 72h]: %NAME%{%NAME%}
-ItemDisplay[(SUP AND ETH) SOCK>3 !RW 7gs]: %NAME%{%NAME%}
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7fb]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 9gd]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7gd]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[SWORD SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Spears
-ItemDisplay[(SUP AND ETH) SOCK>3 !RW 7br]: %NAME%{%NAME%}
-ItemDisplay[(SUP AND ETH) SOCK>3 !RW 7p7]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[SPEAR SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Polearms
-ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7o7]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP AND ETH) SOCK>3 !RW vou]: %NAME%{%NAME%}
-ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7vo]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7s8]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7pa]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7h7]: %NAME%{%NAME%}
-ItemDisplay[(!INF AND ETH) SOCK>3 !RW 9wc]: %NAME%{%NAME%}
-ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7wc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[POLEARM SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Bows
-ItemDisplay[SUP SOCK>3 !RW 6l7]: %NAME%{%NAME%}
+ItemDisplay[BOW SOCK>1 !RW]: %NAME%{%NAME%}
 
 //X-bows
-ItemDisplay[SUP SOCK>3 !RW 6hx]: %NAME%{%NAME%}
-ItemDisplay[SUP SOCK>3 !RW 6mx]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[SUP SOCK>3 !RW 6rx]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[XBOW SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Staves
-ItemDisplay[(!INF OR ETH) SOCK>3 !RW cst]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW 6cs]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW 6ws]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[STAFF SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Wands
-ItemDisplay[SUP SOCK>1 !RW 7bw]: %NAME%{%NAME%}
+ItemDisplay[WAND SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Scepters
-ItemDisplay[(!INF OR ETH) SOCK>3 !RW wsp]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[(!INF OR ETH) SOCK>3 !RW 7ws]: %NAME%{%NAME%}
+ItemDisplay[SCEPTER SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Assassin Claws
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW 7ar]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW 7xf]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW 7qr]: %NAME%{%NAME%}
+ItemDisplay[SIN SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Sorc Orbs
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW oba]: %NAME%{%NAME%}
+ItemDisplay[SOR SOCK>1 !RW]: %NAME%{%NAME%}
 
 //Amazon Weapons
-ItemDisplay[SUP SOCK>3 !RW amc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[ZON SOCK>1 !RW]: %NAME%{%NAME%}
 
-//Scepters
-ItemDisplay[(!INF OR ETH) SOCK>3 !RW wsp]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[(!INF OR ETH) SOCK>3 !RW 7ws]: %NAME%{%NAME%}
-
-//Assassin Claws
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW 7ar]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW 7xf]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW 7qr]: %NAME%{%NAME%}
-
-//Sorc Orbs
-ItemDisplay[(!INF OR ETH) SOCK>2 !RW oba]: %NAME%{%NAME%}
-
-//Amazon Weapons
-ItemDisplay[!INF SOCK>3 !RW amc]: %NAME%{%NAME%}%BORDER-1F%
 
 //PROJECT D2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -2305,6 +2228,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide
-ItemDisplay[(NORM OR EXC OR ELT) ((NMAG (SOCK=0 OR SOCK=1)) OR MAG) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR crs OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (ci0 OR ci1 OR ci2 OR ci3 OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp)) OR (WEAPON (crs OR mau OR cst OR bst OR 7cr OR 9ls OR 7wa OR 7gm OR 6cs OR wsp OR wnd OR bwn OR 9bw OR 9gw OR 7bw OR 7gw OR ssp 9ja OR 7ja OR 7gl)) !(MAG (CLASS (DRU OR BAR OR DIN OR NEC OR SIN OR SOR OR ZON))) !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) !(NMAG (ETH OR SUP OR xhm OR 7wa OR ucl OR utp OR crs OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc)) !leg !amu !rin CLVL>0]:
 
 //END
