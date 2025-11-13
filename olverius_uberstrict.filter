@@ -705,28 +705,28 @@ ItemDisplay[skls]: %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
 //Unstacked
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //Low Tier: 01-09 
-ItemDisplay[r01]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%} 
-ItemDisplay[r02]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%} 
-ItemDisplay[r03]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%} 
-ItemDisplay[r04]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%} 
-ItemDisplay[r05]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%} 
-ItemDisplay[r06]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%} 
-ItemDisplay[r07]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%} 
-ItemDisplay[r08]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%} 
-ItemDisplay[r09]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%} 
+ItemDisplay[r01]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%} 
+ItemDisplay[r02]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%} 
+ItemDisplay[r03]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%} 
+ItemDisplay[r04]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%} 
+ItemDisplay[r05]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%} 
+ItemDisplay[r06]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%} 
+ItemDisplay[r07]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%} 
+ItemDisplay[r08]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%} 
+ItemDisplay[r09]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%} 
 
 //Mid Tier: 10-20
-ItemDisplay[r10]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}
-ItemDisplay[r11]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}
-ItemDisplay[r12]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}
-ItemDisplay[r13]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}
-ItemDisplay[r14]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}
-ItemDisplay[r15]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
-ItemDisplay[r16]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
-ItemDisplay[r17]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
-ItemDisplay[r18]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
-ItemDisplay[r19]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
-ItemDisplay[r20]: %RUNENAME%{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r10]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r11]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r12]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r13]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r14]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}
+ItemDisplay[r15]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r16]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r17]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r18]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r19]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
+ItemDisplay[r20]: %RUNENAME% %ORANGE%Rune{%WHITE%Rune Number: %RED%%RUNENUM%}%MAP-0E%
 
 //High Tier: 21-33
 ItemDisplay[r21]: %PURPLE% o %RUNENAME% %ORANGE%Rune %PURPLE%o{%WHITE%Rune Number: %RED%%RUNENUM%}%BORDER-1F%
