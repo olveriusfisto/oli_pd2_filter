@@ -103,7 +103,7 @@ ItemDisplay[hp4 CLVL<45]: %RED%HP %WHITE%great
 ItemDisplay[mp4 CLVL<45]: %BLUE%MP %WHITE%great
 ItemDisplay[hp5 CLVL<70]: %RED%HP %WHITE%super
 ItemDisplay[mp5 CLVL<70]: %BLUE%MP %WHITE%super
-ItemDisplay[rvs]: //%PURPLE%juv %WHITE%35%
+ItemDisplay[rvs CLVL<80]: %PURPLE%juv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
 //Tomes
