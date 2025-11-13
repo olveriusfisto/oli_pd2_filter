@@ -102,8 +102,8 @@ ItemDisplay[hp3 CLVL<25]: %RED%HP
 ItemDisplay[mp3 CLVL<25]: %BLUE%MP
 ItemDisplay[hp4 CLVL<45]: %RED%HP %WHITE%great
 ItemDisplay[mp4 CLVL<45]: %BLUE%MP %WHITE%great
-ItemDisplay[hp5]: //%RED%HP %WHITE%super
-ItemDisplay[mp5]: //%BLUE%MP %WHITE%super
+ItemDisplay[hp5 CLVL<70]: %RED%HP %WHITE%super
+ItemDisplay[mp5 CLVL<70]: %BLUE%MP %WHITE%super
 ItemDisplay[rvs]: %PURPLE%juv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
