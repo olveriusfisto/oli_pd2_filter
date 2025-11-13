@@ -2229,6 +2229,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (ci0 OR ci1 OR ci2 OR ci3 OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp))) !(MAG (WEAPON (crs OR mau OR cst OR bst OR 7cr OR 9ls OR 7wa OR 7gm OR 6cs OR wsp OR wnd OR bwn OR 9bw OR 9gw OR 7bw OR 7gw OR ssp 9ja OR 7ja OR 7gl))) !(MAG (CLASS (dr1 OR dr3 OR ba1 OR ba2 OR ba3 OR 7tw OR 7xf OR dr8 OR ba5 OR 9tw OR 7tw OR drd OR baa OR amc OR ne1 OR ne2 OR ne5 OR ne6 OR nee OR nef))) !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !(NMAG (xhm OR 7wa OR ucl OR utp OR crs OR ((SUP OR ETH) (7vo OR 7s8 OR 7pa OR 7h7 OR 7wc) OR SCEPTER) SOCK=0)) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(MAG (ARMOR (ci0 OR ci1 OR ci2 OR ci3 OR brs OR ltp OR xtp OR xtu OR xng OR uui OR utu OR utp))) !(MAG (WEAPON (crs OR mau OR cst OR bst OR 7cr OR 9ls OR 7wa OR 7gm OR 6cs OR wsp OR wnd OR bwn OR 9bw OR 9gw OR 7bw OR 7gw OR ssp 9ja OR 7ja OR 7gl))) !(MAG (CLASS (dr1 OR dr3 OR ba1 OR ba2 OR ba3 OR 7tw OR 7xf OR dr8 OR ba5 OR 9tw OR 7tw OR drd OR baa OR amc OR ne1 OR ne2 OR ne5 OR ne6 OR nee OR nef))) !leg !amu !rin CLVL>0]:
 
 //END
