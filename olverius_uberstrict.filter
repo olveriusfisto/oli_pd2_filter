@@ -2256,6 +2256,7 @@ ItemDisplay[(hp2 OR mp2) CLVL>14]:
 ItemDisplay[(hp3 OR mp3) CLVL>24]:
 ItemDisplay[(hp4 OR mp4) CLVL>44]:
 ItemDisplay[(hp5 OR mp5) CLVL>69]: 
+ItemDisplay[rvs CLVL>79]:
 ItemDisplay[(yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll) CLVL>9]:
 
 //Gems
