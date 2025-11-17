@@ -1336,7 +1336,7 @@ ItemDisplay[(UNI !ID) baf]: %TAN%oooooooo %GOLD%Raekor's Virtue %TAN%oooooooo%BO
 ItemDisplay[(UNI !ID) pac]: %ORANGE%oooooooo %GOLD%Alma Negra %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) pa3]: //Sankekur's Fall //New
 ItemDisplay[(UNI !ID) pa9]: %ORANGE%oooooo %GOLD%Herald of Zakarum %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) pae]: //%ORANGE%oooooooo %GOLD%Dragonscale %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) pae]: %ORANGE%oooooooo %GOLD%Dragonscale %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) paf]: %TAN%oooooooo %GOLD%Skywarden %TAN%oooooooo%BORDER-D3% //New
 
 //Necro Shields
