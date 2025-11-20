@@ -2009,6 +2009,7 @@ ItemDisplay[(SUP AND ETH) SOCK>3 !RW 7gs]: %NAME%{%NAME%}
 ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7fb]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[(!INF AND ETH) SOCK>3 !RW 9gd]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7gd]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(!INF OR ETH) SOCK>3 !RW 7ls]: %NAME%{%NAME%}%MAP-1F%
 
 //Spears
 ItemDisplay[(SUP AND ETH) SOCK>3 !RW 7br]: //%NAME%{%NAME%}
@@ -2023,6 +2024,7 @@ ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7pa]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[(!INF AND ETH) SOCK>3 !RW 7h7]: %NAME%{%NAME%}
 ItemDisplay[(!INF AND ETH) SOCK>3 !RW 9wc]: %NAME%{%NAME%}
 ItemDisplay[(!INF AND ETH) SOCK>2 !RW 7wc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF OR ETH) SOCK>3 !RW 7br]: %NAME%{%NAME%}%MAP-1F%
 
 //Bows
 ItemDisplay[SUP SOCK>3 !RW 6l7]: %NAME%{%NAME%}
