@@ -2060,7 +2060,7 @@ ItemDisplay[(SUP OR ETH) SOCK>2 !RW cst]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW 6cs]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW 6ws]: %NAME%{%NAME%}%BORDER-1F%
 
-//WORs
+//Wands
 ItemDisplay[SUP SOCK>1 !RW 7bw]: %NAME%{%NAME%}
 
 //Scepters
