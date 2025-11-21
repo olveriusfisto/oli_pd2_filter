@@ -2080,10 +2080,10 @@ ItemDisplay[SOCK>2 !RW 7br]: %NAME%{%NAME%}
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7p7]: %NAME%{%NAME%}%MAP-1F%
 
 //Polearms
-ItemDisplay[(SUP OR ETH) SOCK>1 !RW bar]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>1 !RW vou]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>1 !RW scy]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>1 !RW pax]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW bar]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW vou]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW scy]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW pax]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>1 !RW 9s8]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>1) !RW 7o7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>1) !RW 7vo]: %NAME%{%NAME%}%BORDER-1F%
