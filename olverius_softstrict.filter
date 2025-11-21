@@ -94,17 +94,17 @@ ItemDisplay[tpcl CLVL<10]: %GRAY%freez
 ItemDisplay[tpls CLVL<10]: %GRAY%charg
 ItemDisplay[tplm CLVL<10]: %GRAY%stat
 ItemDisplay[tpll CLVL<10]: %GRAY%shock
-ItemDisplay[hp1 CLVL<5]: %RED%hp %WHITE%minor 
+ItemDisplay[hp1 CLVL<10]: %RED%hp %WHITE%minor 
 ItemDisplay[mp1 CLVL<10]: %BLUE%mp %WHITE%minor
-ItemDisplay[hp2 CLVL<15]: %RED%hp %WHITE%light 
-ItemDisplay[mp2 CLVL<15]: %BLUE%mp %WHITE%light
-ItemDisplay[hp3 CLVL<25]: %RED%HP
-ItemDisplay[mp3 CLVL<25]: %BLUE%MP
-ItemDisplay[hp4 CLVL<45]: %RED%HP %WHITE%great
-ItemDisplay[mp4 CLVL<45]: %BLUE%MP %WHITE%great
-ItemDisplay[hp5 CLVL<70]: %RED%HP %WHITE%super
-ItemDisplay[mp5 CLVL<70]: %BLUE%MP %WHITE%super
-ItemDisplay[rvs]: %PURPLE%juv %WHITE%35%
+ItemDisplay[hp2 CLVL<20]: %RED%hp %WHITE%light 
+ItemDisplay[mp2 CLVL<20]: %BLUE%mp %WHITE%light
+ItemDisplay[hp3 CLVL<40]: %RED%hp %WHITE%regular
+ItemDisplay[mp3 CLVL<40]: %BLUE%mp %WHITE%regular
+ItemDisplay[hp4 CLVL<60]: %RED%HP %WHITE%great
+ItemDisplay[mp4 CLVL<60]: %BLUE%MP %WHITE%great
+ItemDisplay[hp5 CLVL<80]: %RED%HP %WHITE%super
+ItemDisplay[mp5 CLVL<80]: %BLUE%MP %WHITE%super
+ItemDisplay[rvs CLVL<90]: %PURPLE%juv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
 //Tomes
@@ -2275,11 +2275,12 @@ ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME%
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Potions
-ItemDisplay[(hp1 OR mp1) CLVL>4]: 
-ItemDisplay[(hp2 OR mp2) CLVL>14]:
-ItemDisplay[(hp3 OR mp3) CLVL>24]:
-ItemDisplay[(hp4 OR mp4) CLVL>44]:
-ItemDisplay[(hp5 OR mp5) CLVL>69]: 
+ItemDisplay[(hp1 OR mp1) CLVL>9]: 
+ItemDisplay[(hp2 OR mp2) CLVL>19]:
+ItemDisplay[(hp3 OR mp3) CLVL>39]:
+ItemDisplay[(hp4 OR mp4) CLVL>59]:
+ItemDisplay[(hp5 OR mp5) CLVL>79]:
+ItemDisplay[rvs CLVL>89]:
 ItemDisplay[(yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll) CLVL>9]:
 
 //Gems
@@ -2287,8 +2288,8 @@ ItemDisplay[(yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl O
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc OR gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf OR gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku]: 
 
 //Gold
-ItemDisplay[GOLD<100 CLVL<18]:
-ItemDisplay[GOLD<1000 (CLVL>17 AND CLVL<80)]:
+ItemDisplay[GOLD<100 CLVL<20]:
+ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
 
 //Small Charms
