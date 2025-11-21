@@ -1944,6 +1944,8 @@ ItemDisplay[NMAG !RW SOR SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%R
 //Helms
 ItemDisplay[SOCK>1 !RW cap]: %NAME%{%NAME%}
 ItemDisplay[SOCK>1 !RW skp]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW hlm]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW fhl]: %NAME%{%NAME%}
 ItemDisplay[SOCK>1 !RW xap]: %NAME%{%NAME%}
 ItemDisplay[SOCK>1 !RW uap]: %NAME%{%NAME%}
 ItemDisplay[SOCK>1 !RW ghm]: %NAME%{%NAME%}
@@ -1951,8 +1953,12 @@ ItemDisplay[(SOCK=0 OR SOCK>1) !RW xhm]: %NAME%{%NAME%}%BORDER-1F%
 
 //Chests
 ItemDisplay[SOCK>1 !RW qui]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW lea]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW hla]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW stu]: %NAME%{%NAME%}
 ItemDisplay[SOCK>1 !RW rng]: %NAME%{%NAME%}
 ItemDisplay[SOCK>1 !RW scl]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW chn]: %NAME%{%NAME%}
 ItemDisplay[SOCK>1 !RW brs]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW xui]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW uea]: %NAME%{%NAME%}
@@ -1975,6 +1981,16 @@ ItemDisplay[SOCK>2 !RW xul]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW uul]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW xar]: %NAME%{%NAME%}
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW uar]: %NAME%{%NAME%}%BORDER-1F%
+
+//Shields
+ItemDisplay[SOCK>1 !RW buc]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW sml]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW lrg]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW spk]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW kit]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW lrg]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW kit]: %NAME%{%NAME%}
+ItemDisplay[(SOCK=0 OR SOCK>2) !RW uit]: %NAME%{%NAME%}%BORDER-1F%
 
 //Shields
 ItemDisplay[SOCK>2 !RW lrg]: %NAME%{%NAME%}
