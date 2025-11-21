@@ -2008,6 +2008,7 @@ ItemDisplay[SOCK>1 !RW nef]: %NAME%{%NAME%}
 
 //Weapons
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
 /Axes
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7wa]: %NAME%{%NAME%}%BORDER-1F%
 
@@ -2058,14 +2059,24 @@ ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW 6mx]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW 6rx]: %NAME%{%NAME%}%BORDER-1F%
 
 //Staves
+ItemDisplay[(SOCK=0 OR SOCK>1) !RW sst]: %NAME%{%NAME%}
+ItemDisplay[(SOCK=0 OR SOCK>1) !RW lst]: %NAME%{%NAME%}
+ItemDisplay[(SOCK=0 OR SOCK>1) !RW cst]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW cst]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW 6cs]: %NAME%{%NAME%}
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 6ws]: %NAME%{%NAME%}%BORDER-1F%
 
 //Wands
-ItemDisplay[SUP SOCK>1 !RW 7bw]: %NAME%{%NAME%}
+ItemDisplay[SOCK=0 !RW wnd]: %NAME%{%NAME%}
+ItemDisplay[SOCK=0 !RW ywn]: %NAME%{%NAME%}
+ItemDisplay[SOCK=0 !RW bwn]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW gwn]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW 9yw]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW 7bw]: %NAME%{%NAME%}
 
 //Scepters
+ItemDisplay[(SOCK=0 OR SOCK>1) !RW scp]: %NAME%{%NAME%}
+ItemDisplay[(SOCK=0 OR SOCK>1) !RW gsc]: %NAME%{%NAME%}
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW wsp]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[SOCK>2 !RW 7ws]: %NAME%{%NAME%}
 
