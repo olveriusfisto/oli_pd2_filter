@@ -2066,8 +2066,6 @@ ItemDisplay[SUP SOCK>1 !RW 9yw]: %NAME%{%NAME%}
 ItemDisplay[SUP SOCK>1 !RW 7bw]: %NAME%{%NAME%}
 
 //Scepters
-ItemDisplay[SUP (SOCK=0 OR SOCK>1) !RW scp]: %NAME%{%NAME%}
-ItemDisplay[SUP (SOCK=0 OR SOCK>1) !RW gsc]: %NAME%{%NAME%}
 ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW wsp]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[SUP SOCK>2 !RW 7ws]: %NAME%{%NAME%}
 
