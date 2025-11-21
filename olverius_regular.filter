@@ -822,7 +822,7 @@ ItemDisplay[r33s]: %PURPLE% oooooooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QT
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 ItemDisplay[cm1 !UNI !ID]: %TEAL%Small Charm
-ItemDisplay[cm2 !UNI !ID]: //%TEAL%Large Charm
+ItemDisplay[cm2 !UNI !ID]: %TEAL%Large Charm
 ItemDisplay[cm3 !UNI !ID]: %TEAL%Grand Charm%MAP-9F%
 
 //Small Charms
@@ -920,9 +920,9 @@ ItemDisplay[cm3 !UNI FRW>6]: %ORANGE%frw %STAT96% %GRAY%Grand Charm{%TAN%Reroll 
 //Part 2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[cm3 MAXDMG>8]: %TAN%max dmg %MAXDMG% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %PURPLE%res %RES% %RED%life %STAT7% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND FRW>0)]: %PURPLE%res %RES% %ORANGE%frw %STAT96% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND FHR>0)]: %PURPLE%res %RES% %ORANGE%fhr %FHR% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %RED%life %STAT7% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 (RES>7 AND FRW>0)]: %ORANGE%frw %STAT96% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 (RES>7 AND FHR>0)]: %ORANGE%fhr %FHR% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 RES>9]: %PURPLE%res %RES% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 //Skillers
