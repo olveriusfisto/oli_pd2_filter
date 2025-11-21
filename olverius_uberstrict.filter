@@ -820,7 +820,7 @@ ItemDisplay[r33s]: %PURPLE% oooooooooooooooo %RUNENAME% %ORANGE%Rune [%WHITE%%QT
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 ItemDisplay[cm1 !UNI !ID]: %TEAL%Small Charm
-ItemDisplay[cm2 !UNI !ID]: //%TEAL%Large Charm
+ItemDisplay[cm2 !UNI !ID]: %TEAL%Large Charm
 ItemDisplay[cm3 !UNI !ID]: %TEAL%Grand Charm%MAP-9F%
 
 //Small Charms
@@ -918,9 +918,9 @@ ItemDisplay[cm3 !UNI FRW>6]: %ORANGE%frw %STAT96% %GRAY%Grand Charm{%TAN%Reroll 
 //Part 2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[cm3 MAXDMG>8]: %TAN%max dmg %MAXDMG% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %PURPLE%res %RES% %RED%life %STAT7% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND FRW>0)]: %PURPLE%res %RES% %ORANGE%frw %STAT96% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND FHR>0)]: %PURPLE%res %RES% %ORANGE%fhr %FHR% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %RED%life %STAT7% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 (RES>7 AND FRW>0)]: %ORANGE%frw %STAT96% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm3 (RES>7 AND FHR>0)]: %ORANGE%fhr %FHR% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 RES>9]: %PURPLE%res %RES% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 //Skillers
@@ -2285,6 +2285,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(NMAG (!INF AND ETH) (xhm OR 7wa OR ucl OR utp OR 7vo OR 7s8 OR 7pa OR 7wc) SOCK=0) !(NMAG (SUP (6mx OR uit) SOCK=0)) !(RARE (ARMOR (CIRC OR (CHEST (ucl OR utp OR uar OR uui OR utu)) OR (GLOVES (uvg OR xvg OR vgl)) OR (BELT (uvc OR umc OR zvb OR zmb)) OR (BOOTS (utb OR ulb OR xvb OR xtb))))) !(RARE (WEAPON (7m7 OR 7gm OR 7wd OR 7gs OR crs OR 7cr OR gix OR 9ax OR 72a OR 7la OR 9m9 OR 9ma OR wsc OR bwn OR 7gw OR wsp OR 7ws OR 7p7 OR 8s8 OR mxb))) !(RARE (CLASS ((DRU (dr6 OR dr7 OR dr8)) OR (NEC (nea OR nee OR nef)) OR (DIN (pab OR pac OR pad OR pae OR paf)) OR (BAR (ba1 OR ba7 OR ba8)) OR (SIN (7xf OR 7cs OR 7lw OR 7qr)) OR (SOR (oba OR obf)) OR (ZON (am7 OR amb OR ame OR amf))))) !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(RARE (ARMOR (CIRC OR (CHEST (ucl OR utp OR uar OR uui OR utu)) OR (GLOVES (uvg OR xvg OR vgl)) OR (BELT (uvc OR umc OR zvb OR zmb)) OR (BOOTS (utb OR ulb OR xvb OR xtb))))) !(RARE (WEAPON (7m7 OR 7gm OR 7wd OR 7gs OR crs OR 7cr OR gix OR 9ax OR 72a OR 7la OR 9m9 OR 9ma OR wsc OR bwn OR 7gw OR wsp OR 7ws OR 7p7 OR 8s8 OR mxb))) !(RARE (CLASS ((DRU (dr6 OR dr7 OR dr8)) OR (NEC (nea OR nee OR nef)) OR (DIN (pab OR pac OR pad OR pae OR paf)) OR (BAR (ba1 OR ba7 OR ba8)) OR (SIN (7xf OR 7cs OR 7lw OR 7qr)) OR (SOR (oba OR obf)) OR (ZON (am7 OR amb OR ame OR amf))))) !leg !amu !rin CLVL>0]:
 
 //END
