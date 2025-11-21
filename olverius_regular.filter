@@ -1992,11 +1992,6 @@ ItemDisplay[SOCK>2 !RW lrg]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW kit]: %NAME%{%NAME%}
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW uit]: %NAME%{%NAME%}%BORDER-1F%
 
-//Shields
-ItemDisplay[SOCK>2 !RW lrg]: %NAME%{%NAME%}
-ItemDisplay[SOCK>2 !RW kit]: %NAME%{%NAME%}
-ItemDisplay[(SOCK=0 OR SOCK>2) !RW uit]: %NAME%{%NAME%}%BORDER-1F%
-
 //Druid Helms
 ItemDisplay[SOCK>1 !RW dr6]: %NAME%{%NAME%}
 ItemDisplay[SOCK>1 !RW dr7]: %NAME%{%NAME%}
@@ -2026,17 +2021,36 @@ ItemDisplay[SOCK>1 !RW nef]: %NAME%{%NAME%}
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 /Axes
+ItemDisplay[SOCK>2 !RW hax]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW axe]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW 2ax]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW mpi]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW wax]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW lax]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW bax]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW btx]: %NAME%{%NAME%}
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7wa]: %NAME%{%NAME%}%BORDER-1F%
 
 //Maces
-ItemDisplay[SUP SOCK>2 !RW fla]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW clb]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW spc]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW mac]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW mst]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW fla]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW whm]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW 7ma]: %NAME%{%NAME%}
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7gm]: %NAME%{%NAME%}%MAP-1F%
 
 //Swords
-ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW crs]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[SOCK>2 !RW ssd]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW scm]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW sbr]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW flc]: %NAME%{%NAME%}
+ItemDisplay[(SOCK=0 OR SOCK>2) !RW crs]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[SOCK>2 !RW bsd]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW lsd]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW 9cr]: %NAME%{%NAME%}
-ItemDisplay[SUP SOCK>2 !RW 7cr]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW 7cr]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW 72h]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW 7gs]: %NAME%{%NAME%}
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7fb]: %NAME%{%NAME%}%MAP-1F%
@@ -2044,7 +2058,24 @@ ItemDisplay[(SOCK=0 OR SOCK>2) !RW 9gd]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7ls]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7gd]: %NAME%{%NAME%}%MAP-1F%
 
+//Daggers
+ItemDisplay[SOCK>1 !RW dgr]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW dir]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW kri]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW bld]: %NAME%{%NAME%}
+
+//Throwing Axes & Throwing Knives
+ItemDisplay[SOCK>1 !RW tkf]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW tax]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW bkf]: %NAME%{%NAME%}
+ItemDisplay[SOCK>1 !RW bal]: %NAME%{%NAME%}
+
 //Spears
+ItemDisplay[SOCK>2 !RW spr]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW tri]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW brn]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW spt]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW pik]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW 7br]: %NAME%{%NAME%}
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7p7]: %NAME%{%NAME%}%MAP-1F%
 
@@ -2062,17 +2093,22 @@ ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7wc]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[(SOCK=0 OR SOCK>2) !RW 7br]: %NAME%{%NAME%}%MAP-1F%
 
 //Bows
-ItemDisplay[SUP SOCK>2 !RW hbw]: %NAME%{%NAME%}
-ItemDisplay[SUP SOCK>2 !RW lbw]: %NAME%{%NAME%}
-ItemDisplay[SUP SOCK>2 !RW 6lb]: %NAME%{%NAME%}
-ItemDisplay[SUP SOCK>2 !RW 6l7]: %NAME%{%NAME%}
-ItemDisplay[SUP SOCK>2 !RW 8lw]: %NAME%{%NAME%}
-ItemDisplay[SUP SOCK>2 !RW 6sw]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW sbw]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW hbw]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW lbw]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW cbw]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW sbb]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW lbb]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW 6lb]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW 6l7]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW 8lw]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW 6sw]: %NAME%{%NAME%}
 
 //X-bows
-ItemDisplay[SUP SOCK>2 !RW 6hx]: %NAME%{%NAME%}
-ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW 6mx]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW 6rx]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[SOCK>2 !RW lxb]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW 6hx]: %NAME%{%NAME%}
+ItemDisplay[(SOCK=0 OR SOCK>2) !RW 6mx]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SOCK=0 OR SOCK>2) !RW 6rx]: %NAME%{%NAME%}%BORDER-1F%
 
 //Staves
 ItemDisplay[(SOCK=0 OR SOCK>1) !RW sst]: %NAME%{%NAME%}
@@ -2097,6 +2133,9 @@ ItemDisplay[(SOCK=0 OR SOCK>2) !RW wsp]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[SOCK>2 !RW 7ws]: %NAME%{%NAME%}
 
 //Assassin Claws
+ItemDisplay[SOCK>2 !RW ktr]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW wrb]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW axf]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW 7ar]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW 7xf]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW 7qr]: %NAME%{%NAME%}
@@ -2105,7 +2144,10 @@ ItemDisplay[SOCK>2 !RW 7qr]: %NAME%{%NAME%}
 ItemDisplay[SOCK>2 !RW oba]: %NAME%{%NAME%}
 
 //Amazon Weapons
-ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW amc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[SOCK>2 !RW am1]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW am2]: %NAME%{%NAME%}
+ItemDisplay[SOCK>2 !RW am3]: %NAME%{%NAME%}
+ItemDisplay[(SOCK=0 OR SOCK>2) !RW amc]: %NAME%{%NAME%}%BORDER-1F%
 
 
 //PROJECT D2
