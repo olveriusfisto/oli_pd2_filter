@@ -2056,16 +2056,20 @@ ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW 6mx]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW 6rx]: %NAME%{%NAME%}%BORDER-1F%
 
 //Staves
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW cst]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW 6cs]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW 6ws]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[SUP SOCK>2 !RW cst]: %NAME%{%NAME%}
+ItemDisplay[SUP SOCK>2 !RW 6cs]: %NAME%{%NAME%}
+ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW 6ws]: %NAME%{%NAME%}%BORDER-1F%
 
 //Wands
+ItemDisplay[SUP SOCK>1 !RW gwn]: %NAME%{%NAME%}
+ItemDisplay[SUP SOCK>1 !RW 9yw]: %NAME%{%NAME%}
 ItemDisplay[SUP SOCK>1 !RW 7bw]: %NAME%{%NAME%}
 
 //Scepters
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW wsp]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7ws]: %NAME%{%NAME%}
+ItemDisplay[SUP (SOCK=0 OR SOCK>1) !RW scp]: %NAME%{%NAME%}
+ItemDisplay[SUP (SOCK=0 OR SOCK>1) !RW gsc]: %NAME%{%NAME%}
+ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW wsp]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[SUP SOCK>2 !RW 7ws]: %NAME%{%NAME%}
 
 //Assassin Claws
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7ar]: %NAME%{%NAME%}
