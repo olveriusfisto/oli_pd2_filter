@@ -1943,30 +1943,30 @@ ItemDisplay[(SUP OR ETH) SOCK>2 !RW ghm]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW xhm]: %NAME%{%NAME%}%BORDER-1F%
 
 //Chests
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xui]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uea]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW ula]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW utu]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW rng]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xui]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uea]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW ula]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW utu]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW rng]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW uui]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW ung]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW ucl]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW urs]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uhn]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW upl]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xtp]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW utp]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uld]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xlt]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW ult]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uth]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xul]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uul]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xar]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uar]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW ung]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW ucl]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW urs]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uhn]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW upl]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xtp]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW utp]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uld]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xlt]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW ult]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uth]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xul]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uul]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xar]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uar]: %NAME%{%NAME%}%BORDER-1F%
 
 //Shields
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uit]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uit]: %NAME%{%NAME%}%BORDER-1F%
 
 //Druid Helms
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW dr6]: %NAME%{%NAME%}
@@ -2020,15 +2020,15 @@ ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7p7]: %NAME%{%NAME%}%MAP-1F%
 
 //Polearms
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW 9s8]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7o7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7o7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW vou]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7vo]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7s8]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7pa]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7vo]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7s8]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7pa]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7h7]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW 9wc]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7wc]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7br]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7wc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7br]: %NAME%{%NAME%}%MAP-1F%
 
 //Bows
 ItemDisplay[SUP SOCK>3 !RW 6lb]: %NAME%{%NAME%}
@@ -2043,14 +2043,14 @@ ItemDisplay[SUP SOCK>3 !RW 6rx]: %NAME%{%NAME%}%BORDER-1F%
 
 //Staves
 ItemDisplay[SUP SOCK>2 !RW 6cs]: %NAME%{%NAME%}
-ItemDisplay[SUP SOCK>3 !RW 6ws]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[SUP SOCK>2 !RW 6ws]: %NAME%{%NAME%}%BORDER-1F%
 
 //Wands
 ItemDisplay[SUP SOCK>1 !RW 9yw]: %NAME%{%NAME%}
 ItemDisplay[SUP SOCK>1 !RW 7bw]: %NAME%{%NAME%}
 
 //Scepters
-ItemDisplay[SUP SOCK>3 !RW wsp]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[SUP SOCK>2 !RW wsp]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[SUP SOCK>2 !RW 7ws]: %NAME%{%NAME%}
 
 //Assassin Claws
