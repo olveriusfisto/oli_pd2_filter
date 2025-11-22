@@ -1938,18 +1938,10 @@ ItemDisplay[NMAG !RW SOR SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%R
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Helms
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW cap]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW skp]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW xap]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW uap]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW ghm]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW xhm]: %NAME%{%NAME%}%BORDER-1F%
 
 //Chests
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW qui]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW rng]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW scl]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>2 !RW brs]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW xui]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW uea]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW ula]: %NAME%{%NAME%}
@@ -2028,7 +2020,6 @@ ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW 7br]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW 7p7]: %NAME%{%NAME%}%MAP-1F%
 
 //Polearms
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW bar]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW 9s8]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW 7o7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW vou]: %NAME%{%NAME%}
@@ -2041,8 +2032,6 @@ ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW 7wc]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW 7br]: %NAME%{%NAME%}%MAP-1F%
 
 //Bows
-ItemDisplay[SUP SOCK>3 !RW hbw]: %NAME%{%NAME%}
-ItemDisplay[SUP SOCK>3 !RW lbw]: %NAME%{%NAME%}
 ItemDisplay[SUP SOCK>3 !RW 6lb]: %NAME%{%NAME%}
 ItemDisplay[SUP SOCK>3 !RW 6l7]: %NAME%{%NAME%}
 ItemDisplay[SUP SOCK>3 !RW 8lw]: %NAME%{%NAME%}
@@ -2054,12 +2043,10 @@ ItemDisplay[SUP (SOCK=0 OR SOCK>3) !RW 6mx]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[SUP (SOCK=0 OR SOCK>3) !RW 6rx]: %NAME%{%NAME%}%BORDER-1F%
 
 //Staves
-ItemDisplay[SUP SOCK>2 !RW cst]: %NAME%{%NAME%}
 ItemDisplay[SUP SOCK>2 !RW 6cs]: %NAME%{%NAME%}
 ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW 6ws]: %NAME%{%NAME%}%BORDER-1F%
 
 //Wands
-ItemDisplay[SUP SOCK>1 !RW gwn]: %NAME%{%NAME%}
 ItemDisplay[SUP SOCK>1 !RW 9yw]: %NAME%{%NAME%}
 ItemDisplay[SUP SOCK>1 !RW 7bw]: %NAME%{%NAME%}
 
