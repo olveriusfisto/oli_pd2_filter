@@ -1942,30 +1942,30 @@ ItemDisplay[(SUP OR ETH) SOCK>2 !RW ghm]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW xhm]: %NAME%{%NAME%}%BORDER-1F%
 
 //Chests
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xui]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uea]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW ula]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW utu]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW rng]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xui]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uea]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW ula]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW utu]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW rng]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW uui]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW ung]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW ucl]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW urs]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uhn]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW upl]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xtp]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW utp]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uld]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xlt]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW ult]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uth]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xul]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW uul]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW xar]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW uar]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW ung]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW ucl]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW urs]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uhn]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW upl]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xtp]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW utp]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uld]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xlt]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW ult]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uth]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xul]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW uul]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW xar]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW uar]: %NAME%{%NAME%}%BORDER-1F%
 
 //Shields
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW uit]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW uit]: %NAME%{%NAME%}%BORDER-1F%
 
 //Druid Helms
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW dr6]: %NAME%{%NAME%}
@@ -1981,11 +1981,11 @@ ItemDisplay[(SUP OR ETH) SOCK>2 !RW baf]: %NAME%{%NAME%}
 
 //Paladin Shields
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW pa7]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW pab]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW pac]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW pad]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW pae]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW paf]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW pab]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW pac]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW pad]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW pae]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW paf]: %NAME%{%NAME%}%BORDER-1F%
 
 //Necro Shields
 ItemDisplay[(SUP OR ETH) SOCK>2 !RW ne9]: %NAME%{%NAME%}
@@ -2014,8 +2014,8 @@ ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW 7ls]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW 7gd]: %NAME%{%NAME%}%MAP-1F%
 
 //Spears
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW 7br]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW 7p7]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW 7br]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) !RW 7p7]: %NAME%{%NAME%}%MAP-1F%
 
 //Polearms
 ItemDisplay[(SUP OR ETH) SOCK>3 !RW 9s8]: %NAME%{%NAME%}
@@ -2053,9 +2053,9 @@ ItemDisplay[SUP (SOCK=0 OR SOCK>2) !RW wsp]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[SUP SOCK>2 !RW 7ws]: %NAME%{%NAME%}
 
 //Assassin Claws
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7ar]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7xf]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW 7qr]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7ar]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7xf]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 !RW 7qr]: %NAME%{%NAME%}
 
 //Sorc Orbs
 ItemDisplay[(SUP OR ETH) SOCK>1 !RW oba]: %NAME%{%NAME%}
