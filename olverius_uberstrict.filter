@@ -1965,8 +1965,6 @@ ItemDisplay[(SUP OR ETH) SOCK>3 !RW xar]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW uar]: %NAME%{%NAME%}%BORDER-1F%
 
 //Shields
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW lrg]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) SOCK>3 !RW kit]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>3) !RW uit]: %NAME%{%NAME%}%BORDER-1F%
 
 //Druid Helms
