@@ -131,8 +131,8 @@ ItemDisplay[(NMAG OR MAG OR RARE) rin]: Ring%CONTINUE%
 ItemDisplay[jew UNI ID]: %GOLD%Rainbow Facet%CONTINUE%
 
 //Arrows and Bolts
-ItemDisplay[(NMAG OR MAG OR RARE) aqv]: Arrows%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) cqv]: Bolts%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE OR UNI) aqv]: Arrows%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE OR UNI) cqv]: Bolts%CONTINUE%
 
 //Armors
 ItemDisplay[(NMAG OR MAG OR RARE) !RW cap]: Cap%CONTINUE%
@@ -2058,11 +2058,10 @@ ItemDisplay[(!INF OR ETH) NMAG SOCK>2 7xf]: %NAME%{%NAME%}
 ItemDisplay[(!INF OR ETH) NMAG SOCK>2 7qr]: %NAME%{%NAME%}
 
 //Sorc Orbs
-ItemDisplay[(!INF OR ETH) NMAG  SOCK>1 oba]: %NAME%{%NAME%}
+ItemDisplay[!INF NMAG SOCK>1 oba]: %NAME%{%NAME%}
 
 //Amazon Weapons
 ItemDisplay[!INF (SOCK=0 OR SOCK>3) NMAG amc]: %NAME%{%NAME%}%BORDER-1F%
-
 
 
 //PROJECT D2
