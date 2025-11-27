@@ -2049,6 +2049,9 @@ ItemDisplay[NMAG SOCK>2 flc]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) crs]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[NMAG SOCK>2 bsd]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 lsd]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 2hs]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 gis]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 bsw]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9cr]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7cr]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 72h]: %NAME%{%NAME%}
