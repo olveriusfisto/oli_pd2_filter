@@ -2005,6 +2005,8 @@ ItemDisplay[NMAG SOCK>1 baa]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 baf]: %NAME%{%NAME%}
 
 //Paladin Shields
+ItemDisplay[NMAG SOCK>1 pa1]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa2]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 pa7]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) pab]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) pac]: %NAME%{%NAME%}%BORDER-1F%
