@@ -58,7 +58,7 @@ ItemDisplay[leg]: %MAP%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP%%GOLD%Book of Skill
 ItemDisplay[tr1]: //%MAP%%GOLD%Horadric Scroll
-ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 11%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
+ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 12%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
 ItemDisplay[hst]: %MAP%%GOLD%Horadric Staff
 ItemDisplay[j34]: %MAP%%GOLD%Jade Figurine
 ItemDisplay[g34]: %MAP%%GOLD%Golden Bird
@@ -982,6 +982,10 @@ ItemDisplay[(cm1 OR cm2) UNI RES>0]: %NAME% %PURPLE%res %RES%%CONTINUE%
 ItemDisplay[cm1 UNI STAT85>0]: %NAME% %WHITE%xp %STAT85%%CONTINUE%
 ItemDisplay[cm3 UNI MFIND>0]: %BLUE%mf %MFIND% %NAME%%CONTINUE%
 
+//QUIVERS
+//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[(aqv OR cqv) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-1F%
+
 //JEWELS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
@@ -1510,6 +1514,7 @@ ItemDisplay[(UNI !ID) 8sb]: //%ORANGE%oooooo %GOLD%Skystrike %ORANGE%oooooo%MAP-
 ItemDisplay[(UNI !ID) hbw]: //Witherstring
 ItemDisplay[(UNI !ID) 8hb]: //%ORANGE%oooooo %GOLD%Riphook %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) lbw]: //Raven Claw
+ItemDisplay[(UNI !ID) 6hb]: %TAN%oooooooo %GOLD%Crackleshot %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) 8lb]: //%ORANGE%oooooo %GOLD%Kuko Shakaku %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) cbw]: //Rogue's Bow
 ItemDisplay[(UNI !ID) 8cb]: %ORANGE%oooooo %GOLD%Endlesshail %ORANGE%oooooo%MAP-D3%
@@ -1603,6 +1608,11 @@ ItemDisplay[(UNI !ID) am5]: //True Silver //New
 ItemDisplay[(UNI !ID) ama]: //%ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) amf]: //%ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%oooooooo%BORDER-D3%
 
+//Quiver
+ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Tombsong / Swiftwind Needle  %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Shatterhead / Anvilguard  %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call  %TAN%oooooooo%BORDER-D3% //New
 
 //SET
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1786,20 +1796,20 @@ ItemDisplay[WEAPON (MAG OR ELT (MAG OR RARE)) ID]: %NAME% %ORANGE%(c){%GREEN%pdr
 
 //UPGRADING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
-ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Pul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
+ItemDisplay[(ARMOR OR QUIVER) NORM RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
+ItemDisplay[(ARMOR OR QUIVER) EXC RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Pul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ort%WHITE% + %ORANGE%Amn%WHITE% + Perf %BLUE%Sapphire%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Fal%WHITE% + %ORANGE%Um%WHITE% + Perf %BLUE%Sapphire%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%Item%WHITE% + %ORANGE%Tal%WHITE% + %ORANGE%Shael%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Lem%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Sol%WHITE% + Perf %GREEN%Emerald%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%Item%WHITE% + %ORANGE%Lum%WHITE% + %ORANGE%Pul%WHITE% + Perf %GREEN%Emerald%NL%%TAN%Upgrade Recipe%WHITE%:}
-ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Tal%WHITE% + %ORANGE%Shael%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
-ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Lem%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
+ItemDisplay[(ARMOR OR QUIVER) NORM UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Tal%WHITE% + %ORANGE%Shael%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
+ItemDisplay[(ARMOR OR QUIVER) EXC UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Lem%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Sol%WHITE% + Perf %GREEN%Emerald%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Lum%WHITE% + %ORANGE%Pul%WHITE% + Perf %GREEN%Emerald%NL%%TAN%Upgrade Recipe%WHITE%:}
-ItemDisplay[ARMOR NORM CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
-ItemDisplay[ARMOR EXC CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Pul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
+ItemDisplay[(ARMOR OR QUIVER) NORM CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
+ItemDisplay[(ARMOR OR QUIVER) EXC CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Pul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ort%WHITE% + %ORANGE%Amn%WHITE% + Perf %BLUE%Sapphire%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Fal%WHITE% + %ORANGE%Um%WHITE% + Perf %BLUE%Sapphire%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 
@@ -1886,7 +1896,7 @@ ItemDisplay[NMAG !RW DAGGER SOCK=2]: %NAME%{%RED%Wind %GRAY%Sur + El%NL%%GOLD%St
 ItemDisplay[NMAG !RW DAGGER SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //Throwing Weapons
-ItemDisplay[NMAG !RW THROWING SOCK=2]: %NAME%{%GOLD%Zephyr %GRAY%Ort + Eth%NL%%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
+ItemDisplay[NMAG !RW THROWING SOCK=2]: %NAME%{%GOLD%Zephyr %GRAY%Ort + Eth%NL%%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%GOLD%Echo %GRAY% Sol + Dol%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[NMAG !RW THROWING SOCK=3]: %NAME%{%RED%Plague %GRAY%Cham + Fal + Um%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%GOLD%Crescent Moon %GRAY%Shael + Im + Tir%NL%%GOLD%Lawbringer %GRAY%Amn + Lem + Ko%NL%%GOLD%Kings Grace %GRAY%Amn + Ral + Thul%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //Spears, Polearms
@@ -1930,6 +1940,8 @@ ItemDisplay[NMAG !RW SIN SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%R
 ItemDisplay[NMAG !RW SOR SOCK=2]: %NAME%{%GOLD%Neophyte %GRAY%Thul + Tir%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[NMAG !RW SOR SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
+//Quivers
+ItemDisplay[NMAG !RW QUIVER SOCK=2]: %NAME%{%GOLD%Echo %GRAY% Sol + Dol%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //BASES FOR RUNEWORDS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
