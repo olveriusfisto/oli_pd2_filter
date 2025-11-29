@@ -58,7 +58,7 @@ ItemDisplay[leg]: %MAP%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP%%GOLD%Book of Skill
 ItemDisplay[tr1]: //%MAP%%GOLD%Horadric Scroll
-ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 11%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
+ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 12%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
 ItemDisplay[msf]: %MAP%%GOLD%Staff of Kings
 ItemDisplay[vip]: %MAP%%GOLD%Viper Amulet
 ItemDisplay[hst]: %MAP%%GOLD%Horadric Staff
@@ -984,15 +984,15 @@ ItemDisplay[(cm1 OR cm2) UNI RES>0]: %NAME% %PURPLE%res %RES%%CONTINUE%
 ItemDisplay[cm1 UNI STAT85>0]: %NAME% %WHITE%xp %STAT85%%CONTINUE%
 ItemDisplay[cm3 UNI MFIND>0]: %BLUE%mf %MFIND% %NAME%%CONTINUE%
 
+//QUIVERS
+//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[(aqv OR cqv) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-1F%
+
 //JEWELS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 ItemDisplay[jew (MAG OR RARE) !ID]: %BLUE%%NAME%%MAP-1F%
 ItemDisplay[jew UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-1F%
-
-//QUIVERS
-//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[(aqv OR cqv) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-1F%
 
 Part 1
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1613,6 +1613,12 @@ ItemDisplay[(UNI !ID) am5]: True Silver //New
 ItemDisplay[(UNI !ID) ama]: %ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) amf]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%oooooooo%BORDER-D3%
 
+//Quiver
+ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Tombsong / Swiftwind Needle  %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Shatterhead / Anvilguard  %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call  %TAN%oooooooo%BORDER-D3% //New
+
 
 //SET
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1779,14 +1785,6 @@ ItemDisplay[(SET !ID) oba]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Lidless Eye %DA
 //Amazon Weapons
 ItemDisplay[(SET !ID) amc]: %DARK_GREEN%ooooo %GREEN%M'avina's Caster %DARK_GREEN%ooooo%MAP-7D%
 
-//QUIVER
-//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Tombsong / Swiftwind Needle  %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Shatterhead / Anvilguard  %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call  %TAN%oooooooo%BORDER-D3% //New
-
 
 //CRAFTING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1905,7 +1903,7 @@ ItemDisplay[NMAG !RW DAGGER SOCK=2]: %NAME%{%RED%Wind %GRAY%Sur + El%NL%%GOLD%St
 ItemDisplay[NMAG !RW DAGGER SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //Throwing Weapons
-ItemDisplay[NMAG !RW THROWING SOCK=2]: %NAME%{%GOLD%Zephyr %GRAY%Ort + Eth%NL%%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
+ItemDisplay[NMAG !RW THROWING SOCK=2]: %NAME%{%GOLD%Zephyr %GRAY%Ort + Eth%NL%%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%GOLD%Echo %GRAY% Sol + Dol%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[NMAG !RW THROWING SOCK=3]: %NAME%{%RED%Plague %GRAY%Cham + Fal + Um%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%GOLD%Crescent Moon %GRAY%Shael + Im + Tir%NL%%GOLD%Lawbringer %GRAY%Amn + Lem + Ko%NL%%GOLD%Kings Grace %GRAY%Amn + Ral + Thul%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //Spears, Polearms
@@ -1948,6 +1946,9 @@ ItemDisplay[NMAG !RW SIN SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%R
 //Sorc Orbs
 ItemDisplay[NMAG !RW SOR SOCK=2]: %NAME%{%GOLD%Neophyte %GRAY%Thul + Tir%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[NMAG !RW SOR SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
+
+//Quivers
+ItemDisplay[NMAG !RW QUIVER SOCK=2]: %NAME%{%GOLD%Echo %GRAY% Sol + Dol%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //BASES FOR RUNEWORDS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
