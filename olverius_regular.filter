@@ -990,6 +990,10 @@ ItemDisplay[cm3 UNI MFIND>0]: %BLUE%mf %MFIND% %NAME%%CONTINUE%
 ItemDisplay[jew (MAG OR RARE) !ID]: %BLUE%%NAME%%MAP-1F%
 ItemDisplay[jew UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-1F%
 
+//QUIVERS
+//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[(aqv OR cqv) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-1F%
+
 Part 1
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[jew MAG]: %GRAY%Jewel{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
@@ -1516,6 +1520,7 @@ ItemDisplay[(UNI !ID) hbw]: Witherstring
 ItemDisplay[(UNI !ID) 8hb]: %ORANGE%oooooo %GOLD%Riphook %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) lbw]: Raven Claw
 ItemDisplay[(UNI !ID) 8lb]: %ORANGE%oooooo %GOLD%Kuko Shakaku %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 6hb]: %TAN%oooooooo %GOLD%Crackleshot %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) cbw]: Rogue's Bow
 ItemDisplay[(UNI !ID) 8cb]: %ORANGE%oooooo %GOLD%Endlesshail %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) sbb]: Stormstrike
@@ -1774,6 +1779,15 @@ ItemDisplay[(SET !ID) oba]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Lidless Eye %DA
 //Amazon Weapons
 ItemDisplay[(SET !ID) amc]: %DARK_GREEN%ooooo %GREEN%M'avina's Caster %DARK_GREEN%ooooo%MAP-7D%
 
+//QUIVER
+//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Tombsong / Swiftwind Needle  %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Shatterhead / Anvilguard  %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call  %TAN%oooooooo%BORDER-D3% //New
+
+
 //CRAFTING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
@@ -1791,20 +1805,20 @@ ItemDisplay[WEAPON (MAG OR ELT (MAG OR RARE)) ID]: %NAME% %ORANGE%(c){%GREEN%pdr
 
 //UPGRADING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
-ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Pul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
+ItemDisplay[(ARMOR OR QUIVER) NORM RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
+ItemDisplay[(ARMOR OR QUIVER) EXC RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Pul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Ort%WHITE% + %ORANGE%Amn%WHITE% + Perf %BLUE%Sapphire%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%YELLOW%Item%WHITE% + %ORANGE%Fal%WHITE% + %ORANGE%Um%WHITE% + Perf %BLUE%Sapphire%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%Item%WHITE% + %ORANGE%Tal%WHITE% + %ORANGE%Shael%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Lem%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Sol%WHITE% + Perf %GREEN%Emerald%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%Item%WHITE% + %ORANGE%Lum%WHITE% + %ORANGE%Pul%WHITE% + Perf %GREEN%Emerald%NL%%TAN%Upgrade Recipe%WHITE%:}
-ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Tal%WHITE% + %ORANGE%Shael%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
-ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Lem%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
+ItemDisplay[(ARMOR OR QUIVER) NORM UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Tal%WHITE% + %ORANGE%Shael%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
+ItemDisplay[(ARMOR OR QUIVER) EXC UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Lem%WHITE% + Perf %WHITE%Diamond%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Sol%WHITE% + Perf %GREEN%Emerald%NL%%TAN%Upgrade Recipe%WHITE%:}
 ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%GOLD%Item%WHITE% + %ORANGE%Lum%WHITE% + %ORANGE%Pul%WHITE% + Perf %GREEN%Emerald%NL%%TAN%Upgrade Recipe%WHITE%:}
-ItemDisplay[ARMOR NORM CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
-ItemDisplay[ARMOR EXC CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Pul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
+ItemDisplay[(ARMOR OR QUIVER) NORM CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
+ItemDisplay[(ARMOR OR QUIVER) EXC CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ko%WHITE% + %ORANGE%Pul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[WEAPON NORM CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Ort%WHITE% + %ORANGE%Amn%WHITE% + Perf %BLUE%Sapphire%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[WEAPON EXC CRAFT ID]: %NAME%{%ORANGE%Item%WHITE% + %ORANGE%Fal%WHITE% + %ORANGE%Um%WHITE% + Perf %BLUE%Sapphire%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
 
@@ -1950,37 +1964,40 @@ ItemDisplay[NMAG SOCK>1 xap]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 uap]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 ghm]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) xhm]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG SOCK>1 (ci0 OR ci1 OR ci2 OR ci3)]: %NAME%{%NAME%}
 
 //Chests
 ItemDisplay[NMAG SOCK>1 qui]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 lea]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 hla]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 stu]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) rng]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) scl]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) chn]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) brs]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) spl]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) ful]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) xui]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 uea]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ula]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 utu]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 rng]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 scl]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 chn]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 brs]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 xui]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 uea]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 ula]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 utu]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 rng]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 uui]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) ung]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) ucl]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) urs]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[NMAG SOCK>2 uhn]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 upl]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 xtp]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) utp]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[NMAG SOCK>2 uld]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 xlt]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 ult]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 uth]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 xul]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 uul]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 xar]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) uar]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) ung]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) ucl]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) urs]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG SOCK>1 uhn]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 upl]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 xtp]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) utp]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG SOCK>1 uld]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 xlt]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ult]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 uth]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 xul]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 uul]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 xar]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) uar]: %NAME%{%NAME%}%BORDER-1F%
 
 //Shields
 ItemDisplay[NMAG SOCK>1 buc]: %NAME%{%NAME%}
@@ -2007,7 +2024,13 @@ ItemDisplay[NMAG SOCK>1 baf]: %NAME%{%NAME%}
 //Paladin Shields
 ItemDisplay[NMAG SOCK>1 pa1]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 pa2]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa3]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa4]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa5]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa6]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 pa7]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa8]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa9]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) pab]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) pac]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) pad]: %NAME%{%NAME%}%BORDER-1F%
@@ -2050,12 +2073,12 @@ ItemDisplay[NMAG SOCK>2 sbr]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 flc]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) crs]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[NMAG SOCK>2 bsd]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 lsd]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) lsd]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 2hs]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 gis]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 bsw]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9cr]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7cr]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7cr]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 72h]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7gs]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7fb]: %NAME%{%NAME%}%MAP-1F%
@@ -2076,28 +2099,30 @@ ItemDisplay[NMAG SOCK>1 bkf]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 bal]: %NAME%{%NAME%}
 
 //Spears
-ItemDisplay[NMAG SOCK>2 spr]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 tri]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 brn]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 spt]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 pik]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7br]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7p7]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[ETH NMAG SOCK>2 spr]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 tri]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 brn]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 spt]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 pik]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7br]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7p7]: %NAME%{%NAME%}%MAP-1F%
 
 //Polearms
-ItemDisplay[NMAG SOCK>1 bar]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 vou]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 scy]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 pax]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) NMAG SOCK>1 9s8]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>1) 7o7]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>1) 7vo]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>1) 7s8]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>1) 7pa]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) NMAG SOCK>1 7h7]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) NMAG SOCK>1 9wc]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>1) 7wc]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>1) 7br]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[ETH NMAG SOCK>2 bar]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 vou]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 scy]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 pax]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 hal]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 wsc]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9s8]: %NAME%{%NAME%}
+ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[ETH NMAG SOCK>2 7h7]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9wc]: %NAME%{%NAME%}
+ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7br]: %NAME%{%NAME%}%MAP-1F%
 
 //Bows
 ItemDisplay[NMAG SOCK>2 sbw]: %NAME%{%NAME%}
