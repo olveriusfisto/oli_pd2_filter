@@ -1609,6 +1609,14 @@ ItemDisplay[(UNI !ID) am5]: //True Silver //New
 ItemDisplay[(UNI !ID) ama]: %ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) amf]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%oooooooo%BORDER-D3%
 
+//Quiver
+ItemDisplay[(UNI !ID) aqv]: %TAN%oooooooo %GOLD%Arrows %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Tombsong / Swiftwind Needle %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv]: %TAN%oooooooo %GOLD%Bolts %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Shatterhead / Anvilguard  %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call %TAN%oooooooo%BORDER-D3% //New
+
 
 //SET
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
