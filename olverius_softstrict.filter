@@ -133,8 +133,8 @@ ItemDisplay[(NMAG OR MAG OR RARE) rin]: Ring%CONTINUE%
 ItemDisplay[jew UNI ID]: %GOLD%Rainbow Facet%CONTINUE%
 
 //Arrows and Bolts
-ItemDisplay[(NMAG OR MAG OR RARE OR UNI) aqv]: Arrows%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE OR UNI) cqv]: Bolts%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) (aqv OR aqv1 OR aqv2)]: Arrows%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) (cqv OR cqv1 OR cqv2)]: Bolts%CONTINUE%
 
 //Armors
 ItemDisplay[(NMAG OR MAG OR RARE) !RW cap]: Cap%CONTINUE%
