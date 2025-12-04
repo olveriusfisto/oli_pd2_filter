@@ -133,8 +133,8 @@ ItemDisplay[(NMAG OR MAG OR RARE) rin]: Ring%CONTINUE%
 ItemDisplay[jew UNI ID]: %GOLD%Rainbow Facet%CONTINUE%
 
 //Arrows and Bolts
-ItemDisplay[(NMAG OR MAG OR RARE OR UNI) aqv]: Arrows%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE OR UNI) cqv]: Bolts%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) aqv]: Arrows%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) cqv]: Bolts%CONTINUE%
 
 //Armors
 ItemDisplay[(NMAG OR MAG OR RARE) !RW cap]: Cap%CONTINUE%
@@ -659,7 +659,7 @@ ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME% //Gambling
 //2. ITEMIZATION & FUNCTIONS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-//GENS
+//GEMS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Unstacked
@@ -1614,10 +1614,12 @@ ItemDisplay[(UNI !ID) ama]: %ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%
 ItemDisplay[(UNI !ID) amf]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%oooooooo%BORDER-D3%
 
 //Quiver
-ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Tombsong / Swiftwind Needle  %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv1]: %TAN%oooooooo %GOLD%Arrows %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Tombsong / Swiftwind Needle %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv1]: %TAN%oooooooo %GOLD%Bolts %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Shatterhead / Anvilguard  %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call  %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call %TAN%oooooooo%BORDER-D3% //New
 
 
 //SET
@@ -1957,78 +1959,76 @@ ItemDisplay[NMAG !RW QUIVER SOCK=2]: %NAME%{%GOLD%Echo %GRAY% Sol + Dol%NL%%GRAY
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Helms
-ItemDisplay[NMAG SOCK>1 cap]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 skp]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 hlm]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 fhl]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 xap]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 uap]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 cap CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 skp CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 hlm CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 fhl CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 xap CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 uap CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 ghm]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) xhm]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 (ci0 OR ci1 OR ci2 OR ci3)]: %NAME%{%NAME%}
 
 //Chests
-ItemDisplay[NMAG SOCK>1 qui]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 lea]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 hla]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 stu]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) rng]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) scl]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) chn]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) brs]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) spl]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) ful]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) xui]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 qui CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 lea CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 hla CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 stu CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) rng CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) scl CLVL<60]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) chn CLVL<60]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) brs CLVL<60]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) spl CLVL<60]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) ful CLVL<60]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) xui CLVL<60]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 uea]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 ula]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 utu]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 rng]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 uui]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) ung]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) ucl]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) urs]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[NMAG SOCK>1 uhn]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 upl]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 uhn CLVL<60]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 upl CLVL<60]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 xtp]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) utp]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 uld]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 xlt]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 ult]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 uth]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 xul]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 xul CLVL<60]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 uul]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 xar]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) uar]: %NAME%{%NAME%}%BORDER-1F%
 
 //Shields
-ItemDisplay[NMAG SOCK>1 buc]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 sml]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 lrg]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 spk]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 kit]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 lrg]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 kit]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 buc CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 sml CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 lrg CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 spk CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 lrg CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 kit CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) uit]: %NAME%{%NAME%}%BORDER-1F%
 
 //Druid Helms
-ItemDisplay[NMAG SOCK>1 dr6]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 dr7]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 dr8]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 dr9]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 dra]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 drf]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 dr6 CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 dr7 CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 dr8 CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 dr9 CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 dra CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 drf CLVL<80]: %NAME%{%NAME%}
 
 //Barbarian Helms
 ItemDisplay[NMAG SOCK>1 baa]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 baf]: %NAME%{%NAME%}
 
 //Paladin Shields
-ItemDisplay[NMAG SOCK>1 pa1]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 pa2]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 pa3]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 pa4]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 pa5]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 pa6]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa1 CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa2 CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa3 CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa4 CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa5 CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pa6 CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 pa7]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 pa8]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 pa9]: %NAME%{%NAME%}
@@ -2039,6 +2039,14 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK>2) pae]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) paf]: %NAME%{%NAME%}%BORDER-1F%
 
 //Necro Shields
+ItemDisplay[NMAG SOCK>1 ne1]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ne2]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ne3]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ne4]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ne5]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ne6]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ne7]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ne8]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 ne9]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 nea]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 nef]: %NAME%{%NAME%}
@@ -2047,139 +2055,138 @@ ItemDisplay[NMAG SOCK>1 nef]: %NAME%{%NAME%}
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 /Axes
-ItemDisplay[NMAG SOCK>2 hax]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 axe]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 2ax]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 mpi]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 wax]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 lax]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 hax CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 axe CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 2ax CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 mpi CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 wax CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 lax CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 bax]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 btx]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7wa]: %NAME%{%NAME%}%BORDER-1F%
 
 //Maces
-ItemDisplay[NMAG SOCK>2 clb]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 spc]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 mac]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 mst]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 fla]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 whm]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7ma]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 clb CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 spc CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 mac CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 mst CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) fla]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 whm CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7ma CLVL<80]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7gm]: %NAME%{%NAME%}%MAP-1F%
 
 //Swords
-ItemDisplay[NMAG SOCK>2 ssd]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 scm]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 sbr]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 flc]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) crs]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[NMAG SOCK>2 bsd]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) lsd]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 2hs]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 gis]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 bsw]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9cr]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 ssd CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 scm CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 sbr CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 flc CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) crs CLVL<80]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>2 bsd CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) lsd CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 2hs CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 gis CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 bsw CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9cr CLVL<80]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7cr]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 72h]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7gs]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7fb]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9gd]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7ls]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7gd]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>2 72h CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7gs CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7fb CLVL<80]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9gd CLVL<80]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7ls CLVL<80]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7gd CLVL<80]: %NAME%{%NAME%}%MAP-1F%
 
 //Daggers
-ItemDisplay[NMAG SOCK>1 dgr]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 dir]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 kri]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 bld]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 dgr CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 dir CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 kri CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 bld CLVL<40]: %NAME%{%NAME%}
 
 //Throwing Axes & Throwing Knives
-ItemDisplay[NMAG SOCK>1 tkf]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 tax]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 bkf]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 bal]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 tkf CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 tax CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 bkf CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 bal CLVL<40]: %NAME%{%NAME%}
 
 //Spears
-ItemDisplay[ETH NMAG SOCK>2 spr]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 tri]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 brn]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 spt]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 pik]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 spr CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 tri CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 brn CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 spt CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 pik CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7br]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7p7]: %NAME%{%NAME%}%MAP-1F%
 
 //Polearms
-ItemDisplay[ETH NMAG SOCK>2 bar]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 vou]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 scy]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 pax]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 hal]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 wsc]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9s8]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[ETH NMAG SOCK>2 bar CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 vou CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 scy CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 pax CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 hal CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 wsc CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9s8 CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[ETH NMAG SOCK>2 7h7]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>2 9wc]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7br]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7br]: %NAME%{%NAME%}%MAP-1F%
 
 //Bows
-ItemDisplay[NMAG SOCK>2 sbw]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 hbw]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 lbw]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 cbw]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 sbb]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 lbb]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 sbw CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 hbw CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 lbw CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 cbw CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 sbb CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 lbb CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 6lb]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 6l7]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 8lw]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 6sw]: %NAME%{%NAME%}
 
 //X-bows
-ItemDisplay[NMAG SOCK>2 lxb]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 6hx]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 lxb CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 6hx CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 6mx]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 6rx]: %NAME%{%NAME%}%BORDER-1F%
 
 //Staves
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) sst]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) lst]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) cst]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 cst]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) sst CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) lst CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) cst CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 6cs]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 6ws]: %NAME%{%NAME%}%BORDER-1F%
 
 //Wands
-ItemDisplay[NMAG SOCK=0 wnd]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK=0 ywn]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK=0 bwn]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 gwn]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 9yw]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 7bw]: %NAME%{%NAME%}
+ItemDisplay[!INF NMAG SOCK=0 wnd CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[!INF NMAG SOCK=0 ywn CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[!INF NMAG SOCK=0 bwn CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[!INF NMAG SOCK>1 gwn]: %NAME%{%NAME%}
+ItemDisplay[!INF NMAG SOCK>1 9yw]: %NAME%{%NAME%}
+ItemDisplay[!INF NMAG SOCK>1 7bw]: %NAME%{%NAME%}
 
 //Scepters
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) scp]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>1) gsc]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) wsp]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) scp CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) gsc CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) wsp CLVL<40]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[NMAG SOCK>2 7ws]: %NAME%{%NAME%}
 
 //Assassin Claws
-ItemDisplay[NMAG SOCK>2 ktr]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 wrb]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 axf]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 ktr CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 wrb CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 axf CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7ar]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7xf]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7qr]: %NAME%{%NAME%}
 
 //Sorc Orbs
-ItemDisplay[NMAG SOCK>2 oba]: %NAME%{%NAME%}
+ItemDisplay[!INF NMAG SOCK>1 oba CLVL<40]: %NAME%{%NAME%}
 
 //Amazon Weapons
-ItemDisplay[NMAG SOCK>2 am1]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 am2]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 am3]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 am1 CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 am2 CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 am3 CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) amc]: %NAME%{%NAME%}%BORDER-1F%
 
 
@@ -2392,9 +2399,6 @@ ItemDisplay[(yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl O
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc OR gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf OR gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku]: 
 
 //Gold
-ItemDisplay[GOLD<100 CLVL<20]:
-ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
-ItemDisplay[GOLD<5000 CLVL>79]:
 
 //Inferior
 ItemDisplay[NMAG INF]:
@@ -2408,6 +2412,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide
-ItemDisplay[(NORM OR EXC OR ELT) NMAG !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !leg !amu !rin !CHARM !jew  CLVL>0]:
 
 //END
