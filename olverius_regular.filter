@@ -104,7 +104,7 @@ ItemDisplay[hp4 CLVL<60]: %RED%HP %WHITE%great
 ItemDisplay[mp4 CLVL<60]: %BLUE%MP %WHITE%great
 ItemDisplay[hp5 CLVL<80]: %RED%HP %WHITE%super
 ItemDisplay[mp5 CLVL<80]: %BLUE%MP %WHITE%super
-ItemDisplay[rvs CLVL<90]: %PURPLE%juv %WHITE%35%
+ItemDisplay[rvs]: %PURPLE%juv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
 //Tomes
@@ -140,7 +140,7 @@ ItemDisplay[(NMAG OR MAG OR RARE) (cqv OR cqv1 OR cqv2)]: Bolts%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW cap]: Cap%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW xap]: War Hat%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW uap]: Shako%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW skp]: %GRAY%Skull Cap%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW skp]: Skull Cap%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW xkp]: Sallet%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ukp]: Hydraskull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW hlm]: Helm%CONTINUE%
@@ -326,19 +326,19 @@ ItemDisplay[(NMAG OR MAG OR RARE) !RW paa]: Royal Shield%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW paf]: Vortex Shield%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne1]: Preserved Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne6]: Mummified Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW neb]: Minion %GRAY%Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW neb]: Minion Skull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne2]: Zombie Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne7]: Fetish Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW neg]: Hellspawn %GRAY%Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW neg]: Hellspawn Skull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne3]: Unraveller Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne8]: Sexton Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW ned]: Overseer %GRAY%Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW ned]: Overseer Skull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne4]: Gargoyle Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne9]: Cantor Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW nee]: Succubus %GRAY%Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW nee]: Succubus Skull%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW ne5]: Demon Head%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) !RW nea]: Heirophant Trophy%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE) !RW nef]: Bloodlord %GRAY%Skull%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE) !RW nef]: Bloodlord Skull%CONTINUE%
 
 //Weapons
 ItemDisplay[(NMAG OR MAG OR RARE) !RW hax]: Hand Axe%CONTINUE%
@@ -2061,19 +2061,19 @@ ItemDisplay[NMAG SOCK>2 2ax CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 mpi CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 wax CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 lax CLVL<40]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 bax]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 btx]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 bax CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 btx CLVL<80]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7wa]: %NAME%{%NAME%}%BORDER-1F%
 
 //Maces
-ItemDisplay[NMAG SOCK>2 clb CLVL<40]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 spc CLVL<40]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 mac CLVL<40]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 mst CLVL<40]: %NAME%{%NAME%}
-ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) fla]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 whm CLVL<80]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7ma CLVL<80]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7gm]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[ETH NMAG SOCK>2 clb CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 spc CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 mac CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 mst CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 fla]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 whm CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 7ma CLVL<80]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 7gm]: %NAME%{%NAME%}%MAP-1F%
 
 //Swords
 ItemDisplay[NMAG SOCK>2 ssd CLVL<40]: %NAME%{%NAME%}
@@ -2113,8 +2113,11 @@ ItemDisplay[ETH NMAG SOCK>2 tri CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>2 brn CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>2 spt CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>2 pik CLVL<40]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7br]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7p7]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[ETH NMAG SOCK>2 7sr]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[ETH NMAG SOCK>2 7tr]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7br]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(!INF OR ETH) NMAG SOCK>2 7st]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(!INF OR ETH) NMAG (SOCK=0 OR SOCK>2) 7p7]: %NAME%{%NAME%}%MAP-1F%
 
 //Polearms
 ItemDisplay[ETH NMAG SOCK>2 bar CLVL<40]: %NAME%{%NAME%}
@@ -2128,8 +2131,11 @@ ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[ETH NMAG SOCK>2 7h7]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9wc]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7h7]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 9vo]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 9pa]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 9h9]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 9wc]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7br]: %NAME%{%NAME%}%MAP-1F%
 
@@ -2169,8 +2175,10 @@ ItemDisplay[!INF NMAG SOCK>1 7bw]: %NAME%{%NAME%}
 //Scepters
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) scp CLVL<40]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) gsc CLVL<40]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) wsp CLVL<40]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[NMAG SOCK>2 7ws]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) wsp CLVL<40]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7sc]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>2 7qs]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>2 7ws]: %NAME%{%NAME%}%MAP-1F%
 
 //Assassin Claws
 ItemDisplay[NMAG SOCK>2 ktr CLVL<40]: %NAME%{%NAME%}
@@ -2391,7 +2399,6 @@ ItemDisplay[(hp2 OR mp2) CLVL>19]:
 ItemDisplay[(hp3 OR mp3) CLVL>39]:
 ItemDisplay[(hp4 OR mp4) CLVL>59]:
 ItemDisplay[(hp5 OR mp5) CLVL>79]:
-ItemDisplay[rvs CLVL>89]:
 ItemDisplay[(yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll) CLVL>9]:
 
 //Gems
@@ -2412,6 +2419,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !leg !amu !rin !CHARM !jew  CLVL>0]:
-
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !(ETH SIN (MAG OR RARE)) !leg !amu !rin !CHARM !jew CLVL>0]:
+ItemDisplay[(NMAG OR MAG OR RARE) (QUIVER) CLVL>0]:
 //END
