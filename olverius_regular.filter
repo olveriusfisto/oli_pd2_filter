@@ -2580,6 +2580,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !(ETH SIN (MAG OR RARE)) !leg !amu !rin !CHARM !jew CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) NMAG !(ETH SIN (MAG OR RARE)) !leg !amu !rin !CHARM !jew CLVL>0]:
 ItemDisplay[(NMAG OR MAG OR RARE) (QUIVER) CLVL>0]:
 //END
