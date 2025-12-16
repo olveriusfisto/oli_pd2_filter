@@ -7,7 +7,7 @@
 ### SOFT STRICT shows PRIMARILY valuable materials and items, including the best white bases, both plain and multi-socket types, the best blue, some yellow, all sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
 ### REGULAR shows shows ALL valuable materials and items, including the best white bases, both plain and multi-socket types, most blue, all yellow, sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
 
-## Contact: [Discord](https://discord.com/invite/NxY3nFUDwQ), [Kick](https://kick.com/olverius-ironfist), [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
+## Contact: [Discord](https://discord.com/invite/NxY3nFUDwQ), [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
 
 ### Note 1: Filter is updated to SEASON 12.
 ### Note 2: After 11 seasons, my filter is now officially LIVE! I truly appreciate all the amazing support you’ve given me throughout these incredible years. Words can’t fully express my gratitude! Stay safe out there!
