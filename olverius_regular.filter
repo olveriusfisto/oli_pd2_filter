@@ -1612,13 +1612,13 @@ ItemDisplay[(UNI !ID) am5]: True Silver //New
 ItemDisplay[(UNI !ID) ama]: %ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) amf]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%oooooooo%BORDER-D3%
 
-//Quiver
-ItemDisplay[(UNI !ID) aqv]: %TAN%oooooooo %GOLD%Arrows %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Tombsong / Swiftwind Needle %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) cqv]: %TAN%oooooooo %GOLD%Bolts %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Shatterhead / Anvilguard %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call %TAN%oooooooo%BORDER-D3% //New
+//Quivers
+ItemDisplay[(UNI !ID) aqv]: %TAN%oooooooo %GOLD%Balefire %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Swiftwind Needle / Tombsong %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Aetherwing / Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv]: %TAN%oooooooo %GOLD%Ramfodder %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Anvilguard / Shatterhead %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call / Frozen Sorrow %TAN%oooooooo%BORDER-D3% //New
 
 
 //SET
@@ -2155,15 +2155,15 @@ ItemDisplay[NMAG SOCK>2 7la]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 bax CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9ba CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7ba]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 btx CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9bt CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7bt]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 gax CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9ga CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7ga]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 gix CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9gi CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7gi]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 btx CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9bt CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 7bt]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 gax CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9ga CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 7ga]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 gix CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9gi CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 7gi]: %NAME%{%NAME%}
 
 //Maces
 ItemDisplay[NMAG SOCK>1 clb CLVL<50]: %NAME%{%NAME%}
@@ -2184,11 +2184,11 @@ ItemDisplay[NMAG SOCK>2 7fl]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 whm]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9wh CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7wh]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 mau CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9m9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7m7]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 gma CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9gm CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 mau CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9m9 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 7m7]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 gma CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9gm CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>2 7gm]: %NAME%{%NAME%}%MAP-1F%
 
 //Swords
@@ -2200,7 +2200,7 @@ ItemDisplay[NMAG SOCK>2 9sm CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7sm]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 sbr CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9sb CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7sb]: Elegant %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7sb]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 flc CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9fc CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7fc]: %NAME%{%NAME%}
@@ -2216,22 +2216,22 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7ls]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[NMAG SOCK>1 wsd CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9wd CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7wd]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 2hs CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 92h CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 72h]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 clm CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9cm CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7cm]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 gis CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9gs CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7gs]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 bsw CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9b9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7b7]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 flb CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 9fb CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 2hs CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 92h CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 72h]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 clm CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9cm CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 7cm]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 gis CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9gs CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 7gs]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 bsw CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9b9 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 7b7]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 flb CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 9fb CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>3) 7fb]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[NMAG SOCK>1 gsd CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 gsd CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>3) 9gd]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>3) 7gd]: %NAME%{%NAME%}%MAP-1F%
 
