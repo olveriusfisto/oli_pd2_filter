@@ -1167,6 +1167,7 @@ ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %NAME%%MAP-0E%
 ItemDisplay[(amu OR rin OR ram) UNI !ID]: %ORANGE%ooooooo %GOLD%%NAME% %ORANGE%ooooooo%BORDER-D3%
 ItemDisplay[(amu OR rin) SET !ID]: %NAME%%MAP-7D%
 
+//UNIQUE
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Armors
@@ -1363,7 +1364,7 @@ ItemDisplay[(UNI !ID) 7ha]: %ORANGE%oooooooo %GOLD%Razor's Edge %ORANGE%oooooooo
 ItemDisplay[(UNI !ID) axe CLVL<50]: Deathspade
 ItemDisplay[(UNI !ID) 9ax]: %ORANGE%oooooo %GOLD%Butcher's Pupil %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 2ax CLVL<50]: Bladebone
-ItemDisplay[(UNI !ID) 92a]: %ORANGE%oooooo %GOLD%	Islestrike %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 92a]: %ORANGE%oooooo %GOLD%Islestrike %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 72a]: %ORANGE%oooooooo %GOLD%Rune Master %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) mpi CLVL<50]: Skull Splitter
 ItemDisplay[(UNI !ID) 9mp]: %ORANGE%oooooo %GOLD%Pompeii's Wrath %ORANGE%oooooo%MAP-D3%
@@ -1378,7 +1379,7 @@ ItemDisplay[(UNI !ID) 9ba]: %ORANGE%oooooo %GOLD%Spellsteel %ORANGE%oooooo%MAP-D
 ItemDisplay[(UNI !ID) 7ba]: %ORANGE%oooooooo %GOLD%Ethereal Edge %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) btx CLVL<50]: The Chieftain
 ItemDisplay[(UNI !ID) 9bt]: %ORANGE%oooooo %GOLD%Stormrider %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 7bt]: %ORANGE%oooooooo %GOLD%	Hellslayer %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 7bt]: %ORANGE%oooooooo %GOLD%Hellslayer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) gax CLVL<50]: Brainhew
 ItemDisplay[(UNI !ID) 9ga]: %ORANGE%oooooo %GOLD%Boneslayer Blade %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7ga]: %ORANGE%oooooooo %GOLD%Messerschmidt's Reaver %ORANGE%oooooooo%BORDER-D3%
@@ -1399,8 +1400,8 @@ ItemDisplay[(UNI !ID) mst]: Bloodrise
 ItemDisplay[(UNI !ID) 9mt]: %ORANGE%oooooo %GOLD%Moonfall %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7mt]: %ORANGE%oooooooo %GOLD%Baranar's Star %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) fla CLVL<50]: The General's Tan Do Li Ga
-ItemDisplay[(UNI !ID) 9fl]: %ORANGE%oooooo %GOLD%	Baezil's Vortex %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 7fl]: %ORANGE%oooooooo %GOLD%	Horizon's Tornado / Stormlash %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 9fl]: %ORANGE%oooooo %GOLD%Baezil's Vortex %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 7fl]: %ORANGE%oooooooo %GOLD%Horizon's Tornado / Stormlash %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) whm CLVL<50]: Tronstone
 ItemDisplay[(UNI !ID) 9wh]: %ORANGE%oooooo %GOLD%Earthshaker %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7wh]: %ORANGE%oooooooo %GOLD%Stone Crusher / Schaefer's Hammer %ORANGE%oooooooo%BORDER-D3%
@@ -1455,7 +1456,7 @@ ItemDisplay[(UNI !ID) dgr]: Gull
 ItemDisplay[(UNI !ID) 9dg]: %ORANGE%oooooo %GOLD%Spineripper %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7dg]: %ORANGE%oooooooo %GOLD%Wizardspike %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) dir]: The Diggler
-ItemDisplay[(UNI !ID) 9di]: %ORANGE%oooooo %GOLD%	Heart Carver %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 9di]: %ORANGE%oooooo %GOLD%Heart Carver %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7di]: %TAN%oooooooo %GOLD%Shatterblade %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) kri]: The Jade Tan Do
 ItemDisplay[(UNI !ID) 9kr]: %ORANGE%oooooo %GOLD%Blackbog's Sharp %ORANGE%oooooo%MAP-D3%
@@ -1711,7 +1712,7 @@ ItemDisplay[(SET !ID) xhb]: %DARK_GREEN%ooooo %GREEN%Immortal King's Pillar %DAR
 ItemDisplay[(SET !ID) lbl CLVL<50]: Death's Guard
 ItemDisplay[(SET !ID) vbl CLVL<50]: Arctic Binding
 ItemDisplay[(SET !ID) zvb]: %DARK_GREEN%ooooo %GREEN%M'avina's Tenet %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) mbl]: Hsarus' Iron Stay / Hwanin's Blessing
+ItemDisplay[(SET !ID) mbl CLVL<50]: Hsarus' Iron Stay / Hwanin's Blessing
 ItemDisplay[(SET !ID) zmb]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Fine-Spun Cloth %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) umc]: %DARK_GREEN%ooooo %GREEN%Credendum %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) tbl CLVL<50]: Infernal Sign / Iratha's Cord
@@ -1754,26 +1755,26 @@ ItemDisplay[(SET !ID) 7fb]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Tribal Guardian
 ItemDisplay[(SET !ID) 7gd]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Sacred Charge %DARK_GREEN%ooooo%MAP-7D%
 
 //Daggers
-ItemDisplay[(SET !ID) dgr]: Infernal Spire
+ItemDisplay[(SET !ID) dgr CLVL<50]: Infernal Spire
 
 //Polearms
 ItemDisplay[(SET !ID) 9vo]: %DARK_GREEN%ooooo %GREEN%Hwanin's Justice %DARK_GREEN%ooooo%MAP-7D%
 
 //Bows
-ItemDisplay[(SET !ID) lbb]: Vidala's Barb
-ItemDisplay[(SET !ID) swb]: Arctic Horn
+ItemDisplay[(SET !ID) lbb CLVL<50]: Vidala's Barb
+ItemDisplay[(SET !ID) swb CLVL<50]: Arctic Horn
 
 //Staves
 ItemDisplay[(SET !ID) 6cs]: %DARK_GREEN%ooooo %GREEN%Naj's Puzzler %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) bst]: Cathan's Rule
-ItemDisplay[(SET !ID) wst]: Arcanna's Deathwand
+ItemDisplay[(SET !ID) bst CLVL<50]: Cathan's Rule
+ItemDisplay[(SET !ID) wst CLVL<50]: Arcanna's Deathwand
 
 //Wands
-ItemDisplay[(SET !ID) bwn]: Sander's Superstition
+ItemDisplay[(SET !ID) bwn CLVL<50]: Sander's Superstition
 
 //Scepters
-ItemDisplay[(SET !ID) gsc]: Civerb's Cudgel
-ItemDisplay[(SET !ID) wsp]: Milabrega's Rod
+ItemDisplay[(SET !ID) gsc CLVL<50]: Civerb's Cudgel
+ItemDisplay[(SET !ID) wsp CLVL<50]: Milabrega's Rod
 ItemDisplay[(SET !ID) 7ws]: %DARK_GREEN%ooooo %GREEN%Griswold's Redemption %DARK_GREEN%ooooo%MAP-7D%
 
 //Assassin Claws
