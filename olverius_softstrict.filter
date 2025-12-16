@@ -2439,19 +2439,19 @@ ItemDisplay[!INF NMAG SOCK>2 obf]: %NAME%{%NAME%}
 //Amazon Weapons
 ItemDisplay[NMAG SOCK>1 am1 CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 am6 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 amb]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 amb]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 am2 CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 am7 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 amc]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[NMAG SOCK>1 am3 CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 am8 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 amd]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 am4 CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 am9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 ame]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 am5 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 amc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[ETH NMAG SOCK>1 am3 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 am8 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 amd]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 am4 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 am9 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 ame]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>1 am5 CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 ama CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 amf]: %NAME%{%NAME%}
+ItemDisplay[ETH NMAG SOCK>2 amf]: %NAME%{%NAME%}
 
 //PROJECT D2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
