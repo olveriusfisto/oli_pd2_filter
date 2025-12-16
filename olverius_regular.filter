@@ -1167,7 +1167,7 @@ ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %NAME%%MAP-0E%
 ItemDisplay[(amu OR rin OR ram) UNI !ID]: %ORANGE%ooooooo %GOLD%%NAME% %ORANGE%ooooooo%BORDER-D3%
 ItemDisplay[(amu OR rin) SET !ID]: %NAME%%MAP-7D%
 
-/UNIQUE
+//UNIQUE
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Armors
@@ -1364,7 +1364,7 @@ ItemDisplay[(UNI !ID) 7ha]: %ORANGE%oooooooo %GOLD%Razor's Edge %ORANGE%oooooooo
 ItemDisplay[(UNI !ID) axe]: Deathspade
 ItemDisplay[(UNI !ID) 9ax]: %ORANGE%oooooo %GOLD%Butcher's Pupil %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 2ax]: Bladebone
-ItemDisplay[(UNI !ID) 92a]: %ORANGE%oooooo %GOLD%	Islestrike %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 92a]: %ORANGE%oooooo %GOLD%Islestrike %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 72a]: %ORANGE%oooooooo %GOLD%Rune Master %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) mpi]: Skull Splitter
 ItemDisplay[(UNI !ID) 9mp]: %ORANGE%oooooo %GOLD%Pompeii's Wrath %ORANGE%oooooo%MAP-D3%
@@ -1379,7 +1379,7 @@ ItemDisplay[(UNI !ID) 9ba]: %ORANGE%oooooo %GOLD%Spellsteel %ORANGE%oooooo%MAP-D
 ItemDisplay[(UNI !ID) 7ba]: %ORANGE%oooooooo %GOLD%Ethereal Edge %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) btx]: The Chieftain
 ItemDisplay[(UNI !ID) 9bt]: %ORANGE%oooooo %GOLD%Stormrider %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 7bt]: %ORANGE%oooooooo %GOLD%	Hellslayer %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 7bt]: %ORANGE%oooooooo %GOLD%Hellslayer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) gax]: Brainhew
 ItemDisplay[(UNI !ID) 9ga]: %ORANGE%oooooo %GOLD%Boneslayer Blade %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7ga]: %ORANGE%oooooooo %GOLD%Messerschmidt's Reaver %ORANGE%oooooooo%BORDER-D3%
@@ -1400,7 +1400,7 @@ ItemDisplay[(UNI !ID) mst]: Bloodrise
 ItemDisplay[(UNI !ID) 9mt]: %ORANGE%oooooo %GOLD%Moonfall %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7mt]: %ORANGE%oooooooo %GOLD%Baranar's Star %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) fla]: The General's Tan Do Li Ga
-ItemDisplay[(UNI !ID) 9fl]: %ORANGE%oooooo %GOLD%	Baezil's Vortex %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 9fl]: %ORANGE%oooooo %GOLD%Baezil's Vortex %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7fl]: %ORANGE%oooooooo %GOLD%	Horizon's Tornado / Stormlash %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) whm]: Tronstone
 ItemDisplay[(UNI !ID) 9wh]: %ORANGE%oooooo %GOLD%Earthshaker %ORANGE%oooooo%MAP-D3%
@@ -1456,7 +1456,7 @@ ItemDisplay[(UNI !ID) dgr]: Gull
 ItemDisplay[(UNI !ID) 9dg]: %ORANGE%oooooo %GOLD%Spineripper %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7dg]: %ORANGE%oooooooo %GOLD%Wizardspike %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) dir]: The Diggler
-ItemDisplay[(UNI !ID) 9di]: %ORANGE%oooooo %GOLD%	Heart Carver %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 9di]: %ORANGE%oooooo %GOLD%Heart Carver %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7di]: %TAN%oooooooo %GOLD%Shatterblade %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) kri]: The Jade Tan Do
 ItemDisplay[(UNI !ID) 9kr]: %ORANGE%oooooo %GOLD%Blackbog's Sharp %ORANGE%oooooo%MAP-D3%
