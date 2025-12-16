@@ -2199,7 +2199,7 @@ ItemDisplay[NMAG SOCK>2 9sm CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7sm]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 sbr CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9sb CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7sb]: Elegant %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7sb]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 flc CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9fc CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7fc]: %NAME%{%NAME%}
