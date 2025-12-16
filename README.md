@@ -3,14 +3,14 @@
 ## This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
 
 ## Description:
-### UBER STRICT PLUS shows ONLY the best-in slot materials and items, including the best multi-socket white bases, some set parts, the best uniques, and all crafted items while hiding everything else. Suitable for map runners and 99-pushing playstyles.
 ### UBER STRICT shows ONLY the valuable materials and items, including the best white bases, both plain and multi-socket types, the best yellow, some sets, uniques, and all crafted items while hiding everything else. Suitable for high-level endgame, 99-pushing, solo self-found (SSF), and group self-found (GSF) playstyles.
 ### SOFT STRICT shows PRIMARILY valuable materials and items, including the best white bases, both plain and multi-socket types, the best blue, some yellow, all sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
 ### REGULAR shows shows ALL valuable materials and items, including the best white bases, both plain and multi-socket types, most blue, all yellow, sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
 
 ## Contact: [Discord](https://discord.com/invite/NxY3nFUDwQ), [Kick](https://kick.com/olverius-ironfist), [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
 
-### Note: After 10 seasons, my filter is now officially LIVE! I truly appreciate all the amazing support you’ve given me throughout these incredible years. Words can’t fully express my gratitude! Stay safe out there!
+### Note 1: Filter is updated to SEASON 12.
+### Note 2: After 11 seasons, my filter is now officially LIVE! I truly appreciate all the amazing support you’ve given me throughout these incredible years. Words can’t fully express my gratitude! Stay safe out there!
 
 ## Showcase:
 <img width="1493" height="233" alt="image3" src="https://github.com/user-attachments/assets/da9a923a-0c4f-413e-a9a2-2b5f1b6ab4a6" />
