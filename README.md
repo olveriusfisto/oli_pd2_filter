@@ -3,9 +3,9 @@
 ## This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
 
 ## Description:
-### UBER STRICT shows ONLY the valuable materials and items, including the best white bases, both plain and multi-socket types, the best yellow, some sets, uniques, and all crafted items while hiding everything else. Suitable for high-level endgame, 99-pushing, solo self-found (SSF), and group self-found (GSF) playstyles.
-### SOFT STRICT shows PRIMARILY valuable materials and items, including the best white bases, both plain and multi-socket types, the best blue, some yellow, all sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
-### REGULAR shows shows ALL valuable materials and items, including the best white bases, both plain and multi-socket types, most blue, all yellow, sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
+### UBER STRICT shows ONLY the valuable materials and items, including the best white bases, both plain and multi-socket types, some yellow, sets, uniques, and all crafted items while hiding everything else. Suitable for high-level endgame, 99-pushing, solo self-found (SSF), and group self-found (GSF) playstyles.
+### SOFT STRICT shows PRIMARILY valuable materials and items, including the best white bases, both plain and multi-socket types all yellow, all sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
+### REGULAR shows shows ALL valuable materials and items, including the best white bases, both plain and multi-socket types, all blue, yellow, sets, uniques, and crafted items while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
 
 ## Contact: [Discord](https://discord.com/invite/NxY3nFUDwQ), [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
 
