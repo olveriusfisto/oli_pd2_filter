@@ -102,8 +102,8 @@ ItemDisplay[hp3 CLVL<40]: %RED%hp %WHITE%regular
 ItemDisplay[mp3 CLVL<40]: %BLUE%mp %WHITE%regular
 ItemDisplay[hp4 CLVL<60]: %RED%HP %WHITE%great
 ItemDisplay[mp4 CLVL<60]: %BLUE%MP %WHITE%great
-ItemDisplay[hp5 CLVL<80]: %RED%HP %WHITE%super
-ItemDisplay[mp5 CLVL<80]: %BLUE%MP %WHITE%super
+ItemDisplay[hp5 CLVL<70]: %RED%HP %WHITE%super
+ItemDisplay[mp5 CLVL<70]: %BLUE%MP %WHITE%super
 ItemDisplay[rvs]: %PURPLE%juv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
@@ -905,9 +905,6 @@ ItemDisplay[cm2 !UNI RES>5]: %PURPLE%res %RES% %GRAY%Large Charm{%TAN%Reroll Rec
 
 //Grand Charms
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-//Part 1
-//▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[cm3 !UNI]: %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 LIFE>34]: %RED%life %STAT7% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 MANA>49]: %BLUE%mana %STAT9% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
@@ -917,13 +914,7 @@ ItemDisplay[cm3 !UNI LRES>24]: %YELLOW%lres %STAT41% %GRAY%Grand Charm{%TAN%Rero
 ItemDisplay[cm3 !UNI CRES>24]: %BLUE%cres %STAT43% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 !UNI PRES>24]: %GREEN%pres %STAT45% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 !UNI FRW>6]: %ORANGE%frw %STAT96% %GRAY%Grand Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-
-//Part 2
-//▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[cm3 MAXDMG>8]: %TAN%maxdmg %MAXDMG% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %RED%life %STAT7% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND FRW>0)]: %ORANGE%frw %STAT96% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm3 (RES>7 AND FHR>0)]: %ORANGE%fhr %FHR% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm3 RES>9]: %PURPLE%res %RES% %GRAY%%NAME%{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 //Skillers
@@ -1613,11 +1604,11 @@ ItemDisplay[(UNI !ID) amf]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%ooooooo
 
 //Quivers
 ItemDisplay[(UNI !ID) aqv]: %TAN%oooooooo %GOLD%Balefire %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Swiftwind Needle / Tombsong %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Aetherwing / Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Swiftwind / Tombsong %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Aetherwing / Basilisk / Doom's %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) cqv]: %TAN%oooooooo %GOLD%Ramfodder %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Anvilguard / Shatterhead %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call / Frozen Sorrow %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal / Bannerlord / Sorrow %TAN%oooooooo%BORDER-D3% //New
 
 
 //SET
@@ -2670,6 +2661,6 @@ ItemDisplay[key CLVL>40]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !(MAG (WAND OR NEC)) !CHARM !jew !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !CHARM !jew !leg !amu !rin CLVL>0]:
 
 //END
