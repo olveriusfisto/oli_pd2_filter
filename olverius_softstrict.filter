@@ -1175,7 +1175,7 @@ ItemDisplay[(UNI !ID) xlm]: %ORANGE%oooooo %GOLD%Stealskull %ORANGE%oooooo%MAP-D
 ItemDisplay[(UNI !ID) ulm]: %ORANGE%oooooooo %GOLD%Steel Shade %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) fhl]: //Duskdeep
 ItemDisplay[(UNI !ID) xhl]: %ORANGE%oooooo %GOLD%Darksight Helm %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) uhl]: %TAN%oooooooo %GOLD%Sage's Defiance %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) uhl]: %TAN%oooooooo %GOLD%Sage's Defiance / Overlord's Helm %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) msk]: //The Face of Horror
 ItemDisplay[(UNI !ID) xsk]: %ORANGE%oooooo %GOLD%Blackhorn's Face %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) usk]: %ORANGE%oooooooo %GOLD%Andariel's Visage %ORANGE%oooooooo%BORDER-D3%
@@ -1491,6 +1491,7 @@ ItemDisplay[(UNI !ID) bar]: //Dimoak's Hew
 ItemDisplay[(UNI !ID) 9b7]: //%ORANGE%oooooo %GOLD%The Meat Scraper %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7o7]: %ORANGE%oooooooo %GOLD%Bonehew %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) vou]: //Steelgoad
+ItemDisplay[(UNI !ID) 9vo]: %ORANGE%oooooooo %GOLD%Blackleach Blade %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) 7vo]: %TAN%oooooooo %GOLD%Giant Maimer %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) scy]: //Soul Harvest
 ItemDisplay[(UNI !ID) 9s8]: %ORANGE%oooooo %GOLD%Athena's Wrath %ORANGE%oooooo%MAP-D3%
@@ -1577,7 +1578,7 @@ ItemDisplay[(UNI !ID) 9ws]: %ORANGE%oooooo %GOLD%Hand of Blessed Light %ORANGE%o
 ItemDisplay[(UNI !ID) 7ws]: %ORANGE%oooooooo %GOLD%Astreon's Iron Ward %ORANGE%oooooooo%BORDER-D3%
 
 //Assassin Claws
-ItemDisplay[(UNI !ID) 9ar]: //%TAN%oooooo %GOLD%Mage Slayer %TAN%oooooo%MAP-D3% //New
+ItemDisplay[(UNI !ID) 9ar]: %TAN%oooooo %GOLD%Mage Slayer %TAN%oooooo%MAP-D3% //New
 ItemDisplay[(UNI !ID) 7wb]: %ORANGE%oooooooo %GOLD%Jade Talon %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) 7xf]: %TAN%oooooo %GOLD%Whispering Mirage %TAN%oooooo%MAP-D3% //New
 ItemDisplay[(UNI !ID) 7cs]: //%ORANGE%oooooooo %GOLD%Shadow Killer %ORANGE%oooooooo%BORDER-D3%
@@ -1587,12 +1588,12 @@ ItemDisplay[(UNI !ID) 7tw]: %TAN%oooooooo %GOLD%Stalker's Cull  %TAN%oooooooo%BO
 ItemDisplay[(UNI !ID) 7qr]: %TAN%oooooooo %GOLD%Aidan's Scar %TAN%oooooooo%BORDER-D3% //New
 
 //Sorc Orbs
-ItemDisplay[(UNI !ID) ob6]: //%TAN%oooooo %GOLD%Tempest %TAN%oooooo%MAP-D3% //New
-ItemDisplay[(UNI !ID) ob7]: //%TAN%oooooo %GOLD%Skorn %TAN%oooooo%MAP-D3% //New
+ItemDisplay[(UNI !ID) ob6]: %TAN%oooooo %GOLD%Tempest %TAN%oooooo%MAP-D3% //New
+ItemDisplay[(UNI !ID) ob7]: %TAN%oooooo %GOLD%Skorn %TAN%oooooo%MAP-D3% //New
+ItemDisplay[(UNI !ID) oba]: %ORANGE%oooooo %GOLD%The Oculus %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) obc]: %ORANGE%oooooooo %GOLD%Eschuta's Temper %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) obd]: %TAN%oooooooo %GOLD%Emberhorn%TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) obe]: %TAN%oooooooo %GOLD%Skyfall %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) oba]: %ORANGE%oooooo %GOLD%The Oculus %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) obf]: %ORANGE%oooooooo %GOLD%Death's Fathom %ORANGE%oooooooo%BORDER-D3%
 
 //Amazon Weapons
@@ -1601,7 +1602,7 @@ ItemDisplay[(UNI !ID) am7]: //%ORANGE%oooooo %GOLD%Lycander's Aim %ORANGE%oooooo
 ItemDisplay[(UNI !ID) amc]: %ORANGE%oooooooo %GOLD%Ebonbane %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) amd]: //%ORANGE%oooooooo %GOLD%Stoneraven %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) am9]: //%ORANGE%oooooo %GOLD%Lycander's Flank %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) ame]: //%TAN%oooooooo %GOLD%Zerae's Resolve %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) ame]: %TAN%oooooooo %GOLD%Zerae's Resolve %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) am5]: //True Silver //New
 ItemDisplay[(UNI !ID) ama]: //%ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) amf]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%oooooooo%BORDER-D3%
