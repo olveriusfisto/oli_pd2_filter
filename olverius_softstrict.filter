@@ -58,7 +58,7 @@ ItemDisplay[leg]: %MAP%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP%%GOLD%Book of Skill
 ItemDisplay[tr1]: //%MAP%%GOLD%Horadric Scroll
-ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 12%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
+ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 13%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
 ItemDisplay[msf]: %MAP%%GOLD%Staff of Kings
 ItemDisplay[vip]: %MAP%%GOLD%Viper Amulet
 ItemDisplay[hst]: %MAP%%GOLD%Horadric Staff
@@ -1544,7 +1544,7 @@ ItemDisplay[(UNI !ID) lst]: //Serpent Lord
 ItemDisplay[(UNI !ID) 8ls]: %ORANGE%oooooo %GOLD%Ribcracker %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) cst]: //Spire of Lazarus
 ItemDisplay[(UNI !ID) 8cs]: //%ORANGE%oooooo %GOLD%Chromatic Ire %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 6cs]: //%ORANGE%oooooooo %GOLD%Ondal's Wisdom %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 6cs]: %ORANGE%oooooooo %GOLD%Ondal's Wisdom %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) bst]: //The Salamander
 ItemDisplay[(UNI !ID) 8bs]: //%ORANGE%oooooo %GOLD%Warpspear %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 6bs]: %TAN%oooooooo %GOLD%Brimstone Rain %TAN%oooooooo%BORDER-D3% //New
@@ -2154,7 +2154,7 @@ ItemDisplay[ETH NMAG SOCK>2 9bt CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>2 7bt]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>1 gax CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>2 9ga CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7ga]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 7ga]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[ETH NMAG SOCK>1 gix CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>2 9gi CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[ETH NMAG SOCK>2 7gi]: %NAME%{%NAME%}
@@ -2180,10 +2180,10 @@ ItemDisplay[NMAG SOCK>2 9wh CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7wh]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 mau CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9m9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 7m7]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 7m7]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[ETH NMAG SOCK>1 gma CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9gm CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7gm]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 9gm]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 7gm]: %NAME%{%NAME%}%MAP-1F%
 
 //Swords
 ItemDisplay[NMAG SOCK>1 ssd CLVL<50]: %NAME%{%NAME%}
@@ -2514,6 +2514,7 @@ ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELL
 ItemDisplay[NMAG t3b]: %WHITE%Imperial Palace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
 ItemDisplay[NMAG t61]: %WHITE%Desert Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
 ItemDisplay[NMAG t62]: %WHITE%Moor Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
+ItemDisplay[NMAG t3b]: %WHITE%Kyovoshad %GREEN%Map%MAP-84%
 
 //Magic
 ItemDisplay[MAG t11]: %BLUE%Ruins of Viz-jun %GREEN%Map{%RED%fres 130 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
@@ -2541,6 +2542,7 @@ ItemDisplay[MAG t37]: %BLUE%Pandemonium Citadel %GREEN%Map{%TAN%phres 100 %GREEN
 ItemDisplay[MAG t38]: %BLUE%Canyon of Sescheron %GREEN%Map{%TAN%phres 120 %YELLOW%lres 160 %GREEN%pres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t39]: %BLUE%Kehjistan Marketplace %GREEN%Map{%RED%fres 125 %GREEN%pres 110 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t3a]: %BLUE%Ashen Plains %GREEN%Map{%BLUE%cres 130 %GREEN%pres 130 %ORANGE%mres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t3b]: %BLUE%Kyovoshad %GREEN%Map%MAP-84%
 
 //Rare
 ItemDisplay[RARE t11]: %YELLOW%Ruins of Viz-jun %GREEN%Map{%RED%fres 130 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
@@ -2568,6 +2570,7 @@ ItemDisplay[RARE t37]: %YELLOW%Pandemonium Citadel %GREEN%Map{%TAN%phres 100 %GR
 ItemDisplay[RARE t38]: %YELLOW%Canyon of Sescheron %GREEN%Map{%TAN%phres 120 %YELLOW%lres 160 %GREEN%pres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t39]: %YELLOW%Kehjistan Marketplace %GREEN%Map{%RED%fres 125 %GREEN%pres 110 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t3a]: %YELLOW%Ashen Plains %GREEN%Map{%BLUE%cres 130 %GREEN%pres 130 %ORANGE%mres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t3b]: %YELLOW%Kyovoshad %GREEN%Map%MAP-84%
 
 //Dungeon
 ItemDisplay[RARE t41]: %YELLOW%Cathedral of Light {%YELLOW%lres 100/180 %BLUE%cres 120/180 %GREEN%pres 180%NL%%TAN%phres 150/180 %ORANGE%mr 180 %RED%fres 100/180 %NL%%GOLD%High Immunities%WHITE%:}%BORDER-62%
@@ -2583,7 +2586,7 @@ ItemDisplay[t54]: %GOLD%Imperial Palace %ORANGE%Map%BORDER-D3%
 ItemDisplay[t55]: %GOLD%Outer Void %ORANGE%Map%BORDER-D3%
 ItemDisplay[t56]: %GOLD%City of Ureh %ORANGE%Map%BORDER-D3%
 ItemDisplay[t57]: %GOLD%Djinn's Domain %ORANGE%Map%BORDER-D3%
-ItemDisplay[t58]: %GOLD%An Evil Force %ORANGE%Map%BORDER-D3%
+ItemDisplay[t58]: %GOLD%Na-Krul's Abyss %ORANGE%Map%BORDER-D3%
 
 //ESSENCES & TOKEN
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
