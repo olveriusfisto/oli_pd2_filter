@@ -59,7 +59,7 @@ ItemDisplay[leg]: %MAP%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP%%GOLD%Book of Skill
 ItemDisplay[tr1]: //%MAP%%GOLD%Horadric Scroll
-ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 12%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
+ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 13%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
 ItemDisplay[msf]: %MAP%%GOLD%Staff of Kings
 ItemDisplay[vip]: %MAP%%GOLD%Viper Amulet
 ItemDisplay[hst]: %MAP%%GOLD%Horadric Staff
@@ -3829,7 +3829,7 @@ ItemDisplay[(UNI !ID) xlm]: %ORANGE%oooooo %GOLD%Stealskull %ORANGE%oooooo%MAP-D
 ItemDisplay[(UNI !ID) ulm]: %ORANGE%oooooooo %GOLD%Steel Shade %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) fhl]: //Duskdeep
 ItemDisplay[(UNI !ID) xhl]: %ORANGE%oooooo %GOLD%Darksight Helm %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) uhl]: %TAN%oooooooo %GOLD%Overlord's Helm %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) uhl]: %TAN%oooooooo %GOLD%Sage's Defiance %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) msk]: //The Face of Horror
 ItemDisplay[(UNI !ID) xsk]: %ORANGE%oooooo %GOLD%Blackhorn's Face %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) usk]: %ORANGE%oooooooo %GOLD%Andariel's Visage %ORANGE%oooooooo%BORDER-D3%
@@ -3853,7 +3853,7 @@ ItemDisplay[(UNI !ID) xui]: %ORANGE%oooooo %GOLD%Spirit Shroud %ORANGE%oooooo%MA
 ItemDisplay[(UNI !ID) uui]: %ORANGE%oooooooo %GOLD%Ormus' Robes %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) lea]: Blinkbat's Form
 ItemDisplay[(UNI !ID) xea]: %ORANGE%oooooo %GOLD%Skin of the Vipermagi %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) hla]: //The Centurion
+ItemDisplay[(UNI !ID) hla]: //The Centurionmo
 ItemDisplay[(UNI !ID) xla]: %ORANGE%oooooo %GOLD%Skin of the Flayed One %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) stu]: Twitchthroe
 ItemDisplay[(UNI !ID) xtu]: %ORANGE%oooooo %GOLD%Iron Pelt %ORANGE%oooooo%MAP-D3%
@@ -3985,6 +3985,7 @@ ItemDisplay[(UNI !ID) baa]: %ORANGE%oooooo %GOLD%Arreat's Face %ORANGE%oooooo%MA
 ItemDisplay[(UNI !ID) baf]: %TAN%oooooooo %GOLD%Raekor's Virtue %TAN%oooooooo%BORDER-D3% //New
 
 //Paladin Shields
+ItemDisplay[(UNI !ID) pab]: %TAN%oooooooo %GOLD%Ephemereal %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) pac]: %ORANGE%oooooooo %GOLD%Alma Negra %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) pa3]: Sankekur's Fall //New
 ItemDisplay[(UNI !ID) pa9]: %ORANGE%oooooo %GOLD%Herald of Zakarum %ORANGE%oooooo%MAP-D3%
@@ -4030,7 +4031,7 @@ ItemDisplay[(UNI !ID) 9ga]: //%ORANGE%oooooo %GOLD%Boneslayer Blade %ORANGE%oooo
 ItemDisplay[(UNI !ID) 7ga]: %ORANGE%oooooooo %GOLD%Messerschmidt's Reaver %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) gix]: //Humongous
 ItemDisplay[(UNI !ID) 9gi]: //%ORANGE%oooooo %GOLD%The Minotaur %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 7gi]: //%ORANGE%oooooooo %GOLD%Executioner's Justice %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 7gi]: %ORANGE%oooooooo %GOLD%Executioner's Justice %ORANGE%oooooooo%BORDER-D3%
 
 //Maces
 ItemDisplay[(UNI !ID) clb]: //Felloak
@@ -4137,14 +4138,14 @@ ItemDisplay[(UNI !ID) 9st]: //%ORANGE%oooooo %GOLD%Hone Sundan %ORANGE%oooooo%MA
 ItemDisplay[(UNI !ID) 7st]: %TAN%oooooooo %GOLD%Uldyssian's Awakening %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) pik]: //The Tannr Gorerod
 ItemDisplay[(UNI !ID) 9p9]: //%ORANGE%oooooo %GOLD%Spire of Honor %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 7p7]: //%ORANGE%oooooooo %GOLD%Steel Pillar %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 7p7]: %ORANGE%oooooooo %GOLD%Steel Pillar %ORANGE%oooooooo%BORDER-D3%
 
 //Polearms
 ItemDisplay[(UNI !ID) bar]: //Dimoak's Hew
 ItemDisplay[(UNI !ID) 9b7]: //%ORANGE%oooooo %GOLD%The Meat Scraper %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7o7]: %ORANGE%oooooooo %GOLD%Bonehew %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) vou]: //Steelgoad
-ItemDisplay[(UNI !ID) 7vo]: //%ORANGE%oooooooo %GOLD%Blackleach Blade %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 7vo]: %TAN%oooooooo %GOLD%Giant Maimer %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) scy]: //Soul Harvest
 ItemDisplay[(UNI !ID) 9s8]: %ORANGE%oooooo %GOLD%Athena's Wrath %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7s8]: %ORANGE%oooooooo %GOLD%The Reaper's Toll %ORANGE%oooooooo%BORDER-D3%
@@ -4197,7 +4198,7 @@ ItemDisplay[(UNI !ID) lst]: //Serpent Lord
 ItemDisplay[(UNI !ID) 8ls]: %ORANGE%oooooo %GOLD%Ribcracker %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) cst]: //Spire of Lazarus
 ItemDisplay[(UNI !ID) 8cs]: //%ORANGE%oooooo %GOLD%Chromatic Ire %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) 6cs]: //%ORANGE%oooooooo %GOLD%Ondal's Wisdom %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) 6cs]: %ORANGE%oooooooo %GOLD%Ondal's Wisdom %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) bst]: //The Salamander
 ItemDisplay[(UNI !ID) 8bs]: //%ORANGE%oooooo %GOLD%Warpspear %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 6bs]: %TAN%oooooooo %GOLD%Brimstone Rain %TAN%oooooooo%BORDER-D3% //New
@@ -4210,6 +4211,7 @@ ItemDisplay[(UNI !ID) wnd]: //Torch of Iro
 ItemDisplay[(UNI !ID) 9wn]: //%ORANGE%oooooo %GOLD%Suicide Branch %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) ywn]: //Maelstrom
 ItemDisplay[(UNI !ID) 9yw]: %ORANGE%oooooo %GOLD%Carin Shard %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 7yw]: %TAN%oooooooo %GOLD%Nethercrux %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) bwn]: Gravenspine
 ItemDisplay[(UNI !ID) 9bw]: %ORANGE%oooooo %GOLD%Arm of King Leoric %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7bw]: %ORANGE%oooooooo %GOLD%Boneshade %ORANGE%oooooooo%BORDER-D3%
@@ -4242,6 +4244,8 @@ ItemDisplay[(UNI !ID) 7qr]: %TAN%oooooooo %GOLD%Aidan's Scar %TAN%oooooooo%BORDE
 ItemDisplay[(UNI !ID) ob6]: //%TAN%oooooo %GOLD%Tempest %TAN%oooooo%MAP-D3% //New
 ItemDisplay[(UNI !ID) ob7]: //%TAN%oooooo %GOLD%Skorn %TAN%oooooo%MAP-D3% //New
 ItemDisplay[(UNI !ID) obc]: %ORANGE%oooooooo %GOLD%Eschuta's Temper %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) obd]: %TAN%oooooooo %GOLD%Emberhorn%TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) obe]: %TAN%oooooooo %GOLD%Skyfall %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) oba]: %ORANGE%oooooo %GOLD%The Oculus %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) obf]: %ORANGE%oooooooo %GOLD%Death's Fathom %ORANGE%oooooooo%BORDER-D3%
 
@@ -4258,11 +4262,11 @@ ItemDisplay[(UNI !ID) amf]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%ooooooo
 
 //Quivers
 ItemDisplay[(UNI !ID) aqv]: %TAN%oooooooo %GOLD%Balefire %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Swiftwind Needle / Tombsong %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Aetherwing / Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Swiftwind / Tombsong %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Aetherwing / Basilisk / Doom's %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) cqv]: %TAN%oooooooo %GOLD%Ramfodder %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Anvilguard / Shatterhead %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call / Frozen Sorrow %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal / Bannerlord / Sorrow %TAN%oooooooo%BORDER-D3% //New
 
 
 //SET
@@ -4272,110 +4276,110 @@ ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Cal
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Helms
-ItemDisplay[(SET !ID) cap]: //Infernal Cranium / Sander's Paragon
-ItemDisplay[(SET !ID) xap]: //%DARK_GREEN%ooooo %GREEN%Cow King's Horns %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) cap]: Infernal Cranium / Sander's Paragon
+ItemDisplay[(SET !ID) xap]: %DARK_GREEN%ooooo %GREEN%Cow King's Horns %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) skp]: //Arcanna's Head
 ItemDisplay[(SET !ID) hlm]: //Berserker's Headgear
 ItemDisplay[(SET !ID) fhl]: //Isenhart's Horns
 ItemDisplay[(SET !ID) xhl]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Mental Sheath %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) msk]: //Cathan's Visage
-ItemDisplay[(SET !ID) xsk]: //%DARK_GREEN%ooooo %GREEN%Tal Rasha's Horadric Crest %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) xsk]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Horadric Crest %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) bhm]: //Tancred's Skull
-ItemDisplay[(SET !ID) xh9]: //%DARK_GREEN%ooooo %GREEN%Natalya's Totem %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) uh9]: //%DARK_GREEN%ooooo %GREEN%Trang-Oul's Guise %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) ghm]: //Sigon's Visor
+ItemDisplay[(SET !ID) xh9]: %DARK_GREEN%ooooo %GREEN%Natalya's Totem %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) uh9]: %DARK_GREEN%ooooo %GREEN%Trang-Oul's Guise %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) ghm]: Sigon's Visor
 ItemDisplay[(SET !ID) xhm]: %DARK_GREEN%ooooo %GREEN%Guillaume's Face %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) uhm]: %DARK_GREEN%ooooo %GREEN%Ondal's Almighty %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) crn]: //Iratha's Coil / Milabrega's Diadem
+ItemDisplay[(SET !ID) crn]: Iratha's Coil / Milabrega's Diadem
 ItemDisplay[(SET !ID) xrn]: //%DARK_GREEN%ooooo %GREEN%Hwanin's Splendor %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) urn]: //%DARK_GREEN%ooooo %GREEN%Griswold's Valor %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) urn]: %DARK_GREEN%ooooo %GREEN%Griswold's Valor %DARK_GREEN%ooooo%MAP-7D%
 
 //Circlets
-ItemDisplay[(SET !ID) ci0]: //Naj's Circlet
-ItemDisplay[(SET !ID) ci3]: //%DARK_GREEN%ooooo %GREEN%M'avina's True Sight %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) ci0]: Naj's Circlet
+ItemDisplay[(SET !ID) ci3]: %DARK_GREEN%ooooo %GREEN%M'avina's True Sight %DARK_GREEN%ooooo%MAP-7D%
 
 //Chests
 ItemDisplay[(SET !ID) qui]: //Arctic Furs
-ItemDisplay[(SET !ID) uui]: //%DARK_GREEN%ooooo %GREEN%Dark Adherent %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) uui]: %DARK_GREEN%ooooo %GREEN%Dark Adherent %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) lea]: //Vidala's Ambush
-ItemDisplay[(SET !ID) stu]: //Cow King's Hide
-ItemDisplay[(SET !ID) rng]: //Angelic Mantle
+ItemDisplay[(SET !ID) stu]: Cow King's Hide
+ItemDisplay[(SET !ID) rng]: Angelic Mantle
 ItemDisplay[(SET !ID) xcl]: //%DARK_GREEN%ooooo %GREEN%Hwanin's Refuge %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) ucl]: //%DARK_GREEN%ooooo %GREEN%Natalya's Shadow %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) ucl]: %DARK_GREEN%ooooo %GREEN%Natalya's Shadow %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) brs]: //Isenhart's Case
-ItemDisplay[(SET !ID) xrs]: //%DARK_GREEN%ooooo %GREEN%Haemosu's Adamant %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) xrs]: %DARK_GREEN%ooooo %GREEN%Haemosu's Adamant %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) chn]: //Cathan's Mesh
 ItemDisplay[(SET !ID) spl]: //Berserker's Hauberk
 ItemDisplay[(SET !ID) upl]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Ghost Liberator %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) ltp]: //Arcanna's Flesh
-ItemDisplay[(SET !ID) uld]: //%DARK_GREEN%ooooo %GREEN%M'avina's Embrace %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) ult]: //%DARK_GREEN%ooooo %GREEN%Naj's Light Plate %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) gth]: //Sigon's Shelter
-ItemDisplay[(SET !ID) uth]: //%DARK_GREEN%ooooo %GREEN%Tal Rasha's Guardianship %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) uld]: %DARK_GREEN%ooooo %GREEN%M'avina's Embrace %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) ult]: %DARK_GREEN%ooooo %GREEN%Naj's Light Plate %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) gth]: Sigon's Shelter
+ItemDisplay[(SET !ID) uth]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Guardianship %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) ful]: //Tancred's Spine
-ItemDisplay[(SET !ID) xul]: //%DARK_GREEN%ooooo %GREEN%Trang-Oul's Scales %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) uul]: //%DARK_GREEN%ooooo %GREEN%Aldur's Deception %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) aar]: //Milabrega's Robe
-ItemDisplay[(SET !ID) xar]: //%DARK_GREEN%ooooo %GREEN%Griswold's Heart %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) uar]: //%DARK_GREEN%ooooo %GREEN%Immortal King's Soul Cage %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) xul]: %DARK_GREEN%ooooo %GREEN%Trang-Oul's Scales %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) uul]: %DARK_GREEN%ooooo %GREEN%Aldur's Deception %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) aar]: Milabrega's Robe
+ItemDisplay[(SET !ID) xar]: %DARK_GREEN%ooooo %GREEN%Griswold's Heart %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) uar]: %DARK_GREEN%ooooo %GREEN%Immortal King's Soul Cage %DARK_GREEN%ooooo%MAP-7D%
 
 //Shields
 ItemDisplay[(SET !ID) buc]: //Hsarus' Iron Fist
 ItemDisplay[(SET !ID) sml]: //Cleglaw's Claw
-ItemDisplay[(SET !ID) xml]: //%DARK_GREEN%ooooo %GREEN%Whitstan's Guard %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) xml]: %DARK_GREEN%ooooo %GREEN%Whitstan's Guard %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) lrg]: //Civerb's Ward
-ItemDisplay[(SET !ID) kit]: //Milabrega's Orb
-ItemDisplay[(SET !ID) tow]: //Sigon's Guard
+ItemDisplay[(SET !ID) kit]: Milabrega's Orb
+ItemDisplay[(SET !ID) tow]: Sigon's Guard
 ItemDisplay[(SET !ID) gts]: //Isenhart's Parry
 ItemDisplay[(SET !ID) uts]: //%DARK_GREEN%ooooo %GREEN%Taebaek's Glory %DARK_GREEN%ooooo%MAP-7D%
 
 //Gloves
-ItemDisplay[(SET !ID) lgl]: //Death's Hand
+ItemDisplay[(SET !ID) lgl]: Death's Hand
 ItemDisplay[(SET !ID) ulg]: %DARK_GREEN%ooooo %GREEN%Laying of Hands %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) vgl]: //Sander's Taboo
-ItemDisplay[(SET !ID) xvg]: //%DARK_GREEN%ooooo %GREEN%Magnus' Skin %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) vgl]: Sander's Taboo
+ItemDisplay[(SET !ID) xvg]: %DARK_GREEN%ooooo %GREEN%Magnus' Skin %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) mgl]: //Cleglaw's Pincers
 ItemDisplay[(SET !ID) xmg]: %DARK_GREEN%ooooo %GREEN%Trang-Oul's Claws %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) tgl]: //Arctic Mitts / Iratha's Cuff
-ItemDisplay[(SET !ID) xtg]: //%DARK_GREEN%ooooo %GREEN%M'avina's Icy Clutch %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) hgl]: //Sigon's Gage
+ItemDisplay[(SET !ID) xtg]: %DARK_GREEN%ooooo %GREEN%M'avina's Icy Clutch %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) hgl]: Sigon's Gage
 ItemDisplay[(SET !ID) xhg]: %DARK_GREEN%ooooo %GREEN%Immortal King's Forge %DARK_GREEN%ooooo%MAP-7D%
 
 //Boots
 ItemDisplay[(SET !ID) lbt]: //Tancred's Hobnails
-ItemDisplay[(SET !ID) xlb]: //%DARK_GREEN%ooooo %GREEN%Rite of Passage %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) vbt]: //Cow King's Hooves / Sander's Riprap
+ItemDisplay[(SET !ID) xlb]: %DARK_GREEN%ooooo %GREEN%Rite of Passage %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) vbt]: Cow King's Hooves / Sander's Riprap
 ItemDisplay[(SET !ID) mbt]: //Hsarus' Iron Heel
-ItemDisplay[(SET !ID) xmb]: //%DARK_GREEN%ooooo %GREEN%Natalya's Soul %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) xmb]: %DARK_GREEN%ooooo %GREEN%Natalya's Soul %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) tbt]: //Vidala's Fetlock
-ItemDisplay[(SET !ID) xtb]: //%DARK_GREEN%ooooo %GREEN%Aldur's Advance %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) hbt]: //Sigon's Sabot
-ItemDisplay[(SET !ID) xhb]: //%DARK_GREEN%ooooo %GREEN%Immortal King's Pillar %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) xtb]: %DARK_GREEN%ooooo %GREEN%Aldur's Advance %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) hbt]: Sigon's Sabot
+ItemDisplay[(SET !ID) xhb]: %DARK_GREEN%ooooo %GREEN%Immortal King's Pillar %DARK_GREEN%ooooo%MAP-7D%
 
 //Belts
 ItemDisplay[(SET !ID) lbl]: //Death's Guard
 ItemDisplay[(SET !ID) vbl]: //Arctic Binding
-ItemDisplay[(SET !ID) zvb]: //%DARK_GREEN%ooooo %GREEN%M'avina's Tenet %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) zvb]: %DARK_GREEN%ooooo %GREEN%M'avina's Tenet %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) mbl]: //Hsarus' Iron Stay / Hwanin's Blessing
-ItemDisplay[(SET !ID) zmb]: //%DARK_GREEN%ooooo %GREEN%Tal Rasha's Fine-Spun Cloth %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) umc]: //%DARK_GREEN%ooooo %GREEN%Credendum %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) zmb]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Fine-Spun Cloth %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) umc]: %DARK_GREEN%ooooo %GREEN%Credendum %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) tbl]: //Infernal Sign / Iratha's Cord
-ItemDisplay[(SET !ID) ztb]: //%DARK_GREEN%ooooo %GREEN%Wilhelm's Pride %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) utc]: //%DARK_GREEN%ooooo %GREEN%Trang-Oul's Girth %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) hbl]: //Sigon's Wrap
-ItemDisplay[(SET !ID) zhb]: //%DARK_GREEN%ooooo %GREEN%Immortal King's Detail %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) ztb]: %DARK_GREEN%ooooo %GREEN%Wilhelm's Pride %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) utc]: %DARK_GREEN%ooooo %GREEN%Trang-Oul's Girth %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) hbl]: Sigon's Wrap
+ItemDisplay[(SET !ID) zhb]: %DARK_GREEN%ooooo %GREEN%Immortal King's Detail %DARK_GREEN%ooooo%MAP-7D%
 
 //Druid Helms
-ItemDisplay[(SET !ID) dr8]: //%DARK_GREEN%ooooo %GREEN%Aldur's Stony Gaze %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) dr8]: %DARK_GREEN%ooooo %GREEN%Aldur's Stony Gaze %DARK_GREEN%ooooo%MAP-7D%
 
 //Barbarian Helms
-ItemDisplay[(SET !ID) ba5]: //Immortal King's Will
+ItemDisplay[(SET !ID) ba5]: Immortal King's Will
 
 //Paladin Shields
-ItemDisplay[(SET !ID) paf]: //%DARK_GREEN%ooooo %GREEN%Griswold's Honor %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) paf]: %DARK_GREEN%ooooo %GREEN%Griswold's Honor %DARK_GREEN%ooooo%MAP-7D%
 
 //Necro Shields
-ItemDisplay[(SET !ID) ne9]: //%DARK_GREEN%ooooo %GREEN%Trang-Oul's Wing %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) ne9]: %DARK_GREEN%ooooo %GREEN%Trang-Oul's Wing %DARK_GREEN%ooooo%MAP-7D%
 
 //Weapons
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -4386,17 +4390,17 @@ ItemDisplay[(SET !ID) mpi]: //Tancred's Crowbill
 
 //Maces
 ItemDisplay[(SET !ID) 7ma]: //%DARK_GREEN%ooooo %GREEN%Dangoon's Teaching %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) 9mt]: //%DARK_GREEN%ooooo %GREEN%Aldur's Rhythm %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) 7m7]: //%DARK_GREEN%ooooo %GREEN%Immortal King's Stone Crusher %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) 9mt]: %DARK_GREEN%ooooo %GREEN%Aldur's Rhythm %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) 7m7]: %DARK_GREEN%ooooo %GREEN%Immortal King's Stone Crusher %DARK_GREEN%ooooo%MAP-7D%
 
 //Swords
-ItemDisplay[(SET !ID) sbr]: //Angelic Sickle
+ItemDisplay[(SET !ID) sbr]: Angelic Sickle
 ItemDisplay[(SET !ID) bsd]: //Isenhart's Lightbrand
 ItemDisplay[(SET !ID) lsd]: //Cleglaw's Tooth
 ItemDisplay[(SET !ID) 7ls]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Cobalt Redeemer %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) wsd]: //Death's Touch
-ItemDisplay[(SET !ID) 7fb]: //%DARK_GREEN%ooooo %GREEN%Bul-Kathos' Tribal Guardian %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(SET !ID) 7gd]: //%DARK_GREEN%ooooo %GREEN%Bul-Kathos' Sacred Charge %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) 7fb]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Tribal Guardian %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) 7gd]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Sacred Charge %DARK_GREEN%ooooo%MAP-7D%
 
 //Daggers
 ItemDisplay[(SET !ID) dgr]: //Infernal Spire
@@ -4414,21 +4418,21 @@ ItemDisplay[(SET !ID) bst]: //Cathan's Rule
 ItemDisplay[(SET !ID) wst]: //Arcanna's Deathwand
 
 //Wands
-ItemDisplay[(SET !ID) bwn]: //Sander's Superstition
+ItemDisplay[(SET !ID) bwn]: Sander's Superstition
 
 //Scepters
 ItemDisplay[(SET !ID) gsc]: //Civerb's Cudgel
-ItemDisplay[(SET !ID) wsp]: //Milabrega's Rod
-ItemDisplay[(SET !ID) 7ws]: //%DARK_GREEN%ooooo %GREEN%Griswold's Redemption %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) wsp]: Milabrega's Rod
+ItemDisplay[(SET !ID) 7ws]: %DARK_GREEN%ooooo %GREEN%Griswold's Redemption %DARK_GREEN%ooooo%MAP-7D%
 
 //Assassin Claws
-ItemDisplay[(SET !ID) 7qr]: //%DARK_GREEN%ooooo %GREEN%Natalya's Mark %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) 7qr]: %DARK_GREEN%ooooo %GREEN%Natalya's Mark %DARK_GREEN%ooooo%MAP-7D%
 
 //Sorc Orbs
-ItemDisplay[(SET !ID) oba]: //%DARK_GREEN%ooooo %GREEN%Tal Rasha's Lidless Eye %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) oba]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Lidless Eye %DARK_GREEN%ooooo%MAP-7D%
 
 //Amazon Weapons
-ItemDisplay[(SET !ID) amc]: //%DARK_GREEN%ooooo %GREEN%M'avina's Caster %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) amc]: %DARK_GREEN%ooooo %GREEN%M'avina's Caster %DARK_GREEN%ooooo%MAP-7D%
 
 
 //CRAFTING
@@ -4799,15 +4803,15 @@ ItemDisplay[NMAG SOCK>2 7la]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 bax CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9ba CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7ba]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 btx CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9bt CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7bt]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 gax CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9ga CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7ga]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 gix CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9gi CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7gi]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 btx CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9bt CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7bt]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 gax CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9ga CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 7ga]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG SOCK>1 gix CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9gi CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7gi]: %NAME%{%NAME%}
 
 //Maces
 ItemDisplay[NMAG SOCK>1 clb CLVL<50]: %NAME%{%NAME%}
@@ -4828,12 +4832,12 @@ ItemDisplay[NMAG SOCK>2 7fl]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 whm]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9wh CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7wh]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 mau CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9m9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7m7]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 gma CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9gm CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7gm]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 mau CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9m9 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 7m7]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 gma CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 9gm]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[(SUP OR ETH) SOCK>2 7gm]: %NAME%{%NAME%}%MAP-1F%
 
 //Swords
 ItemDisplay[NMAG SOCK>1 ssd CLVL<50]: %NAME%{%NAME%}
@@ -4848,50 +4852,50 @@ ItemDisplay[NMAG SOCK>2 7sb]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 flc CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9fc CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7fc]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG (SOCK=0 OR SOCK>3) crs]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>3) crs]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9cr CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG (SOCK=0 OR SOCK>2) 7cr]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7cr]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[NMAG SOCK>1 bsd CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9bs CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7bs]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG (SOCK=0 OR SOCK>3) lsd CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>3) lsd CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9ls CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7ls]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[NMAG SOCK>1 wsd CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9wd CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7wd]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 2hs CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 92h CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 72h]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 clm CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9cm CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7cm]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 gis CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9gs CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7gs]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 bsw CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9b9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7b7]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 flb CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9fb CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>3) 7fb]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[ETH NMAG SOCK>1 gsd CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>3) 9gd]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>3) 7gd]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 2hs CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 92h CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 72h]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 clm CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9cm CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7cm]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 gis CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9gs CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7gs]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 bsw CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9b9 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7b7]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 flb CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9fb CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>3) 7fb]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 gsd CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>3) 9gd]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>3) 7gd]: %NAME%{%NAME%}%MAP-1F%
 
 //Daggers
-ItemDisplay[!INF NMAG SOCK>1 dgr CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 9dg CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 7dg]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[!INF NMAG SOCK>1 dir CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 9di CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 7di]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[!INF NMAG SOCK>1 kri CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 9kr] CLVL<70: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 7kr]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[!INF NMAG SOCK>1 bld CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 9bl CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 7bl]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 dgr CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9dg CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7dg]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 dir CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9di CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7di]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 kri CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9kr] CLVL<70: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7kr]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 bld CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 9bl CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 7bl]: %NAME%{%NAME%}%MAP-1F%
 
 //Throwing Axes & Throwing Knives
 ItemDisplay[NMAG SOCK>1 tkf CLVL<50]: %NAME%{%NAME%}
@@ -4908,56 +4912,56 @@ ItemDisplay[NMAG SOCK>2 9b8 CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7b8]: %NAME%{%NAME%}
 
 //Spears
-ItemDisplay[ETH NMAG SOCK>1 jav CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9ja CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7ja]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 pil CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9pi CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7pi]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 ssp CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9s9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7s7]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 glv CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9gl CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7gl]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 tsp CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9ts CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7ts]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 spr CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9sr CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7sr]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[ETH NMAG SOCK>1 tri CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9tr CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7tr]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[ETH NMAG SOCK>1 brn CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9br CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7br]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[ETH NMAG SOCK>1 spt CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9st CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 7st]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[ETH NMAG SOCK>1 pik CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9p9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7p7]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 jav CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9ja CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7ja]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 pil CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9pi CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7pi]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ssp CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9s9 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7s7]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 glv CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9gl CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7gl]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 tsp CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9ts CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7ts]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 spr CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9sr CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>1 7sr]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 tri CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9tr CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>1 7tr]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 brn CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9br CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>1) 7br]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 spt CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9st CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7st]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG SOCK>1 pik CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9p9 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>1) 7p7]: %NAME%{%NAME%}%MAP-1F%
 
 //Polearms
 ItemDisplay[NMAG SOCK>1 bar CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9b7 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG SOCK>2 9b7 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 vou CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 9vo]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9vo]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 scy CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 9s8 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG SOCK>2 9s8 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 pax CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 9pa]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9pa]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 hal CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 9h9]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7h7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 9h9]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7h7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 wsc CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 9wc]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9wc]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
 
 //Bows
 ItemDisplay[NMAG SOCK>1 sbw CLVL<50]: %NAME%{%NAME%}
@@ -5017,18 +5021,18 @@ ItemDisplay[NMAG SOCK>2 8ws CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 6ws]: %NAME%{%NAME%}%BORDER-1F%
 
 //Wands
-ItemDisplay[!INF NMAG (SOCK=0 OR SOCK>1) wnd CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 9wn CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 7wn]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG (SOCK=0 OR SOCK>1) ywn CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 9yw CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 7yw]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG (SOCK=0 OR SOCK>1) bwn CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 9bw CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 7bw]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 gwn CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 9gw CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 7gw]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) wnd CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9wn CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7wn]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) ywn CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9yw CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7yw]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) bwn CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9bw CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7bw]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 gwn CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 9gw CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 7gw]: %NAME%{%NAME%}
 
 //Scepters
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) scp CLVL<50]: %NAME%{%NAME%}
@@ -5065,38 +5069,38 @@ ItemDisplay[NMAG SOCK>2 9qr CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7qr]: %NAME%{%NAME%}
 
 //Sorc Orbs
-ItemDisplay[!INF NMAG SOCK>1 ob1 CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 ob6 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 obb]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 ob2 CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 ob7 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 obc]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 ob3 CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 ob8 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 obd]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 ob4 CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 ob9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 obe]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>1 ob5 CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 oba CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[!INF NMAG SOCK>2 obf]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ob1 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 ob6 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 obb]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ob2 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 ob7 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 obc]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ob3 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 ob8 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 obd]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ob4 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 ob9 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 obe]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 ob5 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 oba CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 obf]: %NAME%{%NAME%}
 
 //Amazon Weapons
 ItemDisplay[NMAG SOCK>1 am1 CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 am6 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 amb]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 amb]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 am2 CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 am7 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 amc]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[ETH NMAG SOCK>1 am3 CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 am8 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 amd]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 am4 CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 am9 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 ame]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>1 am5 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 amc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG SOCK>1 am3 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 am8 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 amd]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>1 am4 CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 am9 CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 ame]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>1 am5 CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 ama CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[ETH NMAG SOCK>2 amf]: %NAME%{%NAME%}
+ItemDisplay[(SUP OR ETH) SOCK>2 amf]: %NAME%{%NAME%}
 
 //PROJECT D2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -5138,100 +5142,105 @@ ItemDisplay[lsvl]: %GOLD%ooooooooooo %TEAL%Vial of Lightsong %GOLD%ooooooooooo%B
 //Normal
 ItemDisplay[NMAG t11]: %WHITE%Ruins of Viz-jun %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 130 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t12]: %WHITE%Horazon's Memory %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 135 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t13]: %WHITE%Bastion Keep %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 125 %BLUE%cres 130 %TAN%pr 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t13]: %WHITE%Bastion Keep %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 125 %BLUE%cres 130 %TAN%phres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t14]: %WHITE%Sanatorium %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%YELLOW%lres 125 %GREEN%pres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t15]: %WHITE%Royal Crypts %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cres 125 %GREEN%pres 105 %ORANGE%mr 150 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t16]: %WHITE%Ruined Cistern %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 135 %BLUE%cres 115 %ORANGE%mr 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t15]: %WHITE%Royal Crypts %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cres 125 %GREEN%pres 105 %ORANGE%mres 150 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t16]: %WHITE%Ruined Cistern %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 135 %BLUE%cres 115 %ORANGE%mres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t17]: %WHITE%Halls of Torture %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%DARK_GREEN%Immunity Free Area}%MAP-84%
 ItemDisplay[NMAG t21]: %WHITE%Phlegathon %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 140 %YELLOW%lres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t22]: %WHITE%Torajan Jungle %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 125 %YELLOW%lres 105 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t23]: %WHITE%Arreat Battlefield %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 130 %YELLOW%lres 100 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t24]: %WHITE%Tomb of Zoltun Kulle %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%YELLOW%lres 120 %GREEN%pres 110 %TAN%pr 105 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t24]: %WHITE%Tomb of Zoltun Kulle %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%YELLOW%lres 120 %GREEN%pres 110 %TAN%phres 105 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t25]: %WHITE%Sewers of Harrogath %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%YELLOW%lres 135 %GREEN%pres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t26]: %WHITE%Shadows of Westmarch %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GREEN%pres 135 %TAN%pr 100 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t26]: %WHITE%Shadows of Westmarch %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GREEN%pres 135 %TAN%phres 100 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t27]: %WHITE%Demon Road %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cres 125 %GREEN%pres 135 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t28]: %WHITE%Skovos Stronghold %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%YELLOW%lres 130 %RED%fres 125 %TAN%pr 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t31]: %WHITE%River of Blood %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%ORANGE%mr 100 %GREEN%pres 130 %BLUE%cres 180 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t32]: %WHITE%Throne of Insanity %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cres 130 %YELLOW%fr 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t28]: %WHITE%Skovos Stronghold %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%YELLOW%lres 130 %RED%fres 125 %TAN%phres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t31]: %WHITE%River of Blood %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%ORANGE%mres 100 %GREEN%pres 130 %BLUE%cres 180 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t32]: %WHITE%Throne of Insanity %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cres 130 %RED%fres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t33]: %WHITE%Lost Temple %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 120 %BLUE%cres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t34]: %WHITE%Ancestral Trial %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GREEN%pres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t35]: %WHITE%Blood Moon %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%DARK_GREEN%Immunity Free Area}%MAP-84%
 ItemDisplay[NMAG t36]: %WHITE%Fall of Caldeum %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%YELLOW%lres 100 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%TAN%pr 100 %GREEN%pres 130 %YELLOW%lres 135 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%TAN%pr 120 %YELLOW%lres 160 %GREEN%pres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%TAN%phres 100 %GREEN%pres 130 %YELLOW%lres 135 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%TAN%phres 120 %YELLOW%lres 160 %GREEN%pres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 125 %GREEN%pres 110 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cres 130 %GREEN%pres 130 %ORANGE%mr 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%BLUE%cres 130 %GREEN%pres 130 %ORANGE%mres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[NMAG t3b]: %WHITE%Imperial Palace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
 ItemDisplay[NMAG t61]: %WHITE%Desert Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
 ItemDisplay[NMAG t62]: %WHITE%Moor Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
+ItemDisplay[NMAG t3b]: %WHITE%Kyovoshad %GREEN%Map%MAP-84%
 
 //Magic
 ItemDisplay[MAG t11]: %BLUE%Ruins of Viz-jun %GREEN%Map{%RED%fres 130 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t12]: %BLUE%Horazon's Memory %GREEN%Map{%RED%fres 135 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t13]: %BLUE%Bastion Keep %GREEN%Map{%RED%fres 125 %BLUE%cres 130 %TAN%pr 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t13]: %BLUE%Bastion Keep %GREEN%Map{%RED%fres 125 %BLUE%cres 130 %TAN%phres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t14]: %BLUE%Sanatorium %GREEN%Map{%YELLOW%lres 125 %GREEN%pres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t15]: %BLUE%Royal Crypts %GREEN%Map{%BLUE%cres 125 %GREEN%pres 105 %ORANGE%mr 150 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t16]: %BLUE%Ruined Cistern %GREEN%Map{%RED%fres 135 %BLUE%cres 115 %ORANGE%mr 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t15]: %BLUE%Royal Crypts %GREEN%Map{%BLUE%cres 125 %GREEN%pres 105 %ORANGE%mres 150 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t16]: %BLUE%Ruined Cistern %GREEN%Map{%RED%fres 135 %BLUE%cres 115 %ORANGE%mres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t17]: %BLUE%Halls of Torture %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
 ItemDisplay[MAG t21]: %BLUE%Phlegathon %GREEN%Map{%RED%fres 140 %YELLOW%lres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t22]: %BLUE%Torajan Jungle %GREEN%Map{%RED%fres 125 %YELLOW%lres 105 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t23]: %BLUE%Arreat Battlefield %GREEN%Map{%RED%fres 130 %YELLOW%lres 100 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t24]: %BLUE%Tomb of Zoltun Kulle %GREEN%Map{%YELLOW%lres 120 %GREEN%pres 110 %TAN%pr 105 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t24]: %BLUE%Tomb of Zoltun Kulle %GREEN%Map{%YELLOW%lres 120 %GREEN%pres 110 %TAN%phres 105 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t25]: %BLUE%Sewers of Harrogath %GREEN%Map{%YELLOW%lres 135 %GREEN%pres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t26]: %BLUE%Shadows of Westmarch %GREEN%Map{%GREEN%pres 135 %TAN%pr 100 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t26]: %BLUE%Shadows of Westmarch %GREEN%Map{%GREEN%pres 135 %TAN%phres 100 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t27]: %BLUE%Demon Road %GREEN%Map{%BLUE%cres 125 %GREEN%pres 135 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t28]: %BLUE%Skovos Stronghold %GREEN%Map{%YELLOW%lres 130 %RED%fres 125 %TAN%pr 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t31]: %BLUE%River of Blood %GREEN%Map{%ORANGE%mr 100 %GREEN%pres 130 %BLUE%cres 180 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t32]: %BLUE%Throne of Insanity %GREEN%Map{%BLUE%cres 130 %YELLOW%fr 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t28]: %BLUE%Skovos Stronghold %GREEN%Map{%YELLOW%lres 130 %RED%fres 125 %TAN%phres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t31]: %BLUE%River of Blood %GREEN%Map{%ORANGE%mres 100 %GREEN%pres 130 %BLUE%cres 180 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t32]: %BLUE%Throne of Insanity %GREEN%Map{%BLUE%cres 130 %RED%fres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t33]: %BLUE%Lost Temple %GREEN%Map{%RED%fres 120 %BLUE%cres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t34]: %BLUE%Ancestral Trial %GREEN%Map{%GREEN%pres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t35]: %BLUE%Blood Moon %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
 ItemDisplay[MAG t36]: %BLUE%Fall of Caldeum %GREEN%Map{%YELLOW%lres 100 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t37]: %BLUE%Pandemonium Citadel %GREEN%Map{%TAN%pr 100 %GREEN%pres 130 %YELLOW%lres 135 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t38]: %BLUE%Canyon of Sescheron %GREEN%Map{%TAN%pr 120 %YELLOW%lres 160 %GREEN%pres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t37]: %BLUE%Pandemonium Citadel %GREEN%Map{%TAN%phres 100 %GREEN%pres 130 %YELLOW%lres 135 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t38]: %BLUE%Canyon of Sescheron %GREEN%Map{%TAN%phres 120 %YELLOW%lres 160 %GREEN%pres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[MAG t39]: %BLUE%Kehjistan Marketplace %GREEN%Map{%RED%fres 125 %GREEN%pres 110 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[MAG t3a]: %BLUE%Ashen Plains %GREEN%Map{%BLUE%cres 130 %GREEN%pres 130 %ORANGE%mr 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t3a]: %BLUE%Ashen Plains %GREEN%Map{%BLUE%cres 130 %GREEN%pres 130 %ORANGE%mres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[MAG t3b]: %BLUE%Kyovoshad %GREEN%Map%MAP-84%
 
 //Rare
 ItemDisplay[RARE t11]: %YELLOW%Ruins of Viz-jun %GREEN%Map{%RED%fres 130 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t12]: %YELLOW%Horazon's Memory %GREEN%Map{%RED%fres 135 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t13]: %YELLOW%Bastion Keep %GREEN%Map{%RED%fres 125 %BLUE%cres 130 %TAN%pr 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t13]: %YELLOW%Bastion Keep %GREEN%Map{%RED%fres 125 %BLUE%cres 130 %TAN%phres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t14]: %YELLOW%Sanatorium %GREEN%Map{%YELLOW%lres 125 %GREEN%pres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t15]: %YELLOW%Royal Crypts %GREEN%Map{%BLUE%cres 125 %GREEN%pres 105 %ORANGE%mr 150 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t16]: %YELLOW%Ruined Cistern %GREEN%Map{%RED%fres 135 %BLUE%cres 115 %ORANGE%mr 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t15]: %YELLOW%Royal Crypts %GREEN%Map{%BLUE%cres 125 %GREEN%pres 105 %ORANGE%mres 150 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t16]: %YELLOW%Ruined Cistern %GREEN%Map{%RED%fres 135 %BLUE%cres 115 %ORANGE%mres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t17]: %YELLOW%Halls of Torture %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
 ItemDisplay[RARE t21]: %YELLOW%Phlegathon %GREEN%Map{%RED%fres 140 %YELLOW%lres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t22]: %YELLOW%Torajan Jungle %GREEN%Map{%RED%fres 125 %YELLOW%lres 105 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t23]: %YELLOW%Arreat Battlefield %GREEN%Map{%RED%fres 130 %YELLOW%lres 100 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t24]: %YELLOW%Tomb of Zoltun Kulle %GREEN%Map{%YELLOW%lres 120 %GREEN%pres 110 %TAN%pr 105 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t24]: %YELLOW%Tomb of Zoltun Kulle %GREEN%Map{%YELLOW%lres 120 %GREEN%pres 110 %TAN%phres 105 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t25]: %YELLOW%Sewers of Harrogath %GREEN%Map{%YELLOW%lres 135 %GREEN%pres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t26]: %YELLOW%Shadows of Westmarch %GREEN%Map{%GREEN%pres 135 %TAN%pr 100 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t26]: %YELLOW%Shadows of Westmarch %GREEN%Map{%GREEN%pres 135 %TAN%phres 100 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t27]: %YELLOW%Demon Road %GREEN%Map{%BLUE%cres 125 %GREEN%pres 135 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t28]: %YELLOW%Skovos Stronghold %GREEN%Map{%YELLOW%lres 130 %RED%fres 125 %TAN%pr 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t31]: %YELLOW%River of Blood %GREEN%Map{%ORANGE%mr 100 %GREEN%pres 130 %BLUE%cres 180 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t32]: %YELLOW%Throne of Insanity %GREEN%Map{%BLUE%cres 130 %YELLOW%fr 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t28]: %YELLOW%Skovos Stronghold %GREEN%Map{%YELLOW%lres 130 %RED%fres 125 %TAN%phres 125 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t31]: %YELLOW%River of Blood %GREEN%Map{%ORANGE%mres 100 %GREEN%pres 130 %BLUE%cres 180 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t32]: %YELLOW%Throne of Insanity %GREEN%Map{%BLUE%cres 130 %RED%fres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t33]: %YELLOW%Lost Temple %GREEN%Map{%RED%fres 120 %BLUE%cres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t34]: %YELLOW%Ancestral Trial %GREEN%Map{%GREEN%pres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t35]: %YELLOW%Blood Moon %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
 ItemDisplay[RARE t36]: %YELLOW%Fall of Caldeum %GREEN%Map{%YELLOW%lres 100 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t37]: %YELLOW%Pandemonium Citadel %GREEN%Map{%TAN%pr 100 %GREEN%pres 130 %YELLOW%lres 135 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t38]: %YELLOW%Canyon of Sescheron %GREEN%Map{%TAN%pr 120 %YELLOW%lres 160 %GREEN%pres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t37]: %YELLOW%Pandemonium Citadel %GREEN%Map{%TAN%phres 100 %GREEN%pres 130 %YELLOW%lres 135 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t38]: %YELLOW%Canyon of Sescheron %GREEN%Map{%TAN%phres 120 %YELLOW%lres 160 %GREEN%pres 110 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
 ItemDisplay[RARE t39]: %YELLOW%Kehjistan Marketplace %GREEN%Map{%RED%fres 125 %GREEN%pres 110 %BLUE%cres 130 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[RARE t3a]: %YELLOW%Ashen Plains %GREEN%Map{%BLUE%cres 130 %GREEN%pres 130 %ORANGE%mr 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t3a]: %YELLOW%Ashen Plains %GREEN%Map{%BLUE%cres 130 %GREEN%pres 130 %ORANGE%mres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[RARE t3b]: %YELLOW%Kyovoshad %GREEN%Map%MAP-84%
 
 //Dungeon
-ItemDisplay[RARE t41]: %YELLOW%Cathedral of Light {%YELLOW%lres 100/180 %BLUE%cres 120/180 %GREEN%pres 180%NL%%TAN%pr 150/180 %ORANGE%mr 180 %RED%fres 100/180 %NL%%GOLD%High Immunities%WHITE%:}%BORDER-62%
-ItemDisplay[RARE t42]: %YELLOW%Plains of Torment {%YELLOW%lres 180 %BLUE%cres 120/180 %GREEN%pres 180%NL%%TAN%pr 150/180 %ORANGE%mr 180 %RED%fres 180 %NL%%GOLD%High Immunities%WHITE%:}%BORDER-62%
-ItemDisplay[RARE t43]: %YELLOW%Sanctuary of Sin {%YELLOW%lres 180 %BLUE%cres 120/180 %GREEN%pres 180%NL%%TAN%pr 150/180 %ORANGE%mr 180 %RED%fres 180 %NL%%GOLD%High Immunities%WHITE%:}%BORDER-62%
-ItemDisplay[RARE t44]: %YELLOW%Steppes of Daken-Shar {%YELLOW%lres 180 %BLUE%cres 120/180 %GREEN%pres 180%NL%%TAN%pr 150/180 %ORANGE%mr 180 %RED%fres 180 %NL%%GOLD%High Immunities%WHITE%:}%BORDER-62%
+ItemDisplay[RARE t41]: %YELLOW%Cathedral of Light {%YELLOW%lres 100/180 %BLUE%cres 120/180 %GREEN%pres 180%NL%%TAN%phres 150/180 %ORANGE%mr 180 %RED%fres 100/180 %NL%%GOLD%High Immunities%WHITE%:}%BORDER-62%
+ItemDisplay[RARE t42]: %YELLOW%Plains of Torment {%YELLOW%lres 180 %BLUE%cres 120/180 %GREEN%pres 180%NL%%TAN%phres 150/180 %ORANGE%mres 180 %RED%fres 180 %NL%%GOLD%High Immunities%WHITE%:}%BORDER-62%
+ItemDisplay[RARE t43]: %YELLOW%Sanctuary of Sin {%YELLOW%lres 180 %BLUE%cres 120/180 %GREEN%pres 180%NL%%TAN%phres 150/180 %ORANGE%mres 180 %RED%fres 180 %NL%%GOLD%High Immunities%WHITE%:}%BORDER-62%
+ItemDisplay[RARE t44]: %YELLOW%Steppes of Daken-Shar {%YELLOW%lres 180 %BLUE%cres 120/180 %GREEN%pres 180%NL%%TAN%phres 150/180 %ORANGE%mres 180 %RED%fres 180 %NL%%GOLD%High Immunities%WHITE%:}%BORDER-62%
 
 //Unique
 ItemDisplay[t51]: %GOLD%Zhar's Sanctum %ORANGE%Map%BORDER-D3%
-ItemDisplay[t52]: %GOLD%Stygian Caverns %ORANGE%Map%BORDER-D3%
+ItemDisplay[t52]: %GOLD%Warlord of Blood %ORANGE%Map%BORDER-D3%
 ItemDisplay[t53]: %GOLD%Fallen Gardens %ORANGE%Map%BORDER-D3%
 ItemDisplay[t54]: %GOLD%Imperial Palace %ORANGE%Map%BORDER-D3%
 ItemDisplay[t55]: %GOLD%Outer Void %ORANGE%Map%BORDER-D3%
 ItemDisplay[t56]: %GOLD%City of Ureh %ORANGE%Map%BORDER-D3%
+ItemDisplay[t57]: %GOLD%Djinn's Domain %ORANGE%Map%BORDER-D3%
+ItemDisplay[t58]: %GOLD%Na-Krul's Abyss %ORANGE%Map%BORDER-D3%
 
 //ESSENCES & TOKEN
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
