@@ -5325,6 +5325,6 @@ ItemDisplay[key CLVL>40]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(MAG (CLASS OR spc OR 9sp OR 7sp)) !(ETH MAG (pik OR 9p9 OR 7p7 OR 7ga)) !CHARM !jew !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !((MAG OR RARE) (CLASS OR spc OR 9sp OR 7sp)) !(ETH (MAG OR RARE) (pik OR 9p9 OR 7p7 OR 7ga)) !CHARM !jew !leg !amu !rin CLVL>0]:
 
 //END
