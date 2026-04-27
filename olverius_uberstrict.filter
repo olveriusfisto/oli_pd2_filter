@@ -1789,11 +1789,11 @@ ItemDisplay[cm2 !UNI FRES>12]: %RED%fres %STAT39% %GRAY%Large Charm{%TAN%Reroll 
 ItemDisplay[cm2 !UNI LRES>12]: %YELLOW%lres %STAT41% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 !UNI CRES>12]: %BLUE%cres %STAT43% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 !UNI PRES>12]: %GREEN%pres %STAT45% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT329>1]: %RED%fres-dmg %STAT329% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT330>1]: %YELLOW%lt-dmg %STAT330% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT331>1]: %BLUE%cd-dmg %STAT331% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT332>1]: %GREEN%psn-dmg %STAT332% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT357>1]: %ORANGE%md-dmg %STAT357% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT329>1]: %RED%fdmg %STAT329% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT330>1]: %YELLOW%ldmg %STAT330% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT331>1]: %BLUE%cdmg %STAT331% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT332>1]: %GREEN%pdmg %STAT332% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT357>1]: %ORANGE%mdmg %STAT357% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STR=5]: %RED%str %STAT0% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 Part 2
@@ -5325,6 +5325,6 @@ ItemDisplay[key CLVL>40]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !CHARM !jew !leg !amu !rin CLVL>0]:5
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(MAG (CLASS OR spc OR 9sp OR 7sp)) !(ETH (NMAG OR MAG) (pik OR 9p9 OR 7p7 OR 7ga)) !CHARM !jew !leg !amu !rin CLVL>0]:
 
 //END
