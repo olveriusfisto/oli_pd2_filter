@@ -883,11 +883,11 @@ ItemDisplay[cm2 !UNI FRES>12]: %RED%fres %STAT39% %GRAY%Large Charm{%TAN%Reroll 
 ItemDisplay[cm2 !UNI LRES>12]: %YELLOW%lres %STAT41% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 !UNI CRES>12]: %BLUE%cres %STAT43% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 !UNI PRES>12]: %GREEN%pres %STAT45% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT329>1]: %RED%fres-dmg %STAT329% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT330>1]: %YELLOW%lt-dmg %STAT330% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT331>1]: %BLUE%cd-dmg %STAT331% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT332>1]: %GREEN%psn-dmg %STAT332% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
-ItemDisplay[cm2 STAT357>1]: %ORANGE%md-dmg %STAT357% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT329>1]: %RED%fdmg %STAT329% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT330>1]: %YELLOW%ldmg %STAT330% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT331>1]: %BLUE%cdmg %STAT331% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT332>1]: %GREEN%pdmg %STAT332% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm2 STAT357>1]: %ORANGE%mdmg %STAT357% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm2 STR=5]: %RED%str %STAT0% %GRAY%Large Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 Part 2
@@ -1610,11 +1610,11 @@ ItemDisplay[(UNI !ID) amf]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%ooooooo
 
 //Quivers
 ItemDisplay[(UNI !ID) aqv]: %TAN%oooooooo %GOLD%Balefire %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Swiftwind Needle / Tombsong %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Aetherwing / Basilisk's Quill / Doom's Finger %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv2]: %TAN%oooooooo %GOLD%Swiftwind / Tombsong %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) aqv3]: %TAN%oooooooo %GOLD%Aetherwing / Basilisk / Doom %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) cqv]: %TAN%oooooooo %GOLD%Ramfodder %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) cqv2]: %TAN%oooooooo %GOLD%Anvilguard / Shatterhead %TAN%oooooooo%BORDER-D3% //New
-ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal Ward / Bannerlord's Call / Frozen Sorrow %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) cqv3]: %TAN%oooooooo %GOLD%Abyssal / Bannerlord / Frozen Sorrow %TAN%oooooooo%BORDER-D3% //New
 
 
 //SET
@@ -1960,7 +1960,7 @@ ItemDisplay[NMAG SOCK>1 uap]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 skp CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 xkp CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 ukp]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 hlm CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) hlm CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 xlm CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 ulm]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 fhl CLVL<50]: %NAME%{%NAME%}
@@ -1992,7 +1992,7 @@ ItemDisplay[NMAG SOCK>1 ula]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 stu CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 xtu CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 utu]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>1 rng CLVL<50]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>1) rng CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 xng CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>1) ung]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 scl CLVL<50]: %NAME%{%NAME%}
@@ -2200,7 +2200,7 @@ ItemDisplay[NMAG SOCK>2 7sb]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 flc CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9fc CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 7fc]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>3) crs]: %NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK>3) crs CLVL<42]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9cr CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7cr]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[NMAG SOCK>1 bsd CLVL<50]: %NAME%{%NAME%}
