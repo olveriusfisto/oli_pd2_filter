@@ -5294,6 +5294,16 @@ ItemDisplay[ubab]: %TAN%Sigil of Talic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK
 ItemDisplay[ubac]: %TAN%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%DARK_GREEN%Obtainable from Tier 3 Map Monsters%NL%%TAN%Required to access Uber Ancients}
 ItemDisplay[uba]: %TAN%Relic of the Ancients%MAP%{%TAN%Required to access Uber Ancients}
 
+//EARS
+//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[ivea]: %CORAL%Assassin's Ear %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%
+ItemDisplay[ivez]: %CORAL%Amazon's Ear %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%
+ItemDisplay[iveb]: %CORAL%Barbarian's Ear %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%
+ItemDisplay[ived]: %CORAL%Druid's Ear %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%
+ItemDisplay[iven]: %CORAL%Necromancer's Ear %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%
+ItemDisplay[ivep]: %CORAL%Paladin's Ear %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%
+ItemDisplay[ives]: %CORAL%Sorceress's Ear %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%
+
 //MISC: VISIBILITY
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[UNI OR SET OR CRAFT OR RW]: %NAME%
