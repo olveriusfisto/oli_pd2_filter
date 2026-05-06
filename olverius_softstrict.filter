@@ -840,6 +840,7 @@ ItemDisplay[cm1 !UNI FRES>9]: %RED%fres %STAT39% %GRAY%Small Charm{%TAN%Reroll R
 ItemDisplay[cm1 !UNI LRES>9]: %YELLOW%lres %STAT41% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm1 !UNI CRES>9]: %BLUE%cres %STAT43% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 ItemDisplay[cm1 !UNI PRES>9]: %GREEN%pres %STAT45% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
+ItemDisplay[cm1 !UNI RES>9]: %PURPLE%res %RES% %GRAY%Small Charm{%TAN%Reroll Recipe%WHITE%: %GRAY%Item%WHITE% + 3x%WHITE% Perf %SAGE%Gem}%CONTINUE%
 
 Part 2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬
