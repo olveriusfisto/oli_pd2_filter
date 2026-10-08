@@ -95,16 +95,16 @@ ItemDisplay[tpcl CLVL<10]: %GRAY%freez
 ItemDisplay[tpls CLVL<10]: %GRAY%charg
 ItemDisplay[tplm CLVL<10]: %GRAY%stat
 ItemDisplay[tpll CLVL<10]: %GRAY%shock
-ItemDisplay[hp1 CLVL<10]: %RED%hp %WHITE%minor 
-ItemDisplay[mp1 CLVL<10]: %BLUE%mp %WHITE%minor
-ItemDisplay[hp2 CLVL<20]: %RED%hp %WHITE%light 
-ItemDisplay[mp2 CLVL<20]: %BLUE%mp %WHITE%light
-ItemDisplay[hp3 CLVL<40]: %RED%hp %WHITE%regular
-ItemDisplay[mp3 CLVL<40]: %BLUE%mp %WHITE%regular
-ItemDisplay[hp4 CLVL<60]: %RED%HP %WHITE%great
-ItemDisplay[mp4 CLVL<60]: %BLUE%MP %WHITE%great
-ItemDisplay[hp5 CLVL<70]: %RED%HP %WHITE%super
-ItemDisplay[mp5 CLVL<70]: %BLUE%MP %WHITE%super
+ItemDisplay[hp1 CLVL<10]: %RED%hp%WHITE%min 
+ItemDisplay[mp1 CLVL<10]: %BLUE%mp %WHITE%min
+ItemDisplay[hp2 CLVL<20]: %RED%hp %WHITE%lt 
+ItemDisplay[mp2 CLVL<20]: %BLUE%mp %WHITE%lt
+ItemDisplay[hp3 CLVL<40]: %RED%hp %WHITE%reg
+ItemDisplay[mp3 CLVL<40]: %BLUE%mp %WHITE%reg
+ItemDisplay[hp4 CLVL<60]: %RED%hp %WHITE%gt
+ItemDisplay[mp4 CLVL<60]: %BLUE%mp %WHITE%gt
+ItemDisplay[hp5 CLVL<70]: %RED%hp %WHITE%sup
+ItemDisplay[mp5 CLVL<70]: %BLUE%mp %WHITE%sup
 ItemDisplay[rvs CLVL<80]: %PURPLE%juv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%juv %WHITE%65%
 
