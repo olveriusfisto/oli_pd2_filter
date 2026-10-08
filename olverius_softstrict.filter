@@ -79,7 +79,7 @@ ItemDisplay[tr2]: %MAP%%GOLD%Scroll of Resistance
 
 //Potions
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[yps CLVL<10]: %GRAY%antid
+ItemDisplay[yps]: %GRAY%antid
 ItemDisplay[wms CLVL<10]: %GRAY%thaw
 ItemDisplay[vps CLVL<10]: %GRAY%stam
 ItemDisplay[tpfs CLVL<10]: %GRAY%fulm
