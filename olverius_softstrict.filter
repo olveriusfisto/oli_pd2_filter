@@ -935,7 +935,7 @@ ItemDisplay[(UNI !ID) hla]: //The Centurionmo
 ItemDisplay[(UNI !ID) xla]: %ORANGE%oooooo %GOLD%Skin of the Flayed One %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) stu]: Twitchthroe
 ItemDisplay[(UNI !ID) xtu]: %ORANGE%oooooo %GOLD%Iron Pelt %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) utu]: %ORANGE%oooooooo %GOLD%	The Gladiator's Bane %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) utu]: %ORANGE%oooooooo %GOLD%The Gladiator's Bane %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) rng]: Darkglow
 ItemDisplay[(UNI !ID) xng]: %ORANGE%oooooo %GOLD%Spirit Forge %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) ung]: %YELLOW%oooooooo %GOLD%Wraithskin %YELLOW%oooooooo%BORDER-D3% //New
@@ -1362,7 +1362,7 @@ ItemDisplay[(SET !ID) xap]: %DARK_GREEN%ooooo %GREEN%Cow King's Horns %DARK_GREE
 ItemDisplay[(SET !ID) skp]: //Arcanna's Head
 ItemDisplay[(SET !ID) hlm]: //Berserker's Headgear
 ItemDisplay[(SET !ID) fhl]: //Isenhart's Horns
-ItemDisplay[(SET !ID) xhl]: %DARK_GREEN%ooooo %GREEN%Sazabi's Mental Sheath %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) xhl]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Mental Sheath %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) msk]: //Cathan's Visage
 ItemDisplay[(SET !ID) xsk]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Horadric Crest %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) bhm]: //Tancred's Skull
@@ -1391,7 +1391,7 @@ ItemDisplay[(SET !ID) brs]: //Isenhart's Case
 ItemDisplay[(SET !ID) xrs]: %DARK_GREEN%ooooo %GREEN%Haemosu's Adamant %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) chn]: //Cathan's Mesh
 ItemDisplay[(SET !ID) spl]: //Berserker's Hauberk
-ItemDisplay[(SET !ID) upl]: %DARK_GREEN%ooooo %GREEN%Sazabi's Ghost Liberator %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) upl]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Ghost Liberator %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) ltp]: //Arcanna's Flesh
 ItemDisplay[(SET !ID) uld]: %DARK_GREEN%ooooo %GREEN%M'avina's Embrace %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) ult]: %DARK_GREEN%ooooo %GREEN%Naj's Light Plate %DARK_GREEN%ooooo%MAP-7D%
@@ -1478,7 +1478,7 @@ ItemDisplay[(SET !ID) 7m7]: %DARK_GREEN%ooooo %GREEN%Immortal King's Stone Crush
 ItemDisplay[(SET !ID) sbr]: Angelic Sickle
 ItemDisplay[(SET !ID) bsd]: //Isenhart's Lightbrand
 ItemDisplay[(SET !ID) lsd]: //Cleglaw's Tooth
-ItemDisplay[(SET !ID) 7ls]: %DARK_GREEN%ooooo %GREEN%Sazabi's Cobalt Redeemer %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) 7ls]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Cobalt Redeemer %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) wsd]: //Death's Touch
 ItemDisplay[(SET !ID) 7fb]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Tribal Guardian %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) 7gd]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Sacred Charge %DARK_GREEN%ooooo%MAP-7D%
@@ -2032,22 +2032,22 @@ ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>1) 7p7]: %NAME%{%NAME%}%MAP-1F%
 //Polearms
 ItemDisplay[NMAG SOCK>1 bar CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9b7 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 vou CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9vo]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 scy CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9s8 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 pax CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9pa]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 hal CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 9h9]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7h7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7h7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 wsc CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9wc]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
 
 //Bows
 ItemDisplay[NMAG SOCK>1 sbw CLVL<50]: %NAME%{%NAME%}
@@ -2103,7 +2103,7 @@ ItemDisplay[NMAG SOCK>1 bst CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 8bs CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 6bs]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 wst CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 8ws]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 8ws CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 6ws]: %NAME%{%NAME%}%BORDER-1F%
 
 //Wands
@@ -2243,7 +2243,7 @@ ItemDisplay[NMAG t26]: %WHITE%Shadows of Westmarch %GREEN%Map%MAP-84%
 ItemDisplay[NMAG t27]: %WHITE%Demon Road %GREEN%Map%MAP-84%
 ItemDisplay[NMAG t28]: %WHITE%Skovos Stronghold %GREEN%Map%MAP-84%
 ItemDisplay[NMAG t29]: %WHITE%Dark Temple %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t2A]: %WHITE%Descent from Mount Arreat %GREEN%Map%MAP-84%
+
 ItemDisplay[NMAG t31]: %WHITE%River of Blood %GREEN%Map%MAP-84%
 ItemDisplay[NMAG t32]: %WHITE%Throne of Insanity %GREEN%Map%MAP-84%
 ItemDisplay[NMAG t33]: %WHITE%Lost Temple %GREEN%Map%MAP-84%
@@ -2276,7 +2276,7 @@ ItemDisplay[MAG t26]: %BLUE%Shadows of Westmarch %GREEN%Map%MAP-84%
 ItemDisplay[MAG t27]: %BLUE%Demon Road %GREEN%Map%MAP-84%
 ItemDisplay[MAG t28]: %BLUE%Skovos Stronghold %GREEN%Map%MAP-84%
 ItemDisplay[MAG t29]: %BLUE%Dark Temple %GREEN%Map%MAP-84%
-ItemDisplay[MAG t2A]: %BLUE%Descent from Mount Arreat %GREEN%Map%MAP-84%
+
 ItemDisplay[MAG t31]: %BLUE%River of Blood %GREEN%Map%MAP-84%
 ItemDisplay[MAG t32]: %BLUE%Throne of Insanity %GREEN%Map%MAP-84%
 ItemDisplay[MAG t33]: %BLUE%Lost Temple %GREEN%Map%MAP-84%
@@ -2307,7 +2307,7 @@ ItemDisplay[RARE t26]: %YELLOW%Shadows of Westmarch %GREEN%Map%MAP-84%
 ItemDisplay[RARE t27]: %YELLOW%Demon Road %GREEN%Map%MAP-84%
 ItemDisplay[RARE t28]: %YELLOW%Skovos Stronghold %GREEN%Map%MAP-84%
 ItemDisplay[RARE t29]: %YELLOW%Dark Temple %GREEN%Map%MAP-84%
-ItemDisplay[RARE t2A]: %YELLOW%Descent from Mount Arreat %GREEN%Map%MAP-84%
+
 ItemDisplay[RARE t31]: %YELLOW%River of Blood %GREEN%Map%MAP-84%
 ItemDisplay[RARE t32]: %YELLOW%Throne of Insanity %GREEN%Map%MAP-84%
 ItemDisplay[RARE t33]: %YELLOW%Lost Temple %GREEN%Map%MAP-84%
