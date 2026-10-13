@@ -58,7 +58,7 @@ ItemDisplay[leg]: %MAP%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP%%GOLD%Book of Skill
 ItemDisplay[tr1]: //%MAP%%GOLD%Horadric Scroll
-ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 13%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
+ItemDisplay[box]: %MAP%%GOLD%Horadric Cube{%WHITE%Contact: %PURPLE%twitch.tv/olverius_fisto%NL%%WHITE%Description: %GREEN%Simple, Elegant, Useful%NL%%WHITE%Updated: %TAN%Season 14%NL%%WHITE%Game: %ORANGE%Project Diablo 2%NL%%WHITE%Author: %RED%Olverius "Oli" Fisto}
 ItemDisplay[msf]: %MAP%%GOLD%Staff of Kings
 ItemDisplay[vip]: %MAP%%GOLD%Viper Amulet
 ItemDisplay[hst]: %MAP%%GOLD%Horadric Staff
@@ -943,6 +943,7 @@ ItemDisplay[(UNI !ID) scl]: Hawkmail
 ItemDisplay[(UNI !ID) xcl]: %ORANGE%oooooo %GOLD%Crow Caw %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) brs]: Venom Ward
 ItemDisplay[(UNI !ID) xrs]: %ORANGE%oooooo %GOLD%Duriel's Shell %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) urs]: %TAN%oooooooo %GOLD%Spectral Plate %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) chn]: Sparking Mail
 ItemDisplay[(UNI !ID) xhn]: %ORANGE%oooooo %GOLD%Shaftstop %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) rar]: %TAN%oooooooo %GOLD%Cage of the Unsullied %TAN%oooooooo%BORDER-D3% //New
@@ -970,6 +971,7 @@ ItemDisplay[(UNI !ID) uar]: %ORANGE%oooooooo %GOLD%Templar's Might / Tyrael's Mi
 //Shields
 ItemDisplay[(UNI !ID) buc]: //Pelta Lunata
 ItemDisplay[(UNI !ID) xuc]: %ORANGE%oooooo %GOLD%Visceratuant %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) uuc]: %TAN%oooooooo %GOLD%Warriv’s Warder %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) sml]: //Umbral Disk
 ItemDisplay[(UNI !ID) xml]: %ORANGE%oooooo %GOLD%Moser's Blessed Circle %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uml]: %ORANGE%oooooooo %GOLD%	Blackoak Shield %ORANGE%oooooooo%BORDER-D3%
@@ -1360,7 +1362,7 @@ ItemDisplay[(SET !ID) xap]: %DARK_GREEN%ooooo %GREEN%Cow King's Horns %DARK_GREE
 ItemDisplay[(SET !ID) skp]: //Arcanna's Head
 ItemDisplay[(SET !ID) hlm]: //Berserker's Headgear
 ItemDisplay[(SET !ID) fhl]: //Isenhart's Horns
-ItemDisplay[(SET !ID) xhl]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Mental Sheath %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) xhl]: %DARK_GREEN%ooooo %GREEN%Sazabi's Mental Sheath %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) msk]: //Cathan's Visage
 ItemDisplay[(SET !ID) xsk]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Horadric Crest %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) bhm]: //Tancred's Skull
@@ -1389,7 +1391,7 @@ ItemDisplay[(SET !ID) brs]: //Isenhart's Case
 ItemDisplay[(SET !ID) xrs]: %DARK_GREEN%ooooo %GREEN%Haemosu's Adamant %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) chn]: //Cathan's Mesh
 ItemDisplay[(SET !ID) spl]: //Berserker's Hauberk
-ItemDisplay[(SET !ID) upl]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Ghost Liberator %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) upl]: %DARK_GREEN%ooooo %GREEN%Sazabi's Ghost Liberator %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) ltp]: //Arcanna's Flesh
 ItemDisplay[(SET !ID) uld]: %DARK_GREEN%ooooo %GREEN%M'avina's Embrace %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) ult]: %DARK_GREEN%ooooo %GREEN%Naj's Light Plate %DARK_GREEN%ooooo%MAP-7D%
@@ -1476,7 +1478,7 @@ ItemDisplay[(SET !ID) 7m7]: %DARK_GREEN%ooooo %GREEN%Immortal King's Stone Crush
 ItemDisplay[(SET !ID) sbr]: Angelic Sickle
 ItemDisplay[(SET !ID) bsd]: //Isenhart's Lightbrand
 ItemDisplay[(SET !ID) lsd]: //Cleglaw's Tooth
-ItemDisplay[(SET !ID) 7ls]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Cobalt Redeemer %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[(SET !ID) 7ls]: %DARK_GREEN%ooooo %GREEN%Sazabi's Cobalt Redeemer %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) wsd]: //Death's Touch
 ItemDisplay[(SET !ID) 7fb]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Tribal Guardian %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(SET !ID) 7gd]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Sacred Charge %DARK_GREEN%ooooo%MAP-7D%
@@ -2030,22 +2032,22 @@ ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>1) 7p7]: %NAME%{%NAME%}%MAP-1F%
 //Polearms
 ItemDisplay[NMAG SOCK>1 bar CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9b7 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7o7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 vou CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9vo]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7vo]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 scy CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 9s8 CLVL<70]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7s8]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 pax CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9pa]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7pa]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 hal CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 9h9]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7h7]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[(SUP OR ETH) NMAG (SOCK=0 OR SOCK>2) 7h7]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[NMAG SOCK>1 wsc CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 9wc]: %NAME%{%NAME%}
-ItemDisplay[(SUP OR ETH) (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 7wc]: %NAME%{%NAME%}%BORDER-1F%
 
 //Bows
 ItemDisplay[NMAG SOCK>1 sbw CLVL<50]: %NAME%{%NAME%}
@@ -2101,7 +2103,7 @@ ItemDisplay[NMAG SOCK>1 bst CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 8bs CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>2 6bs]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK>1 wst CLVL<50]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK>2 8ws CLVL<70]: %NAME%{%NAME%}
+ItemDisplay[NMAG SOCK>2 8ws]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK>2) 6ws]: %NAME%{%NAME%}%BORDER-1F%
 
 //Wands
@@ -2224,34 +2226,37 @@ ItemDisplay[lsvl]: %GOLD%ooooooooooo %TEAL%Vial of Lightsong %GOLD%ooooooooooo%B
 //MAPS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //Normal
-ItemDisplay[NMAG t11]: %WHITE%Ruins of Viz-jun %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t12]: %WHITE%Horazon's Memory %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t13]: %WHITE%Bastion Keep %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t14]: %WHITE%Sanatorium %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t15]: %WHITE%Royal Crypts %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t16]: %WHITE%Ruined Cistern %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t17]: %WHITE%Halls of Torture %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%DARK_GREEN%Immunity Free Area}%MAP-84%
-ItemDisplay[NMAG t21]: %WHITE%Phlegathon %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t22]: %WHITE%Torajan Jungle %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t23]: %WHITE%Arreat Battlefield %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t24]: %WHITE%Tomb of Zoltun Kulle %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t25]: %WHITE%Sewers of Harrogath %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t26]: %WHITE%Shadows of Westmarch %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t27]: %WHITE%Demon Road %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t28]: %WHITE%Skovos Stronghold %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t31]: %WHITE%River of Blood %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t32]: %WHITE%Throne of Insanity %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t33]: %WHITE%Lost Temple %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t34]: %WHITE%Ancestral Trial %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%RED%fres 120 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t35]: %WHITE%Blood Moon %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%DARK_GREEN%Immunity Free Area}%MAP-84%
-ItemDisplay[NMAG t36]: %WHITE%Fall of Caldeum %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%TAN%phres 115 %ORANGE%mres 105 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-84%
-ItemDisplay[NMAG t3b]: %WHITE%Kyovoshad %GREEN%Map %YELLOW%[%WHITE%%QTY%%YELLOW%]{%DARK_GREEN%Immunity Free Area}%MAP-84%
-ItemDisplay[NMAG t61]: %WHITE%Desert Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
-ItemDisplay[NMAG t62]: %WHITE%Moor Duel Arena %YELLOW%[%WHITE%%QTY%%YELLOW%]{%GRAY%PvP Arena}%MAP-84%
+ItemDisplay[NMAG t11]: %WHITE%Ruins of Viz-jun %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t12]: %WHITE%Horazon's Memory %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t13]: %WHITE%Bastion Keep %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t14]: %WHITE%Sanatorium %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t15]: %WHITE%Royal Crypts %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t16]: %WHITE%Ruined Cistern %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t17]: %WHITE%Halls of Torture %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
+ItemDisplay[NMAG t18]: %WHITE%Poison Well %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t21]: %WHITE%Phlegathon %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t22]: %WHITE%Torajan Jungle %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t23]: %WHITE%Arreat Battlefield %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t24]: %WHITE%Tomb of Zoltun Kulle %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t25]: %WHITE%Sewers of Harrogath %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t26]: %WHITE%Shadows of Westmarch %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t27]: %WHITE%Demon Road %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t28]: %WHITE%Skovos Stronghold %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t29]: %WHITE%Dark Temple %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t2A]: %WHITE%Descent from Mount Arreat %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t31]: %WHITE%River of Blood %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t32]: %WHITE%Throne of Insanity %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t33]: %WHITE%Lost Temple %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t34]: %WHITE%Ancestral Trial %GREEN%Map{%RED%fres 120 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t35]: %WHITE%Blood Moon %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
+ItemDisplay[NMAG t36]: %WHITE%Fall of Caldeum %GREEN%Map{%TAN%phres 115 %ORANGE%mres 105 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map%MAP-84%
+ItemDisplay[NMAG t3b]: %WHITE%Kyovoshad %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
+ItemDisplay[NMAG t61]: %WHITE%Desert Duel Arena{%GRAY%PvP Arena}%MAP-84%
+ItemDisplay[NMAG t62]: %WHITE%Moor Duel Arena{%GRAY%PvP Arena}%MAP-84%
 
 //Magic
 ItemDisplay[MAG t11]: %BLUE%Ruins of Viz-jun %GREEN%Map%MAP-84%
@@ -2261,6 +2266,7 @@ ItemDisplay[MAG t14]: %BLUE%Sanatorium %GREEN%Map%MAP-84%
 ItemDisplay[MAG t15]: %BLUE%Royal Crypts %GREEN%Map%MAP-84%
 ItemDisplay[MAG t16]: %BLUE%Ruined Cistern %GREEN%Map%MAP-84%
 ItemDisplay[MAG t17]: %BLUE%Halls of Torture %GREEN%Map {%DARK_GREEN%Immunity Free Area}%MAP-84%
+ItemDisplay[MAG t18]: %BLUE%Poison Well %GREEN%Map%MAP-84%
 ItemDisplay[MAG t21]: %BLUE%Phlegathon %GREEN%Map%MAP-84%
 ItemDisplay[MAG t22]: %BLUE%Torajan Jungle %GREEN%Map%MAP-84%
 ItemDisplay[MAG t23]: %BLUE%Arreat Battlefield %GREEN%Map%MAP-84%
@@ -2269,6 +2275,8 @@ ItemDisplay[MAG t25]: %BLUE%Sewers of Harrogath %GREEN%Map%MAP-84%
 ItemDisplay[MAG t26]: %BLUE%Shadows of Westmarch %GREEN%Map%MAP-84%
 ItemDisplay[MAG t27]: %BLUE%Demon Road %GREEN%Map%MAP-84%
 ItemDisplay[MAG t28]: %BLUE%Skovos Stronghold %GREEN%Map%MAP-84%
+ItemDisplay[MAG t29]: %BLUE%Dark Temple %GREEN%Map%MAP-84%
+ItemDisplay[MAG t2A]: %BLUE%Descent from Mount Arreat %GREEN%Map%MAP-84%
 ItemDisplay[MAG t31]: %BLUE%River of Blood %GREEN%Map%MAP-84%
 ItemDisplay[MAG t32]: %BLUE%Throne of Insanity %GREEN%Map%MAP-84%
 ItemDisplay[MAG t33]: %BLUE%Lost Temple %GREEN%Map%MAP-84%
@@ -2289,6 +2297,7 @@ ItemDisplay[RARE t14]: %YELLOW%Sanatorium %GREEN%Map%MAP-84%
 ItemDisplay[RARE t15]: %YELLOW%Royal Crypts %GREEN%Map%MAP-84%
 ItemDisplay[RARE t16]: %YELLOW%Ruined Cistern %GREEN%Map%MAP-84%
 ItemDisplay[RARE t17]: %YELLOW%Halls of Torture %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
+ItemDisplay[RARE t18]: %YELLOW%Poison Well %GREEN%Map%MAP-84%
 ItemDisplay[RARE t21]: %YELLOW%Phlegathon %GREEN%Map%MAP-84%
 ItemDisplay[RARE t22]: %YELLOW%Torajan Jungle %GREEN%Map%MAP-84%
 ItemDisplay[RARE t23]: %YELLOW%Arreat Battlefield %GREEN%Map%MAP-84%
@@ -2297,6 +2306,8 @@ ItemDisplay[RARE t25]: %YELLOW%Sewers of Harrogath %GREEN%Map%MAP-84%
 ItemDisplay[RARE t26]: %YELLOW%Shadows of Westmarch %GREEN%Map%MAP-84%
 ItemDisplay[RARE t27]: %YELLOW%Demon Road %GREEN%Map%MAP-84%
 ItemDisplay[RARE t28]: %YELLOW%Skovos Stronghold %GREEN%Map%MAP-84%
+ItemDisplay[RARE t29]: %YELLOW%Dark Temple %GREEN%Map%MAP-84%
+ItemDisplay[RARE t2A]: %YELLOW%Descent from Mount Arreat %GREEN%Map%MAP-84%
 ItemDisplay[RARE t31]: %YELLOW%River of Blood %GREEN%Map%MAP-84%
 ItemDisplay[RARE t32]: %YELLOW%Throne of Insanity %GREEN%Map%MAP-84%
 ItemDisplay[RARE t33]: %YELLOW%Lost Temple %GREEN%Map%MAP-84%
