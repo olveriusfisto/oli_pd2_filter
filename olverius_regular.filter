@@ -1918,7 +1918,7 @@ ItemDisplay[NMAG SOCK>2 9m9 CLVL<70]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SUP OR ETH) SOCK>2 7m7]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[NMAG SOCK>1 gma CLVL<50]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SUP OR ETH) SOCK>2 9gm]: %NAME%{%NAME%}%MAP-1F%
-ItemDisplay[(SUP OR ETH) SOCK>2 7gm]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[NMAG (SUP OR ETH) SOCK>2 7gm]: %NAME%{%NAME%}%MAP-1F%
 
 //Swords
 ItemDisplay[NMAG SOCK>1 ssd CLVL<50]: %NAME%{%NAME%}
