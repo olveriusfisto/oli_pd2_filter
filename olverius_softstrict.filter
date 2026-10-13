@@ -2180,7 +2180,7 @@ ItemDisplay[MAG t26]: %BLUE%Shadows of Westmarch %GREEN%Map%MAP-84%
 ItemDisplay[MAG t27]: %BLUE%Demon Road %GREEN%Map%MAP-84%
 ItemDisplay[MAG t28]: %BLUE%Skovos Stronghold %GREEN%Map%MAP-84%
 ItemDisplay[MAG t29]: %BLUE%Dark Temple %GREEN%Map%MAP-84%
-
+ItemDisplay[MAG t2a]: %BLUE%Descent from Mount Arreat %GREEN%Map%MAP-84%
 ItemDisplay[MAG t31]: %BLUE%River of Blood %GREEN%Map%MAP-84%
 ItemDisplay[MAG t32]: %BLUE%Throne of Insanity %GREEN%Map%MAP-84%
 ItemDisplay[MAG t33]: %BLUE%Lost Temple %GREEN%Map%MAP-84%
@@ -2211,7 +2211,7 @@ ItemDisplay[RARE t26]: %YELLOW%Shadows of Westmarch %GREEN%Map%MAP-84%
 ItemDisplay[RARE t27]: %YELLOW%Demon Road %GREEN%Map%MAP-84%
 ItemDisplay[RARE t28]: %YELLOW%Skovos Stronghold %GREEN%Map%MAP-84%
 ItemDisplay[RARE t29]: %YELLOW%Dark Temple %GREEN%Map%MAP-84%
-
+ItemDisplay[RARE t2a]: %YELLOW%Descent from Mount Arreat %GREEN%Map%MAP-84%
 ItemDisplay[RARE t31]: %YELLOW%River of Blood %GREEN%Map%MAP-84%
 ItemDisplay[RARE t32]: %YELLOW%Throne of Insanity %GREEN%Map%MAP-84%
 ItemDisplay[RARE t33]: %YELLOW%Lost Temple %GREEN%Map%MAP-84%
