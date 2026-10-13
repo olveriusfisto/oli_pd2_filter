@@ -2690,6 +2690,7 @@ ItemDisplay[(UNI !ID) scl]: Hawkmail
 ItemDisplay[(UNI !ID) xcl]: %ORANGE%oooooo %GOLD%Crow Caw %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) brs]: Venom Ward
 ItemDisplay[(UNI !ID) xrs]: %ORANGE%oooooo %GOLD%Duriel's Shell %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) urs]: %TAN%oooooooo %GOLD%Spectral Plate %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) chn]: Sparking Mail
 ItemDisplay[(UNI !ID) xhn]: %ORANGE%oooooo %GOLD%Shaftstop %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) rar]: %TAN%oooooooo %GOLD%Cage of the Unsullied %TAN%oooooooo%BORDER-D3% //New
@@ -2717,6 +2718,7 @@ ItemDisplay[(UNI !ID) uar]: %ORANGE%oooooooo %GOLD%Templar's Might / Tyrael's Mi
 //Shields
 ItemDisplay[(UNI !ID) buc]: //Pelta Lunata
 ItemDisplay[(UNI !ID) xuc]: %ORANGE%oooooo %GOLD%Visceratuant %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) uuc]: %TAN%oooooooo %GOLD%Warriv’s Warder %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) sml]: //Umbral Disk
 ItemDisplay[(UNI !ID) xml]: %ORANGE%oooooo %GOLD%Moser's Blessed Circle %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uml]: %ORANGE%oooooooo %GOLD%	Blackoak Shield %ORANGE%oooooooo%BORDER-D3%
