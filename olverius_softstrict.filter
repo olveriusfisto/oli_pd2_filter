@@ -2130,35 +2130,35 @@ ItemDisplay[lsvl]: %GOLD%ooooooooooo %TEAL%Vial of Lightsong %GOLD%ooooooooooo%B
 //MAPS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //Normal
-ItemDisplay[NMAG t11]: %WHITE%Ruins of Viz-jun %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t12]: %WHITE%Horazon's Memory %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t13]: %WHITE%Bastion Keep %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t14]: %WHITE%Sanatorium %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t15]: %WHITE%Royal Crypts %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t16]: %WHITE%Ruined Cistern %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t17]: %WHITE%Halls of Torture %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
-ItemDisplay[NMAG t18]: %WHITE%Poison Well %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t21]: %WHITE%Phlegathon %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t22]: %WHITE%Torajan Jungle %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t23]: %WHITE%Arreat Battlefield %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t24]: %WHITE%Tomb of Zoltun Kulle %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t25]: %WHITE%Sewers of Harrogath %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t26]: %WHITE%Shadows of Westmarch %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t27]: %WHITE%Demon Road %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t28]: %WHITE%Skovos Stronghold %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t29]: %WHITE%Dark Temple %GREEN%Map%MAP-84%
-
-ItemDisplay[NMAG t31]: %WHITE%River of Blood %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t32]: %WHITE%Throne of Insanity %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t33]: %WHITE%Lost Temple %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t34]: %WHITE%Ancestral Trial %GREEN%Map{%RED%fres 120 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t35]: %WHITE%Blood Moon %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
-ItemDisplay[NMAG t36]: %WHITE%Fall of Caldeum %GREEN%Map{%TAN%phres 115 %ORANGE%mres 105 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
-ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map%MAP-84%
-ItemDisplay[NMAG t3b]: %WHITE%Kyovoshad %GREEN%Map{%DARK_GREEN%Immunity Free Area}%MAP-84%
+ItemDisplay[NMAG t11]: %WHITE%Ruins of Viz-jun %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t12]: %WHITE%Horazon's Memory %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t13]: %WHITE%Bastion Keep %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t14]: %WHITE%Sanatorium %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t15]: %WHITE%Royal Crypts %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t16]: %WHITE%Ruined Cistern %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t17]: %WHITE%Halls of Torture %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%DARK_GREEN%Immunity Free Area}%MAP-84%
+ItemDisplay[NMAG t18]: %WHITE%Poison Well %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t21]: %WHITE%Phlegathon %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t22]: %WHITE%Torajan Jungle %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t23]: %WHITE%Arreat Battlefield %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t24]: %WHITE%Tomb of Zoltun Kulle %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t25]: %WHITE%Sewers of Harrogath %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t26]: %WHITE%Shadows of Westmarch %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t27]: %WHITE%Demon Road %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t28]: %WHITE%Skovos Stronghold %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t29]: %WHITE%Dark Temple %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t2a]: %WHITE%Descent from Mount Arreat %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t31]: %WHITE%River of Blood %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t32]: %WHITE%Throne of Insanity %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t33]: %WHITE%Lost Temple %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t34]: %WHITE%Ancestral Trial %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%RED%fres 120 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t35]: %WHITE%Blood Moon %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%DARK_GREEN%Immunity Free Area}%MAP-84%
+ItemDisplay[NMAG t36]: %WHITE%Fall of Caldeum %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%TAN%phres 115 %ORANGE%mres 105 %YELLOW%lres 120 %NL%%GOLD%High Immunities%WHITE%:}%MAP-84%
+ItemDisplay[NMAG t37]: %WHITE%Pandemonium Citadel %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t38]: %WHITE%Canyon of Sescheron %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t3a]: %WHITE%Ashen Plains %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-84%
+ItemDisplay[NMAG t3b]: %WHITE%Kyovoshad %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%DARK_GREEN%Immunity Free Area}%MAP-84%
 ItemDisplay[NMAG t61]: %WHITE%Desert Duel Arena{%GRAY%PvP Arena}%MAP-84%
 ItemDisplay[NMAG t62]: %WHITE%Moor Duel Arena{%GRAY%PvP Arena}%MAP-84%
 
