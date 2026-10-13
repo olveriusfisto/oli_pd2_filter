@@ -51,6 +51,10 @@
 
 //Filters
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+//Filter levels: 1 Regular, 2 Soft Strict & 3 Uber Strict
+
+//Level selection follows the ItemDisplayFilterName
 ItemDisplayFilterName[]: Regular
 ItemDisplayFilterName[]: Soft Strict
 ItemDisplayFilterName[]: Uber Strict
@@ -781,9 +785,6 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (cm1 UNI ID)]: %GOLD%Annihilus%BORDER-1F%%CONTIN
 ItemDisplay[FILTLVL>0 FILTLVL<4 (cm2 UNI ID)]: %GOLD%Hellfire Torch%BORDER-1F%%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (cm3 UNI ID)]: %GOLD%Gheed's Fortune%BORDER-1F%%CONTINUE%
 
-//QUIVERS
-//▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((aqv OR cqv) UNI !ID)]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-1F%
 
 //JEWELS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -855,7 +856,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xla)]: %ORANGE%oooooo %GOLD%Skin of t
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) stu)]: Twitchthroe
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xtu)]: %ORANGE%oooooo %GOLD%Iron Pelt %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) utu)]: %ORANGE%oooooooo %GOLD%The Gladiator's Bane %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) utu)]: %ORANGE%oooooooo %GOLD%	The Gladiator's Bane %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) utu)]: %ORANGE%oooooooo %GOLD%The Gladiator's Bane %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) rng)]: Darkglow
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xng)]: %ORANGE%oooooo %GOLD%Spirit Forge %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ung)]: %YELLOW%oooooooo %GOLD%Wraithskin %YELLOW%oooooooo%BORDER-D3% //New
@@ -2552,4 +2553,3 @@ ItemDisplay[FILTLVL=2 ((NORM OR EXC OR ELT) (NMAG OR MAG) !(MAG (CLASS OR spc OR
 ItemDisplay[FILTLVL=3 ((NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !((MAG OR RARE) (CLASS OR spc OR 9sp OR 7sp)) !(ETH (MAG OR RARE) (pik OR 9p9 OR 7p7 OR 7ga)) !CHARM !jew !leg !amu !rin CLVL>0)]:
 
 //END
-
