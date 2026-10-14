@@ -3145,7 +3145,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (tes)]: %BLUE%Essence of Suffering %YELLOW%[%WHI
 ItemDisplay[FILTLVL>0 FILTLVL<4 (ceh)]: %YELLOW%Essence of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%YELLOW%Obtainable from Mephisto%NL%%GRAY%Required to create Token of Absolut}
 ItemDisplay[FILTLVL>0 FILTLVL<4 (bet)]: %RED%Essence of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%RED%Obtainable from Diablo%NL%%GRAY%Required to create Token of Absolut}
 ItemDisplay[FILTLVL>0 FILTLVL<4 (fed)]: %GREEN%Essence of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GREEN%Obtainable from Baal%NL%%GRAY%Required to create Token of Absolut}
-ItemDisplay[FILTLVL>0 FILTLVL<4 (toa)]: %GRAY%Token of Absolution%MAP%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (toa)]: %GRAY%Token of Absolution%MAP% 
 
 //UBER TRISTRAM
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
