@@ -1704,7 +1704,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW (HELM OR CIRC OR BAR OR DRU) SOCK=3)]:
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW CHEST SOCK=2)]: %NAME%{%GOLD%Stealth %GRAY%Tal + Eth%NL%%GOLD%Smoke %GRAY%Nef + Lum%NL%%GOLD%Prudence %GRAY%Mal + Tir%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //Chests
-ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW CHEST SOCK=3)]: %NAME%{%GOLD%Wealth %GRAY%Lem + Ko + Tir%NL%%GOLD%Treachery %GRAY%Shael + Thul + Lem%NL%%GOLD%Rain %GRAY%Ort + Mal + Ith%NL%%GOLD%Principle %GRAY%Ral + Gul + Eld%NL%%GOLD%Myth %GRAY%Hel + Amn + Nef%NL%%GOLD%Lionheart %GRAY%Hel + Lum + Fal%NL%%GOLD%Hustle %GRAY%Shael + Ko + Eld%NL%%GOLD%Gloom %GRAY%Fal + Um + Pul%NL%%GOLD%Finesse %GRAY%Nef + Ral + Dol%NL%%GOLD%Enlightenment %GRAY%Pul + Ral + Sol%NL%%RED%Enigma %GRAY%Jah + Ith + Ber%NL%%GOLD%Duress %GRAY%Shael + Um + Thul%NL%%RED%Dragon %GRAY%Sur + Lo + Sol%NL%%GOLD%Bone %GRAY%Sol + Um + Um%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW CHEST SOCK=3)]: %NAME%{%GOLD%Wealth %GRAY%Lem + Ko + Tir%NL%%GOLD%Treachery %GRAY%Shael + Thul + Lem%NL%%GOLD%Rain %GRAY%Ort + Mal + Ith%NL%%GOLD%Principle %GRAY%Ral + Gul + Eld%NL%%GOLD%Lionheart %GRAY%Hel + Lum + Fal%NL%%GOLD%Hustle %GRAY%Shael + Ko + Eld%NL%%GOLD%Gloom %GRAY%Fal + Um + Pul%NL%%GOLD%Finesse %GRAY%Nef + Ral + Dol%NL%%GOLD%Enlightenment %GRAY%Pul + Ral + Sol%NL%%RED%Enigma %GRAY%Jah + Ith + Ber%NL%%GOLD%Duress %GRAY%Shael + Um + Thul%NL%%RED%Dragon %GRAY%Sur + Lo + Sol%NL%%GOLD%Bone %GRAY%Sol + Um + Um%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW CHEST SOCK=4)]: %NAME%{%GOLD%Stone %GRAY%Shael + Um + Pul + Lum%NL%%RED%Innocence %GRAY%Gul + Lem + Zod + Hel%NL%%RED%Fortitude %GRAY%El + Sol + Dol + Lo%NL%%RED%Chains of Honor %GRAY%Dol + Um + Ber + Ist%NL%%RED%Bramble %GRAY%Ral + Ohm + Sur + Eth%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
 //Shields
@@ -3145,7 +3145,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (tes)]: %BLUE%Essence of Suffering %YELLOW%[%WHI
 ItemDisplay[FILTLVL>0 FILTLVL<4 (ceh)]: %YELLOW%Essence of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%YELLOW%Obtainable from Mephisto%NL%%GRAY%Required to create Token of Absolut}
 ItemDisplay[FILTLVL>0 FILTLVL<4 (bet)]: %RED%Essence of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%RED%Obtainable from Diablo%NL%%GRAY%Required to create Token of Absolut}
 ItemDisplay[FILTLVL>0 FILTLVL<4 (fed)]: %GREEN%Essence of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GREEN%Obtainable from Baal%NL%%GRAY%Required to create Token of Absolut}
-ItemDisplay[FILTLVL>0 FILTLVL<4 (toa)]: %GRAY%Token of Absolution%MAP% 
+ItemDisplay[FILTLVL>0 FILTLVL<4 (toa)]: %GRAY%Token of Absolution%MAP%
 
 //UBER TRISTRAM
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
