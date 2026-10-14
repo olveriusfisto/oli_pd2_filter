@@ -90,33 +90,59 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (tr2)]: %MAP%%GOLD%Scroll of Resistance
 
 //Potions
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[FILTLVL>0 FILTLVL<4 yps (FILTLVL<3 OR CLVL<70)]: %GRAY%antid
-ItemDisplay[FILTLVL>0 FILTLVL<4 (wms CLVL<10)]: %GRAY%thaw
-ItemDisplay[FILTLVL>0 FILTLVL<4 (vps CLVL<10)]: %GRAY%stam
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpfs CLVL<10)]: %GRAY%fulm
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpfm CLVL<10)]: %GRAY%expl
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpfl CLVL<10)]: %GRAY%oil
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpgs CLVL<10)]: %GRAY%strang
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpgm CLVL<10)]: %GRAY%chok
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpgl CLVL<10)]: %GRAY%ranc
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpcs CLVL<10)]: %GRAY%chill
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpcm CLVL<10)]: %GRAY%frost
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpcl CLVL<10)]: %GRAY%freez
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpls CLVL<10)]: %GRAY%charg
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tplm CLVL<10)]: %GRAY%stat
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tpll CLVL<10)]: %GRAY%shock
-ItemDisplay[FILTLVL>0 FILTLVL<4 (hp1 CLVL<10)]: %RED%hp%WHITE%min 
-ItemDisplay[FILTLVL>0 FILTLVL<4 (mp1 CLVL<10)]: %BLUE%mp %WHITE%min
-ItemDisplay[FILTLVL>0 FILTLVL<4 (hp2 CLVL<20)]: %RED%hp %WHITE%lt 
-ItemDisplay[FILTLVL>0 FILTLVL<4 (mp2 CLVL<20)]: %BLUE%mp %WHITE%lt
-ItemDisplay[FILTLVL>0 FILTLVL<4 (hp3 CLVL<40)]: %RED%hp %WHITE%reg
-ItemDisplay[FILTLVL>0 FILTLVL<4 (mp3 CLVL<40)]: %BLUE%mp %WHITE%reg
-ItemDisplay[FILTLVL>0 FILTLVL<4 (hp4 CLVL<60)]: %RED%hp %WHITE%gt
-ItemDisplay[FILTLVL>0 FILTLVL<4 (mp4 CLVL<60)]: %BLUE%mp %WHITE%gt
-ItemDisplay[FILTLVL>0 FILTLVL<4 (hp5 CLVL<70)]: %RED%hp %WHITE%sup
-ItemDisplay[FILTLVL>0 FILTLVL<4 (mp5 CLVL<70)]: %BLUE%mp %WHITE%sup
-ItemDisplay[FILTLVL>0 FILTLVL<4 rvs (FILTLVL<3 OR CLVL<70)]: %PURPLE%juv %WHITE%35%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (rvl)]: %PURPLE%juv %WHITE%65%
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (yps)]: %GRAY%antid
+ItemDisplay[FILTLVL=3 (yps)]: //%GRAY%antid
+ItemDisplay[FILTLVL=1 (wms)]: %GRAY%thaw
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (wms)]: //%GRAY%thaw
+ItemDisplay[FILTLVL=1 (vps)]: %GRAY%stam
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (vps)]: //%GRAY%stam
+ItemDisplay[FILTLVL=1 (tpfs)]: %GRAY%fulm
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpfs)]: //%GRAY%fulm
+ItemDisplay[FILTLVL=1 (tpfm)]: %GRAY%expl
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpfm)]: //%GRAY%expl
+ItemDisplay[FILTLVL=1 (tpfl)]: %GRAY%oil
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpfl)]: //%GRAY%oil
+ItemDisplay[FILTLVL=1 (tpgs)]: %GRAY%strang
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpgs)]: //%GRAY%strang
+ItemDisplay[FILTLVL=1 (tpgm)]: %GRAY%chok
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpgm)]: //%GRAY%chok
+ItemDisplay[FILTLVL=1 (tpgl)]: %GRAY%ranc
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpgl)]: //%GRAY%ranc
+ItemDisplay[FILTLVL=1 (tpcs)]: %GRAY%chill
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpcs)]: //%GRAY%chill
+ItemDisplay[FILTLVL=1 (tpcm)]: %GRAY%frost
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpcm)]: //%GRAY%frost
+ItemDisplay[FILTLVL=1 (tpcl)]: %GRAY%freez
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpcl)]: //%GRAY%freez
+ItemDisplay[FILTLVL=1 (tpls)]: %GRAY%charg
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpls)]: //%GRAY%charg
+ItemDisplay[FILTLVL=1 (tplm)]: %GRAY%stat
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tplm)]: //%GRAY%stat
+ItemDisplay[FILTLVL=1 (tpll)]: %GRAY%shock
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (tpll)]: //%GRAY%shock
+ItemDisplay[FILTLVL=1 (hp1)]: %RED%hp %WHITE%min
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (hp1)]: //%RED%hp %WHITE%min
+ItemDisplay[FILTLVL=1 (mp1)]: %BLUE%mp %WHITE%min
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (mp1)]: //%BLUE%mp %WHITE%min
+ItemDisplay[FILTLVL=1 (hp2)]: %RED%hp %WHITE%lt
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (hp2)]: //%RED%hp %WHITE%lt
+ItemDisplay[FILTLVL=1 (mp2)]: %BLUE%mp %WHITE%lt
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (mp2)]: //%BLUE%mp %WHITE%lt
+ItemDisplay[FILTLVL=1 (hp3)]: %RED%hp %WHITE%reg
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (hp3)]: //%RED%hp %WHITE%reg
+ItemDisplay[FILTLVL=1 (mp3)]: %BLUE%mp %WHITE%reg
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (mp3)]: //%BLUE%mp %WHITE%reg
+ItemDisplay[FILTLVL=1 (hp4)]: %RED%hp %WHITE%gt
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (hp4)]: //%RED%hp %WHITE%gt
+ItemDisplay[FILTLVL=1 (mp4)]: %BLUE%mp %WHITE%gt
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (mp4)]: //%BLUE%mp %WHITE%gt
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (hp5)]: %RED%hp %WHITE%sup
+ItemDisplay[FILTLVL=3 (hp5)]: //%RED%hp %WHITE%sup
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (mp5)]: %BLUE%mp %WHITE%sup
+ItemDisplay[FILTLVL=3 (mp5)]: //%BLUE%mp %WHITE%sup
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (rvs)]: %PURPLE%juv %WHITE%35%
+ItemDisplay[FILTLVL=3 (rvs)]: //%PURPLE%juv %WHITE%35%
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3) (rvl)]: %PURPLE%juv %WHITE%65%
 
 //Tomes
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -677,22 +703,78 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((WEAPON OR ARMOR) NMAG !ID)]: %NAME% //Gambling
 //GEMS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-//Perfect
-ItemDisplay[FILTLVL>0 FILTLVL<4 (gpv)]: %WHITE%Perf %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-1D%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (gpw)]: %WHITE%Perf %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-1D%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (gpg)]: %WHITE%Perf %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-1D%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (gpr)]: %WHITE%Perf %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-1D%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (gpb)]: %WHITE%Perf %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-1D%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (gpy)]: %WHITE%Perf %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-1D%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (skz)]: %WHITE%Perf %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]%MAP-1D%
+//Chipped
+ItemDisplay[FILTLVL=1 (gcv)]: %WHITE%Chpd %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gcv)]: //%WHITE%Chpd %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gcw)]: %WHITE%Chpd %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gcw)]: //%WHITE%Chpd %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gcg)]: %WHITE%Chpd %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gcg)]: //%WHITE%Chpd %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gcr)]: %WHITE%Chpd %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gcr)]: //%WHITE%Chpd %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gcb)]: %WHITE%Chpd %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gcb)]: //%WHITE%Chpd %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gcy)]: %WHITE%Chpd %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gcy)]: //%WHITE%Chpd %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (skc)]: %WHITE%Chpd %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (skc)]: //%WHITE%Chpd %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
+
+//Flawed
+ItemDisplay[FILTLVL=1 (gfv)]: %WHITE%Flwd %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gfv)]: //%WHITE%Flwd %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gfw)]: %WHITE%Flwd %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gfw)]: //%WHITE%Flwd %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gfg)]: %WHITE%Flwd %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gfg)]: //%WHITE%Flwd %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gfr)]: %WHITE%Flwd %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gfr)]: //%WHITE%Flwd %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gfb)]: %WHITE%Flwd %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gfb)]: //%WHITE%Flwd %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gfy)]: %WHITE%Flwd %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gfy)]: //%WHITE%Flwd %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (skf)]: %WHITE%Flwd %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (skf)]: //%WHITE%Flwd %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
+
+//Regular
+ItemDisplay[FILTLVL=1 (gsv)]: %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gsv)]: //%PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gsw)]: %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gsw)]: //%WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gsg)]: %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gsg)]: //%GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gsr)]: %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gsr)]: //%RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gsb)]: %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gsb)]: //%BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (gsy)]: %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (gsy)]: //%YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=1 (sku)]: %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (sku)]: //%GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
+
 //Flawless
-ItemDisplay[FILTLVL>0 FILTLVL<4 (gzv)]: %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]
-ItemDisplay[FILTLVL>0 FILTLVL<4 (glw)]: %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]
-ItemDisplay[FILTLVL>0 FILTLVL<4 (glg)]: %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]
-ItemDisplay[FILTLVL>0 FILTLVL<4 (glr)]: %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]
-ItemDisplay[FILTLVL>0 FILTLVL<4 (glb)]: %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]
-ItemDisplay[FILTLVL>0 FILTLVL<4 (gly)]: %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]
-ItemDisplay[FILTLVL>0 FILTLVL<4 (skl)]: %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (gzv)]: %WHITE%Flwl %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=3 (gzv)]: //%WHITE%Flwl %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (glw)]: %WHITE%Flwl %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=3 (glw)]: //%WHITE%Flwl %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (glg)]: %WHITE%Flwl %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=3 (glg)]: //%WHITE%Flwl %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (glr)]: %WHITE%Flwl %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=3 (glr)]: //%WHITE%Flwl %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (glb)]: %WHITE%Flwl %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=3 (glb)]: //%WHITE%Flwl %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (gly)]: %WHITE%Flwl %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=3 (gly)]: //%WHITE%Flwl %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (skl)]: %WHITE%Flwl %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
+ItemDisplay[FILTLVL=3 (skl)]: //%WHITE%Flwl %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]
+
+//Perfect
+ItemDisplay[FILTLVL>0 FILTLVL<4 (gpv)]: %WHITE%Perf %PURPLE%Amethyst %ORANGE%[%WHITE%%QTY%%ORANGE%]%BORDER-1F%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (gpw)]: %WHITE%Perf %WHITE%Diamond %ORANGE%[%WHITE%%QTY%%ORANGE%]%BORDER-1F%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (gpg)]: %WHITE%Perf %GREEN%Emerald %ORANGE%[%WHITE%%QTY%%ORANGE%]%BORDER-1F%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (gpr)]: %WHITE%Perf %RED%Ruby %ORANGE%[%WHITE%%QTY%%ORANGE%]%BORDER-1F%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (gpb)]: %WHITE%Perf %BLUE%Sapphire %ORANGE%[%WHITE%%QTY%%ORANGE%]%BORDER-1F%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (gpy)]: %WHITE%Perf %YELLOW%Topaz %ORANGE%[%WHITE%%QTY%%ORANGE%]%BORDER-1F%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (skz)]: %WHITE%Perf %GRAY%Skull %ORANGE%[%WHITE%%QTY%%ORANGE%]%BORDER-1F%
 
 //RUNES
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -3210,33 +3292,30 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (UNI OR SET OR CRAFT OR RW)]: %NAME%
 //3. RECYCLING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-//Potions
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll) CLVL>9)]:
-
-//Gems
-//Gems < Flawless
-ItemDisplay[FILTLVL>0 FILTLVL<4 (gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc OR gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf OR gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: 
-
 //Gold
-ItemDisplay[(FILTLVL=1 OR FILTLVL=3) (GOLD<10000)]:
-ItemDisplay[FILTLVL=2 (GOLD<9999)]:
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (GOLD<5000)]: //%NAME%
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (GOLD>4999)]: %NAME%
+ItemDisplay[FILTLVL=3 (GOLD<10000)]: //%NAME%
+ItemDisplay[FILTLVL=3 (GOLD>9999)]: %NAME%
 
 //Inferior
-ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG INF)]:
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG INF)]: //%NAME%
 
 //Scrolls
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((tsc OR isc) CLVL>25)]:
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((tsc OR isc) CLVL>15)]: //%NAME%
 
 //Keys, Quivers and Jewels
-ItemDisplay[(FILTLVL=1 OR FILTLVL=3) ((NMAG OR MAG OR RARE) QUIVER CLVL>0)]:
-ItemDisplay[FILTLVL=2 (RARE QUIVER)]: %NAME%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (key CLVL>40)]:
-ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG !ID jew ILVL<66)]: 
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG QUIVER)]: //%NAME%
+ItemDisplay[FILTLVL=3 (MAG QUIVER)]: //%NAME%
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (MAG QUIVER)]: %NAME%
+ItemDisplay[FILTLVL=3 (MAG QUIVER)]: //%NAME%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE QUIVER)]: %NAME%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (key CLVL<9)]: %NAME%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG !ID jew ILVL<66)]: //%NAME%
 
 //Hide everything, but with exceptions
-ItemDisplay[FILTLVL=1 ((NORM OR EXC OR ELT) NMAG !leg !amu !rin !CHARM !jew CLVL>0)]:
-ItemDisplay[FILTLVL=2 ((NORM OR EXC OR ELT) (NMAG OR MAG) !(MAG (CLASS OR spc OR 9sp OR 7sp)) !(ETH MAG (pik OR 9p9 OR 7p7 OR 7ga)) !CHARM !jew !leg !amu !rin CLVL>0)]:
-ItemDisplay[FILTLVL=3 ((NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(RARE (CLASS))) !CHARM !jew !leg !amu !rin CLVL>0)]:
+ItemDisplay[FILTLVL=1 ((NORM OR EXC OR ELT) NMAG !leg !amu !rin !CHARM !jew CLVL>0)]: //%NAME%
+ItemDisplay[FILTLVL=2 ((NORM OR EXC OR ELT) (NMAG OR MAG) !(MAG (CLASS OR spc OR 9sp OR 7sp)) !(ETH MAG (pik OR 9p9 OR 7p7 OR 7ga)) !CHARM !jew !leg !amu !rin CLVL>0)]: //%NAME%
+ItemDisplay[FILTLVL=3 ((NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(RARE (CLASS OR amu OR rin))) !CHARM !jew !leg CLVL>0)]: //%NAME%
 
 //END
-
