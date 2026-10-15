@@ -136,10 +136,10 @@ ItemDisplay[FILTLVL=1 (hp4)]: %RED%hp %WHITE%gt
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (hp4)]: //%RED%hp %WHITE%gt
 ItemDisplay[FILTLVL=1 (mp4)]: %BLUE%mp %WHITE%gt
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (mp4)]: //%BLUE%mp %WHITE%gt
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (hp5)]: %RED%hp %WHITE%sup
-ItemDisplay[FILTLVL=3 (hp5)]: //%RED%hp %WHITE%sup
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (mp5)]: %BLUE%mp %WHITE%sup
-ItemDisplay[FILTLVL=3 (mp5)]: //%BLUE%mp %WHITE%sup
+ItemDisplay[FILTLVL=1 (hp5)]: %RED%hp %WHITE%sup
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (hp5)]: //%RED%hp %WHITE%sup
+ItemDisplay[FILTLVL=1 (mp5)]: %BLUE%mp %WHITE%sup
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (mp5)]: //%BLUE%mp %WHITE%sup
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (rvs)]: %PURPLE%juv %WHITE%35%
 ItemDisplay[FILTLVL=3 (rvs)]: //%PURPLE%juv %WHITE%35%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3) (rvl)]: %PURPLE%juv %WHITE%65%
@@ -1857,7 +1857,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW (BOW OR XBOW) SOCK=6)]: %NAME%{%RED%Si
 //Staves
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW STAFF SOCK=2)]: %NAME%{%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Neophyte %GRAY%Thul + Tir%NL%%GOLD%Leaf %GRAY%Tir + Ral%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW STAFF SOCK=3)]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%GOLD%Purity %GRAY%Amn + Eth + Thul%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW STAFF SOCK=4)]: %NAME%{%GOLD%Spirit %GRAY%Tal + Thul + Ort + Amn%NL%%GOLD%Rampage %GRAY%Shael + El + Ith + Eth%NL%%RED%Pride %GRAY%Cham + Sur + Io + Lo%NL%%RED%Phoenix %GRAY%Vex + Vex + Lo + Jah%NL%%GOLD%Passion %GRAY%Dol + Ort + Eld + Lem%NL%%GOLD%Memory %GRAY%Lum + Io + Sol + Eth%NL%%RED%Madness %GRAY%Sur + Mal + Vex + Shael%NL%%GOLD%Insight %GRAY%Ral + Tir + Tal + Sol%NL%%RED%Infinity %GRAY%Ber + Mal + Ber + Ist%NL%%RED%Heart of the Oak %GRAY%Ko + Vex + Pul + Thul%NL%%RED%Hand of Justice %GRAY%Sur + Cham + Amn + Lo%NL%%RED%Fortitude %GRAY%El + Sol + Dol + Lo%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW STAFF SOCK=4)]: %NAME%{%GOLD%Rampage %GRAY%Shael + El + Ith + Eth%NL%%RED%Pride %GRAY%Cham + Sur + Io + Lo%NL%%RED%Phoenix %GRAY%Vex + Vex + Lo + Jah%NL%%GOLD%Passion %GRAY%Dol + Ort + Eld + Lem%NL%%GOLD%Memory %GRAY%Lum + Io + Sol + Eth%NL%%RED%Madness %GRAY%Sur + Mal + Vex + Shael%NL%%GOLD%Insight %GRAY%Ral + Tir + Tal + Sol%NL%%RED%Infinity %GRAY%Ber + Mal + Ber + Ist%NL%%RED%Heart of the Oak %GRAY%Ko + Vex + Pul + Thul%NL%%RED%Hand of Justice %GRAY%Sur + Cham + Amn + Lo%NL%%RED%Fortitude %GRAY%El + Sol + Dol + Lo%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW STAFF SOCK=5)]: %NAME%{%RED%Zenith %GRAY%Jah + Zod + Ort + Thul + Ral%NL%%GOLD%Honor %GRAY%Amn + El + Ith + Tir + Sol%NL%%RED%Eternity %GRAY%Amn + Ber + Ist + Sol + Sur%NL%%RED%Doom %GRAY%Hel + Ohm + Um + Lo + Cham%NL%%RED%Destruction %GRAY%Vex + Lo + Ber + Jah + Ko%NL%%RED%Call to Arms %GRAY%Amn + Ral + Mal + Ist + Ohm%NL%%RED%Beast %GRAY%Ber + Tir + Um + Mal + Lum%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW STAFF SOCK=6)]: %NAME%{%GOLD%Silence %GRAY%Dol + Eld + Hel + Ist + Tir + Vex%NL%%RED%Obsession %GRAY%Zod + Ist + Lem + Lum + Io + Nef%NL%%RED%Last Wish %GRAY%Jah + Mal + Jah + Sur + Jah + Ber%NL%%RED%Breath of the Dying %GRAY%Vex + Hel + El + Eld + Zod + Eth%NL%%RED%Asylum %GRAY%Gul + Cham + Hel + Jah + Dol + Um%NL%%GRAY%Runewords%WHITE%:}%CONTINUE%
 
@@ -2013,7 +2013,7 @@ ItemDisplay[FILTLVL=1 (NMAG SOCK>1 xhn)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>1 xhn)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG SOCK>1 xhn)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<3 (NMAG SOCK>1 uhn)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=3 (NMAG SOCK>1 uhn)]: //%NAME%{%NAME%}
+ItemDisplay[FILTLVL=3 (NMAG SOCK>1 uhn)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG SOCK>1 spl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>1 spl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG SOCK>1 spl)]: //%NAME%{%NAME%}
@@ -2820,7 +2820,7 @@ ItemDisplay[FILTLVL=1 (NMAG SOCK>2 8hx)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>2 8hx)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG SOCK>2 8hx)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<3 (NMAG SOCK>2 6hx)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=3 (NMAG SOCK>2 6hx)]: //%NAME%{%NAME%}
+ItemDisplay[FILTLVL=3 (NMAG SOCK>2 6hx)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG SOCK>1 rxb)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>1 rxb)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG SOCK>1 rxb)]: //%NAME%{%NAME%}
@@ -3319,3 +3319,4 @@ ItemDisplay[FILTLVL=2 ((NORM OR EXC OR ELT) (NMAG OR MAG) !(MAG (CLASS OR spc OR
 ItemDisplay[FILTLVL=3 ((NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(RARE (CLASS OR amu OR rin))) !CHARM !jew !leg CLVL>0)]: //%NAME%
 
 //END
+
