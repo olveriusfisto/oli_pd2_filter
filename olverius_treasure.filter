@@ -29,6 +29,7 @@
 //TABSK = Group Skills
 //SK = Individual Skill
 //CLVL = Character Level
+//FILTLVL = Filter Level
 //ED = Enhenced Damage [Red]/ Defence [Blue]
 //SOCK = Socket Number
 //RUNENUM = Rune Number
@@ -51,10 +52,6 @@
 
 //Filters
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-//Filter levels: 1 Regular, 2 Soft Strict & 3 Uber Strict
-
-//Level selection follows the ItemDisplayFilterName
 ItemDisplayFilterName[]: Regular
 ItemDisplayFilterName[]: Soft Strict
 ItemDisplayFilterName[]: Uber Strict
