@@ -6041,13 +6041,13 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t31)]: %WHITE%River of Blood %GREEN%Map %O
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t32)]: %WHITE%Throne of Insanity %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%TAN%phres 115 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t33)]: %WHITE%Lost Temple %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%ORANGE%mres 105 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t34)]: %WHITE%Ancestral Trial %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%RED%fres 120 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t35)]: %WHITE%Blood Moon %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t35)]: %WHITE%Blood Moon %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t36)]: %WHITE%Fall of Caldeum %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%TAN%phres 115 %ORANGE%mres 105 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t37)]: %WHITE%Pandemonium Citadel %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%ORANGE%mres 105 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t38)]: %WHITE%Canyon of Sescheron %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%TAN%phres 115 %RED%fres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t39)]: %WHITE%Kehjistan Marketplace %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%TAN%phres 115 %RED%fres 120%NL%%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t39)]: %WHITE%Kehjistan Marketplace %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%TAN%phres 115 %RED%fres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t3a)]: %WHITE%Ashen Plains %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%RED%fres 120 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t3b)]: %WHITE%Kyovoshad %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t3b)]: %WHITE%Kyovoshad %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t61)]: %WHITE%Desert Duel Arena{%GRAY%PvP Arena}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t62)]: %WHITE%Moor Duel Arena{%GRAY%PvP Arena}%MAP-84%
 
@@ -6074,13 +6074,13 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t31)]: %BLUE%River of Blood %GREEN%Map{%ORA
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t32)]: %BLUE%Throne of Insanity %GREEN%Map{%TAN%phres 115 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t33)]: %BLUE%Lost Temple %GREEN%Map{%ORANGE%mres 105 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t34)]: %BLUE%Ancestral Trial %GREEN%Map {%RED%fres 120 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t35)]: %BLUE%Blood Moon %GREEN%Map {%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t35)]: %BLUE%Blood Moon %GREEN%Map {%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t36)]: %BLUE%Fall of Caldeum %GREEN%Map {%TAN%phres 115 %ORANGE%mres 105 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t37)]: %BLUE%Pandemonium Citadel %GREEN%Map{%ORANGE%mres 105 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t38)]: %BLUE%Canyon of Sescheron %GREEN%Map{%TAN%phres 115 %RED%fres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t39)]: %BLUE%Kehjistan Marketplace %GREEN%Map{%TAN%phres 115 %RED%fres 120%NL%%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t39)]: %BLUE%Kehjistan Marketplace %GREEN%Map{%TAN%phres 115 %RED%fres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t3a)]: %BLUE%Ashen Plains %GREEN%Map{%RED%fres 120 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t3b)]: %BLUE%Kyovoshad %GREEN%Map {%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t3b)]: %BLUE%Kyovoshad %GREEN%Map {%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%MAP-84%
 
 //Rare
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t11)]: %YELLOW%Ruins of Viz-jun %GREEN%Map{%TAN%phres 115 %YELLOW%lres 100 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
@@ -6105,13 +6105,13 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t31)]: %YELLOW%River of Blood %GREEN%Map{%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t32)]: %YELLOW%Throne of Insanity %GREEN%Map{%TAN%phres 115 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t33)]: %YELLOW%Lost Temple %GREEN%Map{%ORANGE%mres 105 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t34)]: %YELLOW%Ancestral Trial %GREEN%Map{%RED%fres 120 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t35)]: %YELLOW%Blood Moon %GREEN%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t35)]: %YELLOW%Blood Moon %GREEN%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t36)]: %YELLOW%Fall of Caldeum %GREEN%Map{%TAN%phres 115 %ORANGE%mres 105 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t37)]: %YELLOW%Pandemonium Citadel %GREEN%Map{%ORANGE%mres 105 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t38)]: %YELLOW%Canyon of Sescheron %GREEN%Map{%TAN%phres 115 %RED%fres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t39)]: %YELLOW%Kehjistan Marketplace %GREEN%Map{%TAN%phres 115 %RED%fres 120%NL%%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t39)]: %YELLOW%Kehjistan Marketplace %GREEN%Map{%TAN%phres 115 %RED%fres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t3a)]: %YELLOW%Ashen Plains %GREEN%Map{%RED%fres 120 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t3b)]: %YELLOW%Kyovoshad %GREEN%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t3b)]: %YELLOW%Kyovoshad %GREEN%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%MAP-84%
 
 //Dungeon
 ItemDisplay[FILTLVL=1 (RARE t41)]: %YELLOW%Cathedral of Light {%YELLOW%lres 145 %BLUE%cres 145 %GREEN%pres 145%NL%%TAN%phres 120 %ORANGE%mres 145 %RED%fres 145%NL%%GOLD%high immunities%WHITE%:}%BORDER-62%
@@ -6124,15 +6124,15 @@ ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (RARE t43)]: %YELLOW%Sanctuary of Sin {%YEL
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (RARE t44)]: %YELLOW%Steppes of Daken-Shar {%YELLOW%lres 145 %BLUE%cres 145 %GREEN%pres 145%NL%%TAN%phres 120 %ORANGE%mres 145 %RED%fres 145%NL%%GOLD%high immunities%WHITE%:}%BORDER-62%
 
 //Unique
-ItemDisplay[FILTLVL>0 FILTLVL<4 (t51)]: %GOLD%Zhar's Sanctum %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%BORDER-D3%
-ItemDisplay[FILTLVL=1 (t52)]: %GOLD%Stygian Caverns %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%BORDER-D3%
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (t52)]: %GOLD%Warlord of Blood %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%BORDER-D3%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (t53)]: %GOLD%Fallen Gardens %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%BORDER-D3%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (t54)]: %GOLD%Imperial Palace %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%BORDER-D3%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (t55)]: %GOLD%Outer Void %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%BORDER-D3%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (t56)]: %GOLD%City of Ureh %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%BORDER-D3%
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (t57)]: %GOLD%Djinn's Domain %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%BORDER-D3%
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (t58)]: %GOLD%Na-Krul's Abyss %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%none (base monsters)}%BORDER-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (t51)]: %GOLD%Zhar's Sanctum %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%BORDER-D3%
+ItemDisplay[FILTLVL=1 (t52)]: %GOLD%Stygian Caverns %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%BORDER-D3%
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (t52)]: %GOLD%Warlord of Blood %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%BORDER-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (t53)]: %GOLD%Fallen Gardens %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%BORDER-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (t54)]: %GOLD%Imperial Palace %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%BORDER-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (t55)]: %GOLD%Outer Void %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%BORDER-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (t56)]: %GOLD%City of Ureh %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%BORDER-D3%
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (t57)]: %GOLD%Djinn's Domain %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%BORDER-D3%
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (t58)]: %GOLD%Na-Krul's Abyss %ORANGE%Map{%GOLD%high immunities%WHITE%: %DARK_GREEN%Free Immune Area}%BORDER-D3%
 
 //ESSENCES & TOKEN
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
