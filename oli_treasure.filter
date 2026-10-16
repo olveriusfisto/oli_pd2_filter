@@ -6026,7 +6026,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t14)]: %WHITE%Sanatorium %GREEN%Map %ORANG
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t15)]: %WHITE%Royal Crypts %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%RED%fres 120 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t16)]: %WHITE%Ruined Cistern %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%ORANGE%mres 105 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t17)]: %WHITE%Halls of Torture %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%YELLOW%lres 120 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t18)]: %WHITE%Poison Well %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %GRAY%not verified (s14 beta)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t18)]: %WHITE%Poison Well %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %GRAY%S14 Beta}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t21)]: %WHITE%Phlegathon %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%RED%fres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t22)]: %WHITE%Torajan Jungle %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%BLUE%cres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t23)]: %WHITE%Arreat Battlefield %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%RED%fres 120 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
@@ -6035,8 +6035,8 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t25)]: %WHITE%Sewers of Harrogath %GREEN%M
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t26)]: %WHITE%Shadows of Westmarch %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%ORANGE%mres 105 %RED%fres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t27)]: %WHITE%Demon Road %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%TAN%phres 115 %RED%fres 120 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t28)]: %WHITE%Skovos Stronghold %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%BLUE%cres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t29)]: %WHITE%Dark Temple %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %GRAY%not verified (s14 beta)}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t2a)]: %WHITE%Descent from Mount Arreat %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %GRAY%not verified (s14 beta)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t29)]: %WHITE%Dark Temple %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %GRAY%S14 Beta}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t2a)]: %WHITE%Descent from Mount Arreat %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%GOLD%high immunities%WHITE%: %GRAY%S14 Beta}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t31)]: %WHITE%River of Blood %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%ORANGE%mres 105 %YELLOW%lres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t32)]: %WHITE%Throne of Insanity %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%TAN%phres 115 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG t33)]: %WHITE%Lost Temple %GREEN%Map %ORANGE%[%WHITE%%QTY%%ORANGE%]{%ORANGE%mres 105 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
@@ -6059,7 +6059,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t14)]: %BLUE%Sanatorium %GREEN%Map{%ORANGE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t15)]: %BLUE%Royal Crypts %GREEN%Map{%RED%fres 120 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t16)]: %BLUE%Ruined Cistern %GREEN%Map{%ORANGE%mres 105 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t17)]: %BLUE%Halls of Torture %GREEN%Map {%YELLOW%lres 120 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t18)]: %BLUE%Poison Well %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%not verified (s14 beta)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t18)]: %BLUE%Poison Well %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%S14 Beta}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t21)]: %BLUE%Phlegathon %GREEN%Map{%RED%fres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t22)]: %BLUE%Torajan Jungle %GREEN%Map{%BLUE%cres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t23)]: %BLUE%Arreat Battlefield %GREEN%Map{%RED%fres 120 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
@@ -6068,8 +6068,8 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t25)]: %BLUE%Sewers of Harrogath %GREEN%Map
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t26)]: %BLUE%Shadows of Westmarch %GREEN%Map{%ORANGE%mres 105 %RED%fres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t27)]: %BLUE%Demon Road %GREEN%Map{%TAN%phres 115 %RED%fres 120 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t28)]: %BLUE%Skovos Stronghold %GREEN%Map{%BLUE%cres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t29)]: %BLUE%Dark Temple %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%not verified (s14 beta)}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t2a)]: %BLUE%Descent from Mount Arreat %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%not verified (s14 beta)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t29)]: %BLUE%Dark Temple %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%S14 Beta}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t2a)]: %BLUE%Descent from Mount Arreat %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%S14 Beta}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t31)]: %BLUE%River of Blood %GREEN%Map{%ORANGE%mres 105 %YELLOW%lres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t32)]: %BLUE%Throne of Insanity %GREEN%Map{%TAN%phres 115 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (MAG t33)]: %BLUE%Lost Temple %GREEN%Map{%ORANGE%mres 105 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
@@ -6090,7 +6090,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t14)]: %YELLOW%Sanatorium %GREEN%Map{%ORAN
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t15)]: %YELLOW%Royal Crypts %GREEN%Map{%RED%fres 120 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t16)]: %YELLOW%Ruined Cistern %GREEN%Map{%ORANGE%mres 105 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t17)]: %YELLOW%Halls of Torture %GREEN%Map{%YELLOW%lres 120 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t18)]: %YELLOW%Poison Well %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%not verified (s14 beta)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t18)]: %YELLOW%Poison Well %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%S14 Beta}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t21)]: %YELLOW%Phlegathon %GREEN%Map{%RED%fres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t22)]: %YELLOW%Torajan Jungle %GREEN%Map{%BLUE%cres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t23)]: %YELLOW%Arreat Battlefield %GREEN%Map{%RED%fres 120 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
@@ -6099,8 +6099,8 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t25)]: %YELLOW%Sewers of Harrogath %GREEN%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t26)]: %YELLOW%Shadows of Westmarch %GREEN%Map{%ORANGE%mres 105 %RED%fres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t27)]: %YELLOW%Demon Road %GREEN%Map{%TAN%phres 115 %RED%fres 120 %YELLOW%lres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t28)]: %YELLOW%Skovos Stronghold %GREEN%Map{%BLUE%cres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t29)]: %YELLOW%Dark Temple %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%not verified (s14 beta)}%MAP-84%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t2a)]: %YELLOW%Descent from Mount Arreat %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%not verified (s14 beta)}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t29)]: %YELLOW%Dark Temple %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%S14 Beta}%MAP-84%
+ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t2a)]: %YELLOW%Descent from Mount Arreat %GREEN%Map{%GOLD%high immunities%WHITE%: %GRAY%S14 Beta}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t31)]: %YELLOW%River of Blood %GREEN%Map{%ORANGE%mres 105 %YELLOW%lres 120 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t32)]: %YELLOW%Throne of Insanity %GREEN%Map{%TAN%phres 115 %GREEN%pres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (RARE t33)]: %YELLOW%Lost Temple %GREEN%Map{%ORANGE%mres 105 %BLUE%cres 120%NL%%GOLD%high immunities%WHITE%:}%MAP-84%
