@@ -9,7 +9,7 @@
 
 ## Contact: [Discord](https://discord.com/invite/NxY3nFUDwQ), [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
 
-### Note 1: Filter is updated to SEASON 12.
+### Note 1: Filter is updated to SEASON 14.
 ### Note 2: After 11 seasons, my filter is now officially LIVE! I truly appreciate all the amazing support you’ve given me throughout these incredible years. Words can’t fully express my gratitude! Stay safe out there!
 
 ## Showcase:
