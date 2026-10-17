@@ -2,9 +2,9 @@
 ## Greetings, dear adventurer. 
 ## This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
 
-# Here’s what you can expect from my filter:
+## Here’s what you can expect from my filter:
 
-## • **Three filter levels:** Regular, Soft Strict, and Uber Strict, depending on how much loot you want to see.
+## • **Three filter levels:** Regular, Soft Strict and Uber Strict; depending on how much loot you want to see.
 
 ### UBER STRICT shows ONLY the valuable materials and items, including the best white bases, both plain and multi-socket types, some yellow, sets, uniques, and all crafts while hiding everything else. Suitable for 99-pushing playstyles.
 ### SOFT STRICT shows PRIMARILY valuable materials and items, including the majority of white bases, both plain and multi-socket types, all yellows, sets, uniques, and crafts while hiding everything else. Suitable for high-level endgame, solo self-found (SSF), and group self-found (GSF) playstyles.
