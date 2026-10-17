@@ -1,6 +1,4 @@
-# OLVERIUS’ TREASURE FILTER
-**SIMPLE. ELEGANT. USEFUL.**
-
+# OLVERIUS’ TREASURE FILTER — Simple. Elegant. Useful.
 *Built around my own vision: useful information, less clutter and notifications for the loot worth your attention.*
 
 ## _Choose your filter level!_
