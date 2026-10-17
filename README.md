@@ -1,28 +1,49 @@
-# OLVERIUS' TREASURE FILTER. SIMPLE. ELEGANT. USEFUL. 
-## "This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications."
+# OLVERIUS’ TREASURE FILTER
+**SIMPLE. ELEGANT. USEFUL.**
 
-## _Here’s what you can expect from my filter:_
+*Built around my own vision: useful information, less clutter and notifications for the loot worth your attention.*
 
-## • **Three filter levels:** Regular, Soft Strict and Uber Strict; depending on how much loot you want to see.
+## _Choose your filter level_
 
-### UBER STRICT shows ONLY the valuable materials and items, including the best white bases, both plain and multi-socket types, some yellow, sets, uniques, and all crafts while hiding everything else. Suitable for 99-pushing playstyles.
-### SOFT STRICT shows PRIMARILY valuable materials and items, including the majority of white bases, both plain and multi-socket types, all yellows, sets, uniques, and crafts while hiding everything else. Suitable for high-level endgame, solo self-found (SSF), and group self-found (GSF) playstyles.
-### REGULAR shows ALL valuable materials and items, including the majority white bases, both plain and multi-socket types, all blues, yellows, sets, uniques, and crafts while hiding everything else. Suitable for leveling, crafting, solo self-found (SSF), and group self-found (GSF) playstyles.
+🔹 **REGULAR — Leveling & discovery**
+The widest loot selection, including most white bases, magic and rare items, sets, uniques and crafts. A good starting point for leveling, crafting, SSF and GSF.
 
-## • **Clear item names and colors**, with ethereal highlights and socket counts.
-## • **Useful stats below equipment names**, focusing on one main stat instead of filling the screen with every bonus.
-## • **Priority for useful variable rolls**, with specific choices for items such as Enigma, Astreon, and Raven Frost.
-## • **Up to two stats beside charm and jewel names**, with full skill-tree names kept on skillers.
-## • **Extra details for unique charms:** RES/VIT on Torch, RES/VIT/EXP on Annihilus, and MF/vendor discount on Gheed’s.
-## • **Runeword suggestions** based on the item type and socket count.
-## • **Crafting, upgrading, and reroll recipes** in tooltips.
-## • **Map information**, including notes about immunities.
-## • **Dedicated highlights for runes, crafting materials, and endgame items**, with less clutter on stricter settings.
+🔸 **SOFT STRICT — Endgame & progression**
+A more focused selection of bases and materials, while keeping rare items, sets, uniques and crafts visible. Designed for high-level farming, SSF and GSF.
 
-## _Contact:_ [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
+🔺 **UBER STRICT — Focused farming**
+The strictest selection, keeping chosen bases, selected rare items, sets, uniques and all crafts. Designed for players who want less loot on screen while pushing toward level 99.
 
-### Note 1: Filter is updated to SEASON 14.
-### Note 2: After 11 seasons, my filter is now officially LIVE! I truly appreciate all the amazing support you’ve given me throughout these incredible years. Words can’t fully express my gratitude! Stay safe out there!
+**White-base selection includes both unsocketed and multi-socket bases. Bases with exactly one socket are excluded.**
+
+## _Useful information at a glance_
+
+### • **Clear names and colors**, with ethereal highlights and socket counts.
+### • **One main stat below equipment names**, with priority given to useful variable rolls.
+### • **Specific stat choices for individual items**, such as Enigma, Astreon and Raven Frost.
+### • **Up to two stats beside charm and jewel names**, while skillers keep their full skill-tree names.
+### • **Extra details for unique charms:** RES/VIT on Torch, RES/VIT/EXP on Annihilus and MF/VEND on Gheed’s.
+
+## _A little help along the way_
+
+### • **Runeword suggestions** based on item type and socket count.
+### • **Crafting, upgrading, and reroll recipes** in tooltips.
+### • **Map information**, including notes about immunities.
+### • **Dedicated highlights** for runes, crafting materials, and endgame items.
+
+The goal is to help you notice useful loot while leaving the final choice to you. Your build still decides what matters, so take a moment to check the full item!
+
+**Updated for Season 14.**
+
+After 11 seasons, my filter is now officially LIVE! 
+Thank you for all the support, patience, and encouragement over the years. 
+It means more to me than I can put into words.
+If you spot something missing or displaying incorrectly, please share a screenshot. 
+Your feedback helps me improve it.
+
+**Stay safe out there, and happy hunting!** ❤️
+
+**Find me:** [Twitch](https://twitch.tv/olverius_fisto); [YouTube](https://youtube.com/olveriusTV)
 
 ## _Showcase:_
 <img width="2048" height="1157" alt="image" src="https://github.com/user-attachments/assets/933d90d5-49a1-4a43-8ab7-1b4c2d3a0452" />
