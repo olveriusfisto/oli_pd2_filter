@@ -12,20 +12,20 @@
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //! = Exception
-//NORM = Normal
-//EXC = Exceptional
-//ELT = Elite
-//NMAG = Regular / Non-Magic
-//MAG = Magic
-//RARE = Rare
-//UNI = Unique
-//SET = Set
-//CRAFT = Craft
-//ID = Identified
-//INF = Inferior
-//SUP = Superior
-//ETH = Ethereal
-//RW = Runeword
+//NORM = Normal Items
+//EXC = Exceptional Items
+//ELT = Elite Items
+//NMAG = Regular / Non-Magic Items
+//MAG = Magic Items
+//RARE = Rare Items
+//UNI = Unique Items
+//SET = Set Items
+//CRAFT = Crafted Items
+//ID = Identified Items
+//INF = Inferior Items
+//SUP = Superior Items
+//ETH = Ethereal Items
+//RW = Runeword Items
 //TABSK = Group Skills
 //SK = Individual Skill
 //CLVL = Character Level
