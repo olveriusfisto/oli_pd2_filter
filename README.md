@@ -2,8 +2,7 @@
 ## Greetings, dear adventurer. 
 ## This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
 
-## Description:
-## Here’s what you can expect from **Olverius’ Treasure Filter**:
+# Here’s what you can expect from my filter:
 
 ## • **Three filter levels:** Regular, Soft Strict, and Uber Strict, depending on how much loot you want to see.
 
