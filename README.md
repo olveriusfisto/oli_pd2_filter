@@ -13,6 +13,4 @@
 ### Note 2: After 11 seasons, my filter is now officially LIVE! I truly appreciate all the amazing support you’ve given me throughout these incredible years. Words can’t fully express my gratitude! Stay safe out there!
 
 ## Showcase:
-<img width="2600" height="1470" alt="image" src="https://github.com/user-attachments/assets/a58d7f9e-d708-4078-9b2f-87ccae143bbe" />
-
-
+<img width="2048" height="1157" alt="image" src="https://github.com/user-attachments/assets/933d90d5-49a1-4a43-8ab7-1b4c2d3a0452" />
