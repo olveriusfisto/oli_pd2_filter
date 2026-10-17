@@ -29,19 +29,19 @@ _**White-base selection includes both unsocketed and multi-socket bases. Bases w
 ### • **Map information**, including notes about immunities.
 ### • **Dedicated highlights** for runes, crafting materials, and endgame items.
 
-The goal is to help you notice useful loot while leaving the final choice to you. Your build still decides what matters, so take a moment to check the full item!
+### The goal is to help you notice useful loot while leaving the final choice to you. Your build still decides what matters, so take a moment to check the full item!
 
-**Updated for Season 14.**
+## **Updated for Season 14.**
 
-After 11 seasons, my filter is now officially LIVE! 
-Thank you for all the support, patience, and encouragement over the years. 
-It means more to me than I can put into words.
-If you spot something missing or displaying incorrectly, please share a screenshot. 
-Your feedback helps me improve it.
+#### After 11 seasons, my filter is now officially LIVE! 
+#### Thank you for all the support, patience, and encouragement over the years. 
+#### It means more to me than I can put into words.
+#### If you spot something missing or displaying incorrectly, please share a screenshot. 
+#### Your feedback helps me improve it.
 
-**Stay safe out there, and happy hunting!** ❤️
+## **Stay safe out there, and happy hunting!** ❤️
 
-**Find me:** [Twitch](https://twitch.tv/olverius_fisto); [YouTube](https://youtube.com/olveriusTV)
+# **Find me:** [Twitch](https://twitch.tv/olverius_fisto); [YouTube](https://youtube.com/olveriusTV)
 
 ## _Showcase:_
 <img width="2048" height="1157" alt="image" src="https://github.com/user-attachments/assets/933d90d5-49a1-4a43-8ab7-1b4c2d3a0452" />
