@@ -1,8 +1,7 @@
-# OLVERIUS' TREASURE FILTER. SIMPLE. ELEGANT. USEFUL.
-## Greetings, dear adventurer. 
-## This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications.
+# OLVERIUS' TREASURE FILTER. SIMPLE. ELEGANT. USEFUL. 
+## "This creation is the product of my own vision, designed to reveal only the most valuable items, and only those trigger notifications."
 
-## Here’s what you can expect from my filter:
+## _Here’s what you can expect from my filter:_
 
 ## • **Three filter levels:** Regular, Soft Strict and Uber Strict; depending on how much loot you want to see.
 
@@ -20,10 +19,10 @@
 ## • **Map information**, including notes about immunities.
 ## • **Dedicated highlights for runes, crafting materials, and endgame items**, with less clutter on stricter settings.
 
-## Contact: [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
+## _Contact:_ [Twitch](https://twitch.tv/olverius_fisto), [YouTube](https://youtube.com/olveriusTV)
 
 ### Note 1: Filter is updated to SEASON 14.
 ### Note 2: After 11 seasons, my filter is now officially LIVE! I truly appreciate all the amazing support you’ve given me throughout these incredible years. Words can’t fully express my gratitude! Stay safe out there!
 
-## Showcase:
+## _Showcase:_
 <img width="2048" height="1157" alt="image" src="https://github.com/user-attachments/assets/933d90d5-49a1-4a43-8ab7-1b4c2d3a0452" />
