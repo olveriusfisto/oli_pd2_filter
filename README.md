@@ -14,7 +14,7 @@ A more focused selection of bases and materials, while keeping rare items, sets,
 🔺 **UBER STRICT — Focused farming**
 The strictest selection, keeping chosen bases, selected rare items, sets, uniques and all crafts. Designed for players who want less loot on screen while pushing toward level 99.
 
-**White-base selection includes both unsocketed and multi-socket bases. Bases with exactly one socket are excluded.**
+_**White-base selection includes both unsocketed and multi-socket bases. Bases with exactly one socket are excluded.**_
 
 ## _Useful information at a glance_
 
