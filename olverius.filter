@@ -223,10 +223,10 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((NMAG OR MAG OR RARE) rin)]: Ring%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (jew UNI ID)]: %GOLD%rainbow facet%CONTINUE%
 
 //Arrows and Bolts
-ItemDisplay[FILTLVL=1 ((NMAG OR MAG OR RARE) (aqv OR aqv1 OR aqv2))]: Arrows%CONTINUE%
-ItemDisplay[FILTLVL=1 ((NMAG OR MAG OR RARE) (cqv OR cqv1 OR cqv2))]: Bolts%CONTINUE%
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((NMAG OR MAG OR RARE) !RW (aqv OR aqv1 OR aqv2))]: Arrows%CONTINUE%
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((NMAG OR MAG OR RARE) !RW (cqv OR cqv1 OR cqv2))]: Bolts%CONTINUE%
+ItemDisplay[FILTLVL=1 ((NMAG OR MAG OR RARE) (aqv OR aqv1 OR aqv2 OR aqv3))]: Arrows%CONTINUE%
+ItemDisplay[FILTLVL=1 ((NMAG OR MAG OR RARE) (cqv OR cqv1 OR cqv2 OR cqv3))]: Bolts%CONTINUE%
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((NMAG OR MAG OR RARE) !RW (aqv OR aqv1 OR aqv2 OR aqv3))]: Arrows%CONTINUE%
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((NMAG OR MAG OR RARE) !RW (cqv OR cqv1 OR cqv2 OR cqv3))]: Bolts%CONTINUE%
 
 //Armors
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((NMAG OR MAG OR RARE) !RW cap)]: Cap%CONTINUE%
