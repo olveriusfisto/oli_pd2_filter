@@ -4808,6 +4808,9 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW QUIVER SOCK=2)]: %NAME%{%GOLD%Echo %GR
 //BASES FOR RUNEWORDS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
+// Hide all non-magic bases with exactly 1 socket on every filter level.
+ItemDisplay[NMAG SOCK=1]:
+
 //Armors
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
@@ -5382,7 +5385,7 @@ ItemDisplay[FILTLVL=3 (NMAG SOCK>1 gax)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG SOCK>2 9ga)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>3 9ga)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG SOCK>2 9ga)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG (SUP OR ETH) SOCK>2 7ga)]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[FILTLVL=1 (NMAG SOCK>2 7ga)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=2 (NMAG (SUP OR ETH) SOCK>2 7ga)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=3 (NMAG (SUP OR ETH) SOCK>2 7ga)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=1 (NMAG SOCK>1 gix)]: %NAME%{%NAME%}
@@ -5459,16 +5462,16 @@ ItemDisplay[FILTLVL=3 (NMAG SOCK>1 mau)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG SOCK>2 9m9)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>3 9m9)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG SOCK>2 9m9)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG (SUP OR ETH) SOCK>2 7m7)]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[FILTLVL=1 (NMAG SOCK>2 7m7)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=2 (NMAG (SUP OR ETH) SOCK>2 7m7)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=3 (NMAG (SUP OR ETH) SOCK>2 7m7)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=1 (NMAG SOCK>1 gma)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>3 gma)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG SOCK>1 gma)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG (SUP OR ETH) SOCK>2 9gm)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>2 9gm)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG (SUP OR ETH) SOCK>3 9gm)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG (SUP OR ETH) SOCK>2 9gm)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG (SUP OR ETH) SOCK>2 7gm)]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[FILTLVL=1 (NMAG SOCK>2 7gm)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=2 (NMAG (SUP OR ETH) SOCK>2 7gm)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=3 (NMAG (SUP OR ETH) SOCK>2 7gm)]: %NAME%{%NAME%}%MAP-1F%
 
@@ -5510,7 +5513,7 @@ ItemDisplay[FILTLVL=1 (NMAG SOCK>2 7fc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>1 7fc)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG SOCK>2 7fc)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>3) crs)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=2 (NMAG (SOCK=0 OR SOCK>3) crs)]: //%NAME%{%NAME%}
+ItemDisplay[FILTLVL=2 (NMAG (SOCK=0 OR SOCK>3) crs)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG (SOCK=0 OR SOCK>3) crs)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG SOCK>2 9cr)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>3 9cr)]: //%NAME%{%NAME%}
@@ -5734,108 +5737,108 @@ ItemDisplay[FILTLVL=3 (NMAG SOCK>1 9ts)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG SOCK>1 7ts)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>1 7ts)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG SOCK>1 7ts)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 spr)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 spr)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>1 spr)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 spr)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 9sr)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 9sr)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 9sr)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 9sr)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>2 7sr)]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[FILTLVL=1 (NMAG SOCK>2 7sr)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 7sr)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>2 7sr)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 tri)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 tri)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 tri)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 tri)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 9tr)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 9tr)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 9tr) SOCK<4]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 9tr) SOCK>3]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 9tr)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>2 7tr)]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[FILTLVL=1 (NMAG SOCK>2 7tr)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 7tr)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>2 7tr)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 brn)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 brn)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 brn)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 brn)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 9br)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 9br)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 9br)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 9br)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 7br)]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 7br)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 7br)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 7br)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 spt)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 spt)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 spt)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 spt)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 9st)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 9st)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 9st)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 9st)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>2 7st)]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[FILTLVL=1 (NMAG SOCK>2 7st)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 7st)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>2 7st)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 pik)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 pik)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 pik)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 pik)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 9p9)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 9p9)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 9p9)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 9p9)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 7p7)]: %NAME%{%NAME%}%MAP-1F%
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 7p7)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 7p7)]: %NAME%{%NAME%}%MAP-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 7p7)]: %NAME%{%NAME%}
 
 //Polearms
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 bar)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 bar)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>1 bar)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 bar)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>2 9b7)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>2 9b7)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 9b7) SOCK<4]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 9b7) SOCK>3]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>2 9b7)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 7o7)]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 7o7)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 7o7)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 7o7)]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 vou)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 vou)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>2 vou)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 vou)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 9vo)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 9vo)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 9vo) SOCK<4]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 9vo) SOCK>3]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 9vo)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 7vo)]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 7vo)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 7vo)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 7vo)]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 scy)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 scy)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 scy)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 scy)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>2 9s8)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>2 9s8)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 9s8)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>2 9s8)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 7s8)]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 7s8)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 7s8)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 7s8)]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 pax)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 pax)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 pax)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 pax)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 9pa)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 9pa)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>3) 9pa)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 9pa)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 7pa)]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 7pa)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 7pa)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 7pa)]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 hal)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 hal)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 hal)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 hal)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 9h9)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 9h9)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>3) 9h9)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 9h9)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 7h7)]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 7h7)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 7h7)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 7h7)]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[FILTLVL=1 (NMAG ETH SOCK>1 wsc)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG SOCK>1 wsc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH SOCK>3 wsc)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH SOCK>1 wsc)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 9wc)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 9wc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>3) 9wc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 9wc)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG ETH (SOCK=0 OR SOCK>2) 7wc)]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>2) 7wc)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=2 (NMAG ETH (SOCK=0 OR SOCK>2) 7wc)]: %NAME%{%NAME%}%BORDER-1F%
 ItemDisplay[FILTLVL=3 (NMAG ETH (SOCK=0 OR SOCK>2) 7wc)]: %NAME%{%NAME%}%BORDER-1F%
 
