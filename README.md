@@ -3,20 +3,20 @@
 
 *Built around my own vision: useful information, less clutter and notifications for the loot worth your attention.*
 
-## _Choose your filter level_
+## _Choose your filter level!_
 
-🔹 **REGULAR — Leveling & discovery**
+🔹 **REGULAR — Leveling & discovery:**
 The widest loot selection, including most white bases, magic and rare items, sets, uniques and crafts. A good starting point for leveling, crafting, SSF and GSF.
 
-🔸 **SOFT STRICT — Endgame & progression**
+🔸 **SOFT STRICT — Endgame & progression:**
 A more focused selection of bases and materials, while keeping rare items, sets, uniques and crafts visible. Designed for high-level farming, SSF and GSF.
 
-🔺 **UBER STRICT — Focused farming**
+🔺 **UBER STRICT — Focused farming:**
 The strictest selection, keeping chosen bases, selected rare items, sets, uniques and all crafts. Designed for players who want less loot on screen while pushing toward level 99.
 
 _**White-base selection includes both unsocketed and multi-socket bases. Bases with exactly one socket are excluded.**_
 
-## _Useful information at a glance_
+## _Useful information at a glance!_
 
 ### • **Clear names and colors**, with ethereal highlights and socket counts.
 ### • **One main stat below equipment names**, with priority given to useful variable rolls.
@@ -24,7 +24,7 @@ _**White-base selection includes both unsocketed and multi-socket bases. Bases w
 ### • **Up to two stats beside charm and jewel names**, while skillers keep their full skill-tree names.
 ### • **Extra details for unique charms:** RES/VIT on Torch, RES/VIT/EXP on Annihilus and MF/VEND on Gheed’s.
 
-## _A little help along the way_
+## _A little help along the way!_
 
 ### • **Runeword suggestions** based on item type and socket count.
 ### • **Crafting, upgrading, and reroll recipes** in tooltips.
