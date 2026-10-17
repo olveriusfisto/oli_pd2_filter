@@ -41,7 +41,7 @@ _**White-base selection includes both unsocketed and multi-socket bases. Bases w
 
 ## **Stay safe out there, and happy hunting!** ❤️
 
-# **Find me:** [Twitch](https://twitch.tv/olverius_fisto); [YouTube](https://youtube.com/olveriusTV)
+## **Find me:** [Twitch](https://twitch.tv/olverius_fisto); [YouTube](https://youtube.com/olveriusTV)
 
 ## _Showcase:_
 <img width="2048" height="1157" alt="image" src="https://github.com/user-attachments/assets/933d90d5-49a1-4a43-8ab7-1b4c2d3a0452" />
