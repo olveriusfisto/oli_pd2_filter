@@ -943,28 +943,28 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((amu OR rin) SET !ID)]: %NAME%%MAP-7D%{%NAME%}
 
 //Helms
 ItemDisplay[FILTLVL=1 ((UNI !ID) cap)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) cap)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) cap)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xap)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uap)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) skp)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xkp)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) hlm)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hlm)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hlm)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xlm)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ulm)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) fhl)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) fhl)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) fhl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xhl)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uhl)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Sage's Defiance / Overlord's Helm
 ItemDisplay[FILTLVL=1 ((UNI !ID) msk)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) msk)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) msk)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xsk)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) usk)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) bhm)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xh9)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uh9)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) ghm)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ghm)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ghm)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xhm)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uhm)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) crn)]: %NAME%{%NAME%}
@@ -977,13 +977,13 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ci3)]: %ORANGE%oooooooo %GOLD%%NAME% 
 
 //Chests
 ItemDisplay[FILTLVL=1 ((UNI !ID) qui)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) qui)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) qui)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xui)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uui)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) lea)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xea)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) hla)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hla)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hla)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xla)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) stu)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xtu)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
@@ -1023,31 +1023,31 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uar)]: %ORANGE%oooooooo %GOLD%%NAME% 
 
 //Shields
 ItemDisplay[FILTLVL=1 ((UNI !ID) buc)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) buc)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) buc)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xuc)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uuc)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Warriv’s Warder
 ItemDisplay[FILTLVL=1 ((UNI !ID) sml)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sml)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sml)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xml)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uml)]: %ORANGE%oooooooo %GOLD%	%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) lrg)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lrg)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lrg)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xrg)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) urg)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Twilight's Reflection
 ItemDisplay[FILTLVL=1 ((UNI !ID) spk)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spk)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spk)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xpk)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) upk)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) kit)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) kit)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) kit)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xit)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uit)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) bsh)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bsh)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bsh)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xsh)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ush)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) tow)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) tow)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) tow)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xow)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uow)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) gts)]: %NAME%{%NAME%}
@@ -1056,7 +1056,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uts)]: %ORANGE%oooooooo %GOLD%%NAME% 
 
 //Gloves
 ItemDisplay[FILTLVL=1 ((UNI !ID) lgl)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lgl)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lgl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xlg)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ulg)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Titan's Grip
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) vgl)]: %NAME%{%NAME%}
@@ -1077,7 +1077,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) lbt)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xlb)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ulb)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Merman's Sprocket
 ItemDisplay[FILTLVL=1 ((UNI !ID) vbt)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) vbt)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) vbt)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xvb)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uvb)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) mbt)]: %NAME%{%NAME%}
@@ -1104,7 +1104,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) tbl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ztb)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) rbe)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Band of Skulls
 ItemDisplay[FILTLVL=1 ((UNI !ID) hbl)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hbl)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hbl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) zhb)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uhc)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Siggard's Staunch
 
@@ -1123,7 +1123,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ba6)]: %TAN%oooooo %GOLD%%NAME% %TAN%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ba7)]: %TAN%oooooo %GOLD%%NAME% %TAN%oooooo%MAP-D3%{%NAME%} //New: Wildspeaker
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) bac)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) bad)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bad)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bad)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) bae)]: %ORANGE%oooooooo %GOLD%	%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) baa)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) baf)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Raekor's Virtue
@@ -1155,47 +1155,47 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) axe)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ax)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 2ax)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 92a)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hax)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ha)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7ha)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) axe)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ax)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 2ax)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 92a)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hax)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ha)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7ha)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) axe)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ax)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 2ax)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 92a)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 72a)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) mpi)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mpi)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mpi)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9mp)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7mp)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) wax)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9wa)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7mp)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wax)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9wa)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7mp)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wax)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9wa)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7wa)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) lax)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lax)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lax)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9la)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) bax)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ba)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7ba)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) btx)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9bt)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bax)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ba)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7ba)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) btx)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9bt)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bax)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ba)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7ba)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) btx)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9bt)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7bt)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) gax)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ga)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gax)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ga)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gax)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ga)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7ga)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) gix)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9gi)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gix)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9gi)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gix)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9gi)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7gi)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
 //Maces
@@ -1203,10 +1203,10 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) clb)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9cl)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7cl)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) spc)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) clb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9cl)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7cl)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spc)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) clb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9cl)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7cl)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spc)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9sp)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7sp)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) mac)]: %NAME%{%NAME%}
@@ -1218,79 +1218,79 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) fla)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9fl)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7fl)]: %ORANGE%oooooooo %GOLD%	%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) whm)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mac)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ma)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mst)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9mt)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7mt)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) fla)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9fl)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7fl)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) whm)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mac)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ma)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mst)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9mt)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7mt)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) fla)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9fl)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7fl)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) whm)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9wh)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7wh)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) mau)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9m9)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mau)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9m9)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mau)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9m9)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7m7)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) gma)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gma)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gma)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9gm)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7gm)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
 //Swords
 ItemDisplay[FILTLVL=1 ((UNI !ID) ssd)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ssd)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ssd)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9ss)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) scm)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9sm)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7sm)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) sbr)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9sb)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) scm)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9sm)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7sm)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sbr)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9sb)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) scm)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9sm)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7sm)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sbr)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9sb)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7sb)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) flc)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) flc)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) flc)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9fc)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9cr)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9cr)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9cr)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7cr)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) bsd)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9bs)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7bs)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Hadriel's Hand
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) lsd)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ls)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ls)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ls)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7ls)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) wsd)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9wd)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wsd)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9wd)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wsd)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9wd)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 2hs)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 92h)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) clm)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9cm)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 92h)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) clm)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9cm)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 92h)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) clm)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9cm)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7cm)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Leoric's Mithril Bane
 ItemDisplay[FILTLVL=1 ((UNI !ID) gis)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9gs)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gis)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9gs)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gis)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9gs)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7gs)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) bsw)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9b9)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bsw)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9b9)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bsw)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9b9)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7b7)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) flb)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) flb)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) flb)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9fb)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7fb)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Odium
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) gsd)]: %NAME%{%NAME%}
@@ -1302,17 +1302,17 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) dgr)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9dg)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7dg)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) dir)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) dir)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) dir)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9di)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7di)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Shatterblade
 ItemDisplay[FILTLVL=1 ((UNI !ID) kri)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) kri)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) kri)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9kr)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7kr)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) bld)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9bl)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bld)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9bl)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bld)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9bl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7bl)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
 //Throwing Axes & Throwing Knives
@@ -1320,10 +1320,10 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) 9tk)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooo
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ta)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7ta)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7bk)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9tk)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ta)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7ta)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7bk)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9tk)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ta)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7ta)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7bk)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9b8)]: %TAN%oooooo %GOLD%%NAME% %TAN%oooooo%MAP-D3%{%NAME%} //New: Achilles Strike
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7b8)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
@@ -1343,50 +1343,50 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) 9br)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooo
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7br)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) spt)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9st)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spr)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9sr)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7sr)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) tri)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9tr)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) brn)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9br)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7br)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spt)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9st)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spr)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9sr)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7sr)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) tri)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9tr)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) brn)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9br)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7br)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spt)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9st)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7st)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Uldyssian's Awakening
 ItemDisplay[FILTLVL=1 ((UNI !ID) pik)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9p9)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) pik)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9p9)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) pik)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9p9)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7p7)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
 //Polearms
 ItemDisplay[FILTLVL=1 ((UNI !ID) bar)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9b7)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bar)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9b7)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bar)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9b7)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7o7)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) vou)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) vou)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) vou)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9vo)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7vo)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Giant Maimer
 ItemDisplay[FILTLVL=1 ((UNI !ID) scy)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) scy)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) scy)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9s8)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7s8)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) pax)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9pa)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) pax)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9pa)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) pax)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9pa)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7pa)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) hal)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9h9)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) wsc)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hal)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9h9)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wsc)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hal)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9h9)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wsc)]: //%NAME%{%NAME%}
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9wc)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9wc)]: {%NAME%}
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9wc)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7wc)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
 //Bows
@@ -1398,16 +1398,16 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) lbw)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8lb)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 6hb)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Crackleshot
 ItemDisplay[FILTLVL=1 ((UNI !ID) cbw)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sbw)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8sb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hbw)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8hb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lbw)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8lb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) cbw)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sbw)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8sb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hbw)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8hb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lbw)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8lb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) cbw)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 8cb)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) sbb)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sbb)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sbb)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 8s8)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) lbb)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8l8)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
@@ -1417,26 +1417,26 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) 8sw)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooo
 ItemDisplay[FILTLVL=1 ((UNI !ID) 6sw)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) lwb)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8lw)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lbb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8l8)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 6l7)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) swb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8sw)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 6sw)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lwb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8lw)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lbb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8l8)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 6l7)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) swb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8sw)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 6sw)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lwb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8lw)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6lw)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
 //X-bows
 ItemDisplay[FILTLVL=1 ((UNI !ID) lxb)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8lx)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) mxb)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lxb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8lx)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mxb)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lxb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8lx)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mxb)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 8mx)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) hxb)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hxb)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hxb)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 8hx)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6hx)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) rxb)]: %NAME%{%NAME%}
@@ -1447,22 +1447,22 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6rx)]: %ORANGE%oooooooo %GOLD%%NAME% 
 ItemDisplay[FILTLVL=1 ((UNI !ID) sst)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8ss)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) lst)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sst)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8ss)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lst)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sst)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8ss)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lst)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 8ls)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) cst)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8cs)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) cst)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8cs)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) cst)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8cs)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6cs)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) bst)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8bs)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bst)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8bs)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bst)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 8bs)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6bs)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Brimstone Rain
 ItemDisplay[FILTLVL=1 ((UNI !ID) wst)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wst)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wst)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 8ws)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6ws)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
@@ -1470,9 +1470,9 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6ws)]: %ORANGE%oooooooo %GOLD%%NAME% 
 ItemDisplay[FILTLVL=1 ((UNI !ID) wnd)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9wn)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) ywn)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wnd)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9wn)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ywn)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wnd)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9wn)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ywn)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9yw)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7yw)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Nethercrux
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) bwn)]: %NAME%{%NAME%}
@@ -1485,17 +1485,17 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7gw)]: %ORANGE%oooooooo %GOLD%%NAME% 
 //Scepters
 ItemDisplay[FILTLVL=1 ((UNI !ID) scp)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9sc)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) scp)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9sc)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) scp)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9sc)]: //%NAME%{%NAME%}
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 7sc)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) gsc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9qs)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7sc)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gsc)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9qs)]: {%NAME%}
+ItemDisplay[FILTLVL=3 ((UNI !ID) 7sc)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gsc)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9qs)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7qs)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Akarat's Devotion
 ItemDisplay[FILTLVL=1 ((UNI !ID) wsp)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wsp)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wsp)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9ws)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7ws)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
@@ -1504,10 +1504,10 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9ar)]: %TAN%oooooo %GOLD%%NAME% %TAN%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7wb)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7xf)]: %TAN%oooooo %GOLD%%NAME% %TAN%oooooo%MAP-D3%{%NAME%} //New: Whispering Mirage
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7cs)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7cs)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7cs)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7lw)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9tw)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9tw)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9tw)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7tw)]: %TAN%oooooooo %GOLD%%NAME%  %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Stalker's Cull
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7qr)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Aidan's Scar
 
@@ -1524,18 +1524,18 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) obf)]: %ORANGE%oooooooo %GOLD%%NAME% 
 //Amazon Weapons
 ItemDisplay[FILTLVL=1 ((UNI !ID) amb)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) am7)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) amb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) am7)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) amb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) am7)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) amc)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) amd)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) am9)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) amd)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) am9)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) amd)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) am9)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ame)]: %TAN%oooooooo %GOLD%%NAME% %TAN%oooooooo%BORDER-D3%{%NAME%} //New: Zerae's Resolve
 ItemDisplay[FILTLVL=1 ((UNI !ID) am5)]: %NAME%{%NAME%} //New: True Silver
 ItemDisplay[FILTLVL=1 ((UNI !ID) ama)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) am5)]: {%NAME%} //New: True Silver
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ama)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) am5)]: //%NAME%{%NAME%} //New: True Silver
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ama)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) amf)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 
 //Quivers
@@ -1562,14 +1562,14 @@ ItemDisplay[FILTLVL=1 ((SET !ID) hlm)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) fhl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) xhl)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) msk)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) skp)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) hlm)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) fhl)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) xhl)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) msk)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) skp)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) hlm)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) fhl)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) xhl)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) msk)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xsk)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) bhm)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bhm)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bhm)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xh9)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uh9)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ghm)]: %NAME%{%NAME%}
@@ -1577,7 +1577,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xhm)]: %DARK_GREEN%ooooo %GREEN%%NAME
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uhm)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) crn)]: %NAME%{%NAME%}
 ItemDisplay[(FILTLVL=1 OR FILTLVL=3) ((SET !ID) xrn)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
-ItemDisplay[FILTLVL=2 ((SET !ID) xrn)]: {%NAME%}
+ItemDisplay[FILTLVL=2 ((SET !ID) xrn)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) urn)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 
 //Circlets
@@ -1586,32 +1586,32 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ci3)]: %DARK_GREEN%ooooo %GREEN%%NAME
 
 //Chests
 ItemDisplay[FILTLVL=1 ((SET !ID) qui)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) qui)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) qui)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uui)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) lea)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lea)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lea)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) stu)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) rng)]: %NAME%{%NAME%}
 ItemDisplay[(FILTLVL=1 OR FILTLVL=3) ((SET !ID) xcl)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
-ItemDisplay[FILTLVL=2 ((SET !ID) xcl)]: {%NAME%}
+ItemDisplay[FILTLVL=2 ((SET !ID) xcl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ucl)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) brs)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) brs)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) brs)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xrs)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) chn)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) spl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) upl)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) ltp)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) chn)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) spl)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) upl)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) ltp)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) chn)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) spl)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) upl)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) ltp)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uld)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ult)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) gth)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uth)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) ful)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) ful)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) ful)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xul)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uul)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) aar)]: %NAME%{%NAME%}
@@ -1621,17 +1621,17 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uar)]: %DARK_GREEN%ooooo %GREEN%%NAME
 //Shields
 ItemDisplay[(FILTLVL=1 OR FILTLVL=3) ((SET !ID) buc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) sml)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=2 ((SET !ID) buc)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) sml)]: {%NAME%}
+ItemDisplay[FILTLVL=2 ((SET !ID) buc)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) sml)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xml)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) lrg)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lrg)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lrg)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) kit)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) tow)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) gts)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) uts)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) gts)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) uts)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) gts)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) uts)]: //%NAME%{%NAME%}
 
 //Gloves
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) lgl)]: %NAME%{%NAME%}
@@ -1639,24 +1639,24 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ulg)]: %DARK_GREEN%ooooo %GREEN%%NAME
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) vgl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xvg)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) mgl)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) mgl)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) mgl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xmg)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) tgl)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) tgl)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) tgl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xtg)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) hgl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xhg)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 
 //Boots
 ItemDisplay[FILTLVL=1 ((SET !ID) lbt)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lbt)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lbt)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xlb)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) vbt)]: %NAME%{%NAME%}
 ItemDisplay[(FILTLVL=1 OR FILTLVL=3) ((SET !ID) mbt)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=2 ((SET !ID) mbt)]: {%NAME%}
+ItemDisplay[FILTLVL=2 ((SET !ID) mbt)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xmb)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) tbt)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) tbt)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) tbt)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xtb)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) hbt)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xhb)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
@@ -1664,15 +1664,15 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xhb)]: %DARK_GREEN%ooooo %GREEN%%NAME
 //Belts
 ItemDisplay[(FILTLVL=1 OR FILTLVL=3) ((SET !ID) lbl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) vbl)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=2 ((SET !ID) lbl)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) vbl)]: {%NAME%}
+ItemDisplay[FILTLVL=2 ((SET !ID) lbl)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) vbl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) zvb)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[(FILTLVL=1 OR FILTLVL=3) ((SET !ID) mbl)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=2 ((SET !ID) mbl)]: {%NAME%}
+ItemDisplay[FILTLVL=2 ((SET !ID) mbl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) zmb)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) umc)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) tbl)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) tbl)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) tbl)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ztb)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) utc)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) hbl)]: %NAME%{%NAME%}
@@ -1696,12 +1696,12 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ne9)]: %DARK_GREEN%ooooo %GREEN%%NAME
 //Axes
 ItemDisplay[FILTLVL=1 ((SET !ID) 2ax)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) mpi)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) 2ax)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) mpi)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) 2ax)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) mpi)]: //%NAME%{%NAME%}
 
 //Maces
 ItemDisplay[FILTLVL=1 ((SET !ID) 7ma)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) 7ma)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) 7ma)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 9mt)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7m7)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 
@@ -1711,40 +1711,40 @@ ItemDisplay[FILTLVL=1 ((SET !ID) bsd)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) lsd)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) 7ls)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) wsd)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bsd)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lsd)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) 7ls)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) wsd)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bsd)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lsd)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) 7ls)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) wsd)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7fb)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7gd)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 
 //Daggers
 ItemDisplay[FILTLVL=1 ((SET !ID) dgr)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) dgr)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) dgr)]: //%NAME%{%NAME%}
 
 //Polearms
 ItemDisplay[(FILTLVL=1 OR FILTLVL=3) ((SET !ID) 9vo)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
-ItemDisplay[FILTLVL=2 ((SET !ID) 9vo)]: {%NAME%}
+ItemDisplay[FILTLVL=2 ((SET !ID) 9vo)]: //%NAME%{%NAME%}
 
 //Bows
 ItemDisplay[FILTLVL=1 ((SET !ID) lbb)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) swb)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lbb)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) swb)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lbb)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) swb)]: //%NAME%{%NAME%}
 
 //Staves
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 6cs)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) bst)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((SET !ID) wst)]: %NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bst)]: {%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) wst)]: {%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bst)]: //%NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) wst)]: //%NAME%{%NAME%}
 
 //Wands
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) bwn)]: %NAME%{%NAME%}
 
 //Scepters
 ItemDisplay[(FILTLVL=1 OR FILTLVL=3) ((SET !ID) gsc)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=2 ((SET !ID) gsc)]: {%NAME%}
+ItemDisplay[FILTLVL=2 ((SET !ID) gsc)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) wsp)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7ws)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
 
@@ -1756,6 +1756,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) oba)]: %DARK_GREEN%ooooo %GREEN%%NAME
 
 //Amazon Weapons
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) amc)]: %DARK_GREEN%ooooo %GREEN%%NAME% %DARK_GREEN%ooooo%MAP-7D%{%NAME%}
+
 
 //UPGRADING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
