@@ -1214,7 +1214,7 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) 9ma)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooo
 ItemDisplay[FILTLVL=1 ((UNI !ID) mst)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9mt)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7mt)]: %ORANGE%oooooooo %GOLD%%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
-ItemDisplay[FILTLVL=1 ((UNI !ID) fla)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 NMAG fla ((SOCK=0 ILVL>26 ILVL<43) OR SOCK>1)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9fl)]: %ORANGE%oooooo %GOLD%%NAME% %ORANGE%oooooo%MAP-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7fl)]: %ORANGE%oooooooo %GOLD%	%NAME% %ORANGE%oooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) whm)]: %NAME%{%NAME%}
@@ -1223,7 +1223,8 @@ ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9ma)]: //%NAME%{%NAME%}
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mst)]: //%NAME%{%NAME%}
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9mt)]: //%NAME%{%NAME%}
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7mt)]: //%NAME%{%NAME%}
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) fla)]: //%NAME%{%NAME%}
+ItemDisplay[FILTLVL=2 (NMAG SOCK>3 fla)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=3 (NMAG SOCK>3 fla)]: %NAME%{%NAME%}
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 9fl)]: //%NAME%{%NAME%}
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 7fl)]: //%NAME%{%NAME%}
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) whm)]: //%NAME%{%NAME%}
@@ -5565,9 +5566,9 @@ ItemDisplay[FILTLVL=3 (NMAG 9fc)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>1) 7fc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK>2 7fc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG 7fc)]: //%NAME%{%NAME%}
-ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>1) crs)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=2 (NMAG (SOCK=0 OR SOCK>3) crs)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=3 (NMAG crs)]: //%NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 NMAG crs ((SOCK=0 ILVL>26 ILVL<43) OR SOCK>1)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=2 (NMAG SOCK>3 crs)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=3 (NMAG SOCK>3 crs)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG ((SOCK=0 CLVL<56) OR SOCK>1) 9cr)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG 9cr)]: //%NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG 9cr)]: //%NAME%{%NAME%}
