@@ -935,7 +935,6 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((jew OR rin OR amu OR CIRC) RARE !ID)]: %NAME%%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((amu OR rin OR ram) UNI !ID)]: %ORANGE%ooooooo %GOLD%%NAME% %ORANGE%ooooooo%BORDER-D3%{%NAME%}
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((amu OR rin) SET !ID)]: %NAME%%MAP-7D%{%NAME%}
 
-
 //UNIQUE
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
@@ -946,7 +945,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((amu OR rin) SET !ID)]: %NAME%%MAP-7D%{%NAME%}
 ItemDisplay[FILTLVL=1 ((UNI !ID) cap)]: Biggin's Bonnet
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) cap)]: //Biggin's Bonnet
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xap)]: %ORANGE%oooooo %GOLD%Peasant Crown %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xap)]: //%ORANGE%oooooo %GOLD%Peasant Crown %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xap)]: //Peasant Crown
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uap)]: %ORANGE%oooooooo %GOLD%Harlequin Crest %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) skp)]: Tarnhelm
 ItemDisplay[FILTLVL=3 ((UNI !ID) skp)]: //Tarnhelm
@@ -954,17 +953,17 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xkp)]: %ORANGE%oooooo %GOLD%Rockstopp
 ItemDisplay[FILTLVL=1 ((UNI !ID) hlm)]: Coif of Glory
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hlm)]: //Coif of Glory
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xlm)]: %ORANGE%oooooo %GOLD%Stealskull %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xlm)]: //%ORANGE%oooooo %GOLD%Stealskull %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xlm)]: //Stealskull
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ulm)]: %ORANGE%oooooooo %GOLD%Steel Shade %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) fhl)]: Duskdeep
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) fhl)]: //Duskdeep
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xhl)]: %ORANGE%oooooo %GOLD%Darksight Helm %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xhl)]: //%ORANGE%oooooo %GOLD%Darksight Helm %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xhl)]: //Darksight Helm
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uhl)]: %TAN%oooooooo %GOLD%Sage's Defiance %TAN%oooooooo%BORDER-D3% //New: Sage's Defiance / Overlord's Helm
 ItemDisplay[FILTLVL=1 ((UNI !ID) msk)]: The Face of Horror
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) msk)]: //The Face of Horror
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xsk)]: %ORANGE%oooooo %GOLD%Blackhorn's Face %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xsk)]: //%ORANGE%oooooo %GOLD%Blackhorn's Face %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xsk)]: //Blackhorn's Face
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) usk)]: %ORANGE%oooooooo %GOLD%Andariel's Visage %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) bhm)]: Wormskull
 ItemDisplay[FILTLVL=3 ((UNI !ID) bhm)]: //Wormskull
@@ -973,12 +972,12 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uh9)]: %ORANGE%oooooooo %GOLD%Giant S
 ItemDisplay[FILTLVL=1 ((UNI !ID) ghm)]: Howltusk
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ghm)]: //Howltusk
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xhm)]: %ORANGE%oooooo %GOLD%Valkyrie Wing %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xhm)]: //%ORANGE%oooooo %GOLD%Valkyrie Wing %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xhm)]: //Valkyrie Wing
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uhm)]: %ORANGE%oooooooo %GOLD%Veil of Steel / Nightwing's Veil %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) crn)]: Undead Crown
 ItemDisplay[FILTLVL=3 ((UNI !ID) crn)]: //Undead Crown
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xrn)]: %ORANGE%oooooo %GOLD%Crown of Thieves %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xrn)]: //%ORANGE%oooooo %GOLD%Crown of Thieves %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xrn)]: //Crown of Thieves
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) urn)]: %ORANGE%oooooooo %GOLD%Crown of Ages %ORANGE%oooooooo%BORDER-D3%
 
 //Circlets
@@ -996,20 +995,20 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xea)]: %ORANGE%oooooo %GOLD%Skin of t
 ItemDisplay[FILTLVL=1 ((UNI !ID) hla)]: The Centurion
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hla)]: //The Centurion
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xla)]: %ORANGE%oooooo %GOLD%Skin of the Flayed One %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xla)]: //%ORANGE%oooooo %GOLD%Skin of the Flayed One %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xla)]: //Skin of the Flayed One
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) stu)]: Twitchthroe
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xtu)]: %ORANGE%oooooo %GOLD%Iron Pelt %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xtu)]: //%ORANGE%oooooo %GOLD%Iron Pelt %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xtu)]: //Iron Pelt
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) utu)]: %ORANGE%oooooooo %GOLD%The Gladiator's Bane %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) rng)]: Darkglow
 ItemDisplay[FILTLVL=3 ((UNI !ID) rng)]: //Darkglow
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xng)]: %ORANGE%oooooo %GOLD%Spirit Forge %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xng)]: //%ORANGE%oooooo %GOLD%Spirit Forge %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xng)]: //Spirit Forge
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ung)]: %YELLOW%oooooooo %GOLD%Wraithskin %YELLOW%oooooooo%BORDER-D3% //New: Wraithskin
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) scl)]: Hawkmail
 ItemDisplay[FILTLVL=3 ((UNI !ID) scl)]: //Hawkmail
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xcl)]: %ORANGE%oooooo %GOLD%Crow Caw %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xcl)]: //%ORANGE%oooooo %GOLD%Crow Caw %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xcl)]: //Crow Caw
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) brs)]: Venom Ward
 ItemDisplay[FILTLVL=3 ((UNI !ID) brs)]: //Venom Ward
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xrs)]: %ORANGE%oooooo %GOLD%Duriel's Shell %ORANGE%oooooo%MAP-D3%
@@ -1029,7 +1028,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) utp)]: %TAN%oooooooo %GOLD%Purgatory 
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) fld)]: Rockfleece
 ItemDisplay[FILTLVL=3 ((UNI !ID) fld)]: //Rockfleece
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xld)]: %ORANGE%oooooo %GOLD%Toothrow %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xld)]: //%ORANGE%oooooo %GOLD%Toothrow %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xld)]: //Toothrow
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uld)]: %ORANGE%oooooooo %GOLD%Leviathan %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) plt)]: Boneflesh
 ItemDisplay[FILTLVL=3 ((UNI !ID) plt)]: //Boneflesh
@@ -1037,45 +1036,45 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xlt)]: %ORANGE%oooooo %GOLD%Guardian 
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) gth)]: Rattlecage
 ItemDisplay[FILTLVL=3 ((UNI !ID) gth)]: //Rattlecage
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xth)]: %ORANGE%oooooo %GOLD%Atma's Wail %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xth)]: //%ORANGE%oooooo %GOLD%Atma's Wail %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xth)]: //Atma's Wail
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uth)]: %TAN%oooooooo %GOLD%Dark Abyss %TAN%oooooooo%BORDER-D3% //New: Dark Abyss
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) ful)]: Goldskin
 ItemDisplay[FILTLVL=3 ((UNI !ID) ful)]: //Goldskin
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xul)]: %ORANGE%oooooo %GOLD%Black Hades %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xul)]: //%ORANGE%oooooo %GOLD%Black Hades %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xul)]: //Black Hades
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uul)]: %ORANGE%oooooooo %GOLD%Steel Carapace %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) aar)]: Silks of the Victor
 ItemDisplay[FILTLVL=3 ((UNI !ID) aar)]: //Silks of the Victor
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xar)]: %ORANGE%oooooo %GOLD%Corpsemourn %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xar)]: //%ORANGE%oooooo %GOLD%Corpsemourn %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xar)]: //Corpsemourn
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uar)]: %ORANGE%oooooooo %GOLD%Templar's Might / Tyrael's Might %ORANGE%oooooooo%BORDER-D3%
 
 //Shields
 ItemDisplay[FILTLVL=1 ((UNI !ID) buc)]: Pelta Lunata
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) buc)]: //Pelta Lunata
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xuc)]: %ORANGE%oooooo %GOLD%Visceratuant %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xuc)]: //%ORANGE%oooooo %GOLD%Visceratuant %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xuc)]: //Visceratuant
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uuc)]: %TAN%oooooooo %GOLD%Warriv's Warder %TAN%oooooooo%BORDER-D3% //New: Warriv’s Warder
 ItemDisplay[FILTLVL=1 ((UNI !ID) sml)]: Umbral Disk
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sml)]: //Umbral Disk
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xml)]: %ORANGE%oooooo %GOLD%Moser's Blessed Circle %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xml)]: //%ORANGE%oooooo %GOLD%Moser's Blessed Circle %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xml)]: //Moser's Blessed Circle
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) uml)]: %ORANGE%oooooooo %GOLD%	Blackoak Shield %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) uml)]: //%ORANGE%oooooooo %GOLD%	Blackoak Shield %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) uml)]: //Blackoak Shield
 ItemDisplay[FILTLVL=1 ((UNI !ID) lrg)]: Stormguild
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lrg)]: //Stormguild
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xrg)]: %ORANGE%oooooo %GOLD%Stormchaser %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xrg)]: //%ORANGE%oooooo %GOLD%Stormchaser %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xrg)]: //Stormchaser
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) urg)]: %TAN%oooooooo %GOLD%Twilight's Reflection %TAN%oooooooo%BORDER-D3% //New: Twilight's Reflection
 ItemDisplay[FILTLVL=1 ((UNI !ID) spk)]: Swordback Hold
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spk)]: //Swordback Hold
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xpk)]: %ORANGE%oooooo %GOLD%Lance Guard %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) upk)]: %ORANGE%oooooooo %GOLD%Spike Thorn %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) upk)]: //%ORANGE%oooooooo %GOLD%Spike Thorn %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) upk)]: //Spike Thorn
 ItemDisplay[FILTLVL=1 ((UNI !ID) kit)]: Steelclash
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) kit)]: //Steelclash
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xit)]: %ORANGE%oooooo %GOLD%Tiamat's Rebuke %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xit)]: //%ORANGE%oooooo %GOLD%Tiamat's Rebuke %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xit)]: //Tiamat's Rebuke
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uit)]: %ORANGE%oooooooo %GOLD%Stormshield %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) bsh)]: Wall of the Eyeless
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bsh)]: //Wall of the Eyeless
@@ -1088,37 +1087,37 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uow)]: %ORANGE%oooooooo %GOLD%Medusa'
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) gts)]: The Ward
 ItemDisplay[FILTLVL=3 ((UNI !ID) gts)]: //The Ward
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xts)]: %ORANGE%oooooo %GOLD%Radament's Sphere %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xts)]: //%ORANGE%oooooo %GOLD%Radament's Sphere %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xts)]: //Radament's Sphere
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uts)]: %ORANGE%oooooooo %GOLD%Spirit Ward %ORANGE%oooooooo%BORDER-D3%
 
 //Gloves
 ItemDisplay[FILTLVL=1 ((UNI !ID) lgl)]: The Hand of Broc
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lgl)]: //The Hand of Broc
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xlg)]: %ORANGE%oooooo %GOLD%Venom Grip %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xlg)]: //%ORANGE%oooooo %GOLD%Venom Grip %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xlg)]: //Venom Grip
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ulg)]: %TAN%oooooooo %GOLD%Titan's Grip %TAN%oooooooo%BORDER-D3% //New: Titan's Grip
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) vgl)]: Bloodfist
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xvg)]: %ORANGE%oooooo %GOLD%Gravepalm %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xvg)]: //%ORANGE%oooooo %GOLD%Gravepalm %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xvg)]: //Gravepalm
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uvg)]: %ORANGE%oooooooo %GOLD%Dracul's Grasp %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) mgl)]: Chance Guards
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xmg)]: %ORANGE%oooooo %GOLD%Ghoulhide %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xmg)]: //%ORANGE%oooooo %GOLD%Ghoulhide %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xmg)]: //Ghoulhide
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) umg)]: %ORANGE%oooooooo %GOLD%Soul Drainer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) tgl)]: Magefist
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xtg)]: %ORANGE%oooooo %GOLD%Lava Gout %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) utg)]: %TAN%oooooooo %GOLD%Occultist %TAN%oooooooo%BORDER-D3% //New: Occultist
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) hgl)]: Frostburn
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xhg)]: %ORANGE%oooooo %GOLD%Hellmouth %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xhg)]: //%ORANGE%oooooo %GOLD%Hellmouth %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xhg)]: //Hellmouth
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uhg)]: %ORANGE%oooooooo %GOLD%Steelrend %ORANGE%oooooooo%BORDER-D3%
 
 //Boots
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) lbt)]: Hotspur
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) xlb)]: %ORANGE%oooooo %GOLD%Infernostride %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) xlb)]: //%ORANGE%oooooo %GOLD%Infernostride %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) xlb)]: //Infernostride
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) ulb)]: %TAN%oooooooo %GOLD%Merman's Sprocket %TAN%oooooooo%BORDER-D3% //New: Merman's Sprocket
-ItemDisplay[FILTLVL=3 ((UNI !ID) ulb)]: //%TAN%oooooooo %GOLD%Merman's Sprocket %TAN%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) ulb)]: //Merman's Sprocket
 ItemDisplay[FILTLVL=1 ((UNI !ID) vbt)]: Gorefoot
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) vbt)]: //Gorefoot
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) xvb)]: %ORANGE%oooooo %GOLD%Waterwalk %ORANGE%oooooo%MAP-D3%
@@ -1147,7 +1146,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) uvc)]: %ORANGE%oooooooo %GOLD%Nosfera
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) mbl)]: Nightsmoke
 ItemDisplay[FILTLVL=3 ((UNI !ID) mbl)]: //Nightsmoke
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) zmb)]: %ORANGE%oooooo %GOLD%Gloom's Trap %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) zmb)]: //%ORANGE%oooooo %GOLD%Gloom's Trap %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) zmb)]: //Gloom's Trap
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) umc)]: %ORANGE%oooooooo %GOLD%Verdungo's Hearty Cord %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) tbl)]: Goldwrap
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ztb)]: %ORANGE%oooooo %GOLD%Snowclash %ORANGE%oooooo%MAP-D3%
@@ -1174,7 +1173,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ba7)]: %TAN%oooooo %GOLD%Wildspeaker 
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) bac)]: %ORANGE%oooooooo %GOLD%Wolfhowl %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) bad)]: %ORANGE%oooooooo %GOLD%Demonhorn's Edge %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) bad)]: //Demonhorn's Edge
-ItemDisplay[FILTLVL=3 ((UNI !ID) bad)]: //%ORANGE%oooooooo %GOLD%Demonhorn's Edge %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) bad)]: //Demonhorn's Edge
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) bae)]: %ORANGE%oooooooo %GOLD%	Halaberd's Reign %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) baa)]: %ORANGE%oooooo %GOLD%Arreat's Face %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) baf)]: %TAN%oooooooo %GOLD%Raekor's Virtue %TAN%oooooooo%BORDER-D3% //New: Raekor's Virtue
@@ -1204,64 +1203,60 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) hax)]: The Gnasher
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hax)]: //The Gnasher
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ha)]: %ORANGE%oooooo %GOLD%Coldkill %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9ha)]: //Coldkill
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9ha)]: //%ORANGE%oooooo %GOLD%Coldkill %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 7ha)]: %ORANGE%oooooooo %GOLD%Razor's Edge %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 7ha)]: //Razor's Edge
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7ha)]: %ORANGE%oooooooo %GOLD%Razor's Edge %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9ha)]: //Coldkill
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7ha)]: %ORANGE%oooooooo %GOLD%Razor's Edge %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) axe)]: Deathspade
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) axe)]: //Deathspade
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ax)]: %ORANGE%oooooo %GOLD%Butcher's Pupil %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9ax)]: //Butcher's Pupil
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9ax)]: //%ORANGE%oooooo %GOLD%Butcher's Pupil %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9ax)]: //Butcher's Pupil
 ItemDisplay[FILTLVL=1 ((UNI !ID) 2ax)]: Bladebone
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) 2ax)]: //Bladebone
 ItemDisplay[FILTLVL=1 ((UNI !ID) 92a)]: %ORANGE%oooooo %GOLD%Islestrike %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 92a)]: //Islestrike
-ItemDisplay[FILTLVL=3 ((UNI !ID) 92a)]: //%ORANGE%oooooo %GOLD%Islestrike %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 92a)]: //Islestrike
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 72a)]: %ORANGE%oooooooo %GOLD%Rune Master %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) mpi)]: Skull Splitter
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mpi)]: //Skull Splitter
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9mp)]: %ORANGE%oooooo %GOLD%Pompeii's Wrath %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9mp)]: //%ORANGE%oooooo %GOLD%Pompeii's Wrath %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9mp)]: //Pompeii's Wrath
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7mp)]: %ORANGE%oooooooo %GOLD%Cranebeak %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 7mp)]: //Cranebeak
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7mp)]: //%ORANGE%oooooooo %GOLD%Cranebeak %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 7mp)]: //Cranebeak
 ItemDisplay[FILTLVL=1 ((UNI !ID) wax)]: Rakescar
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wax)]: //Rakescar
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9wa)]: %ORANGE%oooooo %GOLD%Guardian Naga %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9wa)]: //Guardian Naga
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9wa)]: //%ORANGE%oooooo %GOLD%Guardian Naga %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9wa)]: //Guardian Naga
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7wa)]: %ORANGE%oooooooo %GOLD%Death Cleaver %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) lax)]: Axe of Fechmar
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lax)]: //Axe of Fechmar
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9la)]: %ORANGE%oooooo %GOLD%Warlord's Trust %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9la)]: //%ORANGE%oooooo %GOLD%Warlord's Trust %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9la)]: //Warlord's Trust
 ItemDisplay[FILTLVL=1 ((UNI !ID) bax)]: Goreshovel
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bax)]: //Goreshovel
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ba)]: %ORANGE%oooooo %GOLD%Spellsteel %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9ba)]: //Spellsteel
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9ba)]: //%ORANGE%oooooo %GOLD%Spellsteel %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 7ba)]: %ORANGE%oooooooo %GOLD%Ethereal Edge %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 7ba)]: //Ethereal Edge
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7ba)]: %ORANGE%oooooooo %GOLD%Ethereal Edge %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9ba)]: //Spellsteel
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7ba)]: %ORANGE%oooooooo %GOLD%Ethereal Edge %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) btx)]: The Chieftain
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) btx)]: //The Chieftain
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9bt)]: %ORANGE%oooooo %GOLD%Stormrider %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9bt)]: //Stormrider
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9bt)]: //%ORANGE%oooooo %GOLD%Stormrider %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9bt)]: //Stormrider
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 7bt)]: %ORANGE%oooooooo %GOLD%Hellslayer %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7bt)]: //%ORANGE%oooooooo %GOLD%Hellslayer %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 7bt)]: //Hellslayer
 ItemDisplay[FILTLVL=1 ((UNI !ID) gax)]: Brainhew
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gax)]: //Brainhew
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ga)]: %ORANGE%oooooo %GOLD%Boneslayer Blade %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9ga)]: //Boneslayer Blade
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9ga)]: //%ORANGE%oooooo %GOLD%Boneslayer Blade %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9ga)]: //Boneslayer Blade
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7ga)]: %ORANGE%oooooooo %GOLD%Messerschmidt's Reaver %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) gix)]: Humongous
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gix)]: //Humongous
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9gi)]: %ORANGE%oooooo %GOLD%The Minotaur %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9gi)]: //The Minotaur
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9gi)]: //%ORANGE%oooooo %GOLD%The Minotaur %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9gi)]: //The Minotaur
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7gi)]: %ORANGE%oooooooo %GOLD%Executioner's Justice %ORANGE%oooooooo%BORDER-D3%
 
 //Maces
@@ -1269,10 +1264,10 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) clb)]: Felloak
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) clb)]: //Felloak
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9cl)]: %ORANGE%oooooo %GOLD%Dark Clan Crusher %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9cl)]: //Dark Clan Crusher
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9cl)]: //%ORANGE%oooooo %GOLD%Dark Clan Crusher %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9cl)]: //Dark Clan Crusher
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7cl)]: %ORANGE%oooooooo %GOLD%Nord's Tenderizer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 7cl)]: //Nord's Tenderizer
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7cl)]: //%ORANGE%oooooooo %GOLD%Nord's Tenderizer %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 7cl)]: //Nord's Tenderizer
 ItemDisplay[FILTLVL=1 ((UNI !ID) spc)]: Stoutnail
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spc)]: //Stoutnail
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9sp)]: %ORANGE%oooooo %GOLD%Fleshrender %ORANGE%oooooo%MAP-D3%
@@ -1281,33 +1276,29 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) mac)]: Crushflange
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mac)]: //Crushflange
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ma)]: %ORANGE%oooooo %GOLD%Sureshrill Frost %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9ma)]: //Sureshrill Frost
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9ma)]: //%ORANGE%oooooo %GOLD%Sureshrill Frost %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9ma)]: //Sureshrill Frost
 ItemDisplay[FILTLVL=1 ((UNI !ID) mst)]: Bloodrise
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mst)]: //Bloodrise
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9mt)]: %ORANGE%oooooo %GOLD%Moonfall %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9mt)]: //Moonfall
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9mt)]: //%ORANGE%oooooo %GOLD%Moonfall %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 7mt)]: %ORANGE%oooooooo %GOLD%Baranar's Star %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 7mt)]: //Baranar's Star
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7mt)]: %ORANGE%oooooooo %GOLD%Baranar's Star %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9mt)]: //Moonfall
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7mt)]: %ORANGE%oooooooo %GOLD%Baranar's Star %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) fla)]: The General's Tan Do Li Ga
 ItemDisplay[FILTLVL=3 ((UNI !ID) fla)]: //The General's Tan Do Li Ga
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9fl)]: %ORANGE%oooooo %GOLD%Baezil's Vortex %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9fl)]: //Baezil's Vortex
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9fl)]: //%ORANGE%oooooo %GOLD%Baezil's Vortex %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 7fl)]: %ORANGE%oooooooo %GOLD%	Horizon's Tornado / Stormlash %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 7fl)]: //Horizon's Tornado / Stormlash
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7fl)]: %ORANGE%oooooooo %GOLD%	Horizon's Tornado / Stormlash %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9fl)]: //Baezil's Vortex
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7fl)]: %ORANGE%oooooooo %GOLD%	Horizon's Tornado / Stormlash %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) whm)]: Ironstone
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) whm)]: //Ironstone
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9wh)]: %ORANGE%oooooo %GOLD%Earthshaker %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9wh)]: //%ORANGE%oooooo %GOLD%Earthshaker %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9wh)]: //Earthshaker
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7wh)]: %ORANGE%oooooooo %GOLD%Stone Crusher / Schaefer's Hammer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) mau)]: Bonesnap
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mau)]: //Bonesnap
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9m9)]: %ORANGE%oooooo %GOLD%Bloodtree Stump %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9m9)]: //Bloodtree Stump
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9m9)]: //%ORANGE%oooooo %GOLD%Bloodtree Stump %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9m9)]: //Bloodtree Stump
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7m7)]: %ORANGE%oooooooo %GOLD%Windhammer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) gma)]: Steeldriver
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gma)]: //Steeldriver
@@ -1318,28 +1309,28 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7gm)]: %ORANGE%oooooooo %GOLD%Earth S
 ItemDisplay[FILTLVL=1 ((UNI !ID) ssd)]: Rixot's Keen
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ssd)]: //Rixot's Keen
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9ss)]: %ORANGE%oooooo %GOLD%Bloodletter %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9ss)]: //%ORANGE%oooooo %GOLD%Bloodletter %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9ss)]: //Bloodletter
 ItemDisplay[FILTLVL=1 ((UNI !ID) scm)]: Blood Crescent
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) scm)]: //Blood Crescent
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9sm)]: %ORANGE%oooooo %GOLD%Coldsteel Eye %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9sm)]: //Coldsteel Eye
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9sm)]: //%ORANGE%oooooo %GOLD%Coldsteel Eye %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9sm)]: //Coldsteel Eye
 ItemDisplay[FILTLVL=1 ((UNI !ID) 7sm)]: %ORANGE%oooooooo %GOLD%Djinn Slayer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 7sm)]: //Djinn Slayer
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7sm)]: //%ORANGE%oooooooo %GOLD%Djinn Slayer %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 7sm)]: //Djinn Slayer
 ItemDisplay[FILTLVL=1 ((UNI !ID) sbr)]: Skewer of Krintiz
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sbr)]: //Skewer of Krintiz
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9sb)]: %ORANGE%oooooo %GOLD%Hexfire %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9sb)]: //Hexfire
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9sb)]: //%ORANGE%oooooo %GOLD%Hexfire %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9sb)]: //Hexfire
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 7sb)]: %ORANGE%oooooooo %GOLD%Bloodmoon %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7sb)]: //%ORANGE%oooooooo %GOLD%Bloodmoon %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 7sb)]: //Bloodmoon
 ItemDisplay[FILTLVL=1 ((UNI !ID) flc)]: Gleamscythe
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) flc)]: //Gleamscythe
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9fc)]: %ORANGE%oooooo %GOLD%Blade of Ali Baba %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9cr)]: %ORANGE%oooooo %GOLD%Ginther's Rift %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9cr)]: //Ginther's Rift
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9cr)]: //%ORANGE%oooooo %GOLD%Ginther's Rift %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9cr)]: //Ginther's Rift
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7cr)]: %ORANGE%oooooooo %GOLD%Lightsabre / Azurewrath %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) bsd)]: Griswold's Edge
 ItemDisplay[FILTLVL=3 ((UNI !ID) bsd)]: //Griswold's Edge
@@ -1349,82 +1340,78 @@ ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) lsd)]: Hellplague
 ItemDisplay[FILTLVL=3 ((UNI !ID) lsd)]: //Hellplague
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ls)]: %ORANGE%oooooo %GOLD%Plague Bearer %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9ls)]: //Plague Bearer
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9ls)]: //%ORANGE%oooooo %GOLD%Plague Bearer %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9ls)]: //Plague Bearer
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7ls)]: %ORANGE%oooooooo %GOLD%Frostwind %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) wsd)]: Culwen's Point
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wsd)]: //Culwen's Point
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9wd)]: %ORANGE%oooooo %GOLD%The Atlantean %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9wd)]: //The Atlantean
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9wd)]: //%ORANGE%oooooo %GOLD%The Atlantean %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9wd)]: //The Atlantean
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 2hs)]: Shadowfang
 ItemDisplay[FILTLVL=3 ((UNI !ID) 2hs)]: //Shadowfang
 ItemDisplay[FILTLVL=1 ((UNI !ID) 92h)]: %ORANGE%oooooo %GOLD%Crainte Vomir %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 92h)]: //Crainte Vomir
-ItemDisplay[FILTLVL=3 ((UNI !ID) 92h)]: //%ORANGE%oooooo %GOLD%Crainte Vomir %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 92h)]: //Crainte Vomir
 ItemDisplay[FILTLVL=1 ((UNI !ID) clm)]: Soulflay
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) clm)]: //Soulflay
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9cm)]: %ORANGE%oooooo %GOLD%Bing Sz Wang %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9cm)]: //Bing Sz Wang
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9cm)]: //%ORANGE%oooooo %GOLD%Bing Sz Wang %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9cm)]: //Bing Sz Wang
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7cm)]: %TAN%oooooooo %GOLD%Leoric's Mithril Bane %TAN%oooooooo%BORDER-D3% //New: Leoric's Mithril Bane
 ItemDisplay[FILTLVL=1 ((UNI !ID) gis)]: Kinemil's Awl
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gis)]: //Kinemil's Awl
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9gs)]: %ORANGE%oooooo %GOLD%The Vile Husk %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9gs)]: //The Vile Husk
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9gs)]: //%ORANGE%oooooo %GOLD%The Vile Husk %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9gs)]: //The Vile Husk
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7gs)]: %ORANGE%oooooooo %GOLD%Flamebellow %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) bsw)]: Blacktongue
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bsw)]: //Blacktongue
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9b9)]: %ORANGE%oooooo %GOLD%Cloudcrack %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9b9)]: //Cloudcrack
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9b9)]: //%ORANGE%oooooo %GOLD%Cloudcrack %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9b9)]: //Cloudcrack
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7b7)]: %ORANGE%oooooooo %GOLD%Doombringer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) flb)]: Ripsaw
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) flb)]: //Ripsaw
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9fb)]: %ORANGE%oooooo %GOLD%Todesfaelle Flamme %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9fb)]: //%ORANGE%oooooo %GOLD%Todesfaelle Flamme %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9fb)]: //Todesfaelle Flamme
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7fb)]: %TAN%oooooooo %GOLD%Odium %TAN%oooooooo%BORDER-D3% //New: Odium
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) gsd)]: The Patriarch
 ItemDisplay[FILTLVL=3 ((UNI !ID) gsd)]: //The Patriarch
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9gd)]: %ORANGE%oooooo %GOLD%Swordguard %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9gd)]: //%ORANGE%oooooo %GOLD%Swordguard %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9gd)]: //Swordguard
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7gd)]: %ORANGE%oooooooo %GOLD%The Grandfather %ORANGE%oooooooo%BORDER-D3%
 
 //Daggers
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) dgr)]: Gull
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9dg)]: %ORANGE%oooooo %GOLD%Spineripper %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9dg)]: //%ORANGE%oooooo %GOLD%Spineripper %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9dg)]: //Spineripper
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7dg)]: %ORANGE%oooooooo %GOLD%Wizardspike %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) dir)]: The Diggler
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) dir)]: //The Diggler
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9di)]: %ORANGE%oooooo %GOLD%Heart Carver %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9di)]: //%ORANGE%oooooo %GOLD%Heart Carver %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9di)]: //Heart Carver
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7di)]: %TAN%oooooooo %GOLD%Shatterblade %TAN%oooooooo%BORDER-D3% //New: Shatterblade
 ItemDisplay[FILTLVL=1 ((UNI !ID) kri)]: The Jade Tan Do
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) kri)]: //The Jade Tan Do
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9kr)]: %ORANGE%oooooo %GOLD%Blackbog's Sharp %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9kr)]: //%ORANGE%oooooo %GOLD%Blackbog's Sharp %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9kr)]: //Blackbog's Sharp
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7kr)]: %ORANGE%oooooooo %GOLD%Fleshripper %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) bld)]: Spectral Shard
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bld)]: //Spectral Shard
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9bl)]: %ORANGE%oooooo %GOLD%Stormspike %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9bl)]: //Stormspike
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9bl)]: //%ORANGE%oooooo %GOLD%Stormspike %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9bl)]: //Stormspike
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7bl)]: %ORANGE%oooooooo %GOLD%Ghostflame %ORANGE%oooooooo%BORDER-D3%
 
 //Throwing Axes & Throwing Knives
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9tk)]: %ORANGE%oooooo %GOLD%Deathbit %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9tk)]: //Deathbit
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9tk)]: //%ORANGE%oooooo %GOLD%Deathbit %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9tk)]: //Deathbit
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9ta)]: %ORANGE%oooooo %GOLD%The Scalper %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9ta)]: //The Scalper
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9ta)]: //%ORANGE%oooooo %GOLD%The Scalper %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 7ta)]: %ORANGE%oooooooo %GOLD%Gimmershred %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 7ta)]: //Gimmershred
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7ta)]: %ORANGE%oooooooo %GOLD%Gimmershred %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 7bk)]: %ORANGE%oooooooo %GOLD%Warshrike %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 7bk)]: //Warshrike
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7bk)]: %ORANGE%oooooooo %GOLD%Warshrike %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9ta)]: //The Scalper
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7ta)]: %ORANGE%oooooooo %GOLD%Gimmershred %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7bk)]: %ORANGE%oooooooo %GOLD%Warshrike %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9b8)]: %TAN%oooooo %GOLD%Achilles Strike %TAN%oooooo%MAP-D3% //New: Achilles Strike
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7b8)]: %ORANGE%oooooooo %GOLD%Lacerator %ORANGE%oooooooo%BORDER-D3%
 
@@ -1438,34 +1425,24 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) spr)]: The Dragon Chang
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spr)]: //The Dragon Chang
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9sr)]: %ORANGE%oooooo %GOLD%The Impaler %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9sr)]: //The Impaler
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9sr)]: //%ORANGE%oooooo %GOLD%The Impaler %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 7sr)]: %ORANGE%oooooooo %GOLD%Arioc's Needle %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 7sr)]: //Arioc's Needle
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7sr)]: %ORANGE%oooooooo %GOLD%Arioc's Needle %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9sr)]: //The Impaler
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7sr)]: %ORANGE%oooooooo %GOLD%Arioc's Needle %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) tri)]: Razortine
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) tri)]: //Razortine
-ItemDisplay[FILTLVL=1 ((UNI !ID) 9tr)]: %ORANGE%oooooo %GOLD%Kelpie Snare %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 9tr)]: //Kelpie Snare
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9tr)]: %ORANGE%oooooo %GOLD%Kelpie Snare %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9tr)]: %ORANGE%oooooo %GOLD%Kelpie Snare %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) brn)]: Bloodthief
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) brn)]: //Bloodthief
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9br)]: %ORANGE%oooooo %GOLD%Soulfeast Tine %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9br)]: //Soulfeast Tine
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9br)]: //%ORANGE%oooooo %GOLD%Soulfeast Tine %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 7br)]: %ORANGE%oooooooo %GOLD%Viperfork %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 7br)]: //Viperfork
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7br)]: %ORANGE%oooooooo %GOLD%Viperfork %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9br)]: //Soulfeast Tine
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7br)]: %ORANGE%oooooooo %GOLD%Viperfork %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) spt)]: Lance of Yaggai
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) spt)]: //Lance of Yaggai
-ItemDisplay[FILTLVL=1 ((UNI !ID) 9st)]: %ORANGE%oooooo %GOLD%Hone Sundan %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 9st)]: //Hone Sundan
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9st)]: %ORANGE%oooooo %GOLD%Hone Sundan %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9st)]: %ORANGE%oooooo %GOLD%Hone Sundan %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7st)]: %TAN%oooooooo %GOLD%Uldyssian's Awakening %TAN%oooooooo%BORDER-D3% //New: Uldyssian's Awakening
 ItemDisplay[FILTLVL=1 ((UNI !ID) pik)]: The Tannr Gorerod
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) pik)]: //The Tannr Gorerod
-ItemDisplay[FILTLVL=1 ((UNI !ID) 9p9)]: %ORANGE%oooooo %GOLD%Spire of Honor %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 9p9)]: //Spire of Honor
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9p9)]: %ORANGE%oooooo %GOLD%Spire of Honor %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9p9)]: %ORANGE%oooooo %GOLD%Spire of Honor %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7p7)]: %ORANGE%oooooooo %GOLD%Steel Pillar %ORANGE%oooooooo%BORDER-D3%
 
 //Polearms
@@ -1473,12 +1450,12 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) bar)]: Dimoak's Hew
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bar)]: //Dimoak's Hew
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9b7)]: %ORANGE%oooooo %GOLD%The Meat Scraper %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9b7)]: //The Meat Scraper
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9b7)]: //%ORANGE%oooooo %GOLD%The Meat Scraper %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9b7)]: //The Meat Scraper
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7o7)]: %ORANGE%oooooooo %GOLD%Bonehew %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) vou)]: Steelgoad
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) vou)]: //Steelgoad
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9vo)]: %ORANGE%oooooooo %GOLD%Blackleach Blade %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9vo)]: //%ORANGE%oooooooo %GOLD%Blackleach Blade %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9vo)]: //Blackleach Blade
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7vo)]: %TAN%oooooooo %GOLD%Giant Maimer %TAN%oooooooo%BORDER-D3% //New: Giant Maimer
 ItemDisplay[FILTLVL=1 ((UNI !ID) scy)]: Soul Harvest
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) scy)]: //Soul Harvest
@@ -1488,17 +1465,17 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) pax)]: The Battlebranch
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) pax)]: //The Battlebranch
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9pa)]: %ORANGE%oooooo %GOLD%Pierre Tombale Couant %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9pa)]: //Pierre Tombale Couant
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9pa)]: //%ORANGE%oooooo %GOLD%Pierre Tombale Couant %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9pa)]: //Pierre Tombale Couant
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7pa)]: %ORANGE%oooooooo %GOLD%Tomb Reaver %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) hal)]: Woestave
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hal)]: //Woestave
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9h9)]: %ORANGE%oooooo %GOLD%Husoldal Evo %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9h9)]: //Husoldal Evo
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9h9)]: //%ORANGE%oooooo %GOLD%Husoldal Evo %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9h9)]: //Husoldal Evo
 ItemDisplay[FILTLVL=1 ((UNI !ID) wsc)]: The Grim Reaper
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wsc)]: //The Grim Reaper
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9wc)]: %ORANGE%oooooo %GOLD%Grim's Burning Dead %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9wc)]: //%ORANGE%oooooo %GOLD%Grim's Burning Dead %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9wc)]: //Grim's Burning Dead
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7wc)]: %ORANGE%oooooooo %GOLD%Stormspire %ORANGE%oooooooo%BORDER-D3%
 
 //Bows
@@ -1506,19 +1483,19 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) sbw)]: Pluckeye
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sbw)]: //Pluckeye
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8sb)]: %ORANGE%oooooo %GOLD%Skystrike %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8sb)]: //Skystrike
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8sb)]: //%ORANGE%oooooo %GOLD%Skystrike %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8sb)]: //Skystrike
 ItemDisplay[FILTLVL=1 ((UNI !ID) hbw)]: Witherstring
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) hbw)]: //Witherstring
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8hb)]: %ORANGE%oooooo %GOLD%Riphook %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8hb)]: //Riphook
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8hb)]: //%ORANGE%oooooo %GOLD%Riphook %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8hb)]: //Riphook
 ItemDisplay[FILTLVL=1 ((UNI !ID) lbw)]: Raven Claw
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lbw)]: //Raven Claw
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8lb)]: %ORANGE%oooooo %GOLD%Kuko Shakaku %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8lb)]: //Kuko Shakaku
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8lb)]: //%ORANGE%oooooo %GOLD%Kuko Shakaku %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8lb)]: //Kuko Shakaku
 ItemDisplay[FILTLVL=1 ((UNI !ID) 6hb)]: %TAN%oooooooo %GOLD%Crackleshot %TAN%oooooooo%BORDER-D3% //New: Crackleshot
-ItemDisplay[FILTLVL=3 ((UNI !ID) 6hb)]: //%TAN%oooooooo %GOLD%Crackleshot %TAN%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 6hb)]: //Crackleshot
 ItemDisplay[FILTLVL=1 ((UNI !ID) cbw)]: Rogue's Bow
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) cbw)]: //Rogue's Bow
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 8cb)]: %ORANGE%oooooo %GOLD%Endlesshail %ORANGE%oooooo%MAP-D3%
@@ -1529,23 +1506,19 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) lbb)]: Wizendraw
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lbb)]: //Wizendraw
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8l8)]: %ORANGE%oooooo %GOLD%Cliffkiller %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8l8)]: //Cliffkiller
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8l8)]: //%ORANGE%oooooo %GOLD%Cliffkiller %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 6l7)]: %ORANGE%oooooooo %GOLD%Eaglehorn %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 6l7)]: //Eaglehorn
-ItemDisplay[FILTLVL=3 ((UNI !ID) 6l7)]: %ORANGE%oooooooo %GOLD%Eaglehorn %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8l8)]: //Cliffkiller
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6l7)]: %ORANGE%oooooooo %GOLD%Eaglehorn %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) swb)]: Hellclap
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) swb)]: //Hellclap
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8sw)]: %ORANGE%oooooo %GOLD%Magewrath %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8sw)]: //Magewrath
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8sw)]: //%ORANGE%oooooo %GOLD%Magewrath %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 6sw)]: %ORANGE%oooooooo %GOLD%Widowmaker %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 6sw)]: //Widowmaker
-ItemDisplay[FILTLVL=3 ((UNI !ID) 6sw)]: %ORANGE%oooooooo %GOLD%Widowmaker %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8sw)]: //Magewrath
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6sw)]: %ORANGE%oooooooo %GOLD%Widowmaker %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) lwb)]: Blastbark
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lwb)]: //Blastbark
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8lw)]: %ORANGE%oooooo %GOLD%Goldstrike Arch %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8lw)]: //Goldstrike Arch
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8lw)]: //%ORANGE%oooooo %GOLD%Goldstrike Arch %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8lw)]: //Goldstrike Arch
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6lw)]: %ORANGE%oooooooo %GOLD%Windforce %ORANGE%oooooooo%BORDER-D3%
 
 //X-bows
@@ -1553,7 +1526,7 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) lxb)]: Leadcrow
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lxb)]: //Leadcrow
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8lx)]: %ORANGE%oooooo %GOLD%Langer Briser %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8lx)]: //Langer Briser
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8lx)]: //%ORANGE%oooooo %GOLD%Langer Briser %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8lx)]: //Langer Briser
 ItemDisplay[FILTLVL=1 ((UNI !ID) mxb)]: Ichorsting
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) mxb)]: //Ichorsting
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 8mx)]: %ORANGE%oooooo %GOLD%Pus Spitter %ORANGE%oooooo%MAP-D3%
@@ -1571,7 +1544,7 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) sst)]: Bane Ash
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) sst)]: //Bane Ash
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8ss)]: %ORANGE%oooooo %GOLD%Razorswitch %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8ss)]: //Razorswitch
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8ss)]: //%ORANGE%oooooo %GOLD%Razorswitch %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8ss)]: //Razorswitch
 ItemDisplay[FILTLVL=1 ((UNI !ID) lst)]: Serpent Lord
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) lst)]: //Serpent Lord
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 8ls)]: %ORANGE%oooooo %GOLD%Ribcracker %ORANGE%oooooo%MAP-D3%
@@ -1579,30 +1552,28 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) cst)]: Spire of Lazarus
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) cst)]: //Spire of Lazarus
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8cs)]: %ORANGE%oooooo %GOLD%Chromatic Ire %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8cs)]: //Chromatic Ire
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8cs)]: //%ORANGE%oooooo %GOLD%Chromatic Ire %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8cs)]: //Chromatic Ire
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6cs)]: %ORANGE%oooooooo %GOLD%Ondal's Wisdom %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) bst)]: The Salamander
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) bst)]: //The Salamander
 ItemDisplay[FILTLVL=1 ((UNI !ID) 8bs)]: %ORANGE%oooooo %GOLD%Warpspear %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 8bs)]: //Warpspear
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8bs)]: //%ORANGE%oooooo %GOLD%Warpspear %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8bs)]: //Warpspear
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6bs)]: %TAN%oooooooo %GOLD%Brimstone Rain %TAN%oooooooo%BORDER-D3% //New: Brimstone Rain
 ItemDisplay[FILTLVL=1 ((UNI !ID) wst)]: The Iron Jang Bong
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wst)]: //The Iron Jang Bong
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 8ws)]: %ORANGE%oooooo %GOLD%Skull Collector %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 8ws)]: //%ORANGE%oooooo %GOLD%Skull Collector %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 8ws)]: //Skull Collector
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 6ws)]: %ORANGE%oooooooo %GOLD%Mang Song's Lesson %ORANGE%oooooooo%BORDER-D3%
 
 //Wands
 ItemDisplay[FILTLVL=1 ((UNI !ID) wnd)]: Torch of Iro
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wnd)]: //Torch of Iro
-ItemDisplay[FILTLVL=1 ((UNI !ID) 9wn)]: %ORANGE%oooooo %GOLD%Suicide Branch %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 9wn)]: //Suicide Branch
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9wn)]: %ORANGE%oooooo %GOLD%Suicide Branch %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9wn)]: %ORANGE%oooooo %GOLD%Suicide Branch %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) ywn)]: Maelstrom
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) ywn)]: //Maelstrom
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9yw)]: %ORANGE%oooooo %GOLD%Carin Shard %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9yw)]: //%ORANGE%oooooo %GOLD%Carin Shard %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9yw)]: //Carin Shard
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7yw)]: %TAN%oooooooo %GOLD%Nethercrux %TAN%oooooooo%BORDER-D3% //New: Nethercrux
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) bwn)]: Gravenspine
 ItemDisplay[FILTLVL=3 ((UNI !ID) bwn)]: //Gravenspine
@@ -1611,7 +1582,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7bw)]: %ORANGE%oooooooo %GOLD%Bonesha
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) gwn)]: Ume's Lament
 ItemDisplay[FILTLVL=3 ((UNI !ID) gwn)]: //Ume's Lament
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((UNI !ID) 9gw)]: %ORANGE%oooooo %GOLD%Blackhand Key %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9gw)]: //%ORANGE%oooooo %GOLD%Blackhand Key %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9gw)]: //Blackhand Key
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7gw)]: %ORANGE%oooooooo %GOLD%Death's Web %ORANGE%oooooooo%BORDER-D3%
 
 //Scepters
@@ -1619,13 +1590,13 @@ ItemDisplay[FILTLVL=1 ((UNI !ID) scp)]: Knell Striker
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) scp)]: //Knell Striker
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9sc)]: %ORANGE%oooooo %GOLD%Zakarum's Hand %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9sc)]: //Zakarum's Hand
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9sc)]: //%ORANGE%oooooo %GOLD%Zakarum's Hand %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9sc)]: //Zakarum's Hand
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7sc)]: %ORANGE%oooooooo %GOLD%Heaven's Light / The Redeemer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) gsc)]: Rusthandle
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) gsc)]: //Rusthandle
 ItemDisplay[FILTLVL=1 ((UNI !ID) 9qs)]: %ORANGE%oooooo %GOLD%The Fetid Sprinkler %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) 9qs)]: //The Fetid Sprinkler
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9qs)]: //%ORANGE%oooooo %GOLD%The Fetid Sprinkler %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) 9qs)]: //The Fetid Sprinkler
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7qs)]: %TAN%oooooooo %GOLD%Akarat's Devotion %TAN%oooooooo%BORDER-D3% //New: Akarat's Devotion
 ItemDisplay[FILTLVL=1 ((UNI !ID) wsp)]: Stormeye
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((UNI !ID) wsp)]: //Stormeye
@@ -1636,13 +1607,9 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7ws)]: %ORANGE%oooooooo %GOLD%Astreon
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9ar)]: %TAN%oooooo %GOLD%Mage Slayer %TAN%oooooo%MAP-D3% //New: Mage Slayer
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7wb)]: %ORANGE%oooooooo %GOLD%Jade Talon %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7xf)]: %TAN%oooooo %GOLD%Whispering Mirage %TAN%oooooo%MAP-D3% //New: Whispering Mirage
-ItemDisplay[FILTLVL=1 ((UNI !ID) 7cs)]: %ORANGE%oooooooo %GOLD%Shadow Killer %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 7cs)]: //Shadow Killer
-ItemDisplay[FILTLVL=3 ((UNI !ID) 7cs)]: %ORANGE%oooooooo %GOLD%Shadow Killer %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7cs)]: %ORANGE%oooooooo %GOLD%Shadow Killer %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7lw)]: %ORANGE%oooooooo %GOLD%Firelizard's Talons %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) 9tw)]: %ORANGE%oooooo %GOLD%Bartuc's Cut-Throat %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) 9tw)]: //Bartuc's Cut-Throat
-ItemDisplay[FILTLVL=3 ((UNI !ID) 9tw)]: %ORANGE%oooooo %GOLD%Bartuc's Cut-Throat %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 9tw)]: %ORANGE%oooooo %GOLD%Bartuc's Cut-Throat %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7tw)]: %TAN%oooooooo %GOLD%Stalker's Cull  %TAN%oooooooo%BORDER-D3% //New: Stalker's Cull
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) 7qr)]: %TAN%oooooooo %GOLD%Aidan's Scar %TAN%oooooooo%BORDER-D3% //New: Aidan's Scar
 
@@ -1660,24 +1627,20 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) obf)]: %ORANGE%oooooooo %GOLD%Death's
 //Amazon Weapons
 ItemDisplay[FILTLVL=1 ((UNI !ID) amb)]: %ORANGE%oooooooo %GOLD%Blood Raven's Charge %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) amb)]: //Blood Raven's Charge
-ItemDisplay[FILTLVL=3 ((UNI !ID) amb)]: //%ORANGE%oooooooo %GOLD%Blood Raven's Charge %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) amb)]: //Blood Raven's Charge
 ItemDisplay[FILTLVL=1 ((UNI !ID) am7)]: %ORANGE%oooooo %GOLD%Lycander's Aim %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) am7)]: //Lycander's Aim
-ItemDisplay[FILTLVL=3 ((UNI !ID) am7)]: //%ORANGE%oooooo %GOLD%Lycander's Aim %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) am7)]: //Lycander's Aim
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) amc)]: %ORANGE%oooooooo %GOLD%Ebonbane %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=1 ((UNI !ID) amd)]: %ORANGE%oooooooo %GOLD%Stoneraven %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) amd)]: //Stoneraven
-ItemDisplay[FILTLVL=3 ((UNI !ID) amd)]: %ORANGE%oooooooo %GOLD%Stoneraven %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) amd)]: %ORANGE%oooooooo %GOLD%Stoneraven %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[FILTLVL=1 ((UNI !ID) am9)]: %ORANGE%oooooo %GOLD%Lycander's Flank %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL=2 ((UNI !ID) am9)]: //Lycander's Flank
-ItemDisplay[FILTLVL=3 ((UNI !ID) am9)]: //%ORANGE%oooooo %GOLD%Lycander's Flank %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL=3 ((UNI !ID) am9)]: //Lycander's Flank
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ame)]: %TAN%oooooooo %GOLD%Zerae's Resolve %TAN%oooooooo%BORDER-D3% //New: Zerae's Resolve
 ItemDisplay[FILTLVL=1 ((UNI !ID) am5)]: True Silver //New: True Silver
 ItemDisplay[FILTLVL=2 ((UNI !ID) am5)]: //True Silver //New: True Silver
 ItemDisplay[FILTLVL=3 ((UNI !ID) am5)]: //True Silver
-ItemDisplay[FILTLVL=1 ((UNI !ID) ama)]: %ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
-ItemDisplay[FILTLVL=2 ((UNI !ID) ama)]: //Titan's Revenge
-ItemDisplay[FILTLVL=3 ((UNI !ID) ama)]: %ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) ama)]: %ORANGE%oooooo %GOLD%Titan's Revenge %ORANGE%oooooo%MAP-D3%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((UNI !ID) amf)]: %ORANGE%oooooooo %GOLD%Thunderstroke %ORANGE%oooooooo%BORDER-D3%
 
 //Quivers
@@ -1702,7 +1665,7 @@ ItemDisplay[FILTLVL=3 ((UNI !ID) cqv3)]: %TAN%oooooooo %GOLD%Abyssal Ward / Bann
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) cap)]: Infernal Cranium / Sander's Paragon
 ItemDisplay[FILTLVL=3 ((SET !ID) cap)]: //Infernal Cranium / Sander's Paragon
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) xap)]: %DARK_GREEN%ooooo %GREEN%Cow King's Horns %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=3 ((SET !ID) xap)]: //%DARK_GREEN%ooooo %GREEN%Cow King's Horns %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=3 ((SET !ID) xap)]: //Cow King's Horns
 ItemDisplay[FILTLVL=1 ((SET !ID) skp)]: Arcanna's Head
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) skp)]: //Arcanna's Head
 ItemDisplay[FILTLVL=1 ((SET !ID) hlm)]: Berserker's Headgear
@@ -1711,7 +1674,7 @@ ItemDisplay[FILTLVL=1 ((SET !ID) fhl)]: Isenhart's Horns
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) fhl)]: //Isenhart's Horns
 ItemDisplay[FILTLVL=1 ((SET !ID) xhl)]: %DARK_GREEN%ooooo %GREEN%Sazabi's Mental Sheath %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[FILTLVL=2 ((SET !ID) xhl)]: //Sazabi's Mental Sheath
-ItemDisplay[FILTLVL=3 ((SET !ID) xhl)]: //%DARK_GREEN%ooooo %GREEN%Sazabi's Mental Sheath %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=3 ((SET !ID) xhl)]: //Sazabi's Mental Sheath
 ItemDisplay[FILTLVL=1 ((SET !ID) msk)]: Cathan's Visage
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) msk)]: //Cathan's Visage
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xsk)]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Horadric Crest %DARK_GREEN%ooooo%MAP-7D%
@@ -1727,7 +1690,7 @@ ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) crn)]: Iratha's Coil / Milabrega
 ItemDisplay[FILTLVL=3 ((SET !ID) crn)]: //Iratha's Coil / Milabrega's Diadem
 ItemDisplay[FILTLVL=1 ((SET !ID) xrn)]: %DARK_GREEN%ooooo %GREEN%Hwanin's Splendor %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[FILTLVL=2 ((SET !ID) xrn)]: //Hwanin's Splendor
-ItemDisplay[FILTLVL=3 ((SET !ID) xrn)]: //%DARK_GREEN%ooooo %GREEN%Hwanin's Splendor %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=3 ((SET !ID) xrn)]: //Hwanin's Splendor
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) urn)]: %DARK_GREEN%ooooo %GREEN%Griswold's Valor %DARK_GREEN%ooooo%MAP-7D%
 
 //Circlets
@@ -1739,28 +1702,26 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ci3)]: %DARK_GREEN%ooooo %GREEN%M'avi
 ItemDisplay[FILTLVL=1 ((SET !ID) qui)]: Arctic Furs
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) qui)]: //Arctic Furs
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) uui)]: %DARK_GREEN%ooooo %GREEN%Dark Adherent %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=3 ((SET !ID) uui)]: //%DARK_GREEN%ooooo %GREEN%Dark Adherent %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=3 ((SET !ID) uui)]: //Dark Adherent
 ItemDisplay[FILTLVL=1 ((SET !ID) lea)]: Vidala's Ambush
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lea)]: //Vidala's Ambush
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) stu)]: Cow King's Hide
 ItemDisplay[FILTLVL=3 ((SET !ID) stu)]: //Cow King's Hide
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) rng)]: Angelic Mantle
 ItemDisplay[FILTLVL=3 ((SET !ID) rng)]: //Angelic Mantle
-ItemDisplay[FILTLVL=1 ((SET !ID) xcl)]: %DARK_GREEN%ooooo %GREEN%Hwanin's Refuge %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=1 ((SET !ID) xcl)]: Hwanin's Refuge
 ItemDisplay[FILTLVL=2 ((SET !ID) xcl)]: //Hwanin's Refuge
-ItemDisplay[FILTLVL=3 ((SET !ID) xcl)]: //%DARK_GREEN%ooooo %GREEN%Hwanin's Refuge %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=3 ((SET !ID) xcl)]: //Hwanin's Refuge
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ucl)]: %DARK_GREEN%ooooo %GREEN%Natalya's Shadow %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[FILTLVL=1 ((SET !ID) brs)]: Isenhart's Case
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) brs)]: //Isenhart's Case
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) xrs)]: %DARK_GREEN%ooooo %GREEN%Haemosu's Adamant %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=3 ((SET !ID) xrs)]: //%DARK_GREEN%ooooo %GREEN%Haemosu's Adamant %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=3 ((SET !ID) xrs)]: //Haemosu's Adamant
 ItemDisplay[FILTLVL=1 ((SET !ID) chn)]: Cathan's Mesh
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) chn)]: //Cathan's Mesh
 ItemDisplay[FILTLVL=1 ((SET !ID) spl)]: Berserker's Hauberk
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) spl)]: //Berserker's Hauberk
-ItemDisplay[FILTLVL=1 ((SET !ID) upl)]: %DARK_GREEN%ooooo %GREEN%Sazabi's Ghost Liberator %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=2 ((SET !ID) upl)]: //Sazabi's Ghost Liberator
-ItemDisplay[FILTLVL=3 ((SET !ID) upl)]: %DARK_GREEN%ooooo %GREEN%Sazabi's Ghost Liberator %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) upl)]: %DARK_GREEN%ooooo %GREEN%Sazabi's Ghost Liberator %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[FILTLVL=1 ((SET !ID) ltp)]: Arcanna's Flesh
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) ltp)]: //Arcanna's Flesh
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uld)]: %DARK_GREEN%ooooo %GREEN%M'avina's Embrace %DARK_GREEN%ooooo%MAP-7D%
@@ -1793,7 +1754,7 @@ ItemDisplay[FILTLVL=1 ((SET !ID) gts)]: Isenhart's Parry
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) gts)]: //Isenhart's Parry
 ItemDisplay[FILTLVL=1 ((SET !ID) uts)]: %DARK_GREEN%ooooo %GREEN%Taebaek's Glory %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[FILTLVL=2 ((SET !ID) uts)]: //Taebaek's Glory
-ItemDisplay[FILTLVL=3 ((SET !ID) uts)]: //%DARK_GREEN%ooooo %GREEN%Taebaek's Glory %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=3 ((SET !ID) uts)]: //Taebaek's Glory
 
 //Gloves
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) lgl)]: Death's Hand
@@ -1815,7 +1776,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xhg)]: %DARK_GREEN%ooooo %GREEN%Immor
 ItemDisplay[FILTLVL=1 ((SET !ID) lbt)]: Tancred's Hobnails
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lbt)]: //Tancred's Hobnails
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) xlb)]: %DARK_GREEN%ooooo %GREEN%Rite of Passage %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=3 ((SET !ID) xlb)]: //%DARK_GREEN%ooooo %GREEN%Rite of Passage %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=3 ((SET !ID) xlb)]: //Rite of Passage
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) vbt)]: Cow King's Hooves / Sander's Riprap
 ItemDisplay[FILTLVL=3 ((SET !ID) vbt)]: //Cow King's Hooves / Sander's Riprap
 ItemDisplay[FILTLVL=1 ((SET !ID) mbt)]: Hsarus' Iron Heel
@@ -1829,9 +1790,7 @@ ItemDisplay[FILTLVL=3 ((SET !ID) hbt)]: //Sigon's Sabot
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xhb)]: %DARK_GREEN%ooooo %GREEN%Immortal King's Pillar %DARK_GREEN%ooooo%MAP-7D%
 
 //Belts
-ItemDisplay[FILTLVL=1 ((SET !ID) lbl)]: Death's Guard
-ItemDisplay[FILTLVL=2 ((SET !ID) lbl)]: //Death's Guard
-ItemDisplay[FILTLVL=3 ((SET !ID) lbl)]: Death's Guard
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) lbl)]: Death's Guard
 ItemDisplay[FILTLVL=1 ((SET !ID) vbl)]: Arctic Binding
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) vbl)]: //Arctic Binding
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) zvb)]: %DARK_GREEN%ooooo %GREEN%M'avina's Tenet %DARK_GREEN%ooooo%MAP-7D%
@@ -1858,79 +1817,6 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) paf)]: %DARK_GREEN%ooooo %GREEN%Grisw
 
 //Necro Shields
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ne9)]: %DARK_GREEN%ooooo %GREEN%Trang-Oul's Wing %DARK_GREEN%ooooo%MAP-7D%
-
-//Weapons
-//▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-//Axes
-ItemDisplay[FILTLVL=1 ((SET !ID) 2ax)]: Berserker's Hatchet
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) 2ax)]: //Berserker's Hatchet
-ItemDisplay[FILTLVL=1 ((SET !ID) mpi)]: Tancred's Crowbill
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) mpi)]: //Tancred's Crowbill
-
-//Maces
-ItemDisplay[FILTLVL=1 ((SET !ID) 7ma)]: %DARK_GREEN%ooooo %GREEN%Dangoon's Teaching %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=2 ((SET !ID) 7ma)]: //Dangoon's Teaching
-ItemDisplay[FILTLVL=3 ((SET !ID) 7ma)]: //%DARK_GREEN%ooooo %GREEN%Dangoon's Teaching %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 9mt)]: %DARK_GREEN%ooooo %GREEN%Aldur's Rhythm %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7m7)]: %DARK_GREEN%ooooo %GREEN%Immortal King's Stone Crusher %DARK_GREEN%ooooo%MAP-7D%
-
-//Swords
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) sbr)]: Angelic Sickle
-ItemDisplay[FILTLVL=3 ((SET !ID) sbr)]: //Angelic Sickle
-ItemDisplay[FILTLVL=1 ((SET !ID) bsd)]: Isenhart's Lightbrand
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bsd)]: //Isenhart's Lightbrand
-ItemDisplay[FILTLVL=1 ((SET !ID) lsd)]: Cleglaw's Tooth
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lsd)]: //Cleglaw's Tooth
-ItemDisplay[FILTLVL=1 ((SET !ID) 7ls)]: %DARK_GREEN%ooooo %GREEN%Sazabi's Cobalt Redeemer %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=2 ((SET !ID) 7ls)]: //Sazabi's Cobalt Redeemer
-ItemDisplay[FILTLVL=3 ((SET !ID) 7ls)]: %DARK_GREEN%ooooo %GREEN%Sazabi's Cobalt Redeemer %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=1 ((SET !ID) wsd)]: Death's Touch
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) wsd)]: //Death's Touch
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7fb)]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Tribal Guardian %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7gd)]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Sacred Charge %DARK_GREEN%ooooo%MAP-7D%
-
-//Daggers
-ItemDisplay[FILTLVL=1 ((SET !ID) dgr)]: Infernal Spire
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) dgr)]: //Infernal Spire
-
-//Polearms
-ItemDisplay[FILTLVL=1 ((SET !ID) 9vo)]: %DARK_GREEN%ooooo %GREEN%Hwanin's Justice %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=2 ((SET !ID) 9vo)]: //Hwanin's Justice
-ItemDisplay[FILTLVL=3 ((SET !ID) 9vo)]: //%DARK_GREEN%ooooo %GREEN%Hwanin's Justice %DARK_GREEN%ooooo%MAP-7D%
-
-//Bows
-ItemDisplay[FILTLVL=1 ((SET !ID) lbb)]: Vidala's Barb
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lbb)]: //Vidala's Barb
-ItemDisplay[FILTLVL=1 ((SET !ID) swb)]: Arctic Horn
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) swb)]: //Arctic Horn
-
-//Staves
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 6cs)]: %DARK_GREEN%ooooo %GREEN%Naj's Puzzler %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=1 ((SET !ID) bst)]: Cathan's Rule
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bst)]: //Cathan's Rule
-ItemDisplay[FILTLVL=1 ((SET !ID) wst)]: Arcanna's Deathwand
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) wst)]: //Arcanna's Deathwand
-
-//Wands
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) bwn)]: Sander's Superstition
-ItemDisplay[FILTLVL=3 ((SET !ID) bwn)]: //Sander's Superstition
-
-//Scepters
-ItemDisplay[FILTLVL=1 ((SET !ID) gsc)]: Civerb's Cudgel
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) gsc)]: //Civerb's Cudgel
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) wsp)]: Milabrega's Rod
-ItemDisplay[FILTLVL=3 ((SET !ID) wsp)]: //Milabrega's Rod
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7ws)]: %DARK_GREEN%ooooo %GREEN%Griswold's Redemption %DARK_GREEN%ooooo%MAP-7D%
-
-//Assassin Claws
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7qr)]: %DARK_GREEN%ooooo %GREEN%Natalya's Mark %DARK_GREEN%ooooo%MAP-7D%
-
-//Sorc Orbs
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) oba)]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Lidless Eye %DARK_GREEN%ooooo%MAP-7D%
-
-//Amazon Weapons
-ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) amc)]: %DARK_GREEN%ooooo %GREEN%M'avina's Caster %DARK_GREEN%ooooo%MAP-7D%
 
 
 //UPGRADING
