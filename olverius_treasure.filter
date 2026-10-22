@@ -6112,10 +6112,10 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG INF)]: //%NAME%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((tsc OR isc) CLVL<16)]: //%NAME%
 
 //Keys, Quivers and Jewels
-ItemDisplay[FILTLVL=1 (NMAG OR MAG OR RARE) QUIVER]: %NAME%
-ItemDisplay[FILTLVL=2 ((NMAG SOCK=2) OR RARE) QUIVER]: %NAME%
-ItemDisplay[FILTLVL=3 RARE QUIVER]: %NAME%
-ItemDisplay[FILTLVL>0 FILTLVL<4 (key CLVL<16)]: %NAME%
+ItemDisplay[FILTLVL=1 (NMAG OR MAG OR RARE) QUIVER]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=2 ((NMAG SOCK=2) OR RARE) QUIVER]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=3 RARE QUIVER]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL>0 FILTLVL<4 (key CLVL<16)]: %NAME%{%NAME%}
 
 //Hide everything, but with exceptions
 ItemDisplay[FILTLVL=1 ((NORM OR EXC OR ELT) NMAG !leg !amu !rin !CHARM !jew)]: //%NAME%
