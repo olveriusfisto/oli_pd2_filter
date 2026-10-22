@@ -1633,8 +1633,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xhm)]: %DARK_GREEN%ooooo %GREEN%Guill
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uhm)]: %DARK_GREEN%ooooo %GREEN%Ondal's Almighty %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) crn)]: Iratha's Coil / Milabrega's Diadem
 ItemDisplay[FILTLVL=3 ((SET !ID) crn)]: //Iratha's Coil / Milabrega's Diadem
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) xrn)]: Hwanin's Splendor
-ItemDisplay[FILTLVL=3 ((SET !ID) xrn)]: //Hwanin's Splendor
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xrn)]: Hwanin's Splendor
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) urn)]: %DARK_GREEN%ooooo %GREEN%Griswold's Valor %DARK_GREEN%ooooo%MAP-7D%
 
 //Circlets
@@ -1653,13 +1652,11 @@ ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) stu)]: Cow King's Hide
 ItemDisplay[FILTLVL=3 ((SET !ID) stu)]: //Cow King's Hide
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) rng)]: Angelic Mantle
 ItemDisplay[FILTLVL=3 ((SET !ID) rng)]: //Angelic Mantle
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) xcl)]: Hwanin's Refuge
-ItemDisplay[FILTLVL=3 ((SET !ID) xcl)]: //Hwanin's Refuge
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xcl)]: Hwanin's Refuge
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ucl)]: %DARK_GREEN%ooooo %GREEN%Natalya's Shadow %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[FILTLVL=1 ((SET !ID) brs)]: Isenhart's Case
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) brs)]: //Isenhart's Case
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) xrs)]: %DARK_GREEN%ooooo %GREEN%Haemosu's Adamant %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[FILTLVL=3 ((SET !ID) xrs)]: //Haemosu's Adamant
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) xrs)]: %DARK_GREEN%ooooo %GREEN%Haemosu's Adamant %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[FILTLVL=1 ((SET !ID) chn)]: Cathan's Mesh
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) chn)]: //Cathan's Mesh
 ItemDisplay[FILTLVL=1 ((SET !ID) spl)]: Berserker's Hauberk
@@ -1695,8 +1692,7 @@ ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) tow)]: Sigon's Guard
 ItemDisplay[FILTLVL=3 ((SET !ID) tow)]: //Sigon's Guard
 ItemDisplay[FILTLVL=1 ((SET !ID) gts)]: Isenhart's Parry
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) gts)]: //Isenhart's Parry
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) uts)]: Taebaek's Glory
-ItemDisplay[FILTLVL=3 ((SET !ID) uts)]: //Taebaek's Glory
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) uts)]: Taebaek's Glory
 
 //Gloves
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) lgl)]: Death's Hand
@@ -1736,8 +1732,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) lbl)]: Death's Guard
 ItemDisplay[FILTLVL=1 ((SET !ID) vbl)]: Arctic Binding
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) vbl)]: //Arctic Binding
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) zvb)]: %DARK_GREEN%ooooo %GREEN%M'avina's Tenet %DARK_GREEN%ooooo%MAP-7D%
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) mbl)]: Hsarus' Iron Stay / Hwanin's Blessing
-ItemDisplay[FILTLVL=3 ((SET !ID) mbl)]: //Hsarus' Iron Stay / Hwanin's Blessing
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) mbl)]: Hsarus' Iron Stay / Hwanin's Blessing
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) zmb)]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Fine-Spun Cloth %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) umc)]: %DARK_GREEN%ooooo %GREEN%Credendum %DARK_GREEN%ooooo%MAP-7D%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) tbl)]: Infernal Sign / Iratha's Cord
@@ -1760,6 +1755,71 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) paf)]: %DARK_GREEN%ooooo %GREEN%Grisw
 //Necro Shields
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) ne9)]: %DARK_GREEN%ooooo %GREEN%Trang-Oul's Wing %DARK_GREEN%ooooo%MAP-7D%
 
+//Weapons
+//▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+//Axes
+ItemDisplay[FILTLVL=1 ((SET !ID) 2ax)]: Berserker's Hatchet
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) 2ax)]: //Berserker's Hatchet
+ItemDisplay[FILTLVL=1 ((SET !ID) mpi)]: Tancred's Crowbill
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) mpi)]: //Tancred's Crowbill
+
+//Maces
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7ma)]: %DARK_GREEN%ooooo %GREEN%Dangoon's Teaching %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 9mt)]: %DARK_GREEN%ooooo %GREEN%Aldur's Rhythm %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7m7)]: %DARK_GREEN%ooooo %GREEN%Immortal King's Stone Crusher %DARK_GREEN%ooooo%MAP-7D%
+
+//Swords
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) sbr)]: Angelic Sickle
+ItemDisplay[FILTLVL=1 ((SET !ID) bsd)]: Isenhart's Lightbrand
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bsd)]: //Isenhart's Lightbrand
+ItemDisplay[FILTLVL=1 ((SET !ID) lsd)]: Cleglaw's Tooth
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lsd)]: //Cleglaw's Tooth
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7ls)]: %DARK_GREEN%ooooo %GREEN%Sazabi's Cobalt Redeemer %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=1 ((SET !ID) wsd)]: Death's Touch
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) wsd)]: //Death's Touch
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7fb)]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Tribal Guardian %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7gd)]: %DARK_GREEN%ooooo %GREEN%Bul-Kathos' Sacred Charge %DARK_GREEN%ooooo%MAP-7D%
+
+//Daggers
+ItemDisplay[FILTLVL=1 ((SET !ID) dgr)]: Infernal Spire
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) dgr)]: //Infernal Spire
+
+//Polearms
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 9vo)]: %DARK_GREEN%ooooo %GREEN%Hwanin's Justice %DARK_GREEN%ooooo%MAP-7D%
+
+//Bows
+ItemDisplay[FILTLVL=1 ((SET !ID) lbb)]: Vidala's Barb
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) lbb)]: //Vidala's Barb
+ItemDisplay[FILTLVL=1 ((SET !ID) swb)]: Arctic Horn
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) swb)]: //Arctic Horn
+
+//Staves
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 6cs)]: %DARK_GREEN%ooooo %GREEN%Naj's Puzzler %DARK_GREEN%ooooo%MAP-7D%
+ItemDisplay[FILTLVL=1 ((SET !ID) bst)]: Cathan's Rule
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) bst)]: //Cathan's Rule
+ItemDisplay[FILTLVL=1 ((SET !ID) wst)]: Arcanna's Deathwand
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) ((SET !ID) wst)]: //Arcanna's Deathwand
+
+//Wands
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) bwn)]: Sander's Superstition
+
+//Scepters
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) gsc)]: Civerb's Cudgel
+ItemDisplay[FILTLVL=3 ((SET !ID) gsc)]: //Civerb's Cudgel
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((SET !ID) wsp)]: Milabrega's Rod
+ItemDisplay[FILTLVL=3 ((SET !ID) wsp)]: //Milabrega's Rod
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7ws)]: %DARK_GREEN%ooooo %GREEN%Griswold's Redemption %DARK_GREEN%ooooo%MAP-7D%
+
+//Assassin Claws
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) 7qr)]: %DARK_GREEN%ooooo %GREEN%Natalya's Mark %DARK_GREEN%ooooo%MAP-7D%
+
+//Sorc Orbs
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) oba)]: %DARK_GREEN%ooooo %GREEN%Tal Rasha's Lidless Eye %DARK_GREEN%ooooo%MAP-7D%
+
+//Amazon Weapons
+ItemDisplay[FILTLVL>0 FILTLVL<4 ((SET !ID) amc)]: %DARK_GREEN%ooooo %GREEN%M'avina's Caster %DARK_GREEN%ooooo%MAP-7D%
+
 //UPGRADING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((ARMOR OR QUIVER) NORM RARE ID) STAT486=0 UPLVL>0]: %NAME%{%GRAY%upg req%WHITE%: str %WHITE%%UPSTR% %GRAY%dex %WHITE%%UPDEX% %GRAY%lvl %WHITE%%UPLVL%%NL%%YELLOW%Item%WHITE% + %ORANGE%Ral%WHITE% + %ORANGE%Thul%WHITE% + Perf %PURPLE%Amethyst%NL%%TAN%Upgrade Recipe%WHITE%:}%CONTINUE%
@@ -1781,6 +1841,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (WEAPON EXC CRAFT ID) STAT486=0 UPLVL>0]: %NAME%
 
 //CRAFTING
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
 ItemDisplay[FILTLVL>0 FILTLVL<4 (amu (MAG OR RARE) ID)]: %NAME%{%ORANGE%Safety: %WHITE%Perf %GREEN%Emerald %WHITE%+ %ORANGE%Thul %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Hitpower: %WHITE%Perf %BLUE%Sapphire %WHITE%+ %ORANGE%Thul %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Caster: %WHITE%Perf %PURPLE%Amethyst %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Brilliant: %WHITE%Perf Diamond + %ORANGE%Tal %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Bountiful: %WHITE%Perf %YELLOW%Topaz %WHITE%+ %ORANGE%Ko %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Blood: %WHITE%Perf %RED%Ruby %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (rin (MAG OR RARE) ID)]: %NAME%{%ORANGE%Safety: %WHITE%Perf %GREEN%Emerald %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Hitpower: %WHITE%Perf %BLUE%Sapphire %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Caster: %WHITE%Perf %PURPLE%Amethyst %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Brilliant: %WHITE%Perf Diamond + %ORANGE%Hel %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Bountiful: %WHITE%Perf %YELLOW%Topaz %WHITE%+ %ORANGE%Lum %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Blood: %WHITE%Perf %RED%Ruby %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (BELT RARE (NORM OR EXC) ID)]: %NAME%{%NAME%%NL%%ORANGE%Safety: %GREEN%Emerald %WHITE%+ %ORANGE%Tal%NL%%ORANGE%Hitpower: %BLUE%Sapphire %WHITE%+ %ORANGE%Tal%NL%%ORANGE%Caster: %PURPLE%Amethyst %WHITE%+ %ORANGE%Ith%NL%%ORANGE%Brilliant: %WHITE%Diamond %WHITE%+ %ORANGE%Io%NL%%ORANGE%Bountiful: %YELLOW%Topaz %WHITE%+ %ORANGE%El%NL%%ORANGE%Blood: %RED%Ruby %WHITE%+ %ORANGE%Tal%NL%%TAN%Craft Recipe%WHITE%: Item + %BLUE%Jewel %WHITE%+ Perfect Gem + Rune}%CONTINUE%
@@ -1799,7 +1860,6 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (QUIVER RARE (NORM OR EXC) ID)]: %NAME%{%NAME%%N
 ItemDisplay[FILTLVL>0 FILTLVL<4 (QUIVER (MAG OR ELT (MAG OR RARE)) ID)]: %NAME%{%ORANGE%Safety: %WHITE%Perf %GREEN%Emerald %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Hitpower: %WHITE%Perf %BLUE%Sapphire %WHITE%+ %ORANGE%Eth %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Caster: %WHITE%Perf %PURPLE%Amethyst %WHITE%+ %ORANGE%Eth %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Brilliant: %WHITE%Perf Diamond + %ORANGE%Ort %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Bountiful: %WHITE%Perf %YELLOW%Topaz %WHITE%+ %ORANGE%Dol %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Blood: %WHITE%Perf %RED%Ruby %WHITE%+ %ORANGE%Ith %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe%WHITE%:}%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (WEAPON RARE (NORM OR EXC) ID)]: %NAME%{%NAME%%NL%%ORANGE%Safety: %GREEN%Emerald %WHITE%+ %ORANGE%Sol%NL%%ORANGE%Hitpower: %BLUE%Sapphire %WHITE%+ %ORANGE%Tir%NL%%ORANGE%Caster: %PURPLE%Amethyst %WHITE%+ %ORANGE%Tir%NL%%ORANGE%Brilliant: %WHITE%Diamond %WHITE%+ %ORANGE%Sol%NL%%ORANGE%Bountiful: %YELLOW%Topaz %WHITE%+ %ORANGE%Shael%NL%%ORANGE%Blood: %RED%Ruby %WHITE%+ %ORANGE%Ort%NL%%TAN%Craft Recipe%WHITE%: Item + %BLUE%Jewel %WHITE%+ Perfect Gem + Rune}%CONTINUE%
 ItemDisplay[FILTLVL>0 FILTLVL<4 (WEAPON (MAG OR ELT (MAG OR RARE)) ID)]: %NAME%{%ORANGE%Safety: %WHITE%Perf %GREEN%Emerald %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Hitpower: %WHITE%Perf %BLUE%Sapphire %WHITE%+ %ORANGE%Tir %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Caster: %WHITE%Perf %PURPLE%Amethyst %WHITE%+ %ORANGE%Tir %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Brilliant: %WHITE%Perf Diamond + %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Bountiful: %WHITE%Perf %YELLOW%Topaz %WHITE%+ %ORANGE%Shael %WHITE%+ %BLUE%Jewel%NL%%ORANGE%Blood: %WHITE%Perf %RED%Ruby %WHITE%+ %ORANGE%Ort %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe%WHITE%:}%CONTINUE%
-
 
 //STAT PRIORITY SYSTEM
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
