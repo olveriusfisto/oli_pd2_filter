@@ -189,9 +189,9 @@ ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (hp4)]: //%RED%hp %WHITE%gt
 ItemDisplay[FILTLVL=1 (mp4)]: %BLUE%mp %WHITE%gt
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (mp4)]: //%BLUE%mp %WHITE%gt
 ItemDisplay[FILTLVL=1 (hp5)]: %RED%hp %WHITE%sup
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (hp5)]: //%RED%hp %WHITE%sup
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (hp5)]: %RED%hp %WHITE%sup
 ItemDisplay[FILTLVL=1 (mp5)]: %BLUE%mp %WHITE%sup
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (mp5)]: //%BLUE%mp %WHITE%sup
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (mp5)]: %BLUE%mp %WHITE%sup
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2) (rvs)]: %PURPLE%juv %WHITE%35%
 ItemDisplay[FILTLVL=3 (rvs)]: //%PURPLE%juv %WHITE%35%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3) (rvl)]: %PURPLE%juv %WHITE%65%
