@@ -199,8 +199,10 @@ ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3) (rvl)]: %PURPLE%juv %WHITE%65%
 
 //Tomes
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[FILTLVL>0 FILTLVL<4 (isc CLVL<10)]: %RED%id %GRAY%scroll
-ItemDisplay[FILTLVL>0 FILTLVL<4 (tsc CLVL<10)]: %BLUE%tp %GRAY%scroll
+ItemDisplay[FILTLVL=1 isc]: %RED%id %GRAY%scroll
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) isc]: //%RED%id %GRAY%scroll
+ItemDisplay[FILTLVL=1 tsc]: %BLUE%tp %GRAY%scroll
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) tsc]: //%BLUE%tp %GRAY%scroll
 ItemDisplay[FILTLVL>0 FILTLVL<4 (tbk)]: %BLUE%portal tome
 ItemDisplay[FILTLVL>0 FILTLVL<4 (ibk)]: %RED%identify tome
 
@@ -4897,7 +4899,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW QUIVER SOCK=2)]: %NAME%{%GOLD%Echo %GR
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 //Shop
-ItemDisplay[FILTLVL>0 FILTLVL<4 SHOP DIFF=0 NORM (NMAG OR SUP) !RW (SOCK=0 OR SOCK>1) (cap OR skp OR hlm OR fhl OR msk OR bhm OR ghm OR ci0 OR qui OR lea OR hla OR stu OR rng OR scl OR chn OR buc OR sml OR lrg OR spk OR kit OR bsh OR tow OR lgl OR vgl OR mgl OR tgl OR hgl OR lbt OR vbt OR mbt OR tbt OR hbt OR lbl OR vbl OR mbl OR tbl OR hbl OR dr1 OR dr2 OR dr3 OR dr4 OR dr5 OR ba1 OR ba2 OR ba3 OR ba4 OR ba5 OR pa1 OR pa2 OR pa3 OR pa4 OR pa5 OR ne1 OR ne2 OR ne3 OR ne4 OR ne5 OR hax OR axe OR 2ax OR mpi OR wax OR lax OR bax OR clb OR spc OR mac OR mst OR fla OR whm OR mau OR ssd OR scm OR sbr OR flc OR crs OR bsd OR lsd OR dgr OR dir OR kri OR bld OR tkf OR tax OR bkf OR bal OR jav OR pil OR ssp OR glv OR tsp OR spr OR tri OR brn OR spt OR pik OR bar OR vou OR scy OR pax OR hal OR wsc OR sbw OR hbw OR lbw OR cbw OR sbb OR lbb OR swb OR lxb OR mxb OR hxb OR rxb OR sst OR lst OR cst OR bst OR wst OR wnd OR ywn OR bwn OR gwn OR scp OR gsc OR wsp OR ktr OR wrb OR axf OR ces OR clw OR btl OR skr OR ob1 OR ob2 OR ob3 OR ob4 OR ob5 OR am1 OR am2 OR am3 OR am4 OR am5 OR QUIVER)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL>0 FILTLVL<4 SHOP DIFF=0 !RW (ARMOR OR WEAPON OR CLASS OR MISC OR QUIVER OR CHARM OR JEWELRY)]: %NAME%{%NAME%}
 
 //Armors
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -5271,6 +5273,9 @@ ItemDisplay[FILTLVL=1 CLVL<16 (NMAG utc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 CLVL<16 (NMAG hbl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 CLVL<16 (NMAG zhb)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 CLVL<16 (NMAG uhc)]: %NAME%{%NAME%}
+
+//Quivers
+ItemDisplay[FILTLVL=1 CLVL<16 (NMAG SOCK=0 QUIVER)]: %NAME%{%NAME%}
 
 //Weapons
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -5880,7 +5885,6 @@ ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (NMAG SOCK>2 oba)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR SOCK>1) obf)]: %NAME%{%NAME%}
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (NMAG SOCK>2 obf)]: %NAME%{%NAME%}
 
-
 //PROJECT D2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[FILTLVL>0 FILTLVL<4 (wss)]: %RED%Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-55%
@@ -6112,10 +6116,10 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG INF)]: //%NAME%
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((tsc OR isc) CLVL<16)]: //%NAME%
 
 //Keys, Quivers and Jewels
-ItemDisplay[FILTLVL=1 (NMAG OR MAG OR RARE) QUIVER]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL=2 ((NMAG SOCK=2) OR RARE) QUIVER]: %NAME%{%NAME%}
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2) ((NMAG SOCK=2) OR MAG OR RARE) QUIVER]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 RARE QUIVER]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL>0 FILTLVL<4 (key CLVL<16)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=1 key]: %GRAY%key
+ItemDisplay[[(FILTLVL=2 OR FILTLVL=3) key]: //%GRAY%key
 
 //Hide everything, but with exceptions
 ItemDisplay[FILTLVL=1 ((NORM OR EXC OR ELT) NMAG !leg !amu !rin !CHARM !jew)]: //%NAME%
