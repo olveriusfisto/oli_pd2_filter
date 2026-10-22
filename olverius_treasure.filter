@@ -736,6 +736,7 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (WAND NMAG !RW !ETH (SOCK=1 OR wnd OR ywn OR 9wn
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[FILTLVL>0 FILTLVL<4 (SOCK>0)]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE% //Sockets
 ItemDisplay[FILTLVL>0 FILTLVL<4 ((WEAPON OR ARMOR) NMAG !ID)]: %NAME% //Gambling
+ItemDisplay[FILTLVL>0 FILTLVL<4 SHOP DIFF=0 !RW (ARMOR OR WEAPON OR CLASS OR QUIVER OR CHARM OR JEWELRY)]: %NAME%{%NAME%}//Shop
 
 
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -4898,8 +4899,6 @@ ItemDisplay[FILTLVL>0 FILTLVL<4 (NMAG !RW QUIVER SOCK=2)]: %NAME%{%GOLD%Echo %GR
 //BASES FOR RUNEWORDS
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-//Shop
-ItemDisplay[FILTLVL>0 FILTLVL<4 SHOP DIFF=0 !RW (ARMOR OR WEAPON OR CLASS OR MISC OR QUIVER OR CHARM OR JEWELRY)]: %NAME%{%NAME%}
 
 //Armors
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
