@@ -43,5 +43,5 @@ _**White-base selection includes both unsocketed and multi-socket bases. Bases w
 
 ## **Contact:** [Twitch](https://twitch.tv/olverius_fisto); [YouTube](https://youtube.com/olveriusTV).
 
-## _Showcase:_
+## _Showcase:_ https://www.youtube.com/watch?v=Z4snIp7M6zc 
 <img width="2048" height="1157" alt="image" src="https://github.com/user-attachments/assets/933d90d5-49a1-4a43-8ab7-1b4c2d3a0452" />
