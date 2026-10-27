@@ -5585,7 +5585,6 @@ ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3) (ives)]: %CORAL%Sorceress's Ea
 
 //MISC: VISIBILITY
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (UNI OR SET) !ID]:
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3) (UNI OR SET OR CRAFT OR RW)]: %NAME%{%NAME%}
 
 
