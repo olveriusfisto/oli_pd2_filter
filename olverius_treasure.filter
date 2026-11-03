@@ -7278,6 +7278,7 @@ ItemDisplay[FILTLVL=2 (NMAG SOCK=3 9mt)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR (SOCK>1)) 7mt)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK=3 7mt)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG ((SOCK=0 ILVL>25 ILVL<41) OR (SOCK>1)) fla)]: %NAME%{%NAME%}
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3) (NMAG (SOCK>3 fla))]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (CLVL<60 OR SOCK>1) (NMAG (SOCK=0 OR (SOCK>1)) 9fl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG (SOCK>2) 9fl)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG (SOCK>3) 9fl)]:
@@ -7327,6 +7328,7 @@ ItemDisplay[FILTLVL=1 (NMAG (SOCK=0 OR (SOCK>1)) 7fc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG SOCK=3 7fc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (NMAG ((SOCK=0 ILVL>25 ILVL<41) OR (SOCK>1)) crs)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG (SOCK>3 crs))]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL=3 (NMAG (SOCK=5 crs))]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=1 (CLVL<60 OR SOCK>1) (NMAG (SOCK=0 OR (SOCK>1)) 9cr)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=2 (NMAG (SOCK>2) 9cr)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL=3 (NMAG (SOCK>3) 9cr)]:
